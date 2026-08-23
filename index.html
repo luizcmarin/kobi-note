@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR" class="kk-theme-light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Kobi Note</title>
+  <meta name="description" content="Notas, estudo, finanças e preparo — offline-first." />
+  <link rel="icon" href="./icons/kobi-note.svg" type="image/svg+xml" />
+  <!--
+      PNG, e não o SVG do `rel="icon"`: o Safari do iOS ignora apple-touch-icon
+      em SVG, sem erro nenhum, e a tela de início fica com uma miniatura da
+      página no lugar do ícone do app. É o único formato que ele aceita aqui.
+    -->
+  <link rel="apple-touch-icon" href="./icons/kobi-note-apple-touch-icon.png" />
+  <!--
+      Tema antes da primeira pintura: sem isto a página nasce clara e pisca para
+      escura quando o módulo carrega. Espelha o que src/tema.ts faz depois.
+      A <meta name="theme-color"> acompanha, para a barra do sistema no modo
+      instalado não destoar da tela.
+    -->
+  <meta name="theme-color" content="#ffffff" />
+  <script>
+    (() => {
+      const salvo = localStorage.getItem('note_tema');
+      const escuro =
+        salvo === 'escuro' ||
+        (salvo === null && matchMedia('(prefers-color-scheme: dark)').matches);
+      const raiz = document.documentElement.classList;
+      raiz.toggle('kk-theme-dark', escuro);
+      raiz.toggle('kk-theme-light', !escuro);
+      document
+        .querySelector('meta[name="theme-color"]')
+        .setAttribute('content', escuro ? '#0f1115' : '#ffffff');
+    })();
+  </script>
+  <script type="module" crossorigin src="./assets/index-CB_TfYyV.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/Geometry-C5FtorEc.js">
+  <link rel="modulepreload" crossorigin href="./assets/src-CZgrja32.js">
+  <link rel="modulepreload" crossorigin href="./assets/strings-Df-e7MlM.js">
+  <link rel="modulepreload" crossorigin href="./assets/banco-VATFjapo.js">
+  <link rel="modulepreload" crossorigin href="./assets/formato-SoHvimCM.js">
+  <link rel="modulepreload" crossorigin href="./assets/dados-p6-pkX34.js">
+  <link rel="modulepreload" crossorigin href="./assets/dados-DbVojc2V.js">
+  <link rel="modulepreload" crossorigin href="./assets/base-CKutJVZN.js">
+  <link rel="stylesheet" crossorigin href="./assets/index-Qk6BlMdz.css">
+<link rel="manifest" href="./manifest.webmanifest"></head>
+
+<body>
+  <div id="app" aria-busy="true"></div>
+</body>
+
+</html>

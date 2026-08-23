@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg44"
+   sodipodi:docname="a-matematica-noturna-das-plantas.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview44"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.99875"
+     inkscape:cx="700.37547"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g24" />
+  <title
+     id="tit">A Matemática Noturna das Plantas — a reta que acaba no amanhecer</title>
+  <desc
+     id="desc">De dia a planta guarda amido; de noite, gasta. Se gastar depressa demais, a reserva
+        acaba de madrugada e a planta passa fome até o sol nascer. Se gastar devagar demais, sobra
+        amido no amanhecer e ela cresceu menos do que podia. O consumo real é uma reta quase
+        perfeita, que chega ao amanhecer com cerca de 5% da reserva: a planta divide o amido que
+        tem pelas horas que faltam.</desc>
+  <defs
+     id="defs5">
+    <linearGradient
+       id="noite"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
+      <stop
+         offset="0"
+         stop-color="#0b1428"
+         id="stop1" />
+      <stop
+         offset="0.72"
+         stop-color="#132244"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#3d3560"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       id="amanhecer"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
+      <stop
+         offset="0"
+         stop-color="#ffd24d"
+         stop-opacity="0"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#ffd24d"
+         stop-opacity="0.22"
+         id="stop5" />
+    </linearGradient>
+  </defs>
+  <style
+     id="style5">
+        .cab  { fill:#eaf1ff; font-size:28px; font-weight:800; letter-spacing:1.2px; }
+        .rot  { fill:#cfdcf2; font-size:18px; font-weight:700; }
+        .rotp { fill:#8b9bbd; font-size:14px; }
+        .painel { fill:#101c33; stroke:#39507e; stroke-width:2; }
+        .eixo { stroke:#39507e; stroke-width:2; fill:none; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#noite)"
+     id="rect5" />
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text5">A MATEMÁTICA NOTURNA DAS PLANTAS</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="17"
+     id="text6">Sem luz, a planta vive do que guardou — e o estoque tem de durar exatamente até o sol nascer.</text>
+  <!-- ══ Esquerda: o gráfico ════════════════════════════════════════════ -->
+  <g
+     transform="translate(46,112)"
+     id="g24">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="900"
+       height="380"
+       rx="16"
+       id="rect6" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text7">O ESTOQUE DE AMIDO, HORA A HORA</text>
+    <g
+       transform="translate(88,72)"
+       id="g23">
+      <!-- a faixa do amanhecer -->
+      <rect
+         x="640"
+         y="0"
+         width="80"
+         height="230"
+         fill="url(#amanhecer)"
+         id="rect7" />
+      <path
+         d="M700 0 V 230"
+         stroke="#ffd24d"
+         stroke-width="2"
+         stroke-dasharray="7 6"
+         id="path7" />
+      <text
+         class="rot"
+         x="700"
+         y="-14"
+         text-anchor="middle"
+         font-size="16"
+         style="fill:#ffd24d"
+         id="text8">
+                o amanhecer
+            </text>
+      <!-- eixos -->
+      <path
+         class="eixo"
+         d="M0 0 V 230 H 780"
+         id="path8" />
+      <text
+         class="rotp"
+         x="-14"
+         y="6"
+         text-anchor="end"
+         id="text9">100%</text>
+      <text
+         class="rotp"
+         x="-14"
+         y="122"
+         text-anchor="end"
+         id="text10">50%</text>
+      <text
+         class="rotp"
+         x="-14"
+         y="234"
+         text-anchor="end"
+         id="text11">0</text>
+      <text
+         class="rotp"
+         x="-64"
+         y="115"
+         transform="rotate(-90,-64,115)"
+         text-anchor="middle"
+         font-weight="700"
+         id="text12">
+                amido guardado
+            </text>
+      <text
+         class="rotp"
+         x="0"
+         y="256"
+         text-anchor="middle"
+         id="text13">pôr do sol</text>
+      <text
+         class="rotp"
+         x="350"
+         y="256"
+         text-anchor="middle"
+         id="text14">horas de escuro</text>
+      <text
+         class="rotp"
+         x="700"
+         y="256"
+         text-anchor="middle"
+         style="fill:#ffd24d"
+         id="text15">6 h da manhã</text>
+      <!-- rápido demais: acaba antes -->
+      <path
+         d="M0 0 L 430 230"
+         stroke="#ff6b6b"
+         stroke-width="3"
+         fill="none"
+         id="path15" />
+      <circle
+         cx="430"
+         cy="230"
+         r="6"
+         fill="#ff6b6b"
+         id="circle15" />
+      <text
+         class="rotp"
+         x="252"
+         y="128"
+         style="fill:#ff6b6b"
+         font-weight="700"
+         transform="rotate(28,252,128)"
+         id="text16">
+                rápido demais
+            </text>
+      <text
+         class="rotp"
+         x="40"
+         y="212"
+         style="fill:#ff6b6b"
+         id="text17">acaba às 3 h — e é fome até o sol nascer</text>
+      <!-- devagar demais: sobra -->
+      <path
+         d="M0 0 L 700 108"
+         stroke="#ffd24d"
+         stroke-width="3"
+         fill="none"
+         id="path17" />
+      <circle
+         cx="700"
+         cy="108"
+         r="6"
+         fill="#ffd24d"
+         id="circle17" />
+      <text
+         class="rotp"
+         x="300"
+         y="40"
+         style="fill:#ffd24d"
+         font-weight="700"
+         transform="rotate(9,300,40)"
+         id="text18">
+                devagar demais
+            </text>
+      <text
+         class="rotp"
+         x="690"
+         y="58"
+         text-anchor="end"
+         style="fill:#ffd24d"
+         id="text19">sobrou metade do estoque:</text>
+      <text
+         class="rotp"
+         x="690"
+         y="78"
+         text-anchor="end"
+         style="fill:#ffd24d"
+         id="text20">ela cresceu menos do que podia</text>
+      <!-- o ritmo certo -->
+      <path
+         d="M0 0 L 700 218"
+         stroke="#7bd389"
+         stroke-width="4"
+         fill="none"
+         id="path20" />
+      <circle
+         cx="700"
+         cy="218"
+         r="7"
+         fill="#7bd389"
+         id="circle20" />
+      <text
+         class="rotp"
+         x="300"
+         y="112"
+         style="fill:#7bd389"
+         font-weight="700"
+         transform="rotate(17,300,112)"
+         id="text21">
+                o ritmo certo
+            </text>
+      <path
+         d="M676 168 L 698 206"
+         stroke="#7bd389"
+         stroke-width="1.5"
+         fill="none"
+         id="path21" />
+      <text
+         class="rotp"
+         x="532"
+         y="140"
+         style="fill:#7bd389"
+         id="text22">chega ao amanhecer com</text>
+      <text
+         class="rotp"
+         x="536"
+         y="160"
+         style="fill:#7bd389"
+         id="text23">uns 5% ainda na reserva</text>
+    </g>
+  </g>
+  <!-- ══ Direita: a divisão ═════════════════════════════════════════════ -->
+  <g
+     transform="translate(966,112)"
+     id="g35">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="388"
+       height="380"
+       rx="16"
+       id="rect24" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       style="fill:#7bd389"
+       id="text24">A CONTA QUE ELA FAZ</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text25">toda noite, sozinha, no escuro</text>
+    <g
+       transform="translate(24,90)"
+       id="g28">
+      <rect
+         x="0"
+         y="0"
+         width="340"
+         height="76"
+         rx="10"
+         fill="#0a1426"
+         stroke="#39507e"
+         stroke-width="1.5"
+         id="rect25" />
+      <text
+         class="rot"
+         x="18"
+         y="32"
+         font-size="16"
+         id="text26">o amido que tem</text>
+      <text
+         class="rotp"
+         x="18"
+         y="58"
+         id="text27">ela mede o próprio estoque</text>
+      <text
+         class="cab"
+         x="310"
+         y="46"
+         font-size="24"
+         text-anchor="end"
+         style="fill:#ffd24d"
+         id="text28">100</text>
+    </g>
+    <text
+       class="cab"
+       x="194"
+       y="196"
+       text-anchor="middle"
+       font-size="26"
+       id="text29">÷</text>
+    <g
+       transform="translate(24,212)"
+       id="g32">
+      <rect
+         x="0"
+         y="0"
+         width="340"
+         height="76"
+         rx="10"
+         fill="#0a1426"
+         stroke="#39507e"
+         stroke-width="1.5"
+         id="rect29" />
+      <text
+         class="rot"
+         x="18"
+         y="32"
+         font-size="16"
+         id="text30">as horas que faltam</text>
+      <text
+         class="rotp"
+         x="18"
+         y="58"
+         id="text31">o relógio interno sabe a hora</text>
+      <text
+         class="cab"
+         x="310"
+         y="46"
+         font-size="24"
+         text-anchor="end"
+         style="fill:#ffd24d"
+         id="text32">10</text>
+    </g>
+    <g
+       transform="translate(24,306)"
+       id="g34">
+      <rect
+         x="0"
+         y="0"
+         width="340"
+         height="56"
+         rx="10"
+         fill="#12321f"
+         stroke="#7bd389"
+         stroke-width="2"
+         id="rect32" />
+      <text
+         class="rot"
+         x="18"
+         y="36"
+         font-size="16"
+         style="fill:#7bd389"
+         id="text33">= o ritmo de gasto</text>
+      <text
+         class="cab"
+         x="322"
+         y="38"
+         font-size="22"
+         text-anchor="end"
+         style="fill:#7bd389"
+         id="text34">10 / h</text>
+    </g>
+  </g>
+  <!-- ══ Rodapé ═════════════════════════════════════════════════════════ -->
+  <g
+     transform="translate(46,520)"
+     id="g44">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="1308"
+       height="212"
+       rx="16"
+       id="rect35" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text35">E SE A NOITE COMEÇAR MAIS CEDO?</text>
+    <g
+       transform="translate(30,64)"
+       id="g39">
+      <rect
+         x="0"
+         y="0"
+         width="620"
+         height="118"
+         rx="12"
+         fill="#0a1426"
+         stroke="#39507e"
+         stroke-width="1.5"
+         id="rect36" />
+      <text
+         class="rot"
+         x="20"
+         y="32"
+         font-size="16"
+         id="text36">O experimento</text>
+      <text
+         class="rotp"
+         x="20"
+         y="60"
+         id="text37">Pesquisadores apagaram a luz mais cedo, de surpresa. A planta</text>
+      <text
+         class="rotp"
+         x="20"
+         y="84"
+         id="text38">não repetiu o ritmo da véspera: refez a divisão na hora e passou</text>
+      <text
+         class="rotp"
+         x="20"
+         y="104"
+         id="text39">a gastar mais devagar — para o estoque, menor, durar a noite inteira.</text>
+    </g>
+    <g
+       transform="translate(674,64)"
+       id="g43">
+      <rect
+         x="0"
+         y="0"
+         width="604"
+         height="118"
+         rx="12"
+         fill="#12321f"
+         stroke="#7bd389"
+         stroke-width="2"
+         id="rect39" />
+      <text
+         class="rot"
+         x="20"
+         y="32"
+         font-size="16"
+         style="fill:#7bd389"
+         id="text40">O que isso quer dizer</text>
+      <text
+         class="rotp"
+         x="20"
+         y="60"
+         id="text41">Não é hábito nem sorte: é uma divisão, refeita a cada noite,</text>
+      <text
+         class="rotp"
+         x="20"
+         y="84"
+         id="text42">com dois valores que a planta mede sozinha — quanto tem</text>
+      <text
+         class="rotp"
+         x="20"
+         y="104"
+         id="text43">e quanto tempo falta. Uma folha fazendo aritmética no escuro.</text>
+    </g>
+  </g>
+  <text
+     class="rotp"
+     x="46"
+     y="768"
+     font-size="15"
+     id="text44">
+        Erre a conta e a planta amanhece com fome: ela para de crescer e leva horas para se recuperar.
+    </text>
+</svg>

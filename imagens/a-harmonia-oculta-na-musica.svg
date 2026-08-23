@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg49"
+   sodipodi:docname="a-harmonia-oculta-na-musica.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview49"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.99875"
+     inkscape:cx="700.37547"
+     inkscape:cy="640.30038"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g33" />
+  <title
+     id="tit">A Harmonia Oculta na Música — as frações da corda</title>
+  <desc
+     id="desc">No monocórdio, a ponte móvel divide a corda. Metade da corda dá a mesma nota uma
+        oitava acima: razão de 2 para 1. Dois terços dão a quinta perfeita: 3 para 2. Quanto mais
+        simples a fração, mais depressa as duas ondas voltam a coincidir — e o ouvido chama isso
+        de consonância. Numa fração feia, as ondas só se reencontram muito depois, e o acorde
+        arranha.</desc>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="fundo"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#2b1c3c"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#120b1a"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="madeira"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#a5764a"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#7a5433"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#madeira"
+       id="linearGradient49"
+       x1="0"
+       y1="80.829038"
+       x2="0"
+       y2="184.75209"
+       gradientTransform="scale(5.7735027,0.17320508)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#madeira"
+       id="linearGradient50"
+       x1="73.484692"
+       y1="57.154761"
+       x2="73.484692"
+       y2="130.63945"
+       gradientTransform="scale(4.0824829,0.24494897)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#madeira"
+       id="linearGradient51"
+       x1="0"
+       y1="80.829038"
+       x2="0"
+       y2="184.75209"
+       gradientTransform="scale(5.7735027,0.17320508)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#madeira"
+       id="linearGradient52"
+       x1="0"
+       y1="80.829038"
+       x2="0"
+       y2="184.75209"
+       gradientTransform="scale(5.7735027,0.17320508)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#madeira"
+       id="linearGradient53"
+       x1="42.426407"
+       y1="65.996633"
+       x2="42.426407"
+       y2="150.84945"
+       gradientTransform="scale(4.7140452,0.21213203)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#madeira"
+       id="linearGradient54"
+       x1="0"
+       y1="80.829038"
+       x2="0"
+       y2="184.75209"
+       gradientTransform="scale(5.7735027,0.17320508)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#madeira"
+       id="linearGradient55"
+       x1="30"
+       y1="70"
+       x2="30"
+       y2="160"
+       gradientTransform="scale(5,0.2)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <style
+     id="style4">
+        .cab  { fill:#f6edff; font-size:28px; font-weight:800; letter-spacing:1.2px; }
+        .rot  { fill:#dccdee; font-size:18px; font-weight:700; }
+        .rotp { fill:#a08fb5; font-size:14px; }
+        .painel { fill:#1e1430; stroke:#5b4177; stroke-width:2; }
+        .corda { stroke:#e8d6a8; stroke-width:3; fill:none; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#fundo)"
+     id="rect4" />
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text4">A HARMONIA OCULTA NA MÚSICA</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="17"
+     id="text5">Pitágoras não inventou a harmonia: ele mediu a corda e achou frações simples.</text>
+  <!-- ══ Esquerda: o monocórdio ═════════════════════════════════════════ -->
+  <g
+     transform="translate(46,112)"
+     id="g24">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="812"
+       height="380"
+       rx="16"
+       id="rect5" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text6">A MESMA CORDA, DIVIDIDA</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text7">a ponte encurta a parte que vibra — e a nota sobe</text>
+    <!-- 1: corda inteira -->
+    <g
+       transform="translate(28,104)"
+       id="g10">
+      <rect
+         x="0"
+         y="14"
+         width="600"
+         height="18"
+         rx="4"
+         fill="url(#madeira)"
+         id="rect7"
+         style="fill:url(#linearGradient51)" />
+      <path
+         class="corda"
+         d="M 0,8 H 600"
+         id="path7" />
+      <path
+         d="M 0,4 V 34 M 600,4 v 30"
+         stroke="#c9a76a"
+         stroke-width="4"
+         id="path8" />
+      <text
+         class="rot"
+         x="628"
+         y="14"
+         font-size="16"
+         id="text8">Dó</text>
+      <text
+         class="rotp"
+         x="628"
+         y="34"
+         font-size="13"
+         id="text9">a corda inteira</text>
+      <text
+         class="rotp"
+         x="0"
+         y="-10"
+         font-size="13"
+         id="text10">1/1</text>
+    </g>
+    <!-- 2: metade -->
+    <g
+       transform="translate(28,174)"
+       id="g15">
+      <rect
+         x="0"
+         y="14"
+         width="600"
+         height="18"
+         rx="4"
+         fill="url(#madeira)"
+         opacity="0.4"
+         id="rect10"
+         style="fill:url(#linearGradient49)" />
+      <rect
+         x="300"
+         y="14"
+         width="300"
+         height="18"
+         rx="4"
+         fill="url(#madeira)"
+         id="rect11"
+         style="fill:url(#linearGradient50)" />
+      <path
+         class="corda"
+         d="M 300,8 H 600"
+         id="path11" />
+      <path
+         d="M 0,8 H 300"
+         stroke="#5b4177"
+         stroke-width="3"
+         stroke-dasharray="6, 5"
+         id="path12" />
+      <path
+         d="M 300,-2 V 38"
+         stroke="#7bd389"
+         stroke-width="5"
+         id="path13" />
+      <text
+         class="rotp"
+         x="300"
+         y="-10"
+         text-anchor="middle"
+         font-size="13"
+         style="fill:#7bd389"
+         id="text13">a ponte</text>
+      <text
+         class="rot"
+         x="628"
+         y="14"
+         font-size="16"
+         style="fill:#7bd389"
+         id="text14">Dó (oitava acima)</text>
+      <text
+         class="rotp"
+         x="628"
+         y="34"
+         font-size="13"
+         style="fill:#7bd389"
+         id="text15">metade → razão 2 : 1</text>
+    </g>
+    <!-- 3: dois terços -->
+    <g
+       transform="translate(28,244)"
+       id="g19">
+      <rect
+         x="0"
+         y="14"
+         width="600"
+         height="18"
+         rx="4"
+         fill="url(#madeira)"
+         opacity="0.4"
+         id="rect15"
+         style="fill:url(#linearGradient52)" />
+      <rect
+         x="200"
+         y="14"
+         width="400"
+         height="18"
+         rx="4"
+         fill="url(#madeira)"
+         id="rect16"
+         style="fill:url(#linearGradient53)" />
+      <path
+         class="corda"
+         d="M 200,8 H 600"
+         id="path16" />
+      <path
+         d="M 0,8 H 200"
+         stroke="#5b4177"
+         stroke-width="3"
+         stroke-dasharray="6, 5"
+         id="path17" />
+      <path
+         d="M 200,-2 V 38"
+         stroke="#63c7e8"
+         stroke-width="5"
+         id="path18" />
+      <text
+         class="rot"
+         x="628"
+         y="14"
+         font-size="16"
+         style="fill:#63c7e8"
+         id="text18">Sol (a quinta)</text>
+      <text
+         class="rotp"
+         x="628"
+         y="34"
+         font-size="13"
+         style="fill:#63c7e8"
+         id="text19">2/3 → razão 3 : 2</text>
+    </g>
+    <!-- 4: três quartos -->
+    <g
+       transform="translate(28,314)"
+       id="g23">
+      <rect
+         x="0"
+         y="14"
+         width="600"
+         height="18"
+         rx="4"
+         fill="url(#madeira)"
+         opacity="0.4"
+         id="rect19"
+         style="fill:url(#linearGradient54)" />
+      <rect
+         x="150"
+         y="14"
+         width="450"
+         height="18"
+         rx="4"
+         fill="url(#madeira)"
+         id="rect20"
+         style="fill:url(#linearGradient55)" />
+      <path
+         class="corda"
+         d="M 150,8 H 600"
+         id="path20" />
+      <path
+         d="M 0,8 H 150"
+         stroke="#5b4177"
+         stroke-width="3"
+         stroke-dasharray="6, 5"
+         id="path21" />
+      <path
+         d="M 150,-2 V 38"
+         stroke="#ffd24d"
+         stroke-width="5"
+         id="path22" />
+      <text
+         class="rot"
+         x="628"
+         y="14"
+         font-size="16"
+         style="fill:#ffd24d"
+         id="text22">Fá (a quarta)</text>
+      <text
+         class="rotp"
+         x="628"
+         y="34"
+         font-size="13"
+         style="fill:#ffd24d"
+         id="text23">3/4 → razão 4 : 3</text>
+    </g>
+  </g>
+  <!-- ══ Direita: as ondas ══════════════════════════════════════════════ -->
+  <g
+     transform="translate(886,112)"
+     id="g35">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="468"
+       height="380"
+       rx="16"
+       id="rect24" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text24">POR QUE UMA COMBINAÇÃO AGRADA</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text25">o que o ouvido procura é o encontro das ondas</text>
+    <!-- 2:1 — encaixe perfeito -->
+    <g
+       transform="translate(24,88)"
+       id="g33">
+      <rect
+         x="0"
+         y="0"
+         width="420"
+         height="132"
+         rx="10"
+         fill="#160e24"
+         stroke="#7bd389"
+         stroke-width="2"
+         id="rect25" />
+      <text
+         class="rotp"
+         x="16"
+         y="24"
+         style="fill:#7bd389"
+         font-weight="700"
+         id="text26">razão 2 : 1 — a oitava</text>
+      <!-- onda grave -->
+      <path
+         d="M20 58 q 25 -20 50 0 q 25 20 50 0 q 25 -20 50 0 q 25 20 50 0                      q 25 -20 50 0 q 25 20 50 0 q 25 -20 50 0 q 25 20 50 0"
+         fill="none"
+         stroke="#e8d6a8"
+         stroke-width="2.5"
+         id="path26" />
+      <!-- onda aguda: exatamente o dobro de ciclos -->
+      <path
+         d="M20 94 q 12.5 -14 25 0 q 12.5 14 25 0 q 12.5 -14 25 0 q 12.5 14 25 0                      q 12.5 -14 25 0 q 12.5 14 25 0 q 12.5 -14 25 0 q 12.5 14 25 0                      q 12.5 -14 25 0 q 12.5 14 25 0 q 12.5 -14 25 0 q 12.5 14 25 0                      q 12.5 -14 25 0 q 12.5 14 25 0 q 12.5 -14 25 0 q 12.5 14 25 0"
+         fill="none"
+         stroke="#7bd389"
+         stroke-width="2.5"
+         id="path27" />
+      <!-- os pontos de encontro, frequentes -->
+      <g
+         fill="#7bd389"
+         id="g32">
+        <circle
+           cx="70"
+           cy="58"
+           r="3.5"
+           id="circle27" />
+        <circle
+           cx="120"
+           cy="58"
+           r="3.5"
+           id="circle28" />
+        <circle
+           cx="170"
+           cy="58"
+           r="3.5"
+           id="circle29" />
+        <circle
+           cx="220"
+           cy="58"
+           r="3.5"
+           id="circle30" />
+        <circle
+           cx="270"
+           cy="58"
+           r="3.5"
+           id="circle31" />
+        <circle
+           cx="320"
+           cy="58"
+           r="3.5"
+           id="circle32" />
+      </g>
+      <text
+         class="rotp"
+         x="12"
+         y="122"
+         font-size="13"
+         style="fill:#7bd389"
+         id="text32">dois ciclos da aguda para cada um da grave: elas sempre casam</text>
+    </g>
+    <!-- razão feia -->
+    <g
+       transform="translate(24,232)"
+       id="g34">
+      <rect
+         x="0"
+         y="0"
+         width="420"
+         height="132"
+         rx="10"
+         fill="#160e24"
+         stroke="#ff6b6b"
+         stroke-width="2"
+         id="rect33" />
+      <text
+         class="rotp"
+         x="16"
+         y="24"
+         style="fill:#ff6b6b"
+         font-weight="700"
+         id="text33">razão 16 : 15 — quase a mesma nota</text>
+      <path
+         d="M20 58 q 25 -20 50 0 q 25 20 50 0 q 25 -20 50 0 q 25 20 50 0                      q 25 -20 50 0 q 25 20 50 0 q 25 -20 50 0 q 25 20 50 0"
+         fill="none"
+         stroke="#e8d6a8"
+         stroke-width="2.5"
+         id="path33" />
+      <path
+         d="M20 94 q 23.4 -20 46.8 0 q 23.4 20 46.8 0 q 23.4 -20 46.8 0 q 23.4 20 46.8 0                      q 23.4 -20 46.8 0 q 23.4 20 46.8 0 q 23.4 -20 46.8 0 q 23.4 20 46.8 0"
+         fill="none"
+         stroke="#ff6b6b"
+         stroke-width="2.5"
+         id="path34" />
+      <text
+         class="rotp"
+         x="16"
+         y="122"
+         font-size="13"
+         style="fill:#ff6b6b"
+         id="text34">
+                andam quase juntas, mas nunca casam: bate e arranha
+            </text>
+    </g>
+  </g>
+  <!-- ══ Rodapé: a tabela das frações ═══════════════════════════════════ -->
+  <g
+     transform="translate(46,520)"
+     id="g49">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="1308"
+       height="212"
+       rx="16"
+       id="rect35" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text35">QUANTO MAIS SIMPLES A FRAÇÃO, MAIS BONITO O INTERVALO</text>
+    <g
+       transform="translate(30,64)"
+       id="g48">
+      <g
+         id="g38">
+        <rect
+           x="0"
+           y="0"
+           width="300"
+           height="118"
+           rx="12"
+           fill="#160e24"
+           stroke="#7bd389"
+           stroke-width="2"
+           id="rect36" />
+        <text
+           class="cab"
+           x="20"
+           y="46"
+           font-size="26"
+           style="fill:#7bd389"
+           id="text36">2 : 1</text>
+        <text
+           class="rot"
+           x="20"
+           y="78"
+           font-size="16"
+           id="text37">a Oitava</text>
+        <text
+           class="rotp"
+           x="20"
+           y="102"
+           id="text38">a mesma nota, só que mais fina</text>
+      </g>
+      <g
+         transform="translate(320,0)"
+         id="g41">
+        <rect
+           x="0"
+           y="0"
+           width="300"
+           height="118"
+           rx="12"
+           fill="#160e24"
+           stroke="#63c7e8"
+           stroke-width="2"
+           id="rect38" />
+        <text
+           class="cab"
+           x="20"
+           y="46"
+           font-size="26"
+           style="fill:#63c7e8"
+           id="text39">3 : 2</text>
+        <text
+           class="rot"
+           x="20"
+           y="78"
+           font-size="16"
+           id="text40">a Quinta perfeita</text>
+        <text
+           class="rotp"
+           x="20"
+           y="102"
+           id="text41">2/3 da corda: a mais forte depois da oitava</text>
+      </g>
+      <g
+         transform="translate(640,0)"
+         id="g44">
+        <rect
+           x="0"
+           y="0"
+           width="300"
+           height="118"
+           rx="12"
+           fill="#160e24"
+           stroke="#ffd24d"
+           stroke-width="2"
+           id="rect41" />
+        <text
+           class="cab"
+           x="20"
+           y="46"
+           font-size="26"
+           style="fill:#ffd24d"
+           id="text42">4 : 3</text>
+        <text
+           class="rot"
+           x="20"
+           y="78"
+           font-size="16"
+           id="text43">a Quarta</text>
+        <text
+           class="rotp"
+           x="20"
+           y="102"
+           id="text44">3/4 da corda</text>
+      </g>
+      <g
+         transform="translate(960,0)"
+         id="g47">
+        <rect
+           x="0"
+           y="0"
+           width="288"
+           height="118"
+           rx="12"
+           fill="#160e24"
+           stroke="#5b4177"
+           stroke-width="2"
+           id="rect44" />
+        <text
+           class="cab"
+           x="20"
+           y="46"
+           font-size="26"
+           id="text45">5 : 4</text>
+        <text
+           class="rot"
+           x="20"
+           y="78"
+           font-size="16"
+           id="text46">a Terça maior</text>
+        <text
+           class="rotp"
+           x="20"
+           y="102"
+           id="text47">4/5 da corda: o &quot;sorriso&quot; do acorde</text>
+      </g>
+    </g>
+  </g>
+  <text
+     class="rotp"
+     x="46"
+     y="768"
+     font-size="15"
+     id="text49">
+        A altura do som é inversamente proporcional ao comprimento que vibra: corte a corda pela metade e a frequência dobra.
+    </text>
+</svg>

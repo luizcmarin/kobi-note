@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg57"
+   sodipodi:docname="a-formiga-prateada-do-saara.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview57"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.99875"
+     inkscape:cx="700.37547"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g30" />
+  <title
+     id="tit">A Formiga Prateada do Saara — pelos de secção triangular</title>
+  <desc
+     id="desc">Cada pelo do dorso da formiga-prateada tem secção triangular: dois lados achatados
+        virados para cima e a base assentada na cutícula. Os dois lados de cima devolvem a luz do
+        Sol e o infravermelho próximo — daí o brilho de prata. A base, encostada no corpo, deixa o
+        calor interno escapar como infravermelho médio, para o céu. Refletir sozinho não basta;
+        irradiar sozinho não basta. Juntos, os dois seguram o corpo abaixo dos 53 graus letais
+        num chão de mais de 60.</desc>
+  <defs
+     id="defs12">
+    <linearGradient
+       id="ceu"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#fdf3e2"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#ecd6ae"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="prata"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         id="stop3" />
+      <stop
+         offset="0.5"
+         stop-color="#d8dee4"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#9aa5ae"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="areia"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#e0b878"
+         id="stop6" />
+      <stop
+         offset="1"
+         stop-color="#c99a53"
+         id="stop7" />
+    </linearGradient>
+    <!-- o pelo, em corte: um triângulo com a base na cutícula -->
+    <g
+       id="pelo">
+      <path
+         d="M-22 0 L 0 -34 L 22 0 Z"
+         fill="url(#prata)"
+         stroke="#7d8792"
+         stroke-width="1.5"
+         id="path7" />
+      <path
+         d="M-22 0 L 0 -34"
+         fill="none"
+         stroke="#ffffff"
+         stroke-width="2.5"
+         id="path8" />
+    </g>
+    <marker
+       id="s-4a90c4"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="11"
+       markerHeight="11"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#4a90c4"
+         id="path9" />
+    </marker>
+    <marker
+       id="s-e8942e"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="11"
+       markerHeight="11"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#e8942e"
+         id="path10" />
+    </marker>
+    <marker
+       id="s-f5b13c"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="11"
+       markerHeight="11"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#f5b13c"
+         id="path11" />
+    </marker>
+    <marker
+       id="sp-8e6f42"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#8e6f42"
+         id="path12" />
+    </marker>
+  </defs>
+  <style
+     id="style12">
+        .cab  { fill:#4a3413; font-size:28px; font-weight:800; letter-spacing:1.2px; }
+        .rot  { fill:#6b4c1e; font-size:18px; font-weight:700; }
+        .rotp { fill:#8e6f42; font-size:14px; }
+        .painel { fill:#fffaf0; stroke:#c9a469; stroke-width:2; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#ceu)"
+     id="rect12" />
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text12">A FORMIGA PRATEADA DO SAARA</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="17"
+     id="text13">Ela sai para caçar na hora em que a areia passa de 60 °C — e o corpo dela morre aos 53 °C.</text>
+  <!-- ══ Esquerda: o pelo, em corte ═════════════════════════════════════ -->
+  <g
+     transform="translate(46,112)"
+     id="g31">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="812"
+       height="380"
+       rx="16"
+       id="rect13" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text14">O PELO, EM CORTE — UM TRIÂNGULO</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text15">dois lados virados para o Sol; a base, encostada no corpo</text>
+    <!-- o Sol -->
+    <circle
+       cx="96"
+       cy="112"
+       r="26"
+       fill="#f5b13c"
+       id="circle15" />
+    <g
+       stroke="#f5b13c"
+       stroke-width="2.5"
+       id="g15">
+      <path
+         d="M96 74 V 62 M96 150 V 162 M58 112 H 46 M134 112 H 146                      M69 85 L 61 77 M123 139 L 131 147 M123 85 L 131 77 M69 139 L 61 147"
+         id="path15" />
+    </g>
+    <text
+       class="rotp"
+       x="96"
+       y="182"
+       text-anchor="middle"
+       font-weight="700"
+       style="fill:#c07d20"
+       id="text16">o Sol a pino</text>
+    <!-- 1) a luz que chega e é devolvida -->
+    <g
+       stroke="#f5b13c"
+       stroke-width="3"
+       fill="none"
+       id="g17">
+      <path
+         d="m 154,116 102,82"
+         marker-end="url(#s-f5b13c)"
+         id="path16" />
+      <path
+         d="M 196,102 330,204"
+         marker-end="url(#s-f5b13c)"
+         id="path17" />
+    </g>
+    <!-- reflexos saindo -->
+    <g
+       stroke="#e8942e"
+       stroke-width="3"
+       fill="none"
+       id="g19"
+       transform="translate(0,-4)">
+      <path
+         d="m 266,206 74,-64"
+         marker-end="url(#s-e8942e)"
+         id="path18" />
+      <path
+         d="m 338,206 78,-50"
+         marker-end="url(#s-e8942e)"
+         id="path19" />
+    </g>
+    <text
+       class="rot"
+       x="358"
+       y="106"
+       font-size="16"
+       style="fill:#c06a1f"
+       id="text19">A LUZ VOLTA</text>
+    <text
+       class="rotp"
+       x="358"
+       y="128"
+       style="fill:#c06a1f"
+       id="text20">daí o brilho de prata</text>
+    <!-- 2) o calor de dentro, saindo para o céu -->
+    <g
+       stroke="#4a90c4"
+       stroke-width="3"
+       fill="none"
+       id="g21">
+      <path
+         d="M560 210 C 552 196, 574 188, 566 174 C 558 160, 578 154, 570 140"
+         marker-end="url(#s-4a90c4)"
+         id="path20" />
+      <path
+         d="M640 210 C 632 196, 654 188, 646 174 C 638 160, 658 154, 650 140"
+         marker-end="url(#s-4a90c4)"
+         id="path21" />
+    </g>
+    <text
+       class="rot"
+       x="608"
+       y="88"
+       font-size="16"
+       style="fill:#2f6f9e"
+       id="text21">O CALOR SAI</text>
+    <text
+       class="rotp"
+       x="608"
+       y="110"
+       style="fill:#2f6f9e"
+       id="text22">o corpo irradia para o céu</text>
+    <!-- a fileira de pelos triangulares sobre a cutícula -->
+    <g
+       transform="translate(0,244)"
+       id="g30">
+      <g
+         id="g28">
+        <g
+           transform="translate(262,0)"
+           id="g22">
+          <use
+             href="#pelo"
+             id="use22" />
+        </g>
+        <g
+           transform="translate(336,0)"
+           id="g23">
+          <use
+             href="#pelo"
+             id="use23" />
+        </g>
+        <g
+           transform="translate(410,0)"
+           id="g24">
+          <use
+             href="#pelo"
+             id="use24" />
+        </g>
+        <g
+           transform="translate(484,0)"
+           id="g25">
+          <use
+             href="#pelo"
+             id="use25" />
+        </g>
+        <g
+           transform="translate(558,0)"
+           id="g26">
+          <use
+             href="#pelo"
+             id="use26" />
+        </g>
+        <g
+           transform="translate(632,0)"
+           id="g27">
+          <use
+             href="#pelo"
+             id="use27" />
+        </g>
+      </g>
+      <!-- a cutícula (o corpo da formiga) -->
+      <rect
+         x="60"
+         y="0"
+         width="700"
+         height="52"
+         rx="8"
+         fill="#8a6a3a"
+         stroke="#5f4826"
+         stroke-width="2"
+         id="rect28" />
+      <text
+         class="rotp"
+         x="80"
+         y="32"
+         style="font-size:14.6667px;fill:#ffe6bd"
+         id="text28">o corpo da formiga</text>
+      <path
+         d="M226 -22 L 226 -2"
+         stroke="#8e6f42"
+         stroke-width="1.5"
+         fill="none"
+         marker-end="url(#sp-8e6f42)"
+         id="path28" />
+      <text
+         class="rotp"
+         x="226"
+         y="-32"
+         text-anchor="middle"
+         id="text29">a base assenta aqui</text>
+      <text
+         class="rotp"
+         x="410"
+         y="76"
+         text-anchor="middle"
+         font-style="italic"
+         id="text30">
+                dois lados achatados para cima, base plana embaixo — a mesma forma faz as duas coisas
+            </text>
+    </g>
+  </g>
+  <!-- ══ Direita: o termômetro ══════════════════════════════════════════ -->
+  <g
+     transform="translate(886,112)"
+     id="g44">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="468"
+       height="380"
+       rx="16"
+       id="rect31" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text31">SÓ UM DOS DOIS NÃO BASTA</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text32">o chão a 62 °C; o limite do corpo, 53 °C</text>
+    <!-- a linha do limite letal (53 °C) -->
+    <g
+       id="g33">
+      <path
+         d="M40 232 H 440"
+         stroke="#c0392b"
+         stroke-width="2"
+         stroke-dasharray="7 6"
+         id="path32" />
+      <text
+         class="rotp"
+         x="440"
+         y="222"
+         text-anchor="end"
+         style="fill:#c0392b"
+         font-weight="700"
+         id="text33">
+                53 °C — o limite letal
+            </text>
+    </g>
+    <!-- três barras (escala: 6 px por grau, base em y=310) -->
+    <g
+       id="g43">
+      <!-- sem nada: 66 -->
+      <g
+         transform="translate(84,0)"
+         id="g36">
+        <rect
+           x="-26"
+           y="154"
+           width="52"
+           height="156"
+           rx="8"
+           fill="#c0392b"
+           id="rect33" />
+        <text
+           class="rot"
+           x="0"
+           y="180"
+           text-anchor="middle"
+           font-size="16"
+           style="fill:#fff3ee"
+           id="text34">66 °C</text>
+        <text
+           class="rotp"
+           x="0"
+           y="332"
+           text-anchor="middle"
+           id="text35">sem os pelos</text>
+        <text
+           class="rotp"
+           x="0"
+           y="352"
+           text-anchor="middle"
+           style="fill:#c0392b"
+           id="text36">morre</text>
+      </g>
+      <!-- só reflete: 56 -->
+      <g
+         transform="translate(234,0)"
+         id="g39">
+        <rect
+           x="-26"
+           y="214"
+           width="52"
+           height="96"
+           rx="8"
+           fill="#e8942e"
+           id="rect36" />
+        <text
+           class="rot"
+           x="0"
+           y="248"
+           text-anchor="middle"
+           font-size="16"
+           style="fill:#3f2a08"
+           id="text37">56 °C</text>
+        <text
+           class="rotp"
+           x="0"
+           y="332"
+           text-anchor="middle"
+           id="text38">só refletindo</text>
+        <text
+           class="rotp"
+           x="0"
+           y="352"
+           text-anchor="middle"
+           style="fill:#c06a1f"
+           id="text39">ainda morre</text>
+      </g>
+      <!-- reflete e irradia: 49 -->
+      <g
+         transform="translate(384,0)"
+         id="g42">
+        <rect
+           x="-26"
+           y="256"
+           width="52"
+           height="54"
+           rx="8"
+           fill="#2f8f5c"
+           id="rect39" />
+        <text
+           class="rot"
+           x="0"
+           y="290"
+           text-anchor="middle"
+           font-size="16"
+           style="fill:#eafaf0"
+           id="text40">49 °C</text>
+        <text
+           class="rotp"
+           x="0"
+           y="332"
+           text-anchor="middle"
+           id="text41">refletindo</text>
+        <text
+           class="rotp"
+           x="0"
+           y="352"
+           text-anchor="middle"
+           style="fill:#1f7a3d"
+           id="text42">e irradiando: vive</text>
+      </g>
+    </g>
+  </g>
+  <!-- ══ Rodapé: as duas funções ════════════════════════════════════════ -->
+  <g
+     transform="translate(46,520)"
+     id="g57">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="1308"
+       height="212"
+       rx="16"
+       id="rect44" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text44">A MESMA &quot;ARMADURA&quot; FAZ DUAS COISAS OPOSTAS</text>
+    <g
+       transform="translate(30,64)"
+       id="g48">
+      <rect
+         x="0"
+         y="0"
+         width="404"
+         height="118"
+         rx="12"
+         fill="#fdf1dc"
+         stroke="#e8942e"
+         stroke-width="1.5"
+         id="rect45" />
+      <text
+         class="rot"
+         x="20"
+         y="32"
+         font-size="16"
+         style="fill:#c06a1f"
+         id="text45">1 · Devolve o calor que vem de fora</text>
+      <text
+         class="rotp"
+         x="20"
+         y="60"
+         id="text46">os dois lados de cima refletem a luz visível</text>
+      <text
+         class="rotp"
+         x="20"
+         y="84"
+         id="text47">e o infravermelho próximo — de onde vem</text>
+      <text
+         class="rotp"
+         x="20"
+         y="104"
+         id="text48">quase todo o calor do Sol</text>
+    </g>
+    <g
+       transform="translate(452,64)"
+       id="g52">
+      <rect
+         x="0"
+         y="0"
+         width="404"
+         height="118"
+         rx="12"
+         fill="#e9f2f9"
+         stroke="#4a90c4"
+         stroke-width="1.5"
+         id="rect48" />
+      <text
+         class="rot"
+         x="20"
+         y="32"
+         font-size="16"
+         style="fill:#2f6f9e"
+         id="text49">2 · Joga fora o calor que vem de dentro</text>
+      <text
+         class="rotp"
+         x="20"
+         y="60"
+         id="text50">a base, colada no corpo, deixa o calor</text>
+      <text
+         class="rotp"
+         x="20"
+         y="84"
+         id="text51">interno escapar como infravermelho médio,</text>
+      <text
+         class="rotp"
+         x="20"
+         y="104"
+         id="text52">direto para o céu aberto</text>
+    </g>
+    <g
+       transform="translate(874,64)"
+       id="g56">
+      <rect
+         x="0"
+         y="0"
+         width="404"
+         height="118"
+         rx="12"
+         fill="#eef7f0"
+         stroke="#2f8f5c"
+         stroke-width="2"
+         id="rect52" />
+      <text
+         class="rot"
+         x="20"
+         y="32"
+         font-size="16"
+         style="fill:#1f7a3d"
+         id="text53">E por que se arriscar assim?</text>
+      <text
+         class="rotp"
+         x="20"
+         y="60"
+         id="text54">porque no auge do calor os predadores</text>
+      <text
+         class="rotp"
+         x="20"
+         y="84"
+         id="text55">estão todos escondidos. Ela sai, cata os</text>
+      <text
+         class="rotp"
+         x="20"
+         y="104"
+         id="text56">insetos que o sol matou, e volta correndo.</text>
+    </g>
+  </g>
+  <text
+     class="rotp"
+     x="46"
+     y="768"
+     font-size="15"
+     id="text57">
+        Ela corre quase 1 metro por segundo — cem vezes o próprio corpo a cada segundo — e fica menos de dez minutos fora do ninho.
+    </text>
+</svg>

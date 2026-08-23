@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg66"
+   sodipodi:docname="o-podometro-da-formiga-do-deserto.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview66"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.99875"
+     inkscape:cx="700.37547"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg66" />
+  <title
+     id="tit">O Podômetro da Formiga — distância = passos × tamanho do passo</title>
+  <desc
+     id="desc">O experimento de Wittlinger, Wehner e Wolf (2006): depois que a formiga achou a comida,
+        os cientistas alongaram as pernas de umas (pernas-de-pau) e encurtaram as de outras (cotos).
+        Todas voltaram contando o MESMO número de passos: as de perna longa passaram do ninho, as de
+        perna curta pararam antes, e só as intactas cravaram a entrada.</desc>
+  <!-- Geometria honesta: as três partem da MESMA linha (x=124) e dão 10 passos.
+         Muda só a passada: 94 (pernas-de-pau), 75,6 (intacta) e 56 (cotos).
+         10 × 75,6 = 756 → 124 + 756 = 880, que é exatamente o ninho. -->
+  <defs
+     id="defs12">
+    <linearGradient
+       id="ceu"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#ffd479"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#f9b768"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="areia"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#f4c98a"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#dfa563"
+         id="stop4" />
+    </linearGradient>
+    <!-- Corpo (sem pernas): o que muda entre os grupos são só as pernas. -->
+    <g
+       id="corpo">
+      <ellipse
+         cx="-11"
+         cy="0"
+         rx="8"
+         ry="6"
+         fill="#8c3b18"
+         id="ellipse4" />
+      <ellipse
+         cx="0"
+         cy="0"
+         rx="5"
+         ry="4.5"
+         fill="#a34a1f"
+         id="ellipse5" />
+      <ellipse
+         cx="9"
+         cy="-1"
+         rx="6"
+         ry="5"
+         fill="#8c3b18"
+         id="ellipse6" />
+      <circle
+         cx="12"
+         cy="-3"
+         r="1.6"
+         fill="#2b1206"
+         id="circle6" />
+      <g
+         stroke="#5a2a12"
+         stroke-width="1.8"
+         fill="none"
+         stroke-linecap="round"
+         id="g6">
+        <path
+           d="M9 -6 L 16 -13 M11 -5 L 19 -9"
+           id="path6" />
+      </g>
+    </g>
+    <!-- Pernas-de-pau: cerdas coladas (em vermelho), passada LONGA -->
+    <g
+       id="perna-alta">
+      <use
+         href="#corpo"
+         transform="translate(0,-22)"
+         id="use6" />
+      <g
+         stroke="#5a2a12"
+         stroke-width="2"
+         fill="none"
+         stroke-linecap="round"
+         id="g7">
+        <path
+           d="M-7 -20 L -17 -2 M-3 -19 L -7 0 M3 -19 L 8 0 M7 -20 L 18 -2"
+           id="path7" />
+      </g>
+      <g
+         stroke="#d63f2a"
+         stroke-width="3"
+         fill="none"
+         stroke-linecap="round"
+         id="g8">
+        <path
+           d="M-17 -2 L -19 14 M-7 0 L -8 14 M8 0 L 9 14 M18 -2 L 20 14"
+           id="path8" />
+      </g>
+    </g>
+    <!-- Pernas normais -->
+    <g
+       id="perna-normal">
+      <use
+         href="#corpo"
+         transform="translate(0,-12)"
+         id="use8" />
+      <g
+         stroke="#5a2a12"
+         stroke-width="2"
+         fill="none"
+         stroke-linecap="round"
+         id="g9">
+        <path
+           d="M-7 -10 L -16 6 M-3 -9 L -7 8 M3 -9 L 8 8 M7 -10 L 17 6"
+           id="path9" />
+      </g>
+    </g>
+    <!-- Cotos: pernas cortadas, passada CURTA -->
+    <g
+       id="perna-curta">
+      <use
+         href="#corpo"
+         transform="translate(0,-6)"
+         id="use9" />
+      <g
+         stroke="#5a2a12"
+         stroke-width="2.6"
+         fill="none"
+         stroke-linecap="round"
+         id="g10">
+        <path
+           d="M-7 -4 L -12 4 M-3 -3 L -5 5 M3 -3 L 6 5 M7 -4 L 12 4"
+           id="path10" />
+      </g>
+    </g>
+    <g
+       id="pegada">
+      <ellipse
+         cx="0"
+         cy="-5"
+         rx="4"
+         ry="6.5"
+         fill="#8c3b18"
+         opacity="0.7"
+         id="ellipse10" />
+      <ellipse
+         cx="0"
+         cy="7"
+         rx="4"
+         ry="6.5"
+         fill="#8c3b18"
+         opacity="0.45"
+         id="ellipse11" />
+    </g>
+    <marker
+       id="si-2f7fd0"
+       viewBox="0 0 10 10"
+       refX="2"
+       refY="5"
+       markerWidth="9"
+       markerHeight="9"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M10 0 L0 5 L10 10 z"
+         fill="#2f7fd0"
+         id="path11" />
+    </marker>
+    <marker
+       id="sp-2f7fd0"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="9"
+       markerHeight="9"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#2f7fd0"
+         id="path12" />
+    </marker>
+  </defs>
+  <style
+     id="style12">
+        .cab  { fill:#4a2409; font-size:28px; font-weight:800; letter-spacing:1.2px; }
+        .rot  { fill:#5a2a12; font-size:18px; font-weight:700; }
+        .rotp { fill:#7a4a26; font-size:14px; }
+        .num  { fill:#fff6e2; font-size:17px; font-weight:800; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#ceu)"
+     id="rect12" />
+  <path
+     d="M0 176 C 260 146, 520 191, 780 168 C 1040 145, 1220 182, 1400 158              L 1400 800 L 0 800 Z"
+     fill="url(#areia)"
+     id="path13" />
+  <text
+     class="cab"
+     x="46"
+     y="52"
+     id="text13">O PODÔMETRO DA FORMIGA</text>
+  <text
+     class="rotp"
+     x="46"
+     y="82"
+     font-size="17"
+     id="text14">Ela não mede a volta: ela CONTA os passos.</text>
+  <text
+     class="rot"
+     x="46"
+     y="126"
+     font-size="20"
+     style="fill:#b0301f"
+     id="text15">
+        Dez passos nas três — só o tamanho do passo mudou.
+    </text>
+  <!-- ══ Linha da comida: a partida (não cruza rótulo nenhum) ═══════════ -->
+  <path
+     d="M124 250 L 124 700"
+     stroke="#8c3b18"
+     stroke-width="2.5"
+     stroke-dasharray="7 7"
+     opacity="0.6"
+     id="path15" />
+  <ellipse
+     cx="124"
+     cy="228"
+     rx="18"
+     ry="9"
+     fill="#8a5a2b"
+     id="ellipse15" />
+  <text
+     class="rot"
+     x="124"
+     y="206"
+     text-anchor="middle"
+     font-size="16"
+     id="text16">COMIDA</text>
+  <!-- ══ Linha do ninho: a chegada ══════════════════════════════════════ -->
+  <path
+     d="M880 250 L 880 700"
+     stroke="#b0301f"
+     stroke-width="3"
+     stroke-dasharray="10 8"
+     id="path16" />
+  <path
+     d="M834 234 C 848 192, 868 178, 880 178 C 892 178, 912 192, 926 234 Z"
+     fill="#c98a4e"
+     stroke="#a06a35"
+     stroke-width="2.5"
+     id="path17" />
+  <ellipse
+     cx="880"
+     cy="194"
+     rx="10"
+     ry="5"
+     fill="#6d4319"
+     id="ellipse17" />
+  <text
+     class="rot"
+     x="880"
+     y="160"
+     text-anchor="middle"
+     style="fill:#b0301f"
+     id="text17">NINHO</text>
+  <!-- ══ Pista 1 — pernas-de-pau: passada 94, PASSA do ninho ════════════ -->
+  <g
+     id="g31">
+    <circle
+       cx="160"
+       cy="248"
+       r="15"
+       fill="#2f7fd0"
+       id="circle17" />
+    <text
+       class="num"
+       x="160"
+       y="254"
+       text-anchor="middle"
+       id="text18">1</text>
+    <text
+       class="rot"
+       x="186"
+       y="254"
+       id="text19">PERNAS-DE-PAU</text>
+    <text
+       class="rotp"
+       x="348"
+       y="254"
+       id="text20">passada longa (cerdas coladas)</text>
+    <g
+       id="g28">
+      <use
+         href="#pegada"
+         transform="translate(218,300)"
+         id="use20" />
+      <use
+         href="#pegada"
+         transform="translate(312,300)"
+         id="use21" />
+      <use
+         href="#pegada"
+         transform="translate(406,300)"
+         id="use22" />
+      <use
+         href="#pegada"
+         transform="translate(500,300)"
+         id="use23" />
+      <use
+         href="#pegada"
+         transform="translate(594,300)"
+         id="use24" />
+      <use
+         href="#pegada"
+         transform="translate(688,300)"
+         id="use25" />
+      <use
+         href="#pegada"
+         transform="translate(782,300)"
+         id="use26" />
+      <use
+         href="#pegada"
+         transform="translate(876,300)"
+         id="use27" />
+      <use
+         href="#pegada"
+         transform="translate(970,300)"
+         id="use28" />
+    </g>
+    <use
+       href="#perna-alta"
+       transform="translate(1064,300) scale(1.35)"
+       id="use29" />
+    <path
+       d="M218 334 L 312 334"
+       stroke="#2f7fd0"
+       stroke-width="2"
+       marker-start="url(#si-2f7fd0)"
+       marker-end="url(#sp-2f7fd0)"
+       id="path29" />
+    <text
+       class="rotp"
+       x="265"
+       y="352"
+       text-anchor="middle"
+       style="fill:#2f7fd0"
+       id="text29">1 passo</text>
+    <text
+       class="rot"
+       x="1100"
+       y="296"
+       font-size="16"
+       style="fill:#b0301f"
+       id="text30">PASSOU DIRETO</text>
+    <text
+       class="rotp"
+       x="1100"
+       y="318"
+       id="text31">e procura o ninho adiante</text>
+  </g>
+  <!-- ══ Pista 2 — intacta: passada 75,6, CRAVA o ninho ═════════════════ -->
+  <g
+     id="g45">
+    <circle
+       cx="160"
+       cy="418"
+       r="15"
+       fill="#2f7fd0"
+       id="circle31" />
+    <text
+       class="num"
+       x="160"
+       y="424"
+       text-anchor="middle"
+       id="text32">2</text>
+    <text
+       class="rot"
+       x="186"
+       y="424"
+       id="text33">INTACTA</text>
+    <text
+       class="rotp"
+       x="290"
+       y="424"
+       id="text34">passada normal</text>
+    <g
+       id="g42">
+      <use
+         href="#pegada"
+         transform="translate(200,470)"
+         id="use34" />
+      <use
+         href="#pegada"
+         transform="translate(275,470)"
+         id="use35" />
+      <use
+         href="#pegada"
+         transform="translate(351,470)"
+         id="use36" />
+      <use
+         href="#pegada"
+         transform="translate(426,470)"
+         id="use37" />
+      <use
+         href="#pegada"
+         transform="translate(502,470)"
+         id="use38" />
+      <use
+         href="#pegada"
+         transform="translate(578,470)"
+         id="use39" />
+      <use
+         href="#pegada"
+         transform="translate(653,470)"
+         id="use40" />
+      <use
+         href="#pegada"
+         transform="translate(729,470)"
+         id="use41" />
+      <use
+         href="#pegada"
+         transform="translate(804,470)"
+         id="use42" />
+    </g>
+    <use
+       href="#perna-normal"
+       transform="translate(880,470) scale(1.35)"
+       id="use43" />
+    <path
+       d="M200 504 L 275 504"
+       stroke="#2f7fd0"
+       stroke-width="2"
+       marker-start="url(#si-2f7fd0)"
+       marker-end="url(#sp-2f7fd0)"
+       id="path43" />
+    <text
+       class="rotp"
+       x="237"
+       y="522"
+       text-anchor="middle"
+       style="fill:#2f7fd0"
+       id="text43">1 passo</text>
+    <text
+       class="rot"
+       x="924"
+       y="466"
+       font-size="16"
+       style="fill:#1f7a3d"
+       id="text44">CRAVOU A ENTRADA</text>
+    <text
+       class="rotp"
+       x="924"
+       y="488"
+       id="text45">10 passos × passada normal</text>
+  </g>
+  <!-- ══ Pista 3 — cotos: passada 56, PARA antes ════════════════════════ -->
+  <g
+     id="g59">
+    <circle
+       cx="160"
+       cy="588"
+       r="15"
+       fill="#2f7fd0"
+       id="circle45" />
+    <text
+       class="num"
+       x="160"
+       y="594"
+       text-anchor="middle"
+       id="text46">3</text>
+    <text
+       class="rot"
+       x="186"
+       y="594"
+       id="text47">COTOS</text>
+    <text
+       class="rotp"
+       x="272"
+       y="594"
+       id="text48">passada curta (pernas aparadas)</text>
+    <g
+       id="g56">
+      <use
+         href="#pegada"
+         transform="translate(180,640)"
+         id="use48" />
+      <use
+         href="#pegada"
+         transform="translate(236,640)"
+         id="use49" />
+      <use
+         href="#pegada"
+         transform="translate(292,640)"
+         id="use50" />
+      <use
+         href="#pegada"
+         transform="translate(348,640)"
+         id="use51" />
+      <use
+         href="#pegada"
+         transform="translate(404,640)"
+         id="use52" />
+      <use
+         href="#pegada"
+         transform="translate(460,640)"
+         id="use53" />
+      <use
+         href="#pegada"
+         transform="translate(516,640)"
+         id="use54" />
+      <use
+         href="#pegada"
+         transform="translate(572,640)"
+         id="use55" />
+      <use
+         href="#pegada"
+         transform="translate(628,640)"
+         id="use56" />
+    </g>
+    <use
+       href="#perna-curta"
+       transform="translate(684,640) scale(1.35)"
+       id="use57" />
+    <path
+       d="M180 674 L 236 674"
+       stroke="#2f7fd0"
+       stroke-width="2"
+       marker-start="url(#si-2f7fd0)"
+       marker-end="url(#sp-2f7fd0)"
+       id="path57" />
+    <text
+       class="rotp"
+       x="208"
+       y="692"
+       text-anchor="middle"
+       style="fill:#2f7fd0"
+       id="text57">1 passo</text>
+    <!-- Cabe nos 154px até a linha do ninho (x=880): sem invadir a chegada. -->
+    <text
+       class="rot"
+       x="722"
+       y="636"
+       font-size="16"
+       style="fill:#b0301f"
+       id="text58">PAROU ANTES</text>
+    <text
+       class="rotp"
+       x="722"
+       y="658"
+       font-size="13"
+       id="text59">e procura ali mesmo</text>
+  </g>
+  <!-- ══ A conta ════════════════════════════════════════════════════════ -->
+  <g
+     transform="translate(1090,530)"
+     id="g65">
+    <rect
+       x="0.022531848"
+       y="0.022531848"
+       width="269.95493"
+       height="204.9662"
+       rx="13.997663"
+       fill="#fff6e6"
+       stroke="#c98a4e"
+       stroke-width="2.04506"
+       id="rect59" />
+    <text
+       class="rot"
+       x="135"
+       y="36"
+       text-anchor="middle"
+       font-size="17"
+       id="text60">A CONTA DA VOLTA</text>
+    <text
+       x="135"
+       y="80"
+       text-anchor="middle"
+       fill="#b0301f"
+       font-size="20"
+       font-weight="800"
+       font-family="Georgia, 'Times New Roman', serif"
+       id="text61">passos × passada</text>
+    <text
+       x="135"
+       y="106"
+       text-anchor="middle"
+       fill="#b0301f"
+       font-size="20"
+       font-weight="800"
+       font-family="Georgia, 'Times New Roman', serif"
+       id="text62">= distância</text>
+    <path
+       d="M24 126 H 246"
+       stroke="#dda765"
+       stroke-width="1.5"
+       id="path62" />
+    <text
+       class="rotp"
+       x="24"
+       y="150"
+       id="text63">Mexa em um dos dois e ela</text>
+    <text
+       class="rotp"
+       x="24"
+       y="170"
+       id="text64">erra o ninho: o corpo não</text>
+    <text
+       class="rotp"
+       x="24"
+       y="190"
+       id="text65">sabe que as pernas mudaram.</text>
+  </g>
+  <text
+     class="rotp"
+     x="46"
+     y="775"
+     font-size="15"
+     id="text66">
+        Wittlinger, Wehner &amp; Wolf (2006): pernas alongadas com cerdas ou aparadas — e a conta interna, intacta.
+    </text>
+</svg>

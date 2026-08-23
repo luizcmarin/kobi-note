@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg127"
+   sodipodi:docname="o-dinheiro-e-os-pesos-da-biblia.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview127"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.99875"
+     inkscape:cx="700.37547"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g62" />
+  <title
+     id="tit">O dinheiro e os pesos da Bíblia — tudo medido em dias de trabalho</title>
+  <desc
+     id="desc">As moedas e os pesos do apêndice B14-B da Tradução do Novo Mundo, convertidos na
+        única régua que dispensa tabela: o dia de trabalho, e daí em reais pelo salário mínimo
+        brasileiro arredondado, mil e seiscentos reais por mês, ou cerca de cinquenta e três reais
+        por dia. Nas Escrituras Hebraicas os pesos formam uma escada: a gera de 0,57 g, a beca de
+        5,7 g (dez geras), o pim de 7,8 g, o siclo de 11,4 g, a mina de 570 g (cinquenta siclos) e o
+        talento de 34,2 kg (sessenta minas). Nas Escrituras Gregas Cristãs as moedas se encadeiam
+        assim: o lépton é meio quadrante, o quadrante vale dois léptons, o assário vale quatro
+        quadrantes e o denário vale sessenta e quatro quadrantes, ou seja, cento e vinte e oito
+        léptons. O denário, moeda romana de prata de 3,85 g, era o salário de um dia de doze horas;
+        a dracma grega valia o mesmo; o didracma, dois dias; o tetradracma, quatro dias; a mina
+        grega, cem dias; e o talento grego, cerca de vinte anos de trabalho. Três cenas mostram o
+        efeito disso: as duas moedinhas de lépton da viúva valiam um sessenta e quatro avos de um
+        dia, cerca de onze minutos de trabalho, menos de um real; a dívida de dez mil talentos da
+        parábola equivalia a sessenta milhões de dias, mais de três bilhões de reais, seiscentas mil
+        vezes mais que os cem denários que o mesmo homem foi cobrar; e a libra de nardo derramada
+        por Maria valia trezentos denários, dez meses de salário, dezesseis mil reais.</desc>
+  <defs
+     id="defs14">
+    <linearGradient
+       id="fundo"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#eef1fa"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#dbe1f2"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="some"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
+      <stop
+         offset="0"
+         stop-color="#b07d10"
+         id="stop3" />
+      <stop
+         offset="0.7"
+         stop-color="#b07d10"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#b07d10"
+         stop-opacity=".08"
+         id="stop5" />
+    </linearGradient>
+    <radialGradient
+       id="ouro"
+       cx="333.7"
+       cy="18.44"
+       r="30.240001"
+       fx="333.7"
+       fy="18.44"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-4)">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         id="stop6" />
+      <stop
+         offset="0.35"
+         stop-color="#b07d10"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#6d4d09"
+         id="stop8" />
+    </radialGradient>
+    <radialGradient
+       id="prata"
+       cx="35%"
+       cy="32%"
+       r="72%">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         id="stop9" />
+      <stop
+         offset="0.35"
+         stop-color="#b9c2d6"
+         id="stop10" />
+      <stop
+         offset="1"
+         stop-color="#6f7896"
+         id="stop11" />
+    </radialGradient>
+    <radialGradient
+       id="cobre"
+       cx="35%"
+       cy="32%"
+       r="72%">
+      <stop
+         offset="0"
+         stop-color="#ffe0bd"
+         id="stop12" />
+      <stop
+         offset="0.35"
+         stop-color="#b5762f"
+         id="stop13" />
+      <stop
+         offset="1"
+         stop-color="#6d4415"
+         id="stop14" />
+    </radialGradient>
+  </defs>
+  <style
+     id="style14">
+        .cab  { fill:#232a55; font-size:28px; font-weight:800; letter-spacing:1.1px; }
+        .rot  { fill:#3c4a9e; font-size:18px; font-weight:700; }
+        .rotp { fill:#5f6788; font-size:13px; }
+        .painel { fill:#ffffff; stroke:#c3cbe8; stroke-width:2; }
+        .not  { font-size:12px; font-weight:700; text-anchor:middle; fill:#5f6788; }
+        .sub  { font-size:11px; font-weight:400; text-anchor:middle; fill:#5f6788; }
+        .cx   { font-size:15px; font-weight:800; text-anchor:middle; }
+        .val  { font-size:14px; font-weight:800; fill:#232a55; }
+        .reais{ font-size:12px; font-weight:800; fill:#2f8f5c; }
+        .esq  { text-anchor:start; }
+        .dir  { text-anchor:end; }
+        .tag  { fill:#ffffff; stroke:#c3cbe8; stroke-width:1; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#fundo)"
+     id="rect14" />
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text14">O DINHEIRO E OS PESOS DA BÍBLIA — B14-B</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="16"
+     id="text15">
+        A régua que dispensa tabela: um denário = um dia de trabalho de 12 horas. E, pelo salário mínimo arredondado (R$ 1.600 ÷ 30 dias), um dia ≈ R$ 53.
+    </text>
+  <!-- ══ Painel 1: os pesos hebraicos, na balança ═══════════════════════ -->
+  <g
+     transform="translate(46,112)"
+     id="g47">
+    <rect
+       class="painel"
+       width="640"
+       height="300"
+       rx="16"
+       id="rect15" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text16">1. OS PESOS DAS ESCRITURAS HEBRAICAS</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text17">Antes de ser dinheiro, o talento era peso — e sessenta minas o equilibram.</text>
+    <!-- balança de dois pratos, nivelada -->
+    <g
+       transform="translate(212,96)"
+       id="g37">
+      <rect
+         x="-8"
+         y="0"
+         width="16"
+         height="96"
+         rx="6"
+         fill="#8a6b4a"
+         id="rect17" />
+      <rect
+         x="-48"
+         y="96"
+         width="96"
+         height="12"
+         rx="6"
+         fill="#8a6b4a"
+         id="rect18" />
+      <path
+         d="M-124 0 H124"
+         stroke="#6f5a3c"
+         stroke-width="7"
+         stroke-linecap="round"
+         id="path18" />
+      <circle
+         cy="0"
+         r="9"
+         fill="#b07d10"
+         id="circle18" />
+      <path
+         d="M-124 0 L-158 40 M-124 0 L-90 40"
+         stroke="#8b93ad"
+         stroke-width="1.4"
+         id="path19" />
+      <path
+         d="M-158 40 q34 26 68 0 z"
+         fill="#9aa4bd"
+         stroke="rgba(0,0,0,.25)"
+         stroke-width="1.5"
+         id="path20" />
+      <path
+         d="M124 0 L90 40 M124 0 L158 40"
+         stroke="#8b93ad"
+         stroke-width="1.4"
+         id="path21" />
+      <path
+         d="M90 40 q34 26 68 0 z"
+         fill="#9aa4bd"
+         stroke="rgba(0,0,0,.25)"
+         stroke-width="1.5"
+         id="path22" />
+      <rect
+         x="-146"
+         y="4"
+         width="44"
+         height="36"
+         rx="4"
+         fill="#b07d10"
+         stroke="rgba(0,0,0,.25)"
+         id="rect22" />
+      <text
+         class="not"
+         x="-124"
+         y="26"
+         fill="#ffffff"
+         id="text22">talento</text>
+      <g
+         fill="#b5762f"
+         stroke="rgba(0,0,0,.2)"
+         stroke-width="0.6"
+         id="g36">
+        <rect
+           x="96"
+           y="30"
+           width="9"
+           height="8"
+           id="rect23" />
+        <rect
+           x="107"
+           y="30"
+           width="9"
+           height="8"
+           id="rect24" />
+        <rect
+           x="118"
+           y="30"
+           width="9"
+           height="8"
+           id="rect25" />
+        <rect
+           x="129"
+           y="30"
+           width="9"
+           height="8"
+           id="rect26" />
+        <rect
+           x="140"
+           y="30"
+           width="9"
+           height="8"
+           id="rect27" />
+        <rect
+           x="101"
+           y="21"
+           width="9"
+           height="8"
+           id="rect28" />
+        <rect
+           x="112"
+           y="21"
+           width="9"
+           height="8"
+           id="rect29" />
+        <rect
+           x="123"
+           y="21"
+           width="9"
+           height="8"
+           id="rect30" />
+        <rect
+           x="134"
+           y="21"
+           width="9"
+           height="8"
+           id="rect31" />
+        <rect
+           x="107"
+           y="12"
+           width="9"
+           height="8"
+           id="rect32" />
+        <rect
+           x="118"
+           y="12"
+           width="9"
+           height="8"
+           id="rect33" />
+        <rect
+           x="129"
+           y="12"
+           width="9"
+           height="8"
+           id="rect34" />
+        <rect
+           x="112"
+           y="3"
+           width="9"
+           height="8"
+           id="rect35" />
+        <rect
+           x="123"
+           y="3"
+           width="9"
+           height="8"
+           id="rect36" />
+      </g>
+    </g>
+    <text
+       class="not"
+       x="88"
+       y="196"
+       id="text37">1 TALENTO</text>
+    <text
+       class="sub"
+       x="88"
+       y="212"
+       id="text38">34,2 kg</text>
+    <text
+       class="not"
+       x="336"
+       y="196"
+       id="text39">60 MINAS</text>
+    <text
+       class="sub"
+       x="336"
+       y="212"
+       id="text40">570 g cada</text>
+    <!-- a escada completa dos pesos, em coluna, sem tocar no desenho -->
+    <g
+       transform="translate(452,92)"
+       id="g45">
+      <rect
+         x="0"
+         y="0"
+         width="164"
+         height="120"
+         rx="10"
+         fill="#f3f6fd"
+         stroke="#c3cbe8"
+         id="rect40" />
+      <text
+         class="rotp"
+         x="14"
+         y="22"
+         id="text41">gera — 0,57 g</text>
+      <text
+         class="rotp"
+         x="14"
+         y="44"
+         id="text42">beca — 5,7 g · 10 geras</text>
+      <text
+         class="rotp"
+         x="14"
+         y="66"
+         id="text43">pim — 7,8 g · ⅔ de siclo</text>
+      <text
+         class="rotp"
+         x="14"
+         y="88"
+         id="text44">siclo — 11,4 g · 20 geras</text>
+      <text
+         class="rotp"
+         x="14"
+         y="110"
+         id="text45">darico persa — 8,4 g</text>
+    </g>
+    <text
+       class="rotp"
+       x="24"
+       y="252"
+       id="text46">50 siclos = 1 mina · 60 minas = 1 talento. Um talento pesa como uma criança de dez anos.</text>
+    <text
+       class="rotp"
+       x="24"
+       y="276"
+       id="text47">Davi tomou uma coroa de um talento de ouro. (2 Samuel 12:30)</text>
+  </g>
+  <!-- ══ Painel 2: as moedas gregas/romanas em dias ═════════════════════ -->
+  <g
+     transform="translate(716,112)"
+     id="g67">
+    <rect
+       class="painel"
+       width="638"
+       height="300"
+       rx="16"
+       id="rect47" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text48">2. AS MOEDAS, EM DIAS DE TRABALHO</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text49">Cada degrau é o salário de quantos dias de 12 horas — e quanto isso dá hoje.</text>
+    <g
+       transform="translate(34,86)"
+       id="g62">
+      <circle
+         cx="24"
+         cy="26"
+         r="10"
+         fill="url(#cobre)"
+         stroke="rgba(0,0,0,.3)"
+         stroke-width="1.2"
+         id="circle49" />
+      <text
+         class="not"
+         x="24"
+         y="56"
+         id="text50">lépton</text>
+      <text
+         class="sub"
+         x="24"
+         y="72"
+         id="text51">½ quadrante</text>
+      <circle
+         cx="124"
+         cy="26"
+         r="13"
+         fill="url(#cobre)"
+         stroke="rgba(0,0,0,.3)"
+         stroke-width="1.2"
+         id="circle51" />
+      <circle
+         cx="124"
+         cy="26"
+         r="9"
+         fill="none"
+         stroke="rgba(0,0,0,.2)"
+         stroke-width="1"
+         id="circle52" />
+      <text
+         class="not"
+         x="124"
+         y="56"
+         id="text52">quadrante</text>
+      <text
+         class="sub"
+         x="124"
+         y="72"
+         id="text53">2 léptons</text>
+      <circle
+         cx="228"
+         cy="26"
+         r="16"
+         fill="url(#cobre)"
+         stroke="rgba(0,0,0,.3)"
+         stroke-width="1.2"
+         id="circle53" />
+      <circle
+         cx="228"
+         cy="26"
+         r="12"
+         fill="none"
+         stroke="rgba(0,0,0,.2)"
+         stroke-width="1"
+         id="circle54" />
+      <text
+         class="not"
+         x="228"
+         y="56"
+         id="text54">assário</text>
+      <text
+         class="sub"
+         x="228"
+         y="72"
+         id="text55">4 quadrantes</text>
+      <circle
+         cx="340"
+         cy="22"
+         r="21"
+         fill="url(#ouro)"
+         stroke="rgba(0,0,0,.3)"
+         stroke-width="1.4"
+         id="circle55"
+         style="fill:url(#ouro)" />
+      <circle
+         cx="340"
+         cy="26"
+         r="17"
+         fill="none"
+         stroke="rgba(0,0,0,.25)"
+         stroke-width="1.5"
+         id="circle56" />
+      <text
+         class="cx"
+         x="340"
+         y="31"
+         fill="#ffffff"
+         id="text56">D</text>
+      <text
+         class="not"
+         x="340"
+         y="56"
+         fill="#b07d10"
+         id="text57">DENÁRIO</text>
+      <text
+         class="sub"
+         x="340"
+         y="72"
+         id="text58">1 dia · 3,85 g · ≈ R$ 53</text>
+      <circle
+         cx="458"
+         cy="26"
+         r="21"
+         fill="url(#prata)"
+         stroke="rgba(0,0,0,.3)"
+         stroke-width="1.4"
+         id="circle58" />
+      <circle
+         cx="458"
+         cy="26"
+         r="17"
+         fill="none"
+         stroke="rgba(0,0,0,.2)"
+         stroke-width="1.2"
+         id="circle59" />
+      <text
+         class="not"
+         x="458"
+         y="56"
+         id="text59">dracma</text>
+      <text
+         class="sub"
+         x="458"
+         y="72"
+         id="text60">1 dia também</text>
+      <circle
+         cx="546"
+         cy="26"
+         r="26"
+         fill="url(#prata)"
+         stroke="rgba(0,0,0,.3)"
+         stroke-width="1.4"
+         id="circle60" />
+      <circle
+         cx="546"
+         cy="26"
+         r="21"
+         fill="none"
+         stroke="rgba(0,0,0,.2)"
+         stroke-width="1.2"
+         id="circle61" />
+      <text
+         class="not"
+         x="546"
+         y="64"
+         id="text61">tetradracma</text>
+      <text
+         class="sub"
+         x="546"
+         y="80"
+         id="text62">4 dias · R$ 213</text>
+    </g>
+    <!-- as três barras da escala, com o rótulo DENTRO do painel -->
+    <g
+       transform="translate(24,192)"
+       id="g66">
+      <text
+         class="sub dir"
+         x="204"
+         y="12"
+         id="text63">1 denário · 1 dia · R$ 53</text>
+      <rect
+         x="212"
+         y="3"
+         width="4"
+         height="12"
+         rx="2"
+         fill="#3aa0ff"
+         id="rect63" />
+      <text
+         class="sub dir"
+         x="204"
+         y="40"
+         id="text64">mina grega · 100 dias · R$ 5.300</text>
+      <rect
+         x="212"
+         y="31"
+         width="70"
+         height="12"
+         rx="2"
+         fill="#3aa0ff"
+         id="rect64" />
+      <text
+         class="sub dir"
+         x="204"
+         y="68"
+         id="text65">talento grego · 6.000 dias · R$ 320.000</text>
+      <rect
+         x="212"
+         y="59"
+         width="372"
+         height="12"
+         rx="2"
+         fill="url(#some)"
+         id="rect65" />
+      <text
+         class="sub dir"
+         x="584"
+         y="90"
+         id="text66">≈ 20 anos de trabalho, e a barra ainda escapa da página →</text>
+    </g>
+  </g>
+  <!-- ══ Rodapé: três cenas que só a conta explica ══════════════════════ -->
+  <g
+     transform="translate(46,432)"
+     id="g74">
+    <rect
+       class="painel"
+       width="420"
+       height="264"
+       rx="16"
+       id="rect67" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text67">A OFERTA DA VIÚVA</text>
+    <text
+       class="val"
+       x="24"
+       y="64"
+       id="text68">2 léptons = 11 minutos de trabalho</text>
+    <text
+       class="reais"
+       x="24"
+       y="84"
+       id="text69">menos de R$ 1 — e era tudo o que ela tinha</text>
+    <g
+       transform="translate(150,168)"
+       id="g70">
+      <circle
+         r="58"
+         fill="url(#prata)"
+         id="circle69" />
+      <circle
+         r="47"
+         fill="none"
+         stroke="rgba(0,0,0,.22)"
+         stroke-width="2"
+         id="circle70" />
+      <path
+         d="M0 0 L0 -58 A58 58 0 0 1 5.7 -57.7 Z"
+         fill="#b07d10"
+         id="path70" />
+    </g>
+    <text
+       class="sub"
+       x="150"
+       y="236"
+       id="text70">1 denário = 128 léptons</text>
+    <g
+       transform="translate(300,168)"
+       id="g73">
+      <circle
+         cx="0"
+         cy="0"
+         r="11"
+         fill="url(#cobre)"
+         id="circle71" />
+      <circle
+         cx="30"
+         cy="0"
+         r="11"
+         fill="url(#cobre)"
+         id="circle72" />
+      <text
+         class="sub"
+         x="15"
+         y="32"
+         id="text72">as duas moedinhas</text>
+      <text
+         class="sub"
+         x="15"
+         y="48"
+         id="text73">dela, em tamanho real</text>
+    </g>
+    <path
+       d="M232 168 L268 168"
+       stroke="#c3cbe8"
+       stroke-width="1.4"
+       stroke-dasharray="3 3"
+       id="path73" />
+    <text
+       class="rotp"
+       x="24"
+       y="254"
+       id="text74">Lucas 21:1-4 — “ela lançou mais do que todos”.</text>
+  </g>
+  <g
+     transform="translate(490,432)"
+     id="g83">
+    <rect
+       class="painel"
+       width="420"
+       height="264"
+       rx="16"
+       id="rect74" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text75">AS DUAS DÍVIDAS</text>
+    <text
+       class="val"
+       x="24"
+       y="64"
+       id="text76">600.000 vezes de diferença</text>
+    <g
+       transform="translate(24,90)"
+       id="g81">
+      <text
+         class="sub esq"
+         x="0"
+         y="10"
+         id="text77">100 denários — o que ele foi cobrar</text>
+      <rect
+         x="0"
+         y="18"
+         width="3"
+         height="18"
+         rx="1.5"
+         fill="#3aa0ff"
+         id="rect77" />
+      <text
+         class="reais esq"
+         x="12"
+         y="32"
+         fill="#3c4a9e"
+         id="text78">R$ 5.300</text>
+      <text
+         class="sub esq"
+         x="0"
+         y="70"
+         id="text79">60.000.000 de dias — o que lhe foi perdoado</text>
+      <rect
+         x="0"
+         y="78"
+         width="372"
+         height="18"
+         rx="2"
+         fill="url(#some)"
+         id="rect79" />
+      <text
+         class="not esq"
+         x="10"
+         y="92"
+         fill="#ffffff"
+         id="text80">R$ 3.200.000.000</text>
+      <text
+         class="sub esq"
+         x="150"
+         y="118"
+         id="text81">a barra segue por 200.000 anos →</text>
+    </g>
+    <text
+       class="rotp"
+       x="24"
+       y="228"
+       id="text82">Mateus 18:23-35 — 10.000 talentos × 6.000 dracmas,</text>
+    <text
+       class="rotp"
+       x="24"
+       y="250"
+       id="text83">contra 100 dias. Ninguém erra a moral depois da conta.</text>
+  </g>
+  <g
+     transform="translate(934,432)"
+     id="g125">
+    <rect
+       class="painel"
+       width="420"
+       height="264"
+       rx="16"
+       id="rect83" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text84">O PERFUME DE MARIA</text>
+    <text
+       class="val"
+       x="24"
+       y="64"
+       id="text85">300 denários = 10 meses de salário</text>
+    <text
+       class="reais"
+       x="24"
+       y="84"
+       id="text86">10 × R$ 1.600 = R$ 16.000 num só frasco</text>
+    <g
+       transform="translate(28,104)"
+       id="g87">
+      <rect
+         x="0"
+         y="26"
+         width="46"
+         height="86"
+         rx="14"
+         fill="#f3ece0"
+         stroke="#b07d10"
+         stroke-width="2.5"
+         id="rect86" />
+      <path
+         d="M4 68 h38 v40 a10 10 0 0 1 -10 8 h-18 a10 10 0 0 1 -10 -8 z"
+         fill="#b07d10"
+         opacity=".45"
+         id="path86" />
+      <rect
+         x="16"
+         y="4"
+         width="14"
+         height="26"
+         rx="3"
+         fill="#f3ece0"
+         stroke="#b07d10"
+         stroke-width="2.5"
+         id="rect87" />
+      <text
+         class="sub"
+         x="23"
+         y="132"
+         id="text87">327 g</text>
+    </g>
+    <!-- 300 pontos: cada um é um dia de trabalho -->
+    <g
+       transform="translate(118,112)"
+       fill="#b07d10"
+       id="g124">
+      <g
+         id="linha-dias">
+        <circle
+           cx="0"
+           cy="0"
+           r="2.5"
+           id="circle87" />
+        <circle
+           cx="9"
+           cy="0"
+           r="2.5"
+           id="circle88" />
+        <circle
+           cx="18"
+           cy="0"
+           r="2.5"
+           id="circle89" />
+        <circle
+           cx="27"
+           cy="0"
+           r="2.5"
+           id="circle90" />
+        <circle
+           cx="36"
+           cy="0"
+           r="2.5"
+           id="circle91" />
+        <circle
+           cx="45"
+           cy="0"
+           r="2.5"
+           id="circle92" />
+        <circle
+           cx="54"
+           cy="0"
+           r="2.5"
+           id="circle93" />
+        <circle
+           cx="63"
+           cy="0"
+           r="2.5"
+           id="circle94" />
+        <circle
+           cx="72"
+           cy="0"
+           r="2.5"
+           id="circle95" />
+        <circle
+           cx="81"
+           cy="0"
+           r="2.5"
+           id="circle96" />
+        <circle
+           cx="90"
+           cy="0"
+           r="2.5"
+           id="circle97" />
+        <circle
+           cx="99"
+           cy="0"
+           r="2.5"
+           id="circle98" />
+        <circle
+           cx="108"
+           cy="0"
+           r="2.5"
+           id="circle99" />
+        <circle
+           cx="117"
+           cy="0"
+           r="2.5"
+           id="circle100" />
+        <circle
+           cx="126"
+           cy="0"
+           r="2.5"
+           id="circle101" />
+        <circle
+           cx="135"
+           cy="0"
+           r="2.5"
+           id="circle102" />
+        <circle
+           cx="144"
+           cy="0"
+           r="2.5"
+           id="circle103" />
+        <circle
+           cx="153"
+           cy="0"
+           r="2.5"
+           id="circle104" />
+        <circle
+           cx="162"
+           cy="0"
+           r="2.5"
+           id="circle105" />
+        <circle
+           cx="171"
+           cy="0"
+           r="2.5"
+           id="circle106" />
+        <circle
+           cx="180"
+           cy="0"
+           r="2.5"
+           id="circle107" />
+        <circle
+           cx="189"
+           cy="0"
+           r="2.5"
+           id="circle108" />
+        <circle
+           cx="198"
+           cy="0"
+           r="2.5"
+           id="circle109" />
+        <circle
+           cx="207"
+           cy="0"
+           r="2.5"
+           id="circle110" />
+        <circle
+           cx="216"
+           cy="0"
+           r="2.5"
+           id="circle111" />
+        <circle
+           cx="225"
+           cy="0"
+           r="2.5"
+           id="circle112" />
+        <circle
+           cx="234"
+           cy="0"
+           r="2.5"
+           id="circle113" />
+        <circle
+           cx="243"
+           cy="0"
+           r="2.5"
+           id="circle114" />
+        <circle
+           cx="252"
+           cy="0"
+           r="2.5"
+           id="circle115" />
+        <circle
+           cx="261"
+           cy="0"
+           r="2.5"
+           id="circle116" />
+      </g>
+      <use
+         href="#linha-dias"
+         y="12"
+         id="use116" />
+      <use
+         href="#linha-dias"
+         y="24"
+         id="use117" />
+      <use
+         href="#linha-dias"
+         y="36"
+         id="use118" />
+      <use
+         href="#linha-dias"
+         y="48"
+         id="use119" />
+      <use
+         href="#linha-dias"
+         y="60"
+         id="use120" />
+      <use
+         href="#linha-dias"
+         y="72"
+         id="use121" />
+      <use
+         href="#linha-dias"
+         y="84"
+         id="use122" />
+      <use
+         href="#linha-dias"
+         y="96"
+         id="use123" />
+      <use
+         href="#linha-dias"
+         y="108"
+         id="use124" />
+    </g>
+    <text
+       class="sub"
+       x="248"
+       y="236"
+       id="text124">cada ponto = um dia de trabalho · 300 dias</text>
+    <text
+       class="rotp"
+       x="24"
+       y="254"
+       id="text125">João 12:3-5 — “Deixem-na em paz.”</text>
+  </g>
+  <text
+     class="rotp"
+     x="46"
+     y="736"
+     font-size="15"
+     id="text126">
+        A régua: um denário (ou uma dracma) = um dia de 12 horas ≈ R$ 53. Daí saem o didracma (2 dias), o tetradracma (4 dias), a mina (100 dias) e o talento (≈ 20 anos).
+    </text>
+  <text
+     class="rotp"
+     x="46"
+     y="762"
+     font-size="13"
+     id="text127">
+        Fonte: apêndice B14-B, “Dinheiro e pesos”, da Tradução do Novo Mundo das Escrituras Sagradas (wol.jw.org). Salário mínimo de R$ 1.621 arredondado para R$ 1.600.
+    </text>
+</svg>

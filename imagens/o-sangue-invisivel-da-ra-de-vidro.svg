@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg80"
+   sodipodi:docname="o-sangue-invisivel-da-ra-de-vidro.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview80"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.99875"
+     inkscape:cx="700.37547"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg80" />
+  <title
+     id="tit">O Sangue Invisível da Rã-de-Vidro — como ela fica transparente sem coagular</title>
+  <desc
+     id="desc">Para se esconder na folha, a rã-de-vidro recolhe cerca de 90% das hemácias para o
+        fígado enquanto dorme: sem o vermelho do sangue na pele, ela fica transparente. Sangue tão
+        concentrado normalmente coagula e mata; uma ação anticoagulante o mantém fluido enquanto
+        guardado, sem perder a coagulação normal de um ferimento. Acordada, o sangue circula e o
+        predador a vê; dormindo, o sangue some no fígado e o predador não a enxerga.</desc>
+  <defs
+     id="defs6">
+    <linearGradient
+       id="fundo"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#eef6ee"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#dcecdd"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="folha"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#3f9e56"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#2b7a3f"
+         id="stop4" />
+    </linearGradient>
+    <radialGradient
+       id="sangue"
+       cx="-5.5856957"
+       cy="6.516645"
+       r="44.685569"
+       gradientTransform="scale(0.93094934,1.0741723)"
+       fx="-5.5856957"
+       fy="6.516645"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#e0596b"
+         id="stop5" />
+      <stop
+         offset="1"
+         stop-color="#b32438"
+         id="stop6" />
+    </radialGradient>
+    <marker
+       id="rv-s"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#b32438"
+         id="path6" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#folha"
+       id="linearGradient81"
+       x1="40.152092"
+       y1="71.029923"
+       x2="260.11573"
+       y2="290.99356"
+       gradientTransform="matrix(1.1456439,0,0,0.87287156,0,-16)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#folha"
+       id="linearGradient82"
+       x1="40.152092"
+       y1="71.029923"
+       x2="260.11573"
+       y2="290.99356"
+       gradientTransform="matrix(1.1456439,0,0,0.87287156,0,-18)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <style
+     id="style6">
+        .cab  { fill:#1c5030; font-size:28px; font-weight:800; letter-spacing:1px; }
+        .rot  { fill:#2f7d4a; font-size:18px; font-weight:700; }
+        .rotp { fill:#5c7b64; font-size:14px; }
+        .big  { fill:#1c5030; font-size:22px; font-weight:800; }
+        .ok   { fill:#2f8f5c; }
+        .warn { fill:#c33a2e; }
+        .painel { fill:#ffffff; stroke:#bcd8c2; stroke-width:2; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#fundo)"
+     id="rect6" />
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text6">O SANGUE INVISÍVEL DA RÃ-DE-VIDRO</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="17"
+     id="text7">
+        Para sumir na folha, a rã esconde o próprio sangue — e precisa impedir que ele coagule enquanto o guarda.
+    </text>
+  <!-- ══ Esquerda: acordada × dormindo ══════════════════════════════════ -->
+  <g
+     transform="translate(46,112)"
+     id="g38">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="760"
+       height="392"
+       rx="16"
+       id="rect7" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text8">O QUE ACONTECE QUANDO ELA DORME</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text9">o sangue vermelho sai da pele e vai para o fígado — a rã fica transparente</text>
+    <!-- ACORDADA -->
+    <g
+       transform="translate(30,90)"
+       id="g22">
+      <rect
+         x="0"
+         y="0"
+         width="344"
+         height="276"
+         rx="12"
+         fill="#fff3f2"
+         stroke="#f0c4bd"
+         id="rect9" />
+      <text
+         class="warn"
+         x="20"
+         y="30"
+         font-size="16"
+         font-weight="700"
+         id="text10">ACORDADA — o predador a vê</text>
+      <!-- folha -->
+      <ellipse
+         cx="172"
+         cy="140"
+         rx="126"
+         ry="96"
+         fill="url(#folha)"
+         id="ellipse10"
+         style="fill:url(#linearGradient82)" />
+      <line
+         x1="60"
+         y1="200"
+         x2="284"
+         y2="116"
+         stroke="#bfe6c6"
+         stroke-width="2"
+         opacity="0.6"
+         id="line10" />
+      <line
+         x1="60"
+         y1="116"
+         x2="284"
+         y2="200"
+         stroke="#bfe6c6"
+         stroke-width="2"
+         opacity="0.6"
+         id="line11" />
+      <!-- rã opaca com sangue circulando -->
+      <g
+         transform="translate(172,140)"
+         stroke-linecap="round"
+         id="g21">
+        <g
+           stroke="#5aa869"
+           stroke-width="16"
+           fill="none"
+           id="g14">
+          <path
+             d="M -38,-18 Q -78,-40 -92,-8"
+             id="path11" />
+          <path
+             d="M 38,-18 Q 78,-40 92,-8"
+             id="path12" />
+          <path
+             d="m -34,45 q -58,5 -36,59"
+             id="path13" />
+          <path
+             d="m 34,45 q 58,5 36,59"
+             id="path14" />
+        </g>
+        <ellipse
+           cx="0"
+           cy="0"
+           rx="46"
+           ry="64"
+           fill="#6cbf78"
+           stroke="#4f9a5e"
+           stroke-width="2"
+           id="ellipse14" />
+        <ellipse
+           cx="0"
+           cy="-58"
+           rx="40"
+           ry="34"
+           fill="#6cbf78"
+           stroke="#4f9a5e"
+           stroke-width="2"
+           id="ellipse15" />
+        <!-- rede de vasos vermelhos bem visível -->
+        <g
+           stroke="#c62f43"
+           stroke-width="3"
+           fill="none"
+           opacity="0.92"
+           id="g15">
+          <path
+             d="M 0,-30 V 45 M -22,-10 H 22 M -18,18 H 18 M -14,-40 -2,-58 M 14,-40 2,-58"
+             id="path15" />
+        </g>
+        <circle
+           cx="-10"
+           cy="-6"
+           r="7"
+           fill="#d42a40"
+           id="circle15" />
+        <!-- olhos abertos -->
+        <circle
+           cx="-20"
+           cy="-78"
+           r="12"
+           fill="#f2f7ec"
+           id="circle16" />
+        <circle
+           cx="-20"
+           cy="-78"
+           r="8"
+           fill="#d9a72e"
+           id="circle17" />
+        <circle
+           cx="-20"
+           cy="-78"
+           r="3.5"
+           fill="#20160a"
+           id="circle18" />
+        <circle
+           cx="20"
+           cy="-78"
+           r="12"
+           fill="#f2f7ec"
+           id="circle19" />
+        <circle
+           cx="20"
+           cy="-78"
+           r="8"
+           fill="#d9a72e"
+           id="circle20" />
+        <circle
+           cx="20"
+           cy="-78"
+           r="3.5"
+           fill="#20160a"
+           id="circle21" />
+      </g>
+      <text
+         x="24"
+         y="266"
+         class="rotp"
+         font-size="13"
+         id="text21">👀 sangue vermelho na pele = fácil de achar</text>
+    </g>
+    <!-- DORMINDO -->
+    <g
+       transform="translate(390,90)"
+       id="g37">
+      <rect
+         x="0"
+         y="0"
+         width="344"
+         height="276"
+         rx="12"
+         fill="#eef8f1"
+         stroke="#a9dcc0"
+         id="rect22" />
+      <text
+         class="ok"
+         x="20"
+         y="30"
+         font-size="16"
+         font-weight="700"
+         id="text22">DORMINDO — some na folha</text>
+      <!-- folha -->
+      <ellipse
+         cx="172"
+         cy="142"
+         rx="126"
+         ry="96"
+         fill="url(#folha)"
+         id="ellipse22"
+         style="fill:url(#linearGradient81)" />
+      <line
+         x1="60"
+         y1="200"
+         x2="284"
+         y2="116"
+         stroke="#bfe6c6"
+         stroke-width="2.5"
+         opacity="0.85"
+         id="line22" />
+      <line
+         x1="60"
+         y1="116"
+         x2="284"
+         y2="200"
+         stroke="#bfe6c6"
+         stroke-width="2.5"
+         opacity="0.85"
+         id="line23" />
+      <line
+         x1="172"
+         y1="70"
+         x2="172"
+         y2="246"
+         stroke="#bfe6c6"
+         stroke-width="2.5"
+         opacity="0.85"
+         id="line24" />
+      <!-- rã transparente: a folha aparece através dela -->
+      <g
+         transform="translate(172,142)"
+         stroke-linecap="round"
+         id="g36">
+        <g
+           stroke="#8fcf9b"
+           stroke-width="16"
+           fill="none"
+           opacity="0.35"
+           id="g27">
+          <path
+             d="M -38,-18 Q -78,-40 -92,-8"
+             id="path24" />
+          <path
+             d="M 38,-18 Q 78,-40 92,-8"
+             id="path25" />
+          <path
+             d="m -34,45 q -58,5 -36,59"
+             id="path26" />
+          <path
+             d="m 34,45 q 58,5 36,59"
+             id="path27" />
+        </g>
+        <ellipse
+           cx="0"
+           cy="0"
+           rx="46"
+           ry="64"
+           fill="#bfe6c6"
+           fill-opacity="0.22"
+           stroke="#7cc08c"
+           stroke-width="2"
+           id="ellipse27" />
+        <ellipse
+           cx="0"
+           cy="-58"
+           rx="40"
+           ry="34"
+           fill="#bfe6c6"
+           fill-opacity="0.22"
+           stroke="#7cc08c"
+           stroke-width="2"
+           id="ellipse28" />
+        <!-- ossos esverdeados aparecendo -->
+        <g
+           stroke="#8fe6a2"
+           stroke-width="2.5"
+           opacity="0.8"
+           fill="none"
+           id="g28">
+          <path
+             d="m -34,45 q -58,5 -36,59 M 34,45 q 58,5 36,59"
+             id="path28" />
+        </g>
+        <!-- fígado inchado, com o sangue todo empacotado -->
+        <ellipse
+           cx="0"
+           cy="16"
+           rx="26"
+           ry="30"
+           fill="url(#sangue)"
+           id="ellipse29"
+           style="fill:url(#sangue)" />
+        <g
+           fill="#e86678"
+           id="g35">
+          <circle
+             cx="-8"
+             cy="6"
+             r="3"
+             id="circle29" />
+          <circle
+             cx="6"
+             cy="2"
+             r="3"
+             id="circle30" />
+          <circle
+             cx="-2"
+             cy="16"
+             r="3"
+             id="circle31" />
+          <circle
+             cx="10"
+             cy="18"
+             r="3"
+             id="circle32" />
+          <circle
+             cx="-11"
+             cy="22"
+             r="3"
+             id="circle33" />
+          <circle
+             cx="2"
+             cy="28"
+             r="3"
+             id="circle34" />
+          <circle
+             cx="12"
+             cy="10"
+             r="3"
+             id="circle35" />
+        </g>
+        <!-- olhos fechados (dormindo) -->
+        <path
+           d="m -30,-78 q 10,7 20,0"
+           stroke="#4f9a5e"
+           stroke-width="3"
+           fill="none"
+           id="path35" />
+        <path
+           d="m 10,-78 q 10,7 20,0"
+           stroke="#4f9a5e"
+           stroke-width="3"
+           fill="none"
+           id="path36" />
+      </g>
+      <!-- seta: sangue → fígado -->
+      <text
+         x="20"
+         y="264"
+         class="ok"
+         font-size="13px"
+         font-weight="700"
+         id="text36">🫥 ~90% do sangue guardado no fígado</text>
+    </g>
+  </g>
+  <!-- ══ Direita: o perigo do coágulo ═══════════════════════════════════ -->
+  <g
+     transform="translate(834,112)"
+     id="g58">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="520"
+       height="392"
+       rx="16"
+       id="rect38" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text38">O PERIGO: SANGUE CONCENTRADO COAGULA</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text39">guardar tanto sangue junto pediria um bloco sólido — a não ser que…</text>
+    <!-- SEM anticoagulante → coágulo -->
+    <g
+       transform="translate(24,80)"
+       id="g46">
+      <rect
+         x="0"
+         y="0"
+         width="472"
+         height="126"
+         rx="12"
+         fill="#fff3f2"
+         stroke="#f0c4bd"
+         id="rect39" />
+      <text
+         class="warn"
+         x="18"
+         y="28"
+         font-size="15"
+         font-weight="700"
+         id="text40">SEM anticoagulante</text>
+      <!-- vaso com coágulo (grumo escuro) -->
+      <rect
+         x="18"
+         y="44"
+         width="300"
+         height="46"
+         rx="23"
+         fill="#f7dcd9"
+         id="rect40" />
+      <g
+         id="g45">
+        <ellipse
+           cx="150"
+           cy="67"
+           rx="70"
+           ry="24"
+           fill="#7a1522"
+           id="ellipse40" />
+        <g
+           fill="#4a0d16"
+           id="g44">
+          <circle
+             cx="120"
+             cy="60"
+             r="7"
+             id="circle40" />
+          <circle
+             cx="145"
+             cy="72"
+             r="7"
+             id="circle41" />
+          <circle
+             cx="170"
+             cy="60"
+             r="7"
+             id="circle42" />
+          <circle
+             cx="135"
+             cy="76"
+             r="6"
+             id="circle43" />
+          <circle
+             cx="182"
+             cy="72"
+             r="6"
+             id="circle44" />
+        </g>
+      </g>
+      <text
+         x="366.58957"
+         y="75.996056"
+         font-size="51.2725px"
+         id="text45"
+         style="stroke-width:1.83116">☠</text>
+      <text
+         x="336"
+         y="98"
+         class="warn"
+         font-size="14"
+         font-weight="700"
+         id="text46">coagula — fatal</text>
+    </g>
+    <!-- COM anticoagulante → flui -->
+    <g
+       transform="translate(24,220)"
+       id="g57">
+      <rect
+         x="0"
+         y="0"
+         width="472"
+         height="140"
+         rx="12"
+         fill="#eef8f1"
+         stroke="#a9dcc0"
+         id="rect46" />
+      <text
+         class="ok"
+         x="18"
+         y="28"
+         font-size="15"
+         font-weight="700"
+         id="text47">COM anticoagulante</text>
+      <!-- vaso com hemácias soltas, empacotadas mas fluidas -->
+      <rect
+         x="18"
+         y="42"
+         width="300"
+         height="46"
+         rx="23"
+         fill="#f7dcd9"
+         id="rect47" />
+      <g
+         fill="#d63a4e"
+         id="g55">
+        <circle
+           cx="46"
+           cy="65"
+           r="9"
+           id="circle47" />
+        <circle
+           cx="74"
+           cy="65"
+           r="9"
+           id="circle48" />
+        <circle
+           cx="102"
+           cy="65"
+           r="9"
+           id="circle49" />
+        <circle
+           cx="130"
+           cy="65"
+           r="9"
+           id="circle50" />
+        <circle
+           cx="158"
+           cy="65"
+           r="9"
+           id="circle51" />
+        <circle
+           cx="186"
+           cy="65"
+           r="9"
+           id="circle52" />
+        <circle
+           cx="214"
+           cy="65"
+           r="9"
+           id="circle53" />
+        <circle
+           cx="242"
+           cy="65"
+           r="9"
+           id="circle54" />
+        <circle
+           cx="270"
+           cy="65"
+           r="9"
+           id="circle55" />
+      </g>
+      <text
+         x="371.32333"
+         y="64.014694"
+         font-size="49.1515px"
+         id="text55"
+         style="stroke-width:1.89044">✔</text>
+      <text
+         x="350"
+         y="86"
+         class="ok"
+         font-size="14px"
+         font-weight="700"
+         id="text56">flui, seguro</text>
+      <text
+         class="rotp"
+         x="48"
+         y="112"
+         font-size="13"
+         id="text57"><tspan
+           sodipodi:role="line"
+           id="tspan80"
+           x="48"
+           y="112">E num corte a rã ainda coagula normal —</tspan><tspan
+           sodipodi:role="line"
+           id="tspan81"
+           x="48"
+           y="129.5">o freio é só para o sangue guardado.</tspan></text>
+    </g>
+  </g>
+  <!-- ══ Rodapé: três cartões ═══════════════════════════════════════════ -->
+  <g
+     transform="translate(46,532)"
+     id="g80">
+    <g
+       id="g65">
+      <rect
+         class="painel"
+         width="422"
+         height="224"
+         rx="16"
+         id="rect58" />
+      <text
+         class="rot"
+         x="22"
+         y="40"
+         id="text58">OS NÚMEROS</text>
+      <text
+         class="big warn"
+         x="48"
+         y="92"
+         font-size="34"
+         id="text59">90%</text>
+      <text
+         class="rotp"
+         x="120"
+         y="80"
+         font-size="15"
+         id="text60">das hemácias vão</text>
+      <text
+         class="rotp"
+         x="120"
+         y="100"
+         font-size="15"
+         id="text61">para o fígado.</text>
+      <text
+         class="big"
+         x="34"
+         y="150"
+         font-size="30"
+         fill="#2f7d4a"
+         id="text62">+40%</text>
+      <text
+         class="rotp"
+         x="120"
+         y="138"
+         font-size="15"
+         id="text63">o fígado aumenta —</text>
+      <text
+         class="rotp"
+         x="120"
+         y="158"
+         font-size="15"
+         id="text64">e o esconde com cristais.</text>
+      <text
+         class="rotp"
+         x="22"
+         y="200"
+         font-size="14"
+         id="text65">Vive do sul do México ao norte da América do Sul.</text>
+    </g>
+    <g
+       transform="translate(443,0)"
+       id="g72">
+      <rect
+         class="painel"
+         width="422"
+         height="224"
+         rx="16"
+         id="rect65" />
+      <text
+         class="rot"
+         x="22"
+         y="40"
+         id="text66">OS MÉDICOS QUEREM COPIAR</text>
+      <text
+         class="rotp"
+         x="22"
+         y="76"
+         font-size="15"
+         id="text67">Ligar e desligar a coagulação na hora</text>
+      <text
+         class="rotp"
+         x="22"
+         y="96"
+         font-size="15"
+         id="text68">certa é algo que a medicina ainda tenta</text>
+      <text
+         class="rotp"
+         x="22"
+         y="116"
+         font-size="15"
+         id="text69">dominar. Pesquisadores estudam a rã</text>
+      <text
+         class="rotp"
+         x="22"
+         y="136"
+         font-size="15"
+         id="text70">para criar melhores anticoagulantes</text>
+      <text
+         class="rotp"
+         x="22"
+         y="156"
+         font-size="15"
+         id="text71">para as pessoas.</text>
+      <text
+         class="big"
+         x="22"
+         y="200"
+         font-size="17"
+         fill="#2f7d4a"
+         id="text72">Nós copiamos; ela já vinha pronta.</text>
+    </g>
+    <g
+       transform="translate(886,0)"
+       id="g79">
+      <rect
+         class="painel"
+         width="422"
+         height="224"
+         rx="16"
+         fill="#eef8f1"
+         stroke="#a9dcc0"
+         id="rect72" />
+      <text
+         class="rot ok"
+         x="22"
+         y="40"
+         id="text73">ISSO TEVE UM PROJETO?</text>
+      <text
+         class="rotp"
+         x="22"
+         y="76"
+         font-size="15"
+         id="text74">Controlar o próprio sangue com tanta</text>
+      <text
+         class="rotp"
+         x="22"
+         y="96"
+         font-size="15"
+         id="text75">precisão — invisível para caçar-se, mas</text>
+      <text
+         class="rotp"
+         x="22"
+         y="116"
+         font-size="15"
+         id="text76">pronto para estancar um corte.</text>
+      <text
+         class="rotp"
+         x="22"
+         y="152"
+         font-size="15"
+         font-style="italic"
+         id="text77">“A vida da carne está no</text>
+      <text
+         class="rotp"
+         x="22"
+         y="172"
+         font-size="15"
+         font-style="italic"
+         id="text78">sangue.” — Levítico 17:11</text>
+      <text
+         class="big ok"
+         x="22"
+         y="206"
+         font-size="17"
+         id="text79">Isso teve um Projeto?</text>
+    </g>
+  </g>
+</svg>

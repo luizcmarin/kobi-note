@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "titulo": "Soro Caseiro de Reidratação",
+    "categoria": "🥛",
+    "ingredientes": "- 1 litro de água potável (fervida ou tratada)\n- 1 colher (chá) rasa de sal\n- 4 colheres (chá) de açúcar",
+    "instrucoes": "1. Dissolva bem o sal e o açúcar na água tratada.\n2. Prove: deve ficar menos salgado que uma lágrima.\n3. Ofereça aos poucos a quem estiver com diarreia ou desidratação.\n4. Prepare uma solução nova a cada 24 horas e mantenha tampada.",
+    "e_favorito": 0,
+    "publicar": 1,
+    "data_criacao": 1782247889803,
+    "data_atualizacao": 1782833416843
+  },
+  {
+    "id": 2,
+    "titulo": "Mingau de Aveia sem Fogo",
+    "categoria": "🍲",
+    "ingredientes": "- 4 colheres (sopa) de aveia em flocos\n- 1 xícara de leite (ou água com leite em pó)\n- 1 colher (sopa) de açúcar, mel ou passas\n- Canela em pó a gosto (opcional)",
+    "instrucoes": "1. Misture a aveia com o leite em um pote com tampa.\n2. Deixe descansar de 15 minutos a uma noite para amolecer.\n3. Adoce e finalize com canela ou frutas secas.\n4. Pronto para comer sem precisar cozinhar.",
+    "e_favorito": 0,
+    "publicar": 1,
+    "data_criacao": 1782247889803,
+    "data_atualizacao": 1782833695511
+  },
+  {
+    "id": 3,
+    "titulo": "Pão Bannock de Emergência",
+    "categoria": "🍞",
+    "ingredientes": "- 1 xícara de farinha de trigo\n- 1 colher de chá de fermento em pó (opcional)\n- 1 pitada de sal\n- Água limpa (aproximadamente 1/3 de xícara)",
+    "instrucoes": "1. Misture a farinha, o fermento e o sal em um recipiente ou saco plástico.\n2. Adicione a água lentamente, mexendo até formar uma massa homogênea que não grude excessivamente nas mãos.\n3. Molde a massa em formato de disco achatado (para cozinhar mais rápido).\n4. Cozinhe em uma frigideira untada sobre o fogo, diretamente sobre pedras limpas e quentes ao redor da fogueira, ou enrole a massa em um espeto de madeira verde e asse sobre as brasas.",
+    "e_favorito": 0,
+    "publicar": 1,
+    "data_criacao": 1782819600,
+    "data_atualizacao": 1782833566624
+  },
+  {
+    "id": 4,
+    "titulo": "Arroz Abafado (Economia de Combustível)",
+    "categoria": "🍚",
+    "ingredientes": "- 1 xícara de arroz branco\n- 2 xícaras de água\n- 1 pitada de sal ou 1/2 cubo de caldo concentrado",
+    "instrucoes": "1. Em uma panela com tampa justa, adicione a água, o sal (ou caldo) e o arroz.\n2. Leve ao fogo alto até que a água comece a ferver agressivamente.\n3. Deixe ferver por exatamente 3 a 5 minutos.\n4. Retire a panela do fogo imediatamente, mantenha a tampa fechada e envolva a panela em um pano grosso, casaco ou cobertor para reter o calor. Deixe abafado por 20 a 25 minutos. O arroz terminará de cozinhar no próprio vapor, economizando combustível precioso.",
+    "e_favorito": 0,
+    "publicar": 1,
+    "data_criacao": 1782819600,
+    "data_atualizacao": 1782833233984
+  }
+]

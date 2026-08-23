@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg50"
+   sodipodi:docname="a-baleia-corcunda.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview50"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.715"
+     inkscape:cx="700"
+     inkscape:cy="400.6993"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg50" />
+  <title
+     id="tit">A Baleia-Corcunda — os tubérculos que adiam o estol</title>
+  <desc
+     id="desc">Borda lisa: em ângulo forte, a água descola da nadadeira, vira turbulência e a
+        sustentação some (estol). Borda com tubérculos: as saliências dividem a água em filetes que
+        seguem colados, e a nadadeira continua sustentando em ângulos bem maiores. Pás de turbina
+        copiaram o bordo ondulado.</desc>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="mar"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#dff1fb"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#bcdff3"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="pele"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#4a5f74"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#26374a"
+         id="stop4" />
+    </linearGradient>
+    <marker
+       id="sp-2f7fd0"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="9"
+       markerHeight="9"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#2f7fd0"
+         id="path4" />
+    </marker>
+  </defs>
+  <style
+     id="style4">
+        .cab  { fill:#12303f; font-size:28px; font-weight:800; letter-spacing:1.2px; }
+        .rot  { fill:#12303f; font-size:18px; font-weight:700; }
+        .rotp { fill:#3f6579; font-size:14px; }
+        .painel { fill:#f6fcff; stroke:#8fbdd4; stroke-width:2; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#mar)"
+     id="rect4" />
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text4">A BALEIA-CORCUNDA</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="17"
+     id="text5">Por que uma nadadeira teria &quot;dentes&quot; na borda da frente?</text>
+  <!-- ══ Cima-esquerda: borda LISA, a água descola ══════════════════════ -->
+  <g
+     transform="translate(60,130)"
+     id="g14">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="600"
+       height="270"
+       rx="16"
+       id="rect5" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       style="fill:#b0301f"
+       id="text6">BORDA LISA</text>
+    <text
+       class="rotp"
+       x="24"
+       y="62"
+       id="text7">em ângulo forte, a água descola do bordo</text>
+    <!-- perfil da nadadeira, inclinado (ângulo de ataque grande) -->
+    <g
+       transform="translate(300,150) rotate(-20)"
+       id="g7">
+      <path
+         d="M-150 0 C -110 -26, 0 -34, 150 -8 L 150 8 C 0 4, -110 18, -150 0 Z"
+         fill="url(#pele)"
+         id="path7" />
+    </g>
+    <!-- filetes de água: colados até o bordo, depois se soltam em turbilhões -->
+    <g
+       fill="none"
+       stroke="#2f7fd0"
+       stroke-width="3"
+       id="g10">
+      <path
+         d="M40 96 C 110 74, 180 70, 250 84"
+         marker-end="url(#sp-2f7fd0)"
+         id="path8" />
+      <path
+         d="M40 130 C 110 108, 180 104, 240 116"
+         id="path9" />
+      <path
+         d="M40 164 C 110 150, 180 152, 236 158"
+         id="path10" />
+    </g>
+    <!-- descolamento: redemoinhos atrás da nadadeira -->
+    <g
+       fill="none"
+       stroke="#d63f2a"
+       stroke-width="3"
+       id="g13">
+      <path
+         d="M330 96 C 372 78, 404 96, 386 124 C 370 146, 340 136, 344 112"
+         id="path11" />
+      <path
+         d="M420 120 C 462 102, 494 120, 476 148 C 460 170, 430 160, 434 136"
+         id="path12" />
+      <path
+         d="M366 176 C 408 158, 440 176, 422 204 C 406 226, 376 216, 380 192"
+         id="path13" />
+    </g>
+    <text
+       class="rot"
+       x="325.03497"
+       y="250.7972"
+       font-size="16"
+       style="fill:#b0301f"
+       id="text13">ESTOL: a sustentação SOME</text>
+  </g>
+  <!-- ══ Cima-direita: borda com TUBÉRCULOS, a água segue colada ════════ -->
+  <g
+     transform="translate(700,130)"
+     id="g26">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="600"
+       height="270"
+       rx="16"
+       id="rect14" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       style="fill:#1f7a3d"
+       id="text14">BORDA COM TUBÉRCULOS</text>
+    <text
+       class="rotp"
+       x="24"
+       y="62"
+       id="text15">no mesmo ângulo, a água segue colada</text>
+    <g
+       transform="translate(300,150) rotate(-20)"
+       id="g23">
+      <!-- mesma nadadeira, mas o bordo de ataque é ondulado -->
+      <path
+         d="M-150 0 C -110 -26, 0 -34, 150 -8 L 150 8 C 0 4, -110 18, -150 0 Z"
+         fill="url(#pele)"
+         id="path15" />
+      <g
+         fill="url(#pele)"
+         id="g22">
+        <circle
+           cx="-136"
+           cy="-4"
+           r="9"
+           id="circle15" />
+        <circle
+           cx="-108"
+           cy="-13"
+           r="10"
+           id="circle16" />
+        <circle
+           cx="-78"
+           cy="-20"
+           r="10"
+           id="circle17" />
+        <circle
+           cx="-46"
+           cy="-25"
+           r="10"
+           id="circle18" />
+        <circle
+           cx="-14"
+           cy="-29"
+           r="10"
+           id="circle19" />
+        <circle
+           cx="18"
+           cy="-30"
+           r="10"
+           id="circle20" />
+        <circle
+           cx="50"
+           cy="-28"
+           r="9"
+           id="circle21" />
+        <circle
+           cx="82"
+           cy="-24"
+           r="9"
+           id="circle22" />
+      </g>
+    </g>
+    <!-- os filetes passam entre os tubérculos e continuam grudados na superfície -->
+    <g
+       fill="none"
+       stroke="#2f7fd0"
+       stroke-width="3"
+       id="g25">
+      <path
+         d="M40 96 C 120 72, 220 66, 330 84 C 400 96, 450 106, 520 116"
+         marker-end="url(#sp-2f7fd0)"
+         id="path23" />
+      <path
+         d="M40 130 C 120 110, 220 104, 330 120 C 400 130, 450 140, 520 150"
+         marker-end="url(#sp-2f7fd0)"
+         id="path24" />
+      <path
+         d="M40 164 C 120 152, 220 150, 330 160 C 400 168, 450 176, 520 184"
+         marker-end="url(#sp-2f7fd0)"
+         id="path25" />
+    </g>
+    <text
+       class="rot"
+       x="330"
+       y="248"
+       font-size="16"
+       style="fill:#1f7a3d"
+       id="text25">SUSTENTAÇÃO MANTIDA</text>
+  </g>
+  <!-- ══ Baixo-esquerda: a curva fechada que isso permite ═══════════════ -->
+  <g
+     transform="translate(60,440)"
+     id="g35">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="600"
+       height="300"
+       rx="16"
+       id="rect26" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text26">O QUE A BALEIA GANHA</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text27">curvas fechadas para cercar o cardume — sem estolar</text>
+    <!-- espiral da rede de bolhas -->
+    <path
+       d="M300 200 m 0 -70 a 70 70 0 1 1 -1 0 M300 200 m 0 -44 a 44 44 0 1 0 1 0"
+       fill="none"
+       stroke="#2f7fd0"
+       stroke-width="3"
+       stroke-dasharray="8 8"
+       id="path27" />
+    <g
+       fill="#7fc4ea"
+       opacity="0.8"
+       id="g31">
+      <circle
+         cx="238"
+         cy="150"
+         r="6"
+         id="circle27" />
+      <circle
+         cx="368"
+         cy="164"
+         r="5"
+         id="circle28" />
+      <circle
+         cx="262"
+         cy="262"
+         r="6"
+         id="circle29" />
+      <circle
+         cx="356"
+         cy="252"
+         r="5"
+         id="circle30" />
+      <circle
+         cx="300"
+         cy="126"
+         r="4"
+         id="circle31" />
+    </g>
+    <!-- a baleia, subindo pela espiral -->
+    <g
+       transform="translate(300,194) rotate(-12) scale(0.8)"
+       id="g34">
+      <path
+         d="M-96 0 C -60 -34, 60 -40, 108 -12 C 120 -6, 120 6, 108 12                      C 60 40, -60 34, -96 0 Z"
+         fill="url(#pele)"
+         id="path31" />
+      <path
+         d="M-96 0 L -138 -26 L -128 0 L -138 26 Z"
+         fill="#26374a"
+         id="path32" />
+      <!-- as nadadeiras longas, com o bordo ondulado -->
+      <path
+         d="M-30 -8 C -60 -60, -20 -96, 30 -84 C 10 -56, -6 -30, -18 -8 Z"
+         fill="#3d5063"
+         id="path33" />
+      <path
+         d="M-30 8 C -60 60, -20 96, 30 84 C 10 56, -6 30, -18 8 Z"
+         fill="#3d5063"
+         id="path34" />
+      <circle
+         cx="92"
+         cy="-6"
+         r="3.5"
+         fill="#eaf6ff"
+         id="circle34" />
+    </g>
+    <text
+       class="rotp"
+       x="300"
+       y="284"
+       text-anchor="middle"
+       id="text34">a rede de bolhas, feita em espiral apertada</text>
+  </g>
+  <!-- ══ Baixo-direita: a cópia humana ═════════════════════════════════ -->
+  <g
+     transform="translate(700,440)"
+     id="g50">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="600"
+       height="300"
+       rx="16"
+       id="rect35" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text35">A ENGENHARIA COPIOU</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text36">pás de turbina e ventiladores com o bordo ondulado</text>
+    <!-- cubo e três pás onduladas -->
+    <g
+       transform="translate(300,164) scale(0.85)"
+       id="g49">
+      <g
+         fill="#3d5063"
+         id="g48">
+        <g
+           transform="rotate(0)"
+           id="g39">
+          <path
+             d="M16 -9 C 56 -16, 96 -13, 122 -4 L 122 6 C 96 10, 56 9, 16 9 Z"
+             id="path36" />
+          <circle
+             cx="34"
+             cy="-11"
+             r="5"
+             id="circle36" />
+          <circle
+             cx="58"
+             cy="-14"
+             r="5"
+             id="circle37" />
+          <circle
+             cx="82"
+             cy="-13"
+             r="5"
+             id="circle38" />
+          <circle
+             cx="106"
+             cy="-9"
+             r="5"
+             id="circle39" />
+        </g>
+        <g
+           transform="rotate(120)"
+           id="g43">
+          <path
+             d="M16 -9 C 56 -16, 96 -13, 122 -4 L 122 6 C 96 10, 56 9, 16 9 Z"
+             id="path39" />
+          <circle
+             cx="34"
+             cy="-11"
+             r="5"
+             id="circle40" />
+          <circle
+             cx="58"
+             cy="-14"
+             r="5"
+             id="circle41" />
+          <circle
+             cx="82"
+             cy="-13"
+             r="5"
+             id="circle42" />
+          <circle
+             cx="106"
+             cy="-9"
+             r="5"
+             id="circle43" />
+        </g>
+        <g
+           transform="rotate(240)"
+           id="g47">
+          <path
+             d="M16 -9 C 56 -16, 96 -13, 122 -4 L 122 6 C 96 10, 56 9, 16 9 Z"
+             id="path43" />
+          <circle
+             cx="34"
+             cy="-11"
+             r="5"
+             id="circle44" />
+          <circle
+             cx="58"
+             cy="-14"
+             r="5"
+             id="circle45" />
+          <circle
+             cx="82"
+             cy="-13"
+             r="5"
+             id="circle46" />
+          <circle
+             cx="106"
+             cy="-9"
+             r="5"
+             id="circle47" />
+        </g>
+      </g>
+      <circle
+         cx="0"
+         cy="0"
+         r="16"
+         fill="#26374a"
+         id="circle48" />
+      <circle
+         cx="0"
+         cy="0"
+         r="6"
+         fill="#8fbdd4"
+         id="circle49" />
+    </g>
+    <text
+       class="rotp"
+       x="300"
+       y="284"
+       text-anchor="middle"
+       id="text49">rendem mais e fazem menos barulho</text>
+  </g>
+  <text
+     class="rotp"
+     x="1354"
+     y="775"
+     text-anchor="end"
+     font-size="15"
+     id="text50">
+        Os tubérculos partem a água em filetes que seguem grudados na superfície — o estol chega bem mais tarde.
+    </text>
+</svg>

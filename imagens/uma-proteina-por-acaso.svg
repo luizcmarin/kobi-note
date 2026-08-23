@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg93"
+   sodipodi:docname="uma-proteina-por-acaso.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview93"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.99875"
+     inkscape:cx="700.37547"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg93" />
+  <title
+     id="tit">Uma Proteína por Acaso? — a conta que não fecha</title>
+  <desc
+     id="desc">Uma proteína é uma cadeia de aminoácidos numa ordem exata: troque a ordem e a
+        máquina não funciona. Para o acaso montar uma proteína pequena, de cerca de 150
+        aminoácidos, ele teria de acertar, em cada posição, o aminoácido certo entre 20 tipos e
+        ainda na forma canhota. Isso dá cerca de uma chance em dez elevado a 240 — enquanto o
+        universo inteiro, com todos os seus átomos desde o Big Bang, mal chegaria a dez elevado
+        a 100 tentativas.</desc>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="fundo"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#161d3a"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#05070f"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="conta"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#ffe9a8"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#e8b84b"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <style
+     id="style4">
+        .cab  { fill:#eef2ff; font-size:28px; font-weight:800; letter-spacing:1.2px; }
+        .rot  { fill:#d3daf2; font-size:18px; font-weight:700; }
+        .rotp { fill:#8f97b8; font-size:14px; }
+        .painel { fill:#111731; stroke:#3d4a80; stroke-width:2; }
+        .aa   { font-size:14px; font-weight:800; fill:#2a1f00; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#fundo)"
+     id="rect4" />
+  <!-- umas estrelas, ao fundo -->
+  <g
+     fill="#8f97b8"
+     opacity="0.5"
+     id="g11">
+    <circle
+       cx="1180"
+       cy="70"
+       r="1.6"
+       id="circle4" />
+    <circle
+       cx="1290"
+       cy="150"
+       r="1.2"
+       id="circle5" />
+    <circle
+       cx="1340"
+       cy="60"
+       r="1.8"
+       id="circle6" />
+    <circle
+       cx="240"
+       cy="742"
+       r="1.4"
+       id="circle7" />
+    <circle
+       cx="700"
+       cy="756"
+       r="1.2"
+       id="circle8" />
+    <circle
+       cx="1120"
+       cy="762"
+       r="1.6"
+       id="circle9" />
+    <circle
+       cx="60"
+       cy="640"
+       r="1.2"
+       id="circle10" />
+    <circle
+       cx="1360"
+       cy="700"
+       r="1.4"
+       id="circle11" />
+  </g>
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text11">UMA PROTEÍNA POR ACASO?</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="17"
+     id="text12">Não basta ter as peças: é preciso acertar a ordem — e a ordem é longa.</text>
+  <!-- ══ Esquerda: a ordem exata ════════════════════════════════════════ -->
+  <g
+     transform="translate(46,112)"
+     id="g41">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="640"
+       height="380"
+       rx="16"
+       id="rect12" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text13">A ORDEM É A MÁQUINA</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text14">uma proteína pequena tem cerca de 150 aminoácidos, nesta ordem e em nenhuma outra</text>
+    <!-- a cadeia certa -->
+    <g
+       transform="translate(30,98)"
+       id="g28">
+      <path
+         d="M20 0 H 540"
+         stroke="#3d4a80"
+         stroke-width="4"
+         id="path14" />
+      <g
+         id="g27">
+        <g
+           transform="translate(20,0)"
+           id="g15">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle14" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text15">M</text>
+        </g>
+        <g
+           transform="translate(64,0)"
+           id="g16">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle15" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text16">A</text>
+        </g>
+        <g
+           transform="translate(108,0)"
+           id="g17">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle16" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text17">K</text>
+        </g>
+        <g
+           transform="translate(152,0)"
+           id="g18">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle17" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text18">V</text>
+        </g>
+        <g
+           transform="translate(196,0)"
+           id="g19">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle18" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text19">L</text>
+        </g>
+        <g
+           transform="translate(240,0)"
+           id="g20">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle19" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text20">S</text>
+        </g>
+        <g
+           transform="translate(284,0)"
+           id="g21">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle20" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text21">G</text>
+        </g>
+        <g
+           transform="translate(328,0)"
+           id="g22">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle21" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text22">I</text>
+        </g>
+        <g
+           transform="translate(372,0)"
+           id="g23">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle22" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text23">T</text>
+        </g>
+        <g
+           transform="translate(416,0)"
+           id="g24">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle23" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text24">P</text>
+        </g>
+        <g
+           transform="translate(460,0)"
+           id="g25">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle24" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text25">D</text>
+        </g>
+        <g
+           transform="translate(504,0)"
+           id="g26">
+          <circle
+             r="17"
+             fill="url(#conta)"
+             id="circle25" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text26">E</text>
+        </g>
+        <text
+           class="rotp"
+           x="540"
+           y="6"
+           id="text27">…</text>
+      </g>
+      <text
+         class="rotp"
+         x="20"
+         y="42"
+         style="fill:#7bd389"
+         id="text28">a ordem certa → a proteína se dobra e funciona</text>
+    </g>
+    <!-- as duas versões, lado a lado -->
+    <g
+       transform="translate(24,170)"
+       id="g31">
+      <rect
+         x="0"
+         y="0"
+         width="296"
+         height="192"
+         rx="12"
+         fill="#0c1226"
+         stroke="#7bd389"
+         stroke-width="2"
+         id="rect28" />
+      <text
+         class="rot"
+         x="18"
+         y="30"
+         font-size="16"
+         style="fill:#7bd389"
+         id="text29">a ordem certa</text>
+      <g
+         transform="matrix(0.86,0,0,0.86,148,104)"
+         id="g30">
+        <path
+           d="m -56,0 c -4,-44 36,-66 68,-52 32,14 44,48 28,78 C 24,56 -16,60 -40,40 -52,30 -54,16 -56,0 Z"
+           fill="#2b3a72"
+           stroke="#7bd389"
+           stroke-width="2.5"
+           id="path29" />
+        <path
+           d="m 6,-50 c 8,20 -8,28 0,48"
+           fill="none"
+           stroke="#7bd389"
+           stroke-width="3"
+           id="path30" />
+        <circle
+           cx="-6"
+           cy="-26"
+           r="9"
+           fill="#7bd389"
+           id="circle30" />
+      </g>
+      <text
+         class="rotp"
+         x="148"
+         y="176"
+         text-anchor="middle"
+         style="fill:#7bd389"
+         font-weight="700"
+         id="text30">
+                dobra certo e funciona
+            </text>
+    </g>
+    <g
+       transform="translate(330,170)"
+       id="g40">
+      <rect
+         x="0"
+         y="0"
+         width="286"
+         height="192"
+         rx="12"
+         fill="#0c1226"
+         stroke="#ff6b6b"
+         stroke-width="2"
+         id="rect31" />
+      <text
+         class="rot"
+         x="18"
+         y="30"
+         font-size="16"
+         style="fill:#ff6b6b"
+         id="text31">duas letras trocadas</text>
+      <!-- a cadeia, com as duas fora do lugar -->
+      <g
+         transform="translate(24,58)"
+         id="g38">
+        <path
+           d="M12 0 H 238"
+           stroke="#3d4a80"
+           stroke-width="3"
+           id="path31" />
+        <g
+           transform="translate(16,0)"
+           id="g32">
+          <circle
+             r="13"
+             fill="url(#conta)"
+             id="circle31" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text32">M</text>
+        </g>
+        <g
+           transform="translate(60,0)"
+           id="g33">
+          <circle
+             r="13"
+             fill="#c0392b"
+             id="circle32" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             fill="#ffffff"
+             id="text33">V</text>
+        </g>
+        <g
+           transform="translate(104,0)"
+           id="g34">
+          <circle
+             r="13"
+             fill="url(#conta)"
+             id="circle33" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text34">K</text>
+        </g>
+        <g
+           transform="translate(148,0)"
+           id="g35">
+          <circle
+             r="13"
+             fill="#c0392b"
+             id="circle34" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             fill="#ffffff"
+             id="text35">A</text>
+        </g>
+        <g
+           transform="translate(192,0)"
+           id="g36">
+          <circle
+             r="13"
+             fill="url(#conta)"
+             id="circle35" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text36">L</text>
+        </g>
+        <g
+           transform="translate(232,0)"
+           id="g37">
+          <circle
+             r="13"
+             fill="url(#conta)"
+             id="circle36" />
+          <text
+             class="aa"
+             y="5"
+             text-anchor="middle"
+             id="text37">S</text>
+        </g>
+      </g>
+      <g
+         transform="matrix(0.68,0,0,0.68,143,120)"
+         id="g39">
+        <path
+           d="M -58,6 C -46,-36 -6,-60 26,-40 58,-20 34,8 48,32 62,56 -6,66 -34,46 -50,34 -62,24 -58,6 Z"
+           fill="#3a1f2c"
+           stroke="#ff6b6b"
+           stroke-width="2.5"
+           id="path38" />
+      </g>
+      <text
+         class="rotp"
+         x="143"
+         y="176"
+         text-anchor="middle"
+         style="fill:#ff6b6b"
+         font-weight="700"
+         id="text39">
+                não encaixa em nada
+            </text>
+    </g>
+  </g>
+  <!-- ══ Direita: o que o acaso precisa acertar ═════════════════════════ -->
+  <g
+     transform="translate(706,112)"
+     id="g72">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="648"
+       height="380"
+       rx="16"
+       id="rect41" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       style="fill:#ffd24d"
+       id="text41">O QUE O ACASO PRECISA ACERTAR — EM CADA POSIÇÃO</text>
+    <!-- 1: o aminoácido certo entre 20 -->
+    <g
+       transform="translate(24,66)"
+       id="g63">
+      <rect
+         x="0"
+         y="0"
+         width="290"
+         height="168"
+         rx="12"
+         fill="#0c1226"
+         stroke="#3d4a80"
+         stroke-width="1.5"
+         id="rect42" />
+      <text
+         class="rot"
+         x="18"
+         y="30"
+         font-size="16"
+         id="text42">1 · o aminoácido certo</text>
+      <text
+         class="rotp"
+         x="18"
+         y="52"
+         font-size="13"
+         id="text43">a vida usa 20 tipos; só um serve ali</text>
+      <g
+         transform="translate(24,80)"
+         id="g62">
+        <g
+           fill="#2b3a72"
+           stroke="#3d4a80"
+           stroke-width="1"
+           id="g61">
+          <circle
+             cx="0"
+             cy="0"
+             r="9"
+             id="circle43" />
+          <circle
+             cx="24"
+             cy="0"
+             r="9"
+             id="circle44" />
+          <circle
+             cx="48"
+             cy="0"
+             r="9"
+             id="circle45" />
+          <circle
+             cx="72"
+             cy="0"
+             r="9"
+             id="circle46" />
+          <circle
+             cx="96"
+             cy="0"
+             r="9"
+             id="circle47" />
+          <circle
+             cx="120"
+             cy="0"
+             r="9"
+             id="circle48" />
+          <circle
+             cx="144"
+             cy="0"
+             r="9"
+             id="circle49" />
+          <circle
+             cx="168"
+             cy="0"
+             r="9"
+             id="circle50" />
+          <circle
+             cx="192"
+             cy="0"
+             r="9"
+             id="circle51" />
+          <circle
+             cx="216"
+             cy="0"
+             r="9"
+             id="circle52" />
+          <circle
+             cx="0"
+             cy="26"
+             r="9"
+             id="circle53" />
+          <circle
+             cx="24"
+             cy="26"
+             r="9"
+             id="circle54" />
+          <circle
+             cx="48"
+             cy="26"
+             r="9"
+             id="circle55" />
+          <circle
+             cx="96"
+             cy="26"
+             r="9"
+             id="circle56" />
+          <circle
+             cx="120"
+             cy="26"
+             r="9"
+             id="circle57" />
+          <circle
+             cx="144"
+             cy="26"
+             r="9"
+             id="circle58" />
+          <circle
+             cx="168"
+             cy="26"
+             r="9"
+             id="circle59" />
+          <circle
+             cx="192"
+             cy="26"
+             r="9"
+             id="circle60" />
+          <circle
+             cx="216"
+             cy="26"
+             r="9"
+             id="circle61" />
+        </g>
+        <circle
+           cx="72"
+           cy="26"
+           r="11"
+           fill="url(#conta)"
+           id="circle62" />
+      </g>
+      <text
+         class="rot"
+         x="18"
+         y="152"
+         font-size="17"
+         style="fill:#ffd24d"
+         id="text62">1 chance em 20</text>
+    </g>
+    <!-- 2: a forma canhota -->
+    <g
+       transform="translate(334,66)"
+       id="g67">
+      <rect
+         x="0"
+         y="0"
+         width="290"
+         height="168"
+         rx="12"
+         fill="#0c1226"
+         stroke="#3d4a80"
+         stroke-width="1.5"
+         id="rect63" />
+      <text
+         class="rot"
+         x="18"
+         y="30"
+         font-size="16"
+         id="text63">2 · e na forma canhota</text>
+      <text
+         class="rotp"
+         x="18"
+         y="52"
+         font-size="13"
+         id="text64">nascem as duas; a vida só aceita uma</text>
+      <!-- as duas mãos, espelhadas -->
+      <g
+         transform="translate(74,110)"
+         id="g65">
+        <path
+           d="M-18 20 L -18 -10 C -18 -22, 0 -22, 0 -10 L 0 -26 C 0 -38, 16 -38, 16 -26 L 16 4                          C 16 18, 6 24, -4 24 Z"
+           fill="#7bd389"
+           stroke="#a8e8b8"
+           stroke-width="1.5"
+           id="path64" />
+        <text
+           class="rotp"
+           x="0"
+           y="44"
+           text-anchor="middle"
+           font-size="13"
+           style="fill:#7bd389"
+           id="text65">canhota (L)</text>
+      </g>
+      <g
+         transform="translate(180,110) scale(-1,1)"
+         id="g66">
+        <path
+           d="M-18 20 L -18 -10 C -18 -22, 0 -22, 0 -10 L 0 -26 C 0 -38, 16 -38, 16 -26 L 16 4                          C 16 18, 6 24, -4 24 Z"
+           fill="#3a1f2c"
+           stroke="#ff6b6b"
+           stroke-width="1.5"
+           id="path65" />
+      </g>
+      <text
+         class="rotp"
+         x="180"
+         y="154"
+         text-anchor="middle"
+         font-size="13"
+         style="fill:#ff6b6b"
+         id="text66">destra (D)</text>
+      <text
+         class="rot"
+         x="272"
+         y="112"
+         font-size="17"
+         style="fill:#ffd24d"
+         text-anchor="end"
+         id="text67">1 em 2</text>
+    </g>
+    <!-- a conta -->
+    <g
+       transform="translate(24,254)"
+       id="g71">
+      <rect
+         x="0"
+         y="0"
+         width="600"
+         height="106"
+         rx="12"
+         fill="#0c1226"
+         stroke="#ffd24d"
+         stroke-width="2"
+         id="rect67" />
+      <text
+         class="rotp"
+         x="20"
+         y="30"
+         id="text68">Por posição: 1 em 20 × 1 em 2 =</text>
+      <text
+         class="rot"
+         x="292"
+         y="30"
+         font-size="16"
+         style="fill:#ffd24d"
+         id="text69">1 em 40</text>
+      <text
+         class="rotp"
+         x="20"
+         y="56"
+         id="text70">Agora repita isso 150 vezes seguidas, sem errar nenhuma:</text>
+      <text
+         class="cab"
+         x="20"
+         y="94"
+         font-size="24"
+         style="fill:#ffd24d"
+         id="text71">
+                1 em 10<tspan
+   font-size="0.6em"
+   dy="-9"
+   id="tspan70">240</tspan><tspan
+   dy="9"
+   id="tspan71">  —  um 1 com 240 zeros</tspan></text>
+    </g>
+  </g>
+  <!-- ══ Rodapé: o tamanho do número ════════════════════════════════════ -->
+  <g
+     transform="translate(46,520)"
+     id="g93">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="1308"
+       height="212"
+       rx="16"
+       id="rect72" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text72">E SE O UNIVERSO INTEIRO TENTASSE?</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text73">dando ao acaso tudo o que existe: cada átomo, sorteando mil vezes por segundo, desde o Big Bang</text>
+    <g
+       transform="translate(30,86)"
+       id="g92">
+      <!-- as três parcelas -->
+      <g
+         id="g76">
+        <rect
+           x="0"
+           y="0"
+           width="230"
+           height="86"
+           rx="10"
+           fill="#0c1226"
+           stroke="#3d4a80"
+           stroke-width="1.5"
+           id="rect73" />
+        <text
+           class="rot"
+           x="18"
+           y="34"
+           font-size="19"
+           id="text74">10<tspan
+   font-size="0.62em"
+   dy="-8"
+   id="tspan73">80</tspan></text>
+        <text
+           class="rotp"
+           x="18"
+           y="60"
+           font-size="13"
+           id="text75">átomos no universo</text>
+        <text
+           class="rotp"
+           x="18"
+           y="78"
+           font-size="13"
+           id="text76">observável</text>
+      </g>
+      <text
+         class="rot"
+         x="248"
+         y="52"
+         font-size="20"
+         id="text77">×</text>
+      <g
+         transform="translate(272,0)"
+         id="g80">
+        <rect
+           x="0"
+           y="0"
+           width="230"
+           height="86"
+           rx="10"
+           fill="#0c1226"
+           stroke="#3d4a80"
+           stroke-width="1.5"
+           id="rect77" />
+        <text
+           class="rot"
+           x="18"
+           y="34"
+           font-size="19"
+           id="text78">10<tspan
+   font-size="0.62em"
+   dy="-8"
+   id="tspan77">17</tspan></text>
+        <text
+           class="rotp"
+           x="18"
+           y="60"
+           font-size="13"
+           id="text79">segundos desde</text>
+        <text
+           class="rotp"
+           x="18"
+           y="78"
+           font-size="13"
+           id="text80">o Big Bang</text>
+      </g>
+      <text
+         class="rot"
+         x="520"
+         y="52"
+         font-size="20"
+         id="text81">×</text>
+      <g
+         transform="translate(544,0)"
+         id="g84">
+        <rect
+           x="0"
+           y="0"
+           width="230"
+           height="86"
+           rx="10"
+           fill="#0c1226"
+           stroke="#3d4a80"
+           stroke-width="1.5"
+           id="rect81" />
+        <text
+           class="rot"
+           x="18"
+           y="34"
+           font-size="19"
+           id="text82">10<tspan
+   font-size="0.62em"
+   dy="-8"
+   id="tspan81">3</tspan></text>
+        <text
+           class="rotp"
+           x="18"
+           y="60"
+           font-size="13"
+           id="text83">sorteios por</text>
+        <text
+           class="rotp"
+           x="18"
+           y="78"
+           font-size="13"
+           id="text84">segundo, cada um</text>
+      </g>
+      <text
+         class="rot"
+         x="792"
+         y="52"
+         font-size="20"
+         id="text85">=</text>
+      <g
+         transform="translate(816,0)"
+         id="g88">
+        <rect
+           x="0"
+           y="0"
+           width="230"
+           height="86"
+           rx="10"
+           fill="#12261c"
+           stroke="#7bd389"
+           stroke-width="2"
+           id="rect85" />
+        <text
+           class="rot"
+           x="18"
+           y="34"
+           font-size="19"
+           style="fill:#7bd389"
+           id="text86">10<tspan
+   font-size="0.62em"
+   dy="-8"
+   id="tspan85">100</tspan></text>
+        <text
+           class="rotp"
+           x="18"
+           y="60"
+           font-size="13"
+           style="fill:#7bd389"
+           id="text87">tentativas — tudo o</text>
+        <text
+           class="rotp"
+           x="18"
+           y="78"
+           font-size="13"
+           style="fill:#7bd389"
+           id="text88">que o acaso teria</text>
+      </g>
+      <g
+         transform="translate(1064,0)"
+         id="g91">
+        <rect
+           x="0"
+           y="0"
+           width="214"
+           height="86"
+           rx="10"
+           fill="#2c1220"
+           stroke="#ff6b6b"
+           stroke-width="2"
+           id="rect88" />
+        <text
+           class="rot"
+           x="18"
+           y="34"
+           font-size="17"
+           style="fill:#ff6b6b"
+           id="text89">faltam 10<tspan
+   font-size="0.62em"
+   dy="-8"
+   id="tspan88">140</tspan></text>
+        <text
+           class="rotp"
+           x="18"
+           y="60"
+           font-size="13"
+           style="fill:#ff6b6b"
+           id="text90">e ainda seria preciso</text>
+        <text
+           class="rotp"
+           x="18"
+           y="78"
+           font-size="13"
+           style="fill:#ff6b6b"
+           id="text91">acertar de primeira</text>
+      </g>
+    </g>
+  </g>
+  <text
+     class="rotp"
+     x="46"
+     y="768"
+     font-size="15"
+     id="text93">
+        E uma proteína sozinha não é vida: a célula mais simples precisa de centenas delas, todas certas, ao mesmo tempo.
+    </text>
+</svg>

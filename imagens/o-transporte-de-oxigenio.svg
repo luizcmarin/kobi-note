@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg41"
+   sodipodi:docname="o-transporte-de-oxigenio.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview41"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.99875"
+     inkscape:cx="700.37547"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g41" />
+  <title
+     id="tit">O Transporte de Oxigênio — a curva em S da hemoglobina</title>
+  <desc
+     id="desc">A hemoglobina não agarra o oxigênio com força constante: a curva de saturação tem
+        forma de S. No pulmão, onde há muito oxigênio, ela enche quase até o topo; no tecido, onde
+        falta oxigênio, ela solta boa parte da carga. Se a pegada fosse forte demais, ela encheria
+        no pulmão e não largaria nada no tecido; se fosse fraca demais, nem encheria no pulmão. A
+        entrega só é máxima no ponto certo.</desc>
+  <defs
+     id="defs3">
+    <linearGradient
+       id="fundo"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#3a1420"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#14060c"
+         id="stop2" />
+    </linearGradient>
+    <marker
+       id="ini-7bd389"
+       viewBox="0 0 10 10"
+       refX="2"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M10 0 L0 5 L10 10 z"
+         fill="#7bd389"
+         id="path2" />
+    </marker>
+    <marker
+       id="sp-7bd389"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#7bd389"
+         id="path3" />
+    </marker>
+  </defs>
+  <style
+     id="style3">
+        .cab  { fill:#ffeef2; font-size:28px; font-weight:800; letter-spacing:1.2px; }
+        .rot  { fill:#f3d3da; font-size:18px; font-weight:700; }
+        .rotp { fill:#bd8f99; font-size:14px; }
+        .painel { fill:#2a0f19; stroke:#7d3a4a; stroke-width:2; }
+        .eixo { stroke:#7d3a4a; stroke-width:2; fill:none; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#fundo)"
+     id="rect3" />
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text3">O TRANSPORTE DE OXIGÊNIO</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="17"
+     id="text4">Agarrar é fácil. Agarrar com força suficiente para carregar — e fraca o bastante para soltar — é que é o problema.</text>
+  <!-- ══ Esquerda: a curva em S ═════════════════════════════════════════ -->
+  <g
+     transform="translate(46,112)"
+     id="g20">
+    <rect
+       x="0"
+       y="0"
+       width="900"
+       height="380"
+       rx="16"
+       fill="#2a0f19"
+       stroke="#7d3a4a"
+       stroke-width="2"
+       id="rect4" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text5">QUANTO OXIGÊNIO A HEMOGLOBINA CARREGA</text>
+    <g
+       transform="translate(96,72)"
+       id="g19">
+      <!-- eixos -->
+      <path
+         class="eixo"
+         d="M0 0 V 232 H 760"
+         id="path5" />
+      <text
+         class="rotp"
+         x="-14"
+         y="6"
+         text-anchor="end"
+         id="text6">100%</text>
+      <text
+         class="rotp"
+         x="-14"
+         y="122"
+         text-anchor="end"
+         id="text7">50%</text>
+      <text
+         class="rotp"
+         x="-14"
+         y="236"
+         text-anchor="end"
+         id="text8">0</text>
+      <text
+         class="rotp"
+         x="-68"
+         y="116"
+         transform="rotate(-90,-68,116)"
+         text-anchor="middle"
+         font-weight="700"
+         id="text9">
+                quanto ela está cheia
+            </text>
+      <text
+         class="rotp"
+         x="380"
+         y="266"
+         text-anchor="middle"
+         font-weight="700"
+         id="text10">
+                oxigênio disponível em volta
+            </text>
+      <text
+         class="rotp"
+         x="0"
+         y="256"
+         text-anchor="middle"
+         id="text11">pouco</text>
+      <text
+         class="rotp"
+         x="760"
+         y="256"
+         text-anchor="end"
+         id="text12">muito</text>
+      <!-- as duas estações: tecido e pulmão -->
+      <path
+         d="M170 -8 V 232"
+         stroke="#e07a2f"
+         stroke-width="2"
+         stroke-dasharray="6 5"
+         id="path12" />
+      <text
+         class="rotp"
+         x="170"
+         y="-16"
+         text-anchor="middle"
+         style="fill:#e07a2f"
+         font-weight="700"
+         id="text13">
+                no tecido
+            </text>
+      <path
+         d="M600 -8 V 232"
+         stroke="#63c7e8"
+         stroke-width="2"
+         stroke-dasharray="6 5"
+         id="path13" />
+      <text
+         class="rotp"
+         x="600"
+         y="-16"
+         text-anchor="middle"
+         style="fill:#63c7e8"
+         font-weight="700"
+         id="text14">
+                no pulmão
+            </text>
+      <!-- afinidade alta demais: sobe cedo e nunca solta -->
+      <path
+         d="M0 232 C 30 150, 60 40, 130 16 C 220 -8, 400 2, 760 4"
+         fill="none"
+         stroke="#ff6b6b"
+         stroke-width="2.5"
+         stroke-dasharray="8 6"
+         id="path14" />
+      <text
+         class="rotp"
+         x="192"
+         y="18"
+         style="fill:#ff6b6b"
+         id="text15">pegada forte demais</text>
+      <!-- afinidade baixa demais: só enche lá no fim -->
+      <path
+         d="M0 232 C 200 230, 380 220, 520 170 C 620 134, 700 100, 760 84"
+         fill="none"
+         stroke="#ffd24d"
+         stroke-width="2.5"
+         stroke-dasharray="8 6"
+         id="path15" />
+      <text
+         class="rotp"
+         x="612"
+         y="154"
+         style="fill:#ffd24d"
+         id="text16">pegada fraca demais</text>
+      <!-- a curva certa: o S -->
+      <path
+         d="M0 230 C 60 226, 118 206, 160 168 C 210 122, 250 46, 330 24                      C 430 -2, 560 4, 760 6"
+         fill="none"
+         stroke="#7bd389"
+         stroke-width="4"
+         id="path16" />
+      <!-- os dois pontos e o que é entregue -->
+      <circle
+         cx="600"
+         cy="8"
+         r="7"
+         fill="#63c7e8"
+         id="circle16" />
+      <text
+         class="rotp"
+         x="612"
+         y="26"
+         style="fill:#63c7e8"
+         id="text17">enche: quase 100%</text>
+      <circle
+         cx="170"
+         cy="158"
+         r="7"
+         fill="#e07a2f"
+         id="circle17" />
+      <text
+         class="rotp"
+         x="182"
+         y="176"
+         style="fill:#e07a2f"
+         id="text18">solta: cai para uns 30%</text>
+      <!-- a barra da entrega -->
+      <path
+         d="M92 8 V 158"
+         stroke="#7bd389"
+         stroke-width="3"
+         marker-start="url(#ini-7bd389)"
+         marker-end="url(#sp-7bd389)"
+         id="path18" />
+      <text
+         class="rot"
+         x="76"
+         y="83"
+         font-size="16"
+         text-anchor="middle"
+         style="fill:#7bd389"
+         transform="rotate(-90,76,83)"
+         id="text19">o que ela entrega</text>
+    </g>
+  </g>
+  <!-- ══ Direita: por que a curva é um S ════════════════════════════════ -->
+  <g
+     transform="translate(966,112)"
+     id="g32">
+    <rect
+       x="0"
+       y="0"
+       width="388"
+       height="380"
+       rx="16"
+       fill="#2a0f19"
+       stroke="#7d3a4a"
+       stroke-width="2"
+       id="rect20" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       style="fill:#7bd389"
+       id="text20">POR QUE UM &quot;S&quot;?</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text21">cada molécula carrega até quatro oxigênios</text>
+    <!-- a hemoglobina, com 4 sítios -->
+    <g
+       transform="translate(194,164)"
+       id="g29">
+      <circle
+         cx="0"
+         cy="0"
+         r="86"
+         fill="#4a1a28"
+         stroke="#c05a70"
+         stroke-width="2"
+         id="circle21" />
+      <g
+         id="g25">
+        <circle
+           cx="-42"
+           cy="-42"
+           r="26"
+           fill="#6b2436"
+           stroke="#c05a70"
+           stroke-width="2"
+           id="circle22" />
+        <circle
+           cx="42"
+           cy="-42"
+           r="26"
+           fill="#6b2436"
+           stroke="#c05a70"
+           stroke-width="2"
+           id="circle23" />
+        <circle
+           cx="-42"
+           cy="42"
+           r="26"
+           fill="#6b2436"
+           stroke="#c05a70"
+           stroke-width="2"
+           id="circle24" />
+        <circle
+           cx="42"
+           cy="42"
+           r="26"
+           fill="#6b2436"
+           stroke="#c05a70"
+           stroke-width="2"
+           id="circle25" />
+      </g>
+      <!-- os oxigênios: o primeiro custa; os outros entram fácil -->
+      <circle
+         cx="-42"
+         cy="-42"
+         r="11"
+         fill="#63c7e8"
+         id="circle26" />
+      <circle
+         cx="42"
+         cy="-42"
+         r="11"
+         fill="#63c7e8"
+         id="circle27" />
+      <circle
+         cx="-42"
+         cy="42"
+         r="11"
+         fill="#63c7e8"
+         id="circle28" />
+      <circle
+         cx="42"
+         cy="42"
+         r="11"
+         fill="#63c7e8"
+         opacity="0.35"
+         id="circle29" />
+    </g>
+    <g
+       transform="translate(24,272)"
+       id="g31">
+      <rect
+         x="0"
+         y="0"
+         width="340"
+         height="88"
+         rx="10"
+         fill="#3a1420"
+         stroke="#7d3a4a"
+         stroke-width="1.5"
+         id="rect29" />
+      <text
+         class="rotp"
+         x="18"
+         y="28"
+         id="text29">O primeiro oxigênio entra com dificuldade.</text>
+      <text
+         class="rotp"
+         x="18"
+         y="52"
+         id="text30">Ao entrar, ele <tspan
+   font-weight="700"
+   style="fill:#7bd389"
+   id="tspan29">abre a molécula</tspan> — e os três</text>
+      <text
+         class="rotp"
+         x="18"
+         y="76"
+         id="text31">seguintes entram muito mais fácil. Daí o S.</text>
+    </g>
+  </g>
+  <!-- ══ Rodapé: a entrega, nos três casos ══════════════════════════════ -->
+  <g
+     transform="translate(46,520)"
+     id="g41">
+    <rect
+       x="0.016307333"
+       y="0.016307333"
+       width="1307.9674"
+       height="218.97615"
+       rx="15.999601"
+       fill="#2a0f19"
+       stroke="#7d3a4a"
+       stroke-width="2.03261"
+       id="rect32" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text32">O QUE CHEGA AO SEU MÚSCULO, EM CADA CASO</text>
+    <g
+       transform="translate(30,68)"
+       id="g37">
+      <!-- forte demais -->
+      <g
+         id="g34">
+        <text
+           class="rot"
+           x="0"
+           y="18"
+           font-size="16"
+           style="fill:#ff6b6b"
+           id="text33">Pegada forte demais</text>
+        <rect
+           x="0"
+           y="34"
+           width="380"
+           height="26"
+           rx="6"
+           fill="#3a1420"
+           stroke="#7d3a4a"
+           stroke-width="1.5"
+           id="rect33" />
+        <rect
+           x="0"
+           y="34"
+           width="24"
+           height="26"
+           rx="6"
+           fill="#ff6b6b"
+           id="rect34" />
+        <text
+           class="rotp"
+           x="392"
+           y="53"
+           style="fill:#ff6b6b"
+           id="text34">enche e não solta</text>
+      </g>
+      <!-- fraca demais -->
+      <g
+         transform="translate(0,76)"
+         id="g36">
+        <text
+           class="rot"
+           x="0"
+           y="18"
+           font-size="16"
+           style="fill:#ffd24d"
+           id="text35">Pegada fraca demais</text>
+        <rect
+           x="0"
+           y="34"
+           width="380"
+           height="26"
+           rx="6"
+           fill="#3a1420"
+           stroke="#7d3a4a"
+           stroke-width="1.5"
+           id="rect35" />
+        <rect
+           x="0"
+           y="34"
+           width="72"
+           height="26"
+           rx="6"
+           fill="#ffd24d"
+           id="rect36" />
+        <text
+           class="rotp"
+           x="392"
+           y="53"
+           style="fill:#ffd24d"
+           id="text36">nem enche no pulmão</text>
+      </g>
+    </g>
+    <g
+       transform="translate(700,60)"
+       id="g40">
+      <text
+         class="rot"
+         x="0"
+         y="18"
+         font-size="16"
+         style="fill:#7bd389"
+         id="text37">A pegada certa — a de verdade</text>
+      <rect
+         x="0"
+         y="34"
+         width="500"
+         height="26"
+         rx="6"
+         fill="#3a1420"
+         stroke="#7bd389"
+         stroke-width="1.5"
+         id="rect37" />
+      <rect
+         x="0"
+         y="34"
+         width="360"
+         height="26"
+         rx="6"
+         fill="#7bd389"
+         id="rect38" />
+      <text
+         class="rotp"
+         x="0"
+         y="90"
+         style="fill:#7bd389"
+         id="text38">Enche quase até o topo no pulmão e larga a maior parte</text>
+      <text
+         class="rotp"
+         x="0"
+         y="112"
+         style="fill:#7bd389"
+         id="text39">no tecido — e ainda solta MAIS onde o músculo está</text>
+      <text
+         class="rotp"
+         x="0"
+         y="134"
+         style="fill:#7bd389"
+         id="text40">quente e ácido, isto é, exatamente onde ele mais precisa.</text>
+    </g>
+  </g>
+  <text
+     class="rotp"
+     x="46"
+     y="768"
+     font-size="15"
+     id="text41">
+        Você tem cerca de 25 trilhões de glóbulos vermelhos, e cada um carrega uns 270 milhões de hemoglobinas fazendo isso agora.
+    </text>
+</svg>

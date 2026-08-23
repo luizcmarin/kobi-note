@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg71"
+   sodipodi:docname="a-lingua-do-gato.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview71"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.99875"
+     inkscape:cx="700.37547"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg71" />
+  <title
+     id="tit">A Língua do Gato — centenas de conchas de queratina</title>
+  <desc
+     id="desc">A língua do gato é coberta de espículas de queratina viradas para trás. A ponta de
+        cada uma não é um espinho: é uma concha oca, um vale em U que segura a saliva por
+        capilaridade e a solta lá no fundo do pelo, junto da pele. Deitadas demais, as espículas
+        escorregam por cima; no ângulo certo, entram no pelo, desfazem o nó e molham a raiz.</desc>
+  <defs
+     id="defs12">
+    <linearGradient
+       id="fundo"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#33203a"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#150d18"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="lingua"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#ef9ab4"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#c2687f"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="quer"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#f7e6cd"
+         id="stop5" />
+      <stop
+         offset="1"
+         stop-color="#d3b489"
+         id="stop6" />
+    </linearGradient>
+    <!-- uma espícula vista de lado: base larga, corpo curvo, ponta em concha -->
+    <g
+       id="espicula">
+      <path
+         d="M-9 0 C -7 -26, -4 -44, 6 -56 C 10 -60, 14 -62, 16 -62                      L 16 -52 C 10 -50, 4 -40, 2 -26 C 1 -16, 2 -8, 4 0 Z"
+         fill="url(#quer)"
+         stroke="#a98a5f"
+         stroke-width="1.2"
+         id="path6" />
+    </g>
+    <marker
+       id="s-efd6e0"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="11"
+       markerHeight="11"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#efd6e0"
+         id="path7" />
+    </marker>
+    <marker
+       id="s-ffd24d"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="11"
+       markerHeight="11"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#ffd24d"
+         id="path8" />
+    </marker>
+    <marker
+       id="sp-7bd389"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#7bd389"
+         id="path9" />
+    </marker>
+    <marker
+       id="sp-7fd0e8"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#7fd0e8"
+         id="path10" />
+    </marker>
+    <marker
+       id="sp-b092a3"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#b092a3"
+         id="path11" />
+    </marker>
+    <marker
+       id="sp-ff8f6b"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#ff8f6b"
+         id="path12" />
+    </marker>
+  </defs>
+  <style
+     id="style12">
+        .cab  { fill:#fbeaf1; font-size:28px; font-weight:800; letter-spacing:1.2px; }
+        .rot  { fill:#efd6e0; font-size:18px; font-weight:700; }
+        .rotp { fill:#b092a3; font-size:14px; }
+        .painel { fill:#241729; stroke:#6b4a63; stroke-width:2; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#fundo)"
+     id="rect12" />
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text12">A LÍNGUA DO GATO</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="17"
+     id="text13">Não é uma lixa: é um pente de conchas, e cada uma leva um gole de saliva até a raiz do pelo.</text>
+  <!-- ══ Esquerda: a língua e o zoom ════════════════════════════════════ -->
+  <g
+     transform="translate(46,112)"
+     id="g40">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="620"
+       height="380"
+       rx="16"
+       id="rect13" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text14">A LÍNGUA NO PELO</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text15">as espículas apontam todas para trás, na direção da garganta</text>
+    <!-- o desenho inteiro, afastado do subtítulo -->
+    <g
+       transform="translate(0,20)"
+       id="g39">
+      <!-- a língua, passando por cima do pelo -->
+      <g
+         id="g16">
+        <path
+           d="M20 88 C 180 74, 420 74, 600 88 L 600 132 C 420 118, 180 118, 20 132 Z"
+           fill="url(#lingua)"
+           stroke="#8f4a60"
+           stroke-width="2"
+           id="path15" />
+        <path
+           d="m 464,68 h 98"
+           stroke="#efd6e0"
+           stroke-width="2.5"
+           fill="none"
+           marker-end="url(#s-efd6e0)"
+           id="path16" />
+        <text
+           class="rotp"
+           x="462"
+           y="56"
+           id="text16">a língua corre para trás</text>
+      </g>
+      <!-- as espículas, penduradas da língua e mergulhadas no pelo -->
+      <g
+         id="g24">
+        <g
+           transform="translate(74,128) rotate(160) scale(1.25)"
+           id="g17">
+          <use
+             href="#espicula"
+             id="use16" />
+        </g>
+        <g
+           transform="translate(148,124) rotate(160) scale(1.25)"
+           id="g18">
+          <use
+             href="#espicula"
+             id="use17" />
+        </g>
+        <g
+           transform="translate(222,121) rotate(160) scale(1.25)"
+           id="g19">
+          <use
+             href="#espicula"
+             id="use18" />
+        </g>
+        <g
+           transform="translate(296,120) rotate(160) scale(1.25)"
+           id="g20">
+          <use
+             href="#espicula"
+             id="use19" />
+        </g>
+        <g
+           transform="translate(370,120) rotate(160) scale(1.25)"
+           id="g21">
+          <use
+             href="#espicula"
+             id="use20" />
+        </g>
+        <g
+           transform="translate(444,121) rotate(160) scale(1.25)"
+           id="g22">
+          <use
+             href="#espicula"
+             id="use21" />
+        </g>
+        <g
+           transform="translate(518,124) rotate(160) scale(1.25)"
+           id="g23">
+          <use
+             href="#espicula"
+             id="use22" />
+        </g>
+      </g>
+      <!-- o pelo: fios densos, da pele até a língua -->
+      <g
+         stroke="#8a7466"
+         stroke-width="3"
+         fill="none"
+         opacity="0.9"
+         id="g36">
+        <path
+           d="M62 300 C 58 262, 70 214, 64 148"
+           id="path24" />
+        <path
+           d="M100 300 C 96 264, 108 216, 102 150"
+           id="path25" />
+        <path
+           d="M138 300 C 134 262, 146 214, 140 148"
+           id="path26" />
+        <path
+           d="M176 300 C 172 264, 184 216, 178 150"
+           id="path27" />
+        <path
+           d="M214 300 C 210 262, 222 214, 216 148"
+           id="path28" />
+        <path
+           d="M252 300 C 248 264, 260 216, 254 150"
+           id="path29" />
+        <path
+           d="M328 300 C 324 264, 336 216, 330 150"
+           id="path30" />
+        <path
+           d="M366 300 C 362 262, 374 214, 368 148"
+           id="path31" />
+        <path
+           d="M404 300 C 400 264, 412 216, 406 150"
+           id="path32" />
+        <path
+           d="M442 300 C 438 262, 450 214, 444 148"
+           id="path33" />
+        <path
+           d="M480 300 C 476 264, 488 216, 482 150"
+           id="path34" />
+        <path
+           d="M518 300 C 514 262, 526 214, 520 148"
+           id="path35" />
+        <path
+           d="M556 300 C 552 264, 564 216, 558 150"
+           id="path36" />
+      </g>
+      <!-- o nó, que a espícula vai desfazer -->
+      <path
+         d="M282 232 C 314 212, 342 242, 314 256 C 288 268, 278 250, 300 240"
+         fill="none"
+         stroke="#ff8f6b"
+         stroke-width="3.5"
+         id="path37" />
+      <path
+         d="M400 214 L 344 236"
+         stroke="#ff8f6b"
+         stroke-width="2"
+         fill="none"
+         marker-end="url(#sp-ff8f6b)"
+         id="path38" />
+      <text
+         class="rotp"
+         x="406"
+         y="214"
+         style="fill:#ff8f6b"
+         id="text38">um nó — a espícula desfaz</text>
+      <!-- a pele -->
+      <rect
+         x="24"
+         y="300"
+         width="572"
+         height="44"
+         rx="8"
+         fill="#3a2a33"
+         id="rect38" />
+      <text
+         class="rotp"
+         x="40"
+         y="328"
+         style="fill:#e0c4a0"
+         id="text39">a pele — é até aqui que a saliva desce</text>
+      <!-- círculo de zoom sobre uma espícula, mirando o painel ao lado -->
+      <circle
+         cx="520"
+         cy="152"
+         r="42"
+         fill="none"
+         stroke="#ffd24d"
+         stroke-width="3"
+         id="circle39" />
+      <path
+         d="M550 182 L 600 224"
+         stroke="#ffd24d"
+         stroke-width="3"
+         fill="none"
+         marker-end="url(#s-ffd24d)"
+         id="path39" />
+    </g>
+  </g>
+  <!-- ══ Direita: a ponta em concha ═════════════════════════════════════ -->
+  <g
+     transform="translate(686,112)"
+     id="g55">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="668"
+       height="380"
+       rx="16"
+       id="rect40" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       style="fill:#ffd24d"
+       id="text40">A PONTA É UMA CONCHA — NÃO UM ESPINHO</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text41">um vale em U, que segura a saliva sozinho</text>
+    <!-- espinho maciço (o que se imaginava) -->
+    <g
+       transform="translate(64,110)"
+       id="g46">
+      <rect
+         x="0"
+         y="0"
+         width="230"
+         height="228"
+         rx="12"
+         fill="#1c1220"
+         stroke="#6b4a63"
+         stroke-width="1.5"
+         id="rect41" />
+      <text
+         class="rotp"
+         x="16"
+         y="28"
+         style="fill:#ff8f6b"
+         id="text42">se fosse espinho maciço</text>
+      <g
+         transform="translate(115,164)"
+         id="g45">
+        <path
+           d="M-22 0 C -16 -60, -6 -96, 0 -110 C 6 -96, 16 -60, 22 0 Z"
+           fill="url(#quer)"
+           stroke="#a98a5f"
+           stroke-width="1.5"
+           id="path42" />
+        <!-- gota escorrendo: nada fica preso -->
+        <path
+           d="M2 -70 C 12 -58, 12 -44, 2 -40 C -8 -44, -8 -58, 2 -70 Z"
+           fill="#7fd0e8"
+           opacity="0.85"
+           id="path43" />
+        <path
+           d="M40 -60 L 40 -6"
+           stroke="#ff8f6b"
+           stroke-width="2.5"
+           fill="none"
+           marker-end="url(#sp-ff8f6b)"
+           id="path44" />
+        <text
+           class="rotp"
+           x="50"
+           y="-30"
+           font-size="13"
+           style="fill:#ff8f6b"
+           id="text44">a saliva</text>
+        <text
+           class="rotp"
+           x="50"
+           y="-12"
+           font-size="13"
+           style="fill:#ff8f6b"
+           id="text45">escorre</text>
+      </g>
+    </g>
+    <!-- a concha de verdade -->
+    <g
+       transform="translate(340,110)"
+       id="g54">
+      <rect
+         x="0"
+         y="0"
+         width="290"
+         height="228"
+         rx="12"
+         fill="#1c1220"
+         stroke="#7bd389"
+         stroke-width="2"
+         id="rect46" />
+      <text
+         class="rotp"
+         x="16"
+         y="28"
+         style="fill:#7bd389"
+         id="text46">a concha de verdade</text>
+      <!-- a espícula, um pouco menor, para os rótulos caberem ao redor -->
+      <g
+         transform="translate(122,158) scale(0.82)"
+         id="g49">
+        <!-- corpo da espícula, em corte: as duas paredes e o vale entre elas -->
+        <path
+           d="M-30 0 C -24 -62, -14 -98, -12 -120 L -4 -120 C -6 -96, -8 -60, -6 0 Z"
+           fill="url(#quer)"
+           stroke="#a98a5f"
+           stroke-width="1.5"
+           id="path46" />
+        <path
+           d="M30 0 C 24 -62, 14 -98, 12 -120 L 4 -120 C 6 -96, 8 -60, 6 0 Z"
+           fill="url(#quer)"
+           stroke="#a98a5f"
+           stroke-width="1.5"
+           id="path47" />
+        <!-- a saliva presa no vale, pela capilaridade -->
+        <path
+           d="M-11 -118 C -6 -104, 6 -104, 11 -118 C 8 -76, 6 -40, 5 0 L -5 0 C -6 -40, -8 -76, -11 -118 Z"
+           fill="#7fd0e8"
+           opacity="0.9"
+           id="path48" />
+        <path
+           d="M-11 -118 C -5 -108, 5 -108, 11 -118"
+           fill="none"
+           stroke="#bdeaf7"
+           stroke-width="2"
+           id="path49" />
+      </g>
+      <!-- os rótulos, fora do desenho -->
+      <path
+         d="M172 62 L 138 62"
+         stroke="#7fd0e8"
+         stroke-width="2"
+         fill="none"
+         marker-end="url(#sp-7fd0e8)"
+         id="path50" />
+      <text
+         class="rotp"
+         x="178"
+         y="58"
+         font-size="13"
+         style="fill:#7fd0e8"
+         id="text50">a saliva fica</text>
+      <text
+         class="rotp"
+         x="178"
+         y="76"
+         font-size="13"
+         style="fill:#7fd0e8"
+         id="text51">presa no vale</text>
+      <path
+         d="M72 122 L 98 122"
+         stroke="#b092a3"
+         stroke-width="2"
+         fill="none"
+         marker-end="url(#sp-b092a3)"
+         id="path51" />
+      <text
+         class="rotp"
+         x="16"
+         y="112"
+         font-size="13"
+         id="text52">as duas</text>
+      <text
+         class="rotp"
+         x="16"
+         y="130"
+         font-size="13"
+         id="text53">paredes</text>
+      <!-- e solta no fundo do pelo -->
+      <path
+         d="M122 168 L 122 190"
+         stroke="#7bd389"
+         stroke-width="2.5"
+         fill="none"
+         marker-end="url(#sp-7bd389)"
+         id="path53" />
+      <text
+         class="rotp"
+         x="145"
+         y="212"
+         text-anchor="middle"
+         font-size="13"
+         style="fill:#7bd389"
+         id="text54">
+                e solta lá embaixo, na pele
+            </text>
+    </g>
+  </g>
+  <!-- ══ Baixo-esquerda: o ângulo ═══════════════════════════════════════ -->
+  <g
+     transform="translate(46,520)"
+     id="g62">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="640"
+       height="212"
+       rx="16"
+       id="rect55" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text55">O ÂNGULO DA ESPÍCULA</text>
+    <g
+       transform="translate(90,150)"
+       id="g57">
+      <path
+         d="M-56 0 H 56"
+         stroke="#6b4a63"
+         stroke-width="2"
+         id="path55" />
+      <g
+         transform="rotate(-72)"
+         id="g56">
+        <use
+           href="#espicula"
+           transform="scale(1.3)"
+           id="use55" />
+      </g>
+      <text
+         class="rotp"
+         x="0"
+         y="30"
+         text-anchor="middle"
+         style="fill:#ff8f6b"
+         id="text56">deitada: escorrega por cima</text>
+    </g>
+    <g
+       transform="translate(320,150)"
+       id="g59">
+      <path
+         d="M-56 0 H 56"
+         stroke="#7bd389"
+         stroke-width="2"
+         id="path57" />
+      <g
+         transform="rotate(-22)"
+         id="g58">
+        <use
+           href="#espicula"
+           transform="scale(1.3)"
+           id="use57" />
+      </g>
+      <text
+         class="rotp"
+         x="0"
+         y="30"
+         text-anchor="middle"
+         style="fill:#7bd389"
+         id="text58">entre 55° e 80°: entra e limpa</text>
+    </g>
+    <g
+       transform="translate(550,150)"
+       id="g61">
+      <path
+         d="M-56 0 H 56"
+         stroke="#6b4a63"
+         stroke-width="2"
+         id="path59" />
+      <g
+         transform="rotate(24)"
+         id="g60">
+        <use
+           href="#espicula"
+           transform="scale(1.3)"
+           id="use59" />
+      </g>
+      <text
+         class="rotp"
+         x="0"
+         y="30"
+         text-anchor="middle"
+         style="fill:#ff8f6b"
+         id="text60">em pé: prende e puxa</text>
+    </g>
+  </g>
+  <!-- ══ Baixo-direita: o que ela faz ═══════════════════════════════════ -->
+  <g
+     transform="translate(714,520)"
+     id="g71">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="640"
+       height="212"
+       rx="16"
+       id="rect62" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text62">DUAS COISAS DE UMA VEZ</text>
+    <g
+       transform="translate(24,64)"
+       id="g66">
+      <rect
+         x="0"
+         y="0"
+         width="284"
+         height="118"
+         rx="12"
+         fill="#1c1220"
+         stroke="#6b4a63"
+         stroke-width="1.5"
+         id="rect63" />
+      <text
+         class="rot"
+         x="18"
+         y="32"
+         font-size="16"
+         style="fill:#f7e6cd"
+         id="text63">Desembaraça</text>
+      <text
+         class="rotp"
+         x="18"
+         y="60"
+         id="text64">a ponta em gancho entra no nó</text>
+      <text
+         class="rotp"
+         x="18"
+         y="84"
+         id="text65">e o desfaz fio a fio — sem</text>
+      <text
+         class="rotp"
+         x="18"
+         y="104"
+         id="text66">arrancar o pelo</text>
+    </g>
+    <g
+       transform="translate(332,64)"
+       id="g70">
+      <rect
+         x="0"
+         y="0"
+         width="284"
+         height="118"
+         rx="12"
+         fill="#1c1220"
+         stroke="#7fd0e8"
+         stroke-width="1.5"
+         id="rect66" />
+      <text
+         class="rot"
+         x="18"
+         y="32"
+         font-size="16"
+         style="fill:#7fd0e8"
+         id="text67">Refresca</text>
+      <text
+         class="rotp"
+         x="18"
+         y="60"
+         id="text68">a saliva chega à pele e evapora:</text>
+      <text
+         class="rotp"
+         x="18"
+         y="84"
+         id="text69">é assim que o gato baixa a própria</text>
+      <text
+         class="rotp"
+         x="18"
+         y="104"
+         id="text70">temperatura no calor</text>
+    </g>
+  </g>
+  <text
+     class="rotp"
+     x="46"
+     y="768"
+     font-size="15"
+     id="text71">
+        Engenheiros já copiaram a espícula: escovas que espalham creme na raiz do cabelo e limpam melhor gastando menos.
+    </text>
+</svg>

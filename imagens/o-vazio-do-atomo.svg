@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg43"
+   sodipodi:docname="o-vazio-do-atomo.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview43"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.99875"
+     inkscape:cx="700.37547"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g30" />
+  <title
+     id="tit">O Vazio do Átomo — o núcleo do tamanho de uma bola de tênis</title>
+  <desc
+     id="desc">O jogo mostra a distância; esta ilustração mostra a conta e o tamanho real das
+        partes. Se o núcleo fosse uma bola de tênis no meio de um campo, o elétron giraria a 3 km
+        dali — e o resto seria vazio. O próton pesa como 1.840 elétrons, e o núcleo, embora tenha
+        quase toda a massa, ocupa uma fração ínfima do volume do átomo.</desc>
+  <defs
+     id="defs5">
+    <linearGradient
+       id="fundo"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#eef3fb"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#d8e2f2"
+         id="stop2" />
+    </linearGradient>
+    <radialGradient
+       id="bola"
+       cx="0.35"
+       cy="0.3"
+       r="0.8">
+      <stop
+         offset="0"
+         stop-color="#eef56a"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#c2cc2a"
+         id="stop4" />
+    </radialGradient>
+    <marker
+       id="a-2f6fb0"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="10"
+       markerHeight="10"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#2f6fb0"
+         id="path4" />
+    </marker>
+    <marker
+       id="a-2f8f5c"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="10"
+       markerHeight="10"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#2f8f5c"
+         id="path5" />
+    </marker>
+  </defs>
+  <style
+     id="style5">
+        .cab  { fill:#1e3555; font-size:28px; font-weight:800; letter-spacing:1.2px; }
+        .rot  { fill:#2f6fb0; font-size:18px; font-weight:700; }
+        .rotp { fill:#68809c; font-size:14px; }
+        .painel { fill:#ffffff; stroke:#bfd0e4; stroke-width:2; }
+        .eq   { fill:#1e3555; font-size:24px; font-weight:800; }
+        .ok   { fill:#2f8f5c; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#fundo)"
+     id="rect5" />
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text5">O VAZIO DO ÁTOMO</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="17"
+     id="text6">
+        A matéria que parece sólida é, quase toda ela, espaço vazio — e a conta prova.
+    </text>
+  <!-- ══ Esquerda: a escala (bola de tênis no campo, elétron a 3 km) ═════ -->
+  <g
+     transform="translate(46,112)"
+     id="g16">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="812"
+       height="380"
+       rx="16"
+       id="rect6" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text7">SE O NÚCLEO FOSSE UMA BOLA DE TÊNIS…</text>
+    <!-- o campo, o núcleo e a órbita distante -->
+    <g
+       transform="translate(406,182)"
+       id="g13">
+      <ellipse
+         cx="0"
+         cy="0"
+         rx="330"
+         ry="96"
+         fill="#e8f0fa"
+         stroke="#bfd0e4"
+         stroke-width="2"
+         id="ellipse7" />
+      <ellipse
+         cx="0"
+         cy="0"
+         rx="330"
+         ry="96"
+         fill="none"
+         stroke="#2f6fb0"
+         stroke-width="2"
+         stroke-dasharray="7 8"
+         id="ellipse8" />
+      <!-- núcleo: a bola de tênis -->
+      <circle
+         cx="0"
+         cy="0"
+         r="13"
+         fill="url(#bola)"
+         stroke="#a9b224"
+         stroke-width="1.5"
+         id="circle8" />
+      <path
+         d="M-13 0 a 13 13 0 0 1 26 0"
+         fill="none"
+         stroke="#ffffff"
+         stroke-width="2"
+         id="path8" />
+      <path
+         d="M-13 0 a 13 13 0 0 0 26 0"
+         fill="none"
+         stroke="#ffffff"
+         stroke-width="2"
+         id="path9" />
+      <text
+         class="rot"
+         x="0"
+         y="-28"
+         text-anchor="middle"
+         font-size="15"
+         id="text9">núcleo</text>
+      <text
+         class="rotp"
+         x="0"
+         y="36"
+         text-anchor="middle"
+         id="text10">bola de tênis · raio 3,5 cm</text>
+      <!-- elétron na órbita -->
+      <circle
+         cx="330"
+         cy="0"
+         r="6"
+         fill="#2f6fb0"
+         id="circle10" />
+      <text
+         class="rot"
+         x="364.07761"
+         y="-8.9837294"
+         text-anchor="middle"
+         font-size="15"
+         id="text11">elétron</text>
+      <!-- régua da distância (a medida fica acima da linha, longe da bola) -->
+      <path
+         d="M16 0 H 320"
+         stroke="#2f6fb0"
+         stroke-width="2"
+         marker-end="url(#a-2f6fb0)"
+         id="path11" />
+      <rect
+         x="118"
+         y="-38"
+         width="112"
+         height="30"
+         rx="8"
+         fill="#ffffff"
+         stroke="#bfd0e4"
+         id="rect11" />
+      <text
+         class="rot"
+         x="174"
+         y="-17"
+         text-anchor="middle"
+         font-size="16"
+         id="text12">3 km</text>
+      <text
+         class="rotp"
+         x="0"
+         y="74"
+         text-anchor="middle"
+         font-size="15"
+         id="text13">
+                entre os dois, NADA — só vazio
+            </text>
+    </g>
+    <!-- a conta -->
+    <g
+       transform="translate(24,304)"
+       id="g15">
+      <rect
+         x="0"
+         y="0"
+         width="764"
+         height="56"
+         rx="10"
+         fill="#eef5fd"
+         stroke="#bfd0e4"
+         stroke-width="1.5"
+         id="rect13" />
+      <text
+         class="eq"
+         x="382"
+         y="26"
+         text-anchor="middle"
+         font-size="20"
+         id="text14">3,5 cm × 86.000 ≈ 3.010 m</text>
+      <text
+         class="rotp"
+         x="382"
+         y="46"
+         text-anchor="middle"
+         font-size="14"
+         id="text15">
+                o átomo tem cerca de 86.000 vezes o raio do núcleo
+            </text>
+    </g>
+  </g>
+  <!-- ══ Direita: as proporções que o jogo não mostra ════════════════════ -->
+  <g
+     transform="translate(886,112)"
+     id="g30">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="468"
+       height="380"
+       rx="16"
+       id="rect16" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text16">QUEM É GRANDE, QUEM É PESADO</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text17">o menor é o mais pesado — e é ele que manda</text>
+    <!-- próton x elétron -->
+    <g
+       transform="translate(24,84)"
+       id="g24">
+      <rect
+         x="0"
+         y="0"
+         width="420"
+         height="96"
+         rx="10"
+         fill="#eef5fd"
+         stroke="#bfd0e4"
+         stroke-width="1.5"
+         id="rect17" />
+      <circle
+         cx="52"
+         cy="42"
+         r="26"
+         fill="#e07a5f"
+         stroke="#b85c43"
+         stroke-width="1.5"
+         id="circle17" />
+      <text
+         class="rotp"
+         x="52"
+         y="86"
+         text-anchor="middle"
+         font-size="12"
+         id="text18">próton</text>
+      <text
+         class="eq"
+         x="110"
+         y="52"
+         font-size="20"
+         id="text19">=</text>
+      <g
+         id="g22">
+        <circle
+           cx="150"
+           cy="48"
+           r="4"
+           fill="#2f6fb0"
+           id="circle19" />
+        <circle
+           cx="166"
+           cy="48"
+           r="4"
+           fill="#2f6fb0"
+           id="circle20" />
+        <circle
+           cx="182"
+           cy="48"
+           r="4"
+           fill="#2f6fb0"
+           id="circle21" />
+        <circle
+           cx="198"
+           cy="48"
+           r="4"
+           fill="#2f6fb0"
+           id="circle22" />
+        <text
+           class="rotp"
+           x="216"
+           y="52"
+           font-size="13"
+           id="text22">…</text>
+      </g>
+      <text
+         class="rot"
+         x="248"
+         y="44"
+         font-size="17"
+         id="text23">1.840 elétrons</text>
+      <text
+         class="rotp"
+         x="110"
+         y="80"
+         font-size="13"
+         id="text24">a proporção de uma geladeira para um biscoito</text>
+    </g>
+    <!-- tamanho -->
+    <g
+       transform="translate(24,196)"
+       id="g27">
+      <rect
+         x="0"
+         y="0"
+         width="420"
+         height="84"
+         rx="10"
+         fill="#eef5fd"
+         stroke="#bfd0e4"
+         stroke-width="1.5"
+         id="rect24" />
+      <text
+         class="rot"
+         x="20"
+         y="30"
+         font-size="16"
+         id="text25">O núcleo é ~10.000 vezes menor</text>
+      <text
+         class="rotp"
+         x="20"
+         y="52"
+         id="text26">…em diâmetro, que o átomo inteiro.</text>
+      <text
+         class="rotp"
+         x="20"
+         y="70"
+         id="text27">E guarda quase toda a massa.</text>
+    </g>
+    <!-- volume -->
+    <g
+       transform="translate(24,288)"
+       id="g29">
+      <rect
+         x="0"
+         y="0"
+         width="420"
+         height="68"
+         rx="10"
+         fill="#e6f6ec"
+         stroke="#2f8f5c"
+         stroke-width="2"
+         id="rect27" />
+      <text
+         class="rot ok"
+         x="20"
+         y="30"
+         font-size="16"
+         id="text28">Em volume: 1 parte em 10¹⁵</text>
+      <text
+         class="rotp"
+         x="20"
+         y="54"
+         id="text29">o resto — 99,9999999999999% — é vazio.</text>
+    </g>
+  </g>
+  <!-- ══ Rodapé ═════════════════════════════════════════════════════════ -->
+  <g
+     transform="translate(46,520)"
+     id="g43">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="1308"
+       height="212"
+       rx="16"
+       id="rect30" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text30">TRÊS COISAS QUE ISSO SIGNIFICA</text>
+    <g
+       transform="translate(30,64)"
+       id="g34">
+      <rect
+         x="0"
+         y="0"
+         width="404"
+         height="118"
+         rx="12"
+         fill="#eef5fd"
+         stroke="#bfd0e4"
+         stroke-width="1.5"
+         id="rect31" />
+      <text
+         class="rot"
+         x="20"
+         y="32"
+         font-size="16"
+         id="text31">Como Rutherford descobriu</text>
+      <text
+         class="rotp"
+         x="20"
+         y="60"
+         id="text32">Ele atirou partículas numa folha de ouro finíssima.</text>
+      <text
+         class="rotp"
+         x="20"
+         y="84"
+         id="text33">Quase todas atravessaram — mas algumas voltaram,</text>
+      <text
+         class="rotp"
+         x="20"
+         y="104"
+         id="text34">como se batessem em algo denso e minúsculo.</text>
+    </g>
+    <g
+       transform="translate(452,64)"
+       id="g38">
+      <rect
+         x="0"
+         y="0"
+         width="404"
+         height="118"
+         rx="12"
+         fill="#eef5fd"
+         stroke="#bfd0e4"
+         stroke-width="1.5"
+         id="rect34" />
+      <text
+         class="rot"
+         x="20"
+         y="32"
+         font-size="16"
+         id="text35">Então por que a mesa é dura?</text>
+      <text
+         class="rotp"
+         x="20"
+         y="60"
+         id="text36">Não é a matéria que impede a sua mão de atravessar</text>
+      <text
+         class="rotp"
+         x="20"
+         y="84"
+         id="text37">— são as FORÇAS elétricas dos elétrons, empurrando</text>
+      <text
+         class="rotp"
+         x="20"
+         y="104"
+         id="text38">umas às outras. Você nunca &quot;toca&quot; nada, de fato.</text>
+    </g>
+    <g
+       transform="translate(874,64)"
+       id="g42">
+      <rect
+         x="0"
+         y="0"
+         width="404"
+         height="118"
+         rx="12"
+         fill="#e6f6ec"
+         stroke="#2f8f5c"
+         stroke-width="2"
+         id="rect38" />
+      <text
+         class="rot ok"
+         x="20"
+         y="32"
+         font-size="16"
+         id="text39">E tudo se mantém de pé</text>
+      <text
+         class="rotp"
+         x="20"
+         y="60"
+         id="text40">Átomos quase vazios se ligam em ordem exata e</text>
+      <text
+         class="rotp"
+         x="20"
+         y="84"
+         id="text41">formam a rocha, a seiva e o seu coração — cada um</text>
+      <text
+         class="rotp"
+         x="20"
+         y="104"
+         id="text42">obedecendo às mesmas leis, sem falhar.</text>
+    </g>
+  </g>
+  <text
+     class="rotp"
+     x="700"
+     y="770"
+     text-anchor="middle"
+     font-size="15"
+     id="text43">
+        “Levantem os olhos para o alto e vejam: quem criou estas coisas?” — Isaías 40:26
+    </text>
+</svg>

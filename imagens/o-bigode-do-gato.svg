@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg69"
+   sodipodi:docname="o-bigode-do-gato.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview69"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.99875"
+     inkscape:cx="700.37547"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg69" />
+  <title
+     id="tit">O Bigode do Gato — uma régua viva</title>
+  <desc
+     id="desc">Os bigodes do gato têm quase a mesma largura do corpo. Antes de entrar numa fresta,
+        ele encosta os bigodes nas duas bordas: se passam livres, o corpo passa; se dobram, ele nem
+        tenta. Na raiz de cada fio há um bolsão de sangue cercado de centenas de terminações
+        nervosas — o fio é só a alavanca, quem sente é a raiz.</desc>
+  <defs
+     id="defs12">
+    <linearGradient
+       id="fundo"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#242a35"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#0d1014"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="pelo"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#8d7b68"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#5d4f42"
+         id="stop4" />
+    </linearGradient>
+    <!-- o gato, visto de cima: corpo, cabeça e orelhas -->
+    <g
+       id="gato">
+      <ellipse
+         cx="0"
+         cy="58"
+         rx="56"
+         ry="80"
+         fill="url(#pelo)"
+         stroke="#c2ab90"
+         stroke-width="2"
+         id="ellipse4" />
+      <circle
+         cx="0"
+         cy="-42"
+         r="42"
+         fill="url(#pelo)"
+         stroke="#c2ab90"
+         stroke-width="2"
+         id="circle4" />
+      <path
+         d="M-38 -66 L -46 -104 L -12 -80 Z"
+         fill="url(#pelo)"
+         stroke="#c2ab90"
+         stroke-width="2"
+         id="path4" />
+      <path
+         d="M38 -66 L 46 -104 L 12 -80 Z"
+         fill="url(#pelo)"
+         stroke="#c2ab90"
+         stroke-width="2"
+         id="path5" />
+      <circle
+         cx="-16"
+         cy="-52"
+         r="5"
+         fill="#1a1d24"
+         id="circle5" />
+      <circle
+         cx="16"
+         cy="-52"
+         r="5"
+         fill="#1a1d24"
+         id="circle6" />
+      <path
+         d="M-5 -34 L 5 -34 L 0 -26 Z"
+         fill="#e0918f"
+         id="path6" />
+    </g>
+    <marker
+       id="ini-7bd389"
+       viewBox="0 0 10 10"
+       refX="2"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M10 0 L0 5 L10 10 z"
+         fill="#7bd389"
+         id="path7" />
+    </marker>
+    <marker
+       id="ini-ff8f6b"
+       viewBox="0 0 10 10"
+       refX="2"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M10 0 L0 5 L10 10 z"
+         fill="#ff8f6b"
+         id="path8" />
+    </marker>
+    <marker
+       id="ini-ffd24d"
+       viewBox="0 0 10 10"
+       refX="2"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M10 0 L0 5 L10 10 z"
+         fill="#ffd24d"
+         id="path9" />
+    </marker>
+    <marker
+       id="sp-7bd389"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#7bd389"
+         id="path10" />
+    </marker>
+    <marker
+       id="sp-ff8f6b"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#ff8f6b"
+         id="path11" />
+    </marker>
+    <marker
+       id="sp-ffd24d"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#ffd24d"
+         id="path12" />
+    </marker>
+  </defs>
+  <style
+     id="style12">
+        .cab  { fill:#eef1f6; font-size:28px; font-weight:800; letter-spacing:1.2px; }
+        .rot  { fill:#d8dde6; font-size:18px; font-weight:700; }
+        .rotp { fill:#94a0b0; font-size:14px; }
+        .painel { fill:#1a1f28; stroke:#4d5a6b; stroke-width:2; }
+        .parede { fill:#2f3743; stroke:#5f6d7e; stroke-width:2; }
+    </style>
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#fundo)"
+     id="rect12" />
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text12">O BIGODE DO GATO</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="17"
+     id="text13">Antes de enfiar o corpo na fresta, ele mede a fresta — com a cara.</text>
+  <!-- ══ Esquerda: cabe / não cabe ══════════════════════════════════════ -->
+  <g
+     transform="translate(46,112)"
+     id="g32">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="812"
+       height="380"
+       rx="16"
+       id="rect13" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text14">A MEDIDA, VISTA DE CIMA</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text15">o bigode tem quase a largura do corpo — é essa a régua</text>
+    <!-- CENA 1: a fresta é larga, o gato passa -->
+    <g
+       transform="translate(30,86)"
+       id="g23">
+      <rect
+         x="0"
+         y="0"
+         width="376"
+         height="270"
+         rx="12"
+         fill="#141821"
+         stroke="#4d5a6b"
+         stroke-width="1.5"
+         id="rect15" />
+      <text
+         class="rotp"
+         x="16"
+         y="26"
+         style="fill:#7bd389"
+         id="text16">os bigodes passam livres</text>
+      <g
+         transform="translate(188,130) scale(0.66)"
+         id="g22">
+        <use
+           href="#gato"
+           id="use16" />
+        <!-- bigodes: retos, sem tocar as paredes -->
+        <g
+           stroke="#f2f5fa"
+           stroke-width="2"
+           fill="none"
+           stroke-linecap="round"
+           id="g21">
+          <path
+             d="M-24 -40 C -60 -50, -96 -54, -112 -50"
+             id="path16" />
+          <path
+             d="M-24 -34 C -62 -38, -100 -36, -116 -32"
+             id="path17" />
+          <path
+             d="M-24 -28 C -60 -24, -96 -16, -110 -10"
+             id="path18" />
+          <path
+             d="M24 -40 C 60 -50, 96 -54, 112 -50"
+             id="path19" />
+          <path
+             d="M24 -34 C 62 -38, 100 -36, 116 -32"
+             id="path20" />
+          <path
+             d="M24 -28 C 60 -24, 96 -16, 110 -10"
+             id="path21" />
+        </g>
+      </g>
+      <!-- paredes da fresta (desenhadas por cima: é a fresta que manda) -->
+      <rect
+         class="parede"
+         x="10"
+         y="46"
+         width="76"
+         height="164"
+         rx="6"
+         id="rect22" />
+      <rect
+         class="parede"
+         x="290"
+         y="46"
+         width="76"
+         height="164"
+         rx="6"
+         id="rect23" />
+      <!-- cota: a fresta é maior que o bigode -->
+      <path
+         d="M86 232 H 290"
+         stroke="#7bd389"
+         stroke-width="2"
+         fill="none"
+         marker-start="url(#ini-7bd389)"
+         marker-end="url(#sp-7bd389)"
+         id="path23" />
+      <text
+         class="rotp"
+         x="188"
+         y="256"
+         text-anchor="middle"
+         style="fill:#7bd389"
+         id="text23">a fresta é maior — o corpo passa</text>
+    </g>
+    <!-- CENA 2: a fresta é estreita, o bigode dobra -->
+    <g
+       transform="translate(406,86)"
+       id="g31">
+      <rect
+         x="0"
+         y="0"
+         width="376"
+         height="270"
+         rx="12"
+         fill="#141821"
+         stroke="#4d5a6b"
+         stroke-width="1.5"
+         id="rect24" />
+      <text
+         class="rotp"
+         x="16"
+         y="26"
+         style="fill:#ff8f6b"
+         id="text24">os bigodes dobram</text>
+      <g
+         transform="translate(188,130) scale(0.66)"
+         id="g30">
+        <use
+           href="#gato"
+           id="use24" />
+        <!-- bigodes: encostam nas bordas e entortam para trás -->
+        <g
+           stroke="#ff8f6b"
+           stroke-width="2"
+           fill="none"
+           stroke-linecap="round"
+           id="g29">
+          <path
+             d="M-24 -40 C -50 -46, -66 -44, -68 -28 C -70 -12, -62 0, -52 8"
+             id="path24" />
+          <path
+             d="M-24 -34 C -52 -36, -68 -28, -68 -14 C -68 2, -58 12, -46 18"
+             id="path25" />
+          <path
+             d="M-24 -28 C -50 -24, -66 -14, -66 0 C -66 16, -54 24, -42 28"
+             id="path26" />
+          <path
+             d="M24 -40 C 50 -46, 66 -44, 68 -28 C 70 -12, 62 0, 52 8"
+             id="path27" />
+          <path
+             d="M24 -34 C 52 -36, 68 -28, 68 -14 C 68 2, 58 12, 46 18"
+             id="path28" />
+          <path
+             d="M24 -28 C 50 -24, 66 -14, 66 0 C 66 16, 54 24, 42 28"
+             id="path29" />
+        </g>
+      </g>
+      <!-- as paredes por cima: o corpo não cabe entre elas -->
+      <rect
+         class="parede"
+         x="10"
+         y="46"
+         width="148"
+         height="164"
+         rx="6"
+         id="rect30" />
+      <rect
+         class="parede"
+         x="218"
+         y="46"
+         width="148"
+         height="164"
+         rx="6"
+         id="rect31" />
+      <path
+         d="M158 232 H 218"
+         stroke="#ff8f6b"
+         stroke-width="2"
+         fill="none"
+         marker-start="url(#ini-ff8f6b)"
+         marker-end="url(#sp-ff8f6b)"
+         id="path31" />
+      <text
+         class="rotp"
+         x="188"
+         y="256"
+         text-anchor="middle"
+         style="fill:#ff8f6b"
+         id="text31">dobrou: ele nem tenta entrar</text>
+    </g>
+  </g>
+  <!-- ══ Direita: a raiz é que sente ════════════════════════════════════ -->
+  <g
+     transform="translate(886,112)"
+     id="g53">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="468"
+       height="380"
+       rx="16"
+       id="rect32" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       style="fill:#ffd24d"
+       id="text32">QUEM SENTE É A RAIZ</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text33">o fio não tem nervo nenhum: ele é só a alavanca</text>
+    <g
+       transform="translate(234,232)"
+       id="g52">
+      <!-- pele -->
+      <rect
+         x="-206"
+         y="-34"
+         width="412"
+         height="120"
+         rx="10"
+         fill="#3a2f2a"
+         id="rect33" />
+      <path
+         d="M-206 -34 H 206"
+         stroke="#c2ab90"
+         stroke-width="2"
+         id="path33" />
+      <text
+         class="rotp"
+         x="-196"
+         y="72"
+         font-size="13"
+         id="text34">pele</text>
+      <!-- o folículo: bolsão de sangue + nervos -->
+      <ellipse
+         cx="0"
+         cy="26"
+         rx="42"
+         ry="52"
+         fill="#5d4f42"
+         stroke="#c2ab90"
+         stroke-width="2"
+         id="ellipse34" />
+      <ellipse
+         cx="0"
+         cy="26"
+         rx="26"
+         ry="38"
+         fill="#a4353f"
+         opacity="0.85"
+         id="ellipse35" />
+      <text
+         class="rotp"
+         x="56"
+         y="14"
+         font-size="13"
+         style="fill:#e07a84"
+         id="text35">bolsão de sangue:</text>
+      <text
+         class="rotp"
+         x="56"
+         y="32"
+         font-size="13"
+         style="fill:#e07a84"
+         id="text36">amplifica o menor</text>
+      <text
+         class="rotp"
+         x="56"
+         y="50"
+         font-size="13"
+         style="fill:#e07a84"
+         id="text37">tranco do fio</text>
+      <!-- terminações nervosas em volta -->
+      <g
+         stroke="#7bd389"
+         stroke-width="2"
+         fill="none"
+         id="g43">
+        <path
+           d="M-42 4 L -74 -12"
+           id="path37" />
+        <path
+           d="M-44 26 L -80 26"
+           id="path38" />
+        <path
+           d="M-42 48 L -74 66"
+           id="path39" />
+        <path
+           d="M-30 -14 L -50 -40"
+           id="path40" />
+        <path
+           d="M-16 70 L -28 96"
+           id="path41" />
+        <path
+           d="M16 70 L 28 96"
+           id="path42" />
+        <path
+           d="M30 -14 L 50 -40"
+           id="path43" />
+      </g>
+      <g
+         fill="#7bd389"
+         id="g49">
+        <circle
+           cx="-78"
+           cy="-14"
+           r="3.5"
+           id="circle43" />
+        <circle
+           cx="-84"
+           cy="26"
+           r="3.5"
+           id="circle44" />
+        <circle
+           cx="-78"
+           cy="68"
+           r="3.5"
+           id="circle45" />
+        <circle
+           cx="-53"
+           cy="-44"
+           r="3.5"
+           id="circle46" />
+        <circle
+           cx="-30"
+           cy="100"
+           r="3.5"
+           id="circle47" />
+        <circle
+           cx="30"
+           cy="100"
+           r="3.5"
+           id="circle48" />
+        <circle
+           cx="53"
+           cy="-44"
+           r="3.5"
+           id="circle49" />
+      </g>
+      <text
+         class="rotp"
+         x="-196"
+         y="-60"
+         font-size="13"
+         style="fill:#7bd389"
+         id="text49">centenas de nervos</text>
+      <text
+         class="rotp"
+         x="-196"
+         y="-42"
+         font-size="13"
+         style="fill:#7bd389"
+         id="text50">num fio só</text>
+      <!-- o fio, saindo e sendo tocado -->
+      <path
+         d="M0 -14 C 4 -60, 40 -96, 96 -110"
+         stroke="#f2f5fa"
+         stroke-width="3"
+         fill="none"
+         id="path50" />
+      <path
+         d="M148 -122 L 112 -113"
+         stroke="#ffd24d"
+         stroke-width="2.5"
+         fill="none"
+         marker-end="url(#sp-ffd24d)"
+         id="path51" />
+      <text
+         class="rotp"
+         x="186"
+         y="-134"
+         text-anchor="end"
+         font-size="13"
+         style="fill:#ffd24d"
+         id="text51">um roçar de nada…</text>
+      <path
+         d="M-14 -6 C -30 -20, -34 -34, -30 -46"
+         stroke="#ffd24d"
+         stroke-width="2"
+         fill="none"
+         marker-end="url(#sp-ffd24d)"
+         id="path52" />
+      <text
+         class="rotp"
+         x="-196"
+         y="-92"
+         font-size="13"
+         style="fill:#ffd24d"
+         id="text52">…vira um tranco aqui dentro</text>
+    </g>
+  </g>
+  <!-- ══ Baixo-esquerda: a régua ════════════════════════════════════════ -->
+  <g
+     transform="translate(46,520)"
+     id="g60">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="640"
+       height="212"
+       rx="16"
+       id="rect53" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text53">A DECISÃO, EM UM SEGUNDO</text>
+    <g
+       transform="translate(30,72)"
+       id="g55">
+      <rect
+         x="0"
+         y="0"
+         width="186"
+         height="112"
+         rx="10"
+         fill="#141821"
+         stroke="#7bd389"
+         stroke-width="1.5"
+         id="rect54" />
+      <path
+         d="M28 44 H 158"
+         stroke="#7bd389"
+         stroke-width="3"
+         marker-start="url(#ini-7bd389)"
+         marker-end="url(#sp-7bd389)"
+         id="path54" />
+      <path
+         d="M56 30 H 130"
+         stroke="#f2f5fa"
+         stroke-width="2.5"
+         id="path55" />
+      <text
+         class="rotp"
+         x="93"
+         y="82"
+         text-anchor="middle"
+         style="fill:#7bd389"
+         id="text55">sobra folga: passa</text>
+    </g>
+    <g
+       transform="translate(226,72)"
+       id="g57">
+      <rect
+         x="0"
+         y="0"
+         width="186"
+         height="112"
+         rx="10"
+         fill="#141821"
+         stroke="#ffd24d"
+         stroke-width="1.5"
+         id="rect55" />
+      <path
+         d="M28 44 H 158"
+         stroke="#ffd24d"
+         stroke-width="3"
+         marker-start="url(#ini-ffd24d)"
+         marker-end="url(#sp-ffd24d)"
+         id="path56" />
+      <path
+         d="M28 30 H 158"
+         stroke="#f2f5fa"
+         stroke-width="2.5"
+         id="path57" />
+      <text
+         class="rotp"
+         x="93"
+         y="82"
+         text-anchor="middle"
+         style="fill:#ffd24d"
+         id="text57">encosta nas duas: é o limite</text>
+    </g>
+    <g
+       transform="translate(422,72)"
+       id="g59">
+      <rect
+         x="0"
+         y="0"
+         width="186"
+         height="112"
+         rx="10"
+         fill="#141821"
+         stroke="#ff8f6b"
+         stroke-width="1.5"
+         id="rect57" />
+      <path
+         d="M56 44 H 130"
+         stroke="#ff8f6b"
+         stroke-width="3"
+         marker-start="url(#ini-ff8f6b)"
+         marker-end="url(#sp-ff8f6b)"
+         id="path58" />
+      <path
+         d="M30 30 C 60 30, 60 22, 93 22 C 126 22, 126 30, 156 30"
+         stroke="#f2f5fa"
+         stroke-width="2.5"
+         fill="none"
+         id="path59" />
+      <text
+         class="rotp"
+         x="93"
+         y="82"
+         text-anchor="middle"
+         style="fill:#ff8f6b"
+         id="text59">dobrou: não passa</text>
+    </g>
+  </g>
+  <!-- ══ Baixo-direita: e no escuro ═════════════════════════════════════ -->
+  <g
+     transform="translate(714,520)"
+     id="g69">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="640"
+       height="212"
+       rx="16"
+       id="rect60" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text60">E NO ESCURO TOTAL</text>
+    <g
+       transform="translate(24,64)"
+       id="g64">
+      <rect
+         x="0"
+         y="0"
+         width="284"
+         height="118"
+         rx="12"
+         fill="#141821"
+         stroke="#4d5a6b"
+         stroke-width="1.5"
+         id="rect61" />
+      <text
+         class="rot"
+         x="18"
+         y="32"
+         font-size="16"
+         id="text61">Lê o ar</text>
+      <text
+         class="rotp"
+         x="18"
+         y="60"
+         id="text62">o bigode sente o redemoinho que a</text>
+      <text
+         class="rotp"
+         x="18"
+         y="84"
+         id="text63">presa deixa no ar ao fugir — e aponta</text>
+      <text
+         class="rotp"
+         x="18"
+         y="104"
+         id="text64">para onde ela foi</text>
+    </g>
+    <g
+       transform="translate(332,64)"
+       id="g68">
+      <rect
+         x="0"
+         y="0"
+         width="284"
+         height="118"
+         rx="12"
+         fill="#141821"
+         stroke="#4d5a6b"
+         stroke-width="1.5"
+         id="rect64" />
+      <text
+         class="rot"
+         x="18"
+         y="32"
+         font-size="16"
+         id="text65">Vê de perto</text>
+      <text
+         class="rotp"
+         x="18"
+         y="60"
+         id="text66">o gato não enxerga bem o que está</text>
+      <text
+         class="rotp"
+         x="18"
+         y="84"
+         id="text67">a um palmo do focinho: quem</text>
+      <text
+         class="rotp"
+         x="18"
+         y="104"
+         id="text68">&quot;enxerga&quot; ali são os bigodes</text>
+    </g>
+  </g>
+  <text
+     class="rotp"
+     x="46"
+     y="768"
+     font-size="15"
+     id="text69">
+        Cortar o bigode de um gato é apagar a régua dele: ele passa a bater nas coisas e a errar o bote.
+    </text>
+</svg>
