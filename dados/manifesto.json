@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-26T14:48:52.900Z",
+  "gerado_em": "2026-08-26T18:37:18.118Z",
   "modulos": {
     "perguntas": {
       "versao": "a184e183ee86c86b2833f6c96e3ee7c4",
@@ -30,8 +30,8 @@
       "registros": 63
     },
     "imite_cartoes": {
-      "versao": "08ec028407987dc609f7837870258487",
-      "registros": 25
+      "versao": "23510c98e9945bed131c7e7a8eedcb02",
+      "registros": 89
     },
     "cronologia": {
       "versao": "3928f2470ab747229965200d70e5b434",
