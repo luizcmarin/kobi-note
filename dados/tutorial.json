@@ -218,5 +218,16 @@
     "publicar": 1,
     "data_criacao": 1787410266613,
     "data_atualizacao": 1787410266613
+  },
+  {
+    "id": 21,
+    "modulo_id": "principios",
+    "titulo": "Princípios Bíblicos",
+    "resumo": "O que a Bíblia diz sobre as decisões do dia a dia",
+    "conteudo": "<p>É a parte de <strong>consulta</strong> do app: cada princípio traz a frase que o resume, os textos que o sustentam, por que ele existe e como ele se parece num dia comum. Não há exercício, não há acerto e não há erro — quem abre este módulo já sabe o que veio procurar.</p><p>A lista é filtrada por <strong>área da vida</strong> (família, trabalho, dinheiro, o que sai da boca…) e pela busca, que varre o título, a frase e os textos citados. A estrela guarda o princípio na faixa de favoritos, no alto da lista.</p><p>Dica: o fim de cada princípio traz perguntas de reflexão. O que você escreve ali vai para o Caderno de Estudo, junto com o que você escreveu no “Imite a Sua Fé” — é o mesmo caderno.</p>",
+    "ordem": 21,
+    "publicar": 1,
+    "data_criacao": 1787773195494,
+    "data_atualizacao": 1787773195494
   }
 ]
