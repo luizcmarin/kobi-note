@@ -22,12 +22,12 @@
   {
     "id": 3,
     "chave": "DISCURSO",
-    "rotulo": "Discurso",
+    "rotulo": "Discurso Público",
     "conteudo": "<h4>Tema do Discurso: </h4><p><strong>Orador: </strong> </p><p><strong>Objetivo: </strong> </p><p></p><p></p><h4>Pontos de Destaque: </h4><p></p><p></p><p></p>",
     "ordem": 2,
     "publicar": 1,
     "data_criacao": 1782319061407,
-    "data_atualizacao": 1784145370994
+    "data_atualizacao": 1787682044302
   },
   {
     "id": 4,
