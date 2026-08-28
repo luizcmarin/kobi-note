@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="-8 4 452 118"
+   width="452"
+   height="118"
+   role="img"
+   aria-labelledby="escrito-nome">
+  <title id="escrito-nome">Kobi Note</title>
+
+  <!--
+    O nome escrito à mão.
+
+    A arte vem da bancada do mascote (`mascote/motor/escrita.ts`, fora do git):
+    um traçado MONOLINHA por letra, desenhado à mão numa grade de três linhas —
+    18 no topo das maiúsculas, 58 no topo das minúsculas, 100 na base. Fonte
+    convertida em caminho não serviria: aparar o CONTORNO de um glifo desenha a
+    borda da letra, e isso não parece escrita à mão, parece uma sombra sendo
+    recortada.
+
+    **O motor é outro.** Na bancada o aparo é recalculado a cada quadro em JS;
+    aqui ele é animação CSS dentro do próprio arquivo, porque o app usa este SVG
+    em `<img>` — e folha de estilo de página nenhuma alcança o conteúdo de um
+    `<img>`.
+
+    Dois detalhes que fazem a diferença entre "escrever" e "aparecer":
+
+    1. **`pathLength="100"`** normaliza a fração de todo caminho, e é o que
+       permite um `@keyframes` só. O que varia por caminho é a DURAÇÃO,
+       proporcional ao comprimento real medido no Chrome — é isso que mantém a
+       caneta em velocidade constante, com a letra grande levando mais tempo,
+       como a mão leva.
+    2. **A tinta entra por uma animação separada.** Com `stroke-linecap: round`,
+       um traço de comprimento zero AINDA pinta a tampa redonda: sem isso o nome
+       aparece pontilhado de sementes à frente da caneta, e o aparo parece torto
+       quando o que está errado é a tampa.
+
+    Depois de escrito, cada letra leva um beliscão em cascata — aperta na
+    cintura, estica para cima e volta oscilando. O `transform-origin` é
+    `50% 100%` sobre a `fill-box` da própria letra: o meio dela, na linha de
+    base. **O nome se escreve UMA vez**, e não em laço como na bancada: uma
+    assinatura que se reescreve a cada cinco segundos é ruído, não identidade.
+  -->
+  <style>
+    .t {
+      fill: none;
+      stroke: url(#escrito-tinta);
+      stroke-width: 7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 100;
+      stroke-opacity: 0;
+      animation:
+        escrever var(--dur) linear var(--atraso) both,
+        tinta 0.001s linear var(--atraso) both;
+    }
+
+    @keyframes escrever {
+      to { stroke-dashoffset: 0; }
+    }
+
+    @keyframes tinta {
+      to { stroke-opacity: 1; }
+    }
+
+    .l {
+      transform-box: fill-box;
+      transform-origin: 50% 100%;
+      animation: beliscar 0.55s ease-out var(--pinch) both;
+    }
+
+    /* Aperta rápido e solta oscilando: soltar em rampa parece elástico frouxo. */
+    @keyframes beliscar {
+      0% { transform: scale(1, 1); }
+      30% { transform: scale(0.84, 1.2); }
+      55% { transform: scale(1.06, 0.95); }
+      75% { transform: scale(0.97, 1.03); }
+      90% { transform: scale(1.01, 0.99); }
+      100% { transform: scale(1, 1); }
+    }
+
+    /*
+     * O azul da marca do Kobi Note, o mesmo do `kobi-note.svg`.
+     *
+     * ATENÇÃO ao escrever comentário aqui dentro: o parser de XML não conhece
+     * comentário de CSS, e um sinal de menor dentro deste bloco vira abertura de
+     * elemento — o arquivo deixa de ser SVG válido e o navegador mostra a página
+     * de erro do parser no lugar do desenho.
+     *
+     * Servido como imagem, o tema segue o do sistema, e não o `data-tema` do
+     * app: é a mesma limitação que a logo já tem, e pela mesma razão.
+     */
+    .tinta-inicio { stop-color: #345996; }
+    .tinta-fim { stop-color: #5b83c9; }
+
+    @media (prefers-color-scheme: dark) {
+      .tinta-inicio { stop-color: #7f9fd3; }
+      .tinta-fim { stop-color: #a9c2e8; }
+    }
+
+    /*
+     * Quem pediu menos movimento recebe o nome escrito e parado — escrito, e não
+     * invisível: sem isto o `stroke-opacity: 0` do estado inicial deixaria a
+     * capa em branco para sempre.
+     */
+    @media (prefers-reduced-motion: reduce) {
+      .t {
+        stroke-dashoffset: 0;
+        stroke-opacity: 1;
+        animation: none;
+      }
+
+      .l { animation: none; }
+    }
+  </style>
+
+  <defs>
+    <!--
+      `userSpaceOnUse`, e NÃO a caixa do objeto (que é o padrão).
+
+      Duas razões, e a segunda é um defeito de verdade. A primeira: por caixa do
+      objeto o degradê é de cada CAMINHO, e o nome sai com quinze rampas em vez
+      de uma atravessando a palavra. A segunda: o pingo do "i" é um segmento
+      perfeitamente vertical, então a caixa dele tem largura ZERO — e degradê
+      sobre caixa degenerada não é renderizado, o que apagava o pingo **sem erro
+      nenhum**, deixando um "ı" no meio de "Kobi".
+    -->
+    <linearGradient
+       id="escrito-tinta"
+       gradientUnits="userSpaceOnUse"
+       x1="-8" y1="0" x2="444" y2="0">
+      <stop class="tinta-inicio" offset="0" />
+      <stop class="tinta-fim" offset="1" />
+    </linearGradient>
+  </defs>
+
+  <g class="escrito">
+    <g class="l" data-letra="K" style="--pinch: 2.950s">
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.177s; --atraso: 0.000s"
+        d="M 12 18 C 11 46 11 74 12 100" />
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.125s; --atraso: 0.177s"
+        d="M 52 20 C 40 40 26 54 13 62" />
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.117s; --atraso: 0.302s"
+        d="M 22 55 C 32 70 42 86 52 100" />
+    </g>
+    <g class="l" data-letra="o" style="--pinch: 3.010s">
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.293s; --atraso: 0.419s"
+        d="M 88 55 C 76 55 68 65 68 78 C 68 92 76 101 88 101 C 100 101 107 91 107 78 C 107 65 100 55 88 55" />
+    </g>
+    <g class="l" data-letra="b" style="--pinch: 3.070s">
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.177s; --atraso: 0.712s"
+        d="M 126 18 C 125 50 125 80 126 100" />
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.227s; --atraso: 0.889s"
+        d="M 126 72 C 132 60 146 55 154 62 C 163 70 163 89 154 96 C 146 103 132 99 126 88" />
+    </g>
+    <g class="l" data-letra="i" style="--pinch: 3.130s">
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.091s; --atraso: 1.116s"
+        d="M 182 58 C 181 72 181 88 182 100" />
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.006s; --atraso: 1.207s"
+        d="M 182 38 L 182 41" />
+    </g>
+    <g class="l" data-letra="N" style="--pinch: 3.190s">
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.532s; --atraso: 1.214s"
+        d="M 234 100 C 233 72 233 44 234 18 C 248 44 264 70 278 94 C 279 68 279 42 278 18" />
+    </g>
+    <g class="l" data-letra="o" style="--pinch: 3.250s">
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.293s; --atraso: 1.745s"
+        d="M 318 55 C 306 55 298 65 298 78 C 298 92 306 101 318 101 C 330 101 337 91 337 78 C 337 65 330 55 318 55" />
+    </g>
+    <g class="l" data-letra="t" style="--pinch: 3.310s">
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.171s; --atraso: 2.038s"
+        d="M 368 32 C 367 56 366 82 367 92 C 368 100 375 102 381 98" />
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.067s; --atraso: 2.209s"
+        d="M 352 60 L 383 57" />
+    </g>
+    <g class="l" data-letra="e" style="--pinch: 3.370s">
+      <path
+        class="t"
+        pathLength="100"
+        style="--dur: 0.324s; --atraso: 2.276s"
+        d="M 396 82 C 406 80 420 76 430 72 C 432 62 424 55 414 56 C 402 57 394 67 394 79 C 394 92 404 101 416 100 C 423 99 429 96 433 91" />
+    </g>
+  </g>
+</svg>

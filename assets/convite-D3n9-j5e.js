@@ -1,7 +1,15 @@
-import{t as e}from"./src-Bmp9x5Vh.js";import{t}from"./strings-DDBIq3j4.js";import{d as n,f as r,n as i,x as a}from"./index-Cffe8spd.js";var o=`https://luizcmarin.github.io/kobi-note`;function s(e=o){return`${t.convite.mensagem}\n\n${e}`}function c(e){return`https://wa.me/?text=${encodeURIComponent(s(e))}`}async function l(e){try{await navigator.clipboard.writeText(s(e)),n(t.convite.copiado)}catch{n(t.leitura.semCopiar,`warning`)}}async function u(n){if(typeof navigator.share!=`function`){await l(n);return}try{await navigator.share({title:e.displayName,text:t.convite.mensagem,url:n})}catch{}}function d(){let n=o;return i(),r(t.convite.titulo,void 0,(r,i)=>a`
+import{t as e}from"./src-Bmp9x5Vh.js";import{t}from"./strings-C25WEwFX.js";import{d as n,f as r,n as i,x as a}from"./index-DRKgX0U_.js";var o=`https://luizcmarin.github.io/kobi-note`;function s(e=o){return`${t.convite.mensagem}\n\n${e}`}function c(e){return`https://wa.me/?text=${encodeURIComponent(s(e))}`}async function l(e){try{await navigator.clipboard.writeText(s(e)),n(t.convite.copiado)}catch{n(t.leitura.semCopiar,`warning`)}}async function u(n){if(typeof navigator.share!=`function`){await l(n);return}try{await navigator.share({title:e.displayName,text:t.convite.mensagem,url:n})}catch{}}function d(){let n=o;return i(),r(t.convite.titulo,void 0,(r,i)=>a`
         <div class="convite">
-          <img class="convite__logo" src="icons/kobi-note.svg" alt="" aria-hidden="true" />
-          <h2 class="convite__nome">${e.displayName}</h2>
+          <img
+            class="convite__mascote"
+            src="./icons/mascote-kobi-note.svg"
+            alt=${t.convite.mascote}
+            width="160"
+            height="160"
+          />
+          <h2 class="convite__nome">
+            <img class="escrito" src="./icons/kobi-note-escrito.svg" alt=${e.displayName} />
+          </h2>
           <p class="convite__lema">${t.convite.lema}</p>
 
           <kk-qr-code
