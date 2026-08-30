@@ -259,7 +259,7 @@
     "id": 22,
     "titulo": "A resposta branda desvia o furor",
     "area": "conflitos",
-    "icone": "peace",
+    "icone": "message-circle-heart",
     "ordem": 22,
     "principio": "O tom da resposta decide o tamanho da briga.",
     "referencia": "Provérbios 15:1; Provérbios 17:14; Provérbios 25:15; Romanos 12:17,18",
@@ -269,7 +269,7 @@
     "link_jw": "https://www.jw.org/pt/biblioteca/biblia/nwt/livros/proverbios/15/#v20015001",
     "publicar": 1,
     "data_criacao": 1787788800000,
-    "data_atualizacao": 1787788800000
+    "data_atualizacao": 1788099650530
   },
   {
     "id": 60,
