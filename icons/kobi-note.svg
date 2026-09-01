@@ -7,47 +7,6 @@
    role="img"
    aria-labelledby="kobi-nome">
   <title id="kobi-nome">Kobi, a raposa do Kobi Note</title>
-
-  <!--
-    Kobi, o mascote. A arte é a figura "Raposa" da bancada do mascote
-    (`mascote/`, fora do git) — a mesma que aparece na grade de `animacoes.html`,
-    e é ela que o usuário escolheu. **É arte de banco de imagens (Vecteezy).**
-
-    A chapa branca de fundo do arquivo original saiu: dentro de um diálogo ela
-    viraria um quadrado branco. O `viewBox` foi apertado na figura, com folga
-    para o traço do despertar sair da linha do desenho sem ser cortado.
-
-    **E foi por isso que a raposa nasceu preta no tema escuro**: a arte pinta o
-    contorno e as manchas, e o branco do corpo era o próprio papel. Tirado o
-    retângulo, o corpo passou a mostrar o fundo da página. A chapa voltou com a
-    FORMA da figura, e não a do papel — o `.kobi__chapa` aqui embaixo —, traçada
-    da própria arte: rasteriza-se o desenho, inunda-se o de fora a partir da
-    borda, e o que sobra é a silhueta. A inundação é precedida de um fechamento
-    morfológico porque o traço tem frestas de um ou dois pixels onde duas formas
-    quase se encostam, e por elas o de fora vazava para dentro do rosto; a
-    erosão que vem depois enfia a borda da chapa debaixo do contorno preto, que
-    é o que impede uma franja branca de aparecer no contorno da figura.
-
-    **A animação mora aqui dentro**, e é de propósito: o arquivo é usado em
-    `img`, e folha de estilo de página nenhuma alcança o conteúdo de uma
-    imagem — CSS escrito no próprio documento SVG, esse sim, roda.
-
-    São duas fases, na ordem em que a bancada as desenhou:
-
-    1. **Despertar** — pontos, traço, pintura. O contorno de TODAS as 109 formas
-       nasce pontilhado, o pontilhado se fecha num traço contínuo, e só então a
-       cor entra por baixo dele. O espaçamento dos pontos é em unidades do
-       desenho, e não normalizado: assim ele fica igual na silhueta grande e no
-       brilho de dois milímetros do olho.
-    2. **Respirar** — a figura infla devagar a partir do chão, e os DOIS olhos
-       piscam juntos.
-
-    O piscar é o detalhe que exige atenção. Cada olho é um GRUPO — contorno,
-    íris, pupila, os dois brilhos e o cílio de cima —, achado medindo as 109
-    formas no Chrome, e cada grupo fecha em torno do próprio centro
-    (`transform-box: fill-box`). Uma origem só fecharia um olho e deixaria o
-    outro aberto, que foi exatamente o defeito que o rig da bancada tinha.
-  -->
   <style>
     .kf {
       fill-opacity: 0;
