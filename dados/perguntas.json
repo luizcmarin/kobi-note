@@ -178,5 +178,20 @@
     "publicar": 1,
     "data_criacao": 1788220800000,
     "data_atualizacao": 1788220800000
+  },
+  {
+    "id": 177,
+    "pergunta": "<p>Que ilustração o estudo usa para mostrar o risco de não prestarmos atenção às instruções de Jeová?</p>",
+    "referencia": "A Sentinela (Estudo), junho de 2026, artigo 4, § 18 — Lucas 8:18; Salmo 23:3 | https://wol.jw.org/pt/wol/d/r5/lp-t/2026445",
+    "dificuldade": 2,
+    "resposta1": "A de uma casa sem fechadura, que qualquer um invade",
+    "resposta2": "A de um navio que, por causa dos ventos, se desvia do curso — do mesmo modo podemos nos desviar de Jeová se não ouvirmos suas instruções",
+    "resposta3": "A de uma lâmpada que se apaga aos poucos, sem que ninguém perceba",
+    "resposta4": "A de um relógio que atrasa alguns minutos por dia",
+    "correta": 2,
+    "explicacao": "<p>A imagem do navio descreve um desvio que não tem momento exato: ninguém decide sair do curso, e a distância vai aumentando por ação do vento. Não prestar atenção funciona assim.</p><p>Jesus disse “prestem atenção a como escutam”, e não apenas “ao que escutam”. É uma advertência sobre o modo de ouvir — e o Salmo 23:3 mostra o destino alternativo: ser guiado nos caminhos da justiça.</p>",
+    "publicar": 1,
+    "data_criacao": 1788480000000,
+    "data_atualizacao": 1788560928515
   }
 ]
