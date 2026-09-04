@@ -1,0 +1,1 @@
+var e={minimumFractionDigits:2,maximumFractionDigits:2};function t(t){return`R$ ${(Number(t??0)/100).toLocaleString(`pt-BR`,e)}`}function n(e){return Math.round(e??0)/100}function r(e){return Math.round((e??0)*100)}export{n,t as r,r as t};

@@ -1,1 +1,0 @@
-new Intl.NumberFormat(`pt-BR`);function e(e){let t=Number(e)||0;return Number.isInteger(t)?String(t):t.toFixed(2).replace(/\.?0+$/,``).replace(`.`,`,`)}export{e as t};

@@ -6,8 +6,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1784656025103,
-    "anteriorId": null,
-    "proximoId": 28
+    "anterior_id": null,
+    "proximo_id": 28
   },
   {
     "id": 28,
@@ -16,8 +16,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783895943153,
-    "anteriorId": 1,
-    "proximoId": 68
+    "anterior_id": 1,
+    "proximo_id": 68
   },
   {
     "id": 68,
@@ -26,8 +26,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783713333519,
-    "anteriorId": 28,
-    "proximoId": 70
+    "anterior_id": 28,
+    "proximo_id": 70
   },
   {
     "id": 70,
@@ -36,8 +36,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783888614405,
-    "anteriorId": 68,
-    "proximoId": 112
+    "anterior_id": 68,
+    "proximo_id": 112
   },
   {
     "id": 112,
@@ -46,8 +46,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783807904681,
-    "anteriorId": 70,
-    "proximoId": 120
+    "anterior_id": 70,
+    "proximo_id": 120
   },
   {
     "id": 120,
@@ -56,8 +56,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1788304340720,
-    "anteriorId": 112,
-    "proximoId": 149
+    "anterior_id": 112,
+    "proximo_id": 149
   },
   {
     "id": 149,
@@ -66,8 +66,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783726120743,
-    "anteriorId": 120,
-    "proximoId": 157
+    "anterior_id": 120,
+    "proximo_id": 157
   },
   {
     "id": 157,
@@ -76,8 +76,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783726061234,
-    "anteriorId": 149,
-    "proximoId": 173
+    "anterior_id": 149,
+    "proximo_id": 173
   },
   {
     "id": 173,
@@ -86,8 +86,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783812346834,
-    "anteriorId": 157,
-    "proximoId": 193
+    "anterior_id": 157,
+    "proximo_id": 193
   },
   {
     "id": 193,
@@ -96,8 +96,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783888238036,
-    "anteriorId": 173,
-    "proximoId": 207
+    "anterior_id": 173,
+    "proximo_id": 207
   },
   {
     "id": 207,
@@ -106,8 +106,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783888662220,
-    "anteriorId": 193,
-    "proximoId": 213
+    "anterior_id": 193,
+    "proximo_id": 213
   },
   {
     "id": 213,
@@ -116,8 +116,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783726153317,
-    "anteriorId": 207,
-    "proximoId": 219
+    "anterior_id": 207,
+    "proximo_id": 219
   },
   {
     "id": 219,
@@ -126,8 +126,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783726421476,
-    "anteriorId": 213,
-    "proximoId": 231
+    "anterior_id": 213,
+    "proximo_id": 231
   },
   {
     "id": 231,
@@ -136,8 +136,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783887597942,
-    "anteriorId": 219,
-    "proximoId": 238
+    "anterior_id": 219,
+    "proximo_id": 238
   },
   {
     "id": 238,
@@ -146,8 +146,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783725944693,
-    "anteriorId": 231,
-    "proximoId": 262
+    "anterior_id": 231,
+    "proximo_id": 262
   },
   {
     "id": 262,
@@ -156,8 +156,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783725889880,
-    "anteriorId": 238,
-    "proximoId": 267
+    "anterior_id": 238,
+    "proximo_id": 267
   },
   {
     "id": 267,
@@ -166,8 +166,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783730567144,
-    "anteriorId": 262,
-    "proximoId": 268
+    "anterior_id": 262,
+    "proximo_id": 268
   },
   {
     "id": 268,
@@ -176,8 +176,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1784154748089,
-    "anteriorId": 267,
-    "proximoId": 269
+    "anterior_id": 267,
+    "proximo_id": 269
   },
   {
     "id": 269,
@@ -186,8 +186,8 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1783726180712,
-    "anteriorId": 268,
-    "proximoId": 274
+    "anterior_id": 268,
+    "proximo_id": 274
   },
   {
     "id": 274,
@@ -196,8 +196,8 @@
     "publicar": 1,
     "data_criacao": 1782003245624,
     "data_atualizacao": 1783725984389,
-    "anteriorId": 269,
-    "proximoId": 275
+    "anterior_id": 269,
+    "proximo_id": 275
   },
   {
     "id": 275,
@@ -206,7 +206,7 @@
     "publicar": 1,
     "data_criacao": 1784667107560,
     "data_atualizacao": 1788305243961,
-    "anteriorId": 274,
-    "proximoId": null
+    "anterior_id": 274,
+    "proximo_id": null
   }
 ]
