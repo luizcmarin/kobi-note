@@ -1,0 +1,1 @@
+import{t as e}from"./strings-BU-HmFix.js";import{r as t}from"./index-CRLpDONK.js";async function n(n,r){let i=`${n}\n\n${r}`;if(typeof navigator.share==`function`){try{await navigator.share({title:n,text:i})}catch{}return}try{await navigator.clipboard.writeText(i),t(e.leitura.copiado)}catch{t(e.leitura.semCopiar,`warning`)}}export{n as t};
