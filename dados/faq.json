@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": 1,
+    "titulo": "As Testemunhas de Jeová são cristãs?",
+    "categoria": "quem_somos",
+    "icone": "users",
+    "ordem": 1,
+    "resposta_curta": "Sim. Seguimos os ensinos e o exemplo de Jesus Cristo, embora algumas das nossas crenças sejam diferentes das de outras religiões que se dizem cristãs.",
+    "resposta": "<p>Sim. Somos cristãos porque procuramos seguir de perto os ensinos de Jesus Cristo e o modo como ele viveu. Foi por seguirem esse mesmo modelo que os primeiros discípulos passaram a ser chamados de cristãos.</p><p>Cremos que Jesus é o Filho de Deus, que ele deu a vida dele por nós e que não há salvação por nenhum outro nome. Batizamos em nome dele, oramos por meio dele e tomamos as decisões do dia a dia perguntando o que ele faria — porque foi ele quem disse: “Eu lhes dei o modelo, para que, assim como eu fiz a vocês, vocês também façam.”</p><p>Ao mesmo tempo, algumas das nossas crenças são diferentes das de outras religiões que se dizem cristãs, e é isso que costuma gerar a pergunta. A Bíblia ensina que Jesus é o Filho de Deus, e não o Deus Todo-Poderoso — ele mesmo disse que o Pai é maior do que ele —, por isso não cremos na Trindade. Também não usamos a cruz na adoração, não cremos que Deus atormente ninguém num inferno de fogo e nos mantemos neutros em assuntos políticos.</p><p>Diferenças de crença não decidem quem é cristão. Quem decide isso é o próprio Jesus, e a marca que ele apontou foi uma só: o amor entre os seus seguidores.</p>",
+    "pontos": "[{\"texto\":\"Comece pelo que há em comum: cristão é quem segue Cristo, e foi em Antioquia que os discípulos de Jesus receberam esse nome.\",\"referencia\":\"Atos 11:26\"},{\"texto\":\"Diga que, para nós também, a salvação vem só por meio de Jesus — não é um detalhe secundário da nossa fé.\",\"referencia\":\"Atos 4:12\"},{\"texto\":\"Mostre a prática, e não só a doutrina: batizamos em nome dele e oramos por meio dele.\",\"referencia\":\"Mateus 28:19\"},{\"texto\":\"Nomeie a diferença sem rodeio, antes que a pessoa a descubra sozinha: não cremos na Trindade, porque o próprio Jesus disse que o Pai é maior do que ele.\",\"referencia\":\"João 14:28\"},{\"texto\":\"Termine no que Jesus deu como marca dos seus seguidores: o amor entre eles, e não o rótulo da religião.\",\"referencia\":\"João 13:35\"}]",
+    "referencia": "Atos 11:26; Atos 4:12; João 13:15; João 14:6; João 14:28; João 13:35",
+    "link_jw": "https://www.jw.org/pt/testemunhas-de-jeova/perguntas-frequentes/testemunhas-de-jeova-sao-cristas/",
+    "publicar": 1,
+    "data_criacao": 1788640414093,
+    "data_atualizacao": 1788640566108
+  }
+]
