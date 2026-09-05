@@ -229,5 +229,16 @@
     "publicar": 1,
     "data_criacao": 1787773195494,
     "data_atualizacao": 1787773195494
+  },
+  {
+    "id": 22,
+    "modulo_id": "faq",
+    "titulo": "Perguntas Frequentes",
+    "resumo": "A resposta da organização às perguntas mais comuns",
+    "conteudo": "<p>É a parte de <strong>consulta rápida</strong> do app: cada pergunta traz a resposta curta, a completa, os textos que a sustentam e o link do artigo no jw.org. Serve para quando alguém pergunta — na porta, no trabalho, na família — e você quer a resposta na ponta da língua.</p><p>A lista é filtrada por <strong>categoria</strong> (crenças, organização, pregação, vida familiar...) e pela busca, que varre a pergunta, a resposta curta e os textos citados. A estrela guarda a pergunta na faixa de favoritos.</p><p>Dica: cada pergunta traz <strong>pontos de apoio</strong> — como explicar aquilo com suas palavras. Marque a pergunta como revisada quando já se sentir pronto para explicá-la; a barra no alto da lista mostra o quanto você já cobriu.</p>",
+    "ordem": 22,
+    "publicar": 1,
+    "data_criacao": 1788639493096,
+    "data_atualizacao": 1788639493096
   }
 ]

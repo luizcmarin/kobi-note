@@ -24,7 +24,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:zoom="0.99875"
-     inkscape:cx="700.37547"
+     inkscape:cx="701.37672"
      inkscape:cy="400"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
@@ -45,7 +45,9 @@
        x1="0"
        y1="0"
        x2="0"
-       y2="1">
+       y2="1058.3005"
+       gradientTransform="matrix(1.3228757,0,0,0.75592895,1.1239049,1.0012516)"
+       gradientUnits="userSpaceOnUse">
       <stop
          offset="0"
          stop-color="#f7f2e9"
@@ -203,7 +205,10 @@
      width="1400"
      height="800"
      fill="url(#fundo)"
-     id="rect12" />
+     id="rect12"
+     style="fill:url(#fundo)"
+     x="1.1239048"
+     y="1.0012516" />
   <text
      class="cab"
      x="46"
@@ -354,7 +359,7 @@
   </g>
   <!-- ══ Direita: o mesmo osso, maciço — o jeito "óbvio" e pior ═════════ -->
   <g
-     transform="translate(700,0)"
+     transform="translate(602)"
      id="g32">
     <text
        class="rot"
@@ -380,7 +385,7 @@
        fill="#d9c49b"
        id="use32" />
     <path
-       d="M152 202 L 216 240"
+       d="m 152,202 64,38"
        stroke="#d63f2a"
        stroke-width="7"
        marker-end="url(#s-d63f2a)"
@@ -392,24 +397,25 @@
      stroke="#b39a6d"
      stroke-width="1.4"
      opacity="0.55"
-     id="g33">
+     id="g33"
+     transform="translate(-98)">
     <path
-       d="M860 180 L 1120 180 M860 210 L 1120 210 M860 240 L 1120 240 M860 270 L 1120 270                  M860 300 L 1120 300 M860 330 L 1120 330 M860 360 L 1120 360 M860 390 L 1120 390                  M860 420 L 1120 420 M860 450 L 1120 450 M860 480 L 1120 480 M860 510 L 1120 510                  M860 540 L 1120 540 M860 570 L 1120 570 M860 600 L 1120 600 M860 630 L 1120 630                  M860 660 L 1120 660 M860 690 L 1120 690"
+       d="m 860,180 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260 m -260,30 h 260"
        id="path33" />
   </g>
   <text
      class="rotp"
-     x="1110"
+     x="1012"
      y="330"
      id="text33">nada aponta para lugar nenhum:</text>
   <text
      class="rotp"
-     x="1110"
+     x="1012"
      y="350"
      id="text34">a massa é igual em toda parte</text>
   <!-- ══ O veredito ═════════════════════════════════════════════════════ -->
   <g
-     transform="translate(1099.0113,408.97372)"
+     transform="translate(1043.0113,408.97372)"
      id="g42">
     <rect
        class="painel"

@@ -24,14 +24,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:zoom="0.99875"
-     inkscape:cx="700.37547"
+     inkscape:cx="701.37672"
      inkscape:cy="400"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg93" />
+     inkscape:current-layer="g93" />
   <title
      id="tit">Uma Proteína por Acaso? — a conta que não fecha</title>
   <desc
@@ -836,7 +836,7 @@
        y="60"
        id="text73">dando ao acaso tudo o que existe: cada átomo, sorteando mil vezes por segundo, desde o Big Bang</text>
     <g
-       transform="translate(30,86)"
+       transform="matrix(0.98590677,0,0,1.000152,29.996069,85.993465)"
        id="g92">
       <!-- as três parcelas -->
       <g
@@ -857,7 +857,7 @@
            y="34"
            font-size="19"
            id="text74">10<tspan
-   font-size="0.62em"
+   font-size="11.16px"
    dy="-8"
    id="tspan73">80</tspan></text>
         <text
@@ -880,7 +880,7 @@
          font-size="20"
          id="text77">×</text>
       <g
-         transform="translate(272,0)"
+         transform="translate(272)"
          id="g80">
         <rect
            x="0"
@@ -898,7 +898,7 @@
            y="34"
            font-size="19"
            id="text78">10<tspan
-   font-size="0.62em"
+   font-size="11.16px"
    dy="-8"
    id="tspan77">17</tspan></text>
         <text
@@ -921,7 +921,7 @@
          font-size="20"
          id="text81">×</text>
       <g
-         transform="translate(544,0)"
+         transform="translate(544)"
          id="g84">
         <rect
            x="0"
@@ -939,7 +939,7 @@
            y="34"
            font-size="19"
            id="text82">10<tspan
-   font-size="0.62em"
+   font-size="11.16px"
    dy="-8"
    id="tspan81">3</tspan></text>
         <text
@@ -962,7 +962,7 @@
          font-size="20"
          id="text85">=</text>
       <g
-         transform="translate(816,0)"
+         transform="translate(816)"
          id="g88">
         <rect
            x="0"
@@ -981,7 +981,7 @@
            font-size="19"
            style="fill:#7bd389"
            id="text86">10<tspan
-   font-size="0.62em"
+   font-size="11.16px"
    dy="-8"
    id="tspan85">100</tspan></text>
         <text
@@ -1000,7 +1000,7 @@
            id="text88">que o acaso teria</text>
       </g>
       <g
-         transform="translate(1064,0)"
+         transform="translate(1064)"
          id="g91">
         <rect
            x="0"
@@ -1019,7 +1019,7 @@
            font-size="17"
            style="fill:#ff6b6b"
            id="text89">faltam 10<tspan
-   font-size="0.62em"
+   font-size="11.16px"
    dy="-8"
    id="tspan88">140</tspan></text>
         <text

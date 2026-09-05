@@ -1,165 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns="http://www.w3.org/2000/svg"
-   viewBox="660 327 2686 3223"
-   width="640"
-   height="768"
+   viewBox="358 293 3290 3290"
+   width="512"
+   height="512"
    role="img"
-   aria-labelledby="kobi-nome">
-  <title id="kobi-nome">Kobi, a raposa do Kobi Note</title>
+   aria-labelledby="kobi-note-nome">
+  <title id="kobi-note-nome">Kobi Note</title>
 
   <!--
-    Kobi, o mascote. A arte é a figura "Raposa" da bancada do mascote
-    (`mascote/`, fora do git) — a mesma que aparece na grade de `animacoes.html`,
-    e é ela que o usuário escolheu. **É arte de banco de imagens (Vecteezy).**
+    A LOGO do Kobi Note: o Kobi, a raposa do app. Favicon, logo de 30 px da
+    barra e fonte dos sete PNG de `icons/`.
 
-    A chapa branca de fundo do arquivo original saiu: dentro de um diálogo ela
-    viraria um quadrado branco. O `viewBox` foi apertado na figura, com folga
-    para o traço do despertar sair da linha do desenho sem ser cortado.
+    **É o `mascote-kobi-note.svg` PARADO, e a diferença entre os dois é só o
+    `<style>` daqui.** No mascote as 109 formas nascem com `fill-opacity: 0` e
+    `stroke-opacity: 0`, e quem as revela é a animação do despertar; aqui elas
+    já entram no estado FINAL dela — pintadas, sem o traço, com a chapa do
+    corpo opaca. Um ícone não roda animação: o launcher do Android, o favicon
+    do navegador e todo rasterizador desenham o frame zero, e o frame zero do
+    mascote é o desenho inteiro invisível. Foi exatamente esse o defeito de
+    05/09/2026, quando o mascote foi copiado cru por cima deste arquivo e a
+    tela inicial do celular virou um quadrado branco.
 
-    **E foi por isso que a raposa nasceu preta no tema escuro**: a arte pinta o
-    contorno e as manchas, e o branco do corpo era o próprio papel. Tirado o
-    retângulo, o corpo passou a mostrar o fundo da página. A chapa voltou com a
-    FORMA da figura, e não a do papel — o `.kobi__chapa` aqui embaixo —, traçada
-    da própria arte: rasteriza-se o desenho, inunda-se o de fora a partir da
-    borda, e o que sobra é a silhueta. A inundação é precedida de um fechamento
-    morfológico porque o traço tem frestas de um ou dois pixels onde duas formas
-    quase se encostam, e por elas o de fora vazava para dentro do rosto; a
-    erosão que vem depois enfia a borda da chapa debaixo do contorno preto, que
-    é o que impede uma franja branca de aparecer no contorno da figura.
+    O `viewBox` é QUADRADO (o do mascote é 2686 × 3223), centrado na figura:
+    favicon, `apple-touch-icon` e ícone de manifest são quadrados, e enquadrar
+    aqui é o que evita cada rasterização escolher a própria margem.
 
-    **A animação mora aqui dentro**, e é de propósito: o arquivo é usado em
-    `img`, e folha de estilo de página nenhuma alcança o conteúdo de uma
-    imagem — CSS escrito no próprio documento SVG, esse sim, roda.
-
-    São duas fases, na ordem em que a bancada as desenhou:
-
-    1. **Despertar** — pontos, traço, pintura. O contorno de TODAS as 109 formas
-       nasce pontilhado, o pontilhado se fecha num traço contínuo, e só então a
-       cor entra por baixo dele. O espaçamento dos pontos é em unidades do
-       desenho, e não normalizado: assim ele fica igual na silhueta grande e no
-       brilho de dois milímetros do olho.
-    2. **Respirar** — a figura infla devagar a partir do chão, e os DOIS olhos
-       piscam juntos.
-
-    O piscar é o detalhe que exige atenção. Cada olho é um GRUPO — contorno,
-    íris, pupila, os dois brilhos e o cílio de cima —, achado medindo as 109
-    formas no Chrome, e cada grupo fecha em torno do próprio centro
-    (`transform-box: fill-box`). Uma origem só fecharia um olho e deixaria o
-    outro aberto, que foi exatamente o defeito que o rig da bancada tinha.
+    Quem mexer na arte mexe no `mascote-kobi-note.svg` e reflete aqui — o corpo
+    abaixo é cópia literal do dele, do `<g class="kobi__vida">` ao fim.
   -->
   <style>
+    /*
+     * O estado final do despertar. `fill-opacity: 1` porque a arte é a
+     * pintura; `stroke-opacity: 0` porque o traço do despertar por cima dela
+     * empasta o desenho — a arte já tem os próprios contornos pretos.
+     */
     .kf {
-      fill-opacity: 0;
-      stroke: #b34700;
-      stroke-width: 9;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      stroke-dasharray: 2 62;
+      fill-opacity: 1;
       stroke-opacity: 0;
-      animation:
-        kobi-pontos 0.5s ease-out both,
-        kobi-traco 1s ease-in-out 0.5s both,
-        kobi-pintura 0.6s ease-out 1.45s both;
     }
 
-    @media (prefers-color-scheme: dark) {
-      .kf { stroke: #ffa94d; }
-    }
-
-    @keyframes kobi-pontos {
-      from { stroke-opacity: 0; }
-      to { stroke-opacity: 1; }
-    }
-
-    /* O traço final tem de ser MAIOR que o caminho mais longo (13.824
-       unidades), senão a silhueta termina o despertar ainda pontilhada. */
-    @keyframes kobi-traco {
-      from { stroke-dasharray: 2 62; }
-      to { stroke-dasharray: 14000 0; }
-    }
-
-    /* A pintura entra e o traço sai: a arte já tem os próprios contornos
-       pretos, e um segundo contorno por cima deles empasta o desenho. */
-    @keyframes kobi-pintura {
-      from { fill-opacity: 0; stroke-opacity: 1; }
-      to { fill-opacity: 1; stroke-opacity: 0; }
-    }
-
-    /* ── A vida, depois do despertar ─────────────────────────────────────── */
-
-    /* Infla a partir do chão: escalar pelo centro faria a raposa afundar as
-       patas no piso a cada respiração. */
-    .kobi__vida {
-      transform-box: fill-box;
-      transform-origin: 50% 100%;
-      animation: kobi-respirar 3.8s ease-in-out 2.05s infinite;
-    }
-
-    /*
-     * OS DOIS OLHOS, com a mesma animação. A origem é o centro do PRÓPRIO
-     * grupo (`fill-box`), e é isso que dispensa saber onde cada olho está: sem
-     * ela, um `scaleY` fecharia a pálpebra contra o canto do desenho em vez de
-     * contra a própria pupila, e só um dos dois pareceria piscar.
-     */
-    .kobi__olho {
-      transform-box: fill-box;
-      transform-origin: 50% 50%;
-      animation: kobi-piscar 5.4s ease-in-out 2.6s infinite;
-    }
-
-    @keyframes kobi-respirar {
-      0%, 100% { transform: scale(1, 1); }
-      45% { transform: scale(1.015, 1.028); }
-    }
-
-    @keyframes kobi-piscar {
-      0%, 90%, 100% { transform: scaleY(1); }
-      93.5% { transform: scaleY(0.06); }
-    }
-
-    /*
-     * A CHAPA. O corpo da raposa é branco, e no arquivo original quem o pintava
-     * era o retângulo branco de fundo — a arte só desenha o contorno e as
-     * manchas, e deixa o branco por conta do papel. Tirado o retângulo, o corpo
-     * passou a mostrar o fundo da página: num diálogo escuro, uma raposa preta.
-     *
-     * A chapa é a silhueta da figura, atrás de tudo. Ela não é `.kf`: nasce
-     * apagada e entra JUNTO com a pintura, senão a raposa apareceria inteira,
-     * branca e chapada, antes de o traço sequer começar.
-     */
+    /* A silhueta branca do corpo, que no arquivo original era o papel. */
     .kobi__chapa {
-      fill-opacity: 0;
-      animation: kobi-chapa 0.6s ease-out 1.45s both;
-    }
-
-    @keyframes kobi-chapa {
-      from { fill-opacity: 0; }
-      to { fill-opacity: 1; }
-    }
-
-    /*
-     * Quem pediu menos movimento recebe a raposa pintada e parada — pintada, e
-     * não invisível: sem isto o `fill-opacity: 0` do estado inicial deixaria um
-     * retângulo vazio para sempre.
-     */
-    @media (prefers-reduced-motion: reduce) {
-      .kf {
-        fill-opacity: 1;
-        stroke-opacity: 0;
-        stroke-dasharray: none;
-        animation: none;
-      }
-
-      .kobi__chapa {
-        fill-opacity: 1;
-        animation: none;
-      }
-
-      .kobi__vida,
-      .kobi__olho {
-        animation: none;
-      }
+      fill-opacity: 1;
     }
   </style>
 

@@ -1,151 +1,554 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" width="1400" height="800" role="img"
-     aria-labelledby="tit desc" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
-    <title id="tit">A Matemática das Compras — o atalho do "quanto sobra"</title>
-    <desc id="desc">Em vez de calcular o desconto e depois subtrair, calcule de uma vez o que sobra: 100 por
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1400 800"
+   width="1400"
+   height="800"
+   role="img"
+   aria-labelledby="tit desc"
+   font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+   version="1.1"
+   id="svg39"
+   sodipodi:docname="a-matematica-das-compras.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview39"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.59142857"
+     inkscape:cx="700.84541"
+     inkscape:cy="399.87923"
+     inkscape:window-width="1539"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg39" />
+  <title
+     id="tit">A Matemática das Compras — o atalho do &quot;quanto sobra&quot;</title>
+  <desc
+     id="desc">Em vez de calcular o desconto e depois subtrair, calcule de uma vez o que sobra: 100 por
         cento menos 25 por cento dá 75 por cento, e 35 reais vezes 0,75 dá 26 reais e 25 centavos. A
         mesma conta serve para acréscimo, com o fator maior que 1. E há uma armadilha: dois descontos
         de 20 por cento seguidos não dão 40 por cento — dão 36 por cento, porque o segundo incide sobre
         o preço já abatido.</desc>
-
-    <defs>
-        <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#f2f8f2"/>
-            <stop offset="1" stop-color="#d8e8da"/>
-        </linearGradient>
-        <marker id="s-3d7a4e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10"
-                markerUnits="userSpaceOnUse" orient="auto">
-            <path d="M0 0 L10 5 L0 10 z" fill="#3d7a4e"/>
-        </marker>
-        <marker id="s-c0392b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10"
-                markerUnits="userSpaceOnUse" orient="auto">
-            <path d="M0 0 L10 5 L0 10 z" fill="#c0392b"/>
-        </marker>
-    </defs>
-
-    <style>
+  <defs
+     id="defs3">
+    <linearGradient
+       id="fundo"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#f2f8f2"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#d8e8da"
+         id="stop2" />
+    </linearGradient>
+    <marker
+       id="s-3d7a4e"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="10"
+       markerHeight="10"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#3d7a4e"
+         id="path2" />
+    </marker>
+    <marker
+       id="s-c0392b"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="10"
+       markerHeight="10"
+       markerUnits="userSpaceOnUse"
+       orient="auto">
+      <path
+         d="M0 0 L10 5 L0 10 z"
+         fill="#c0392b"
+         id="path3" />
+    </marker>
+  </defs>
+  <style
+     id="style3">
         .cab  { fill:#1f4a2c; font-size:28px; font-weight:800; letter-spacing:1.2px; }
         .rot  { fill:#3d7a4e; font-size:18px; font-weight:700; }
         .rotp { fill:#6f9c7d; font-size:14px; }
         .painel { fill:#ffffff; stroke:#a9cfb3; stroke-width:2; }
         .val  { fill:#1f4a2c; font-size:26px; font-weight:800; }
     </style>
-
-    <rect width="1400" height="800" fill="url(#fundo)"/>
-
-    <text class="cab" x="46" y="54">A MATEMÁTICA DAS COMPRAS</text>
-    <text class="rotp" x="46" y="84" font-size="17">Não calcule o desconto para depois subtrair. Calcule de uma vez o que você ainda vai pagar.</text>
-
-    <!-- ══ Esquerda: a barra do preço ═════════════════════════════════════ -->
-    <g transform="translate(46,112)">
-        <rect class="painel" x="0" y="0" width="812" height="380" rx="16"/>
-        <text class="rot" x="24" y="38">UMA CAMISETA DE R$ 35, COM 25% DE DESCONTO</text>
-
-        <!-- a barra inteira -->
-        <g transform="translate(40,86)">
-            <text class="rotp" x="0" y="0" font-weight="700">o preço cheio — 100%</text>
-            <rect x="0" y="12" width="732" height="52" rx="8" fill="#eef7f0" stroke="#a9cfb3" stroke-width="2"/>
-            <text class="val" x="366" y="48" text-anchor="middle">R$ 35,00</text>
-        </g>
-
-        <!-- a barra dividida -->
-        <g transform="translate(40,190)">
-            <text class="rotp" x="0" y="0" font-weight="700">o que você paga e o que a loja abate</text>
-
-            <!-- 75% -->
-            <rect x="0" y="12" width="549" height="60" rx="8" fill="#3d7a4e"/>
-            <text class="rot" x="274" y="38" text-anchor="middle" font-size="16" style="fill:#ffffff">75% — o que sobra</text>
-            <text class="val" x="274" y="64" text-anchor="middle" style="fill:#ffffff">R$ 26,25</text>
-
-            <!-- 25% -->
-            <rect x="549" y="12" width="183" height="60" rx="8" fill="#e8b04a"/>
-            <text class="rotp" x="640" y="36" text-anchor="middle" font-size="13" style="fill:#5a4210" font-weight="700">
+  <rect
+     width="1400"
+     height="800"
+     fill="url(#fundo)"
+     id="rect3" />
+  <text
+     class="cab"
+     x="46"
+     y="54"
+     id="text3">A MATEMÁTICA DAS COMPRAS</text>
+  <text
+     class="rotp"
+     x="46"
+     y="84"
+     font-size="17"
+     id="text4">Não calcule o desconto para depois subtrair. Calcule de uma vez o que você ainda vai pagar.</text>
+  <!-- ══ Esquerda: a barra do preço ═════════════════════════════════════ -->
+  <g
+     transform="translate(46,112)"
+     id="g15">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="812"
+       height="380"
+       rx="16"
+       id="rect4" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text5">UMA CAMISETA DE R$ 35, COM 25% DE DESCONTO</text>
+    <!-- a barra inteira -->
+    <g
+       transform="translate(40,86)"
+       id="g7">
+      <text
+         class="rotp"
+         x="0"
+         y="0"
+         font-weight="700"
+         id="text6">o preço cheio — 100%</text>
+      <rect
+         x="0"
+         y="12"
+         width="732"
+         height="52"
+         rx="8"
+         fill="#eef7f0"
+         stroke="#a9cfb3"
+         stroke-width="2"
+         id="rect6" />
+      <text
+         class="val"
+         x="366"
+         y="48"
+         text-anchor="middle"
+         id="text7">R$ 35,00</text>
+    </g>
+    <!-- a barra dividida -->
+    <g
+       transform="translate(40,190)"
+       id="g12">
+      <text
+         class="rotp"
+         x="0"
+         y="0"
+         font-weight="700"
+         id="text8">o que você paga e o que a loja abate</text>
+      <!-- 75% -->
+      <rect
+         x="0"
+         y="12"
+         width="549"
+         height="60"
+         rx="8"
+         fill="#3d7a4e"
+         id="rect8" />
+      <text
+         class="rot"
+         x="274"
+         y="38"
+         text-anchor="middle"
+         font-size="16"
+         style="fill:#ffffff"
+         id="text9">75% — o que sobra</text>
+      <text
+         class="val"
+         x="274"
+         y="64"
+         text-anchor="middle"
+         style="fill:#ffffff"
+         id="text10">R$ 26,25</text>
+      <!-- 25% -->
+      <rect
+         x="549"
+         y="12"
+         width="183"
+         height="60"
+         rx="8"
+         fill="#e8b04a"
+         id="rect10" />
+      <text
+         class="rotp"
+         x="640"
+         y="36"
+         text-anchor="middle"
+         font-size="13"
+         style="fill:#5a4210"
+         font-weight="700"
+         id="text11">
                 25% de desconto
             </text>
-            <text class="rot" x="640" y="62" text-anchor="middle" font-size="17" style="fill:#5a4210">R$ 8,75</text>
-        </g>
-
-        <!-- a fórmula -->
-        <g transform="translate(40,296)">
-            <rect x="0" y="0" width="732" height="66" rx="10" fill="#eef7f0" stroke="#3d7a4e" stroke-width="2"/>
-            <text class="rot" x="24" y="42" font-size="19">
+      <text
+         class="rot"
+         x="640"
+         y="62"
+         text-anchor="middle"
+         font-size="17"
+         style="fill:#5a4210"
+         id="text12">R$ 8,75</text>
+    </g>
+    <!-- a fórmula -->
+    <g
+       transform="translate(40,296)"
+       id="g14">
+      <rect
+         x="0"
+         y="0"
+         width="732"
+         height="66"
+         rx="10"
+         fill="#eef7f0"
+         stroke="#3d7a4e"
+         stroke-width="2"
+         id="rect12" />
+      <text
+         class="rot"
+         x="24"
+         y="42"
+         font-size="19"
+         id="text13">
                 Preço × (100 − desconto) ÷ 100
             </text>
-            <text class="val" x="708" y="44" text-anchor="end" font-size="22" style="fill:#3d7a4e">
+      <text
+         class="val"
+         x="708"
+         y="44"
+         text-anchor="end"
+         font-size="22"
+         style="fill:#3d7a4e"
+         id="text14">
                 35 × 0,75 = 26,25
             </text>
-        </g>
     </g>
-
-    <!-- ══ Direita: o mesmo truque para acréscimo ═════════════════════════ -->
-    <g transform="translate(886,112)">
-        <rect class="painel" x="0" y="0" width="468" height="380" rx="16"/>
-        <text class="rot" x="24" y="38">O MESMO ATALHO, AO CONTRÁRIO</text>
-        <text class="rotp" x="24" y="60">só muda o fator que multiplica o preço</text>
-
-        <g transform="translate(24,90)">
-            <rect x="0" y="0" width="420" height="66" rx="10" fill="#eef7f0" stroke="#a9cfb3" stroke-width="1.5"/>
-            <text class="rot" x="18" y="28" font-size="16" style="fill:#3d7a4e">25% de desconto</text>
-            <text class="rotp" x="18" y="52" font-size="13">100 − 25 = 75</text>
-            <text class="val" x="402" y="42" text-anchor="end" font-size="22" style="fill:#3d7a4e">× 0,75</text>
-        </g>
-
-        <g transform="translate(24,168)">
-            <rect x="0" y="0" width="420" height="66" rx="10" fill="#fdf8e6" stroke="#e8b04a" stroke-width="1.5"/>
-            <text class="rot" x="18" y="28" font-size="16" style="fill:#c9701e">sem desconto nenhum</text>
-            <text class="rotp" x="18" y="52" font-size="13">o preço fica igual</text>
-            <text class="val" x="402" y="42" text-anchor="end" font-size="22" style="fill:#c9701e">× 1,00</text>
-        </g>
-
-        <g transform="translate(24,246)">
-            <rect x="0" y="0" width="420" height="66" rx="10" fill="#fdeee9" stroke="#c0392b" stroke-width="1.5"/>
-            <text class="rot" x="18" y="28" font-size="16" style="fill:#c0392b">20% de acréscimo (juro, taxa)</text>
-            <text class="rotp" x="18" y="52" font-size="13">100 + 20 = 120</text>
-            <text class="val" x="402" y="42" text-anchor="end" font-size="22" style="fill:#c0392b">× 1,20</text>
-        </g>
-
-        <text class="rotp" x="24" y="348" font-size="14">
+  </g>
+  <!-- ══ Direita: o mesmo truque para acréscimo ═════════════════════════ -->
+  <g
+     transform="translate(886,112)"
+     id="g26">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="468"
+       height="380"
+       rx="16"
+       id="rect15" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       id="text15">O MESMO ATALHO, AO CONTRÁRIO</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text16">só muda o fator que multiplica o preço</text>
+    <g
+       transform="translate(24,90)"
+       id="g19">
+      <rect
+         x="0"
+         y="0"
+         width="420"
+         height="66"
+         rx="10"
+         fill="#eef7f0"
+         stroke="#a9cfb3"
+         stroke-width="1.5"
+         id="rect16" />
+      <text
+         class="rot"
+         x="18"
+         y="28"
+         font-size="16"
+         style="fill:#3d7a4e"
+         id="text17">25% de desconto</text>
+      <text
+         class="rotp"
+         x="18"
+         y="52"
+         font-size="13"
+         id="text18">100 − 25 = 75</text>
+      <text
+         class="val"
+         x="402"
+         y="42"
+         text-anchor="end"
+         font-size="22"
+         style="fill:#3d7a4e"
+         id="text19">× 0,75</text>
+    </g>
+    <g
+       transform="translate(24,168)"
+       id="g22">
+      <rect
+         x="0"
+         y="0"
+         width="420"
+         height="66"
+         rx="10"
+         fill="#fdf8e6"
+         stroke="#e8b04a"
+         stroke-width="1.5"
+         id="rect19" />
+      <text
+         class="rot"
+         x="18"
+         y="28"
+         font-size="16"
+         style="fill:#c9701e"
+         id="text20">sem desconto nenhum</text>
+      <text
+         class="rotp"
+         x="18"
+         y="52"
+         font-size="13"
+         id="text21">o preço fica igual</text>
+      <text
+         class="val"
+         x="402"
+         y="42"
+         text-anchor="end"
+         font-size="22"
+         style="fill:#c9701e"
+         id="text22">× 1,00</text>
+    </g>
+    <g
+       transform="translate(24,246)"
+       id="g25">
+      <rect
+         x="0"
+         y="0"
+         width="420"
+         height="66"
+         rx="10"
+         fill="#fdeee9"
+         stroke="#c0392b"
+         stroke-width="1.5"
+         id="rect22" />
+      <text
+         class="rot"
+         x="18"
+         y="28"
+         font-size="16"
+         style="fill:#c0392b"
+         id="text23">20% de acréscimo (juro, taxa)</text>
+      <text
+         class="rotp"
+         x="18"
+         y="52"
+         font-size="13"
+         id="text24">100 + 20 = 120</text>
+      <text
+         class="val"
+         x="402"
+         y="42"
+         text-anchor="end"
+         font-size="22"
+         style="fill:#c0392b"
+         id="text25">× 1,20</text>
+    </g>
+    <text
+       class="rotp"
+       x="24"
+       y="348"
+       font-size="14"
+       id="text26">
             Desconto ou juro: é sempre uma multiplicação só.
         </text>
+  </g>
+  <!-- ══ Rodapé: a armadilha dos descontos em cima de descontos ═════════ -->
+  <g
+     transform="translate(46,520)"
+     id="g39">
+    <rect
+       class="painel"
+       x="0"
+       y="0"
+       width="1308"
+       height="212"
+       rx="16"
+       id="rect26" />
+    <text
+       class="rot"
+       x="24"
+       y="38"
+       style="fill:#c0392b"
+       id="text27">A ARMADILHA: &quot;20% + MAIS 20% NA VITRINE&quot;</text>
+    <text
+       class="rotp"
+       x="24"
+       y="60"
+       id="text28">dois descontos de 20% seguidos NÃO fazem 40%</text>
+    <g
+       transform="translate(30,84)"
+       id="g38">
+      <!-- passo 1 -->
+      <g
+         id="g30">
+        <rect
+           x="0"
+           y="0"
+           width="290"
+           height="98"
+           rx="12"
+           fill="#eef7f0"
+           stroke="#a9cfb3"
+           stroke-width="1.5"
+           id="rect28" />
+        <text
+           class="rotp"
+           x="20"
+           y="30"
+           font-size="13"
+           id="text29">preço cheio</text>
+        <text
+           class="val"
+           x="20"
+           y="66"
+           font-size="24"
+           id="text30">R$ 100,00</text>
+      </g>
+      <path
+         d="M302 48 L 330 48"
+         stroke="#3d7a4e"
+         stroke-width="3"
+         fill="none"
+         marker-end="url(#s-3d7a4e)"
+         id="path30" />
+      <g
+         transform="translate(344,0)"
+         id="g32">
+        <rect
+           x="0"
+           y="0"
+           width="290"
+           height="98"
+           rx="12"
+           fill="#eef7f0"
+           stroke="#a9cfb3"
+           stroke-width="1.5"
+           id="rect30" />
+        <text
+           class="rotp"
+           x="20"
+           y="30"
+           font-size="13"
+           id="text31">− 20% (× 0,80)</text>
+        <text
+           class="val"
+           x="20"
+           y="66"
+           font-size="24"
+           id="text32">R$ 80,00</text>
+      </g>
+      <path
+         d="M646 48 L 674 48"
+         stroke="#3d7a4e"
+         stroke-width="3"
+         fill="none"
+         marker-end="url(#s-3d7a4e)"
+         id="path32" />
+      <g
+         transform="translate(684)"
+         id="g34">
+        <rect
+           x="0"
+           y="0"
+           width="290"
+           height="98"
+           rx="12"
+           fill="#fdf8e6"
+           stroke="#e8b04a"
+           stroke-width="2"
+           id="rect32" />
+        <text
+           class="rotp"
+           x="20"
+           y="30"
+           font-size="13"
+           id="text33">− 20% de novo (× 0,80)</text>
+        <text
+           class="val"
+           x="20"
+           y="66"
+           font-size="24"
+           style="fill:#c9701e"
+           id="text34">R$ 64,00</text>
+      </g>
+      <g
+         transform="translate(992)"
+         id="g37">
+        <rect
+           x="0"
+           y="0"
+           width="268"
+           height="98"
+           rx="12"
+           fill="#fdeee9"
+           stroke="#c0392b"
+           stroke-width="2"
+           id="rect34" />
+        <text
+           class="rot"
+           x="20"
+           y="30"
+           font-size="16"
+           style="fill:#c0392b"
+           id="text35">deu 36%, não 40%</text>
+        <text
+           class="rotp"
+           x="20"
+           y="56"
+           font-size="13"
+           style="fill:#c0392b"
+           id="text36">o segundo desconto incide</text>
+        <text
+           class="rotp"
+           x="20"
+           y="76"
+           font-size="13"
+           style="fill:#c0392b"
+           id="text37">sobre o preço JÁ abatido</text>
+      </g>
     </g>
-
-    <!-- ══ Rodapé: a armadilha dos descontos em cima de descontos ═════════ -->
-    <g transform="translate(46,520)">
-        <rect class="painel" x="0" y="0" width="1308" height="212" rx="16"/>
-        <text class="rot" x="24" y="38" style="fill:#c0392b">A ARMADILHA: "20% + MAIS 20% NA VITRINE"</text>
-        <text class="rotp" x="24" y="60">dois descontos de 20% seguidos NÃO fazem 40%</text>
-
-        <g transform="translate(30,84)">
-            <!-- passo 1 -->
-            <g>
-                <rect x="0" y="0" width="290" height="98" rx="12" fill="#eef7f0" stroke="#a9cfb3" stroke-width="1.5"/>
-                <text class="rotp" x="20" y="30" font-size="13">preço cheio</text>
-                <text class="val" x="20" y="66" font-size="24">R$ 100,00</text>
-            </g>
-            <path d="M302 48 L 330 48" stroke="#3d7a4e" stroke-width="3" fill="none" marker-end="url(#s-3d7a4e)"/>
-
-            <g transform="translate(344,0)">
-                <rect x="0" y="0" width="290" height="98" rx="12" fill="#eef7f0" stroke="#a9cfb3" stroke-width="1.5"/>
-                <text class="rotp" x="20" y="30" font-size="13">− 20% (× 0,80)</text>
-                <text class="val" x="20" y="66" font-size="24">R$ 80,00</text>
-            </g>
-            <path d="M646 48 L 674 48" stroke="#3d7a4e" stroke-width="3" fill="none" marker-end="url(#s-3d7a4e)"/>
-
-            <g transform="translate(688,0)">
-                <rect x="0" y="0" width="290" height="98" rx="12" fill="#fdf8e6" stroke="#e8b04a" stroke-width="2"/>
-                <text class="rotp" x="20" y="30" font-size="13">− 20% de novo (× 0,80)</text>
-                <text class="val" x="20" y="66" font-size="24" style="fill:#c9701e">R$ 64,00</text>
-            </g>
-
-            <g transform="translate(1010,0)">
-                <rect x="0" y="0" width="268" height="98" rx="12" fill="#fdeee9" stroke="#c0392b" stroke-width="2"/>
-                <text class="rot" x="20" y="30" font-size="16" style="fill:#c0392b">deu 36%, não 40%</text>
-                <text class="rotp" x="20" y="56" font-size="13" style="fill:#c0392b">o segundo desconto incide</text>
-                <text class="rotp" x="20" y="76" font-size="13" style="fill:#c0392b">sobre o preço JÁ abatido</text>
-            </g>
-        </g>
-    </g>
-
-    <text class="rotp" x="46" y="768" font-size="15">
+  </g>
+  <text
+     class="rotp"
+     x="46"
+     y="768"
+     font-size="15"
+     id="text39">
         0,80 × 0,80 = 0,64. Quem sabe isso não cai na promoção que parece maior do que é.
     </text>
 </svg>
