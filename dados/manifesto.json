@@ -1,12 +1,12 @@
 {
-  "gerado_em": "2026-09-05T20:36:32.695Z",
+  "gerado_em": "2026-09-09T23:51:23.432Z",
   "modulos": {
     "perguntas": {
       "versao": "f1c30d63d05e045756f9c98881b4c1d3",
       "registros": 13
     },
     "poesias": {
-      "versao": "7c28bdbabe3192aaf849c136d93ba959",
+      "versao": "d472ae2a93ec186754b9e31faf4ac044",
       "registros": 21
     },
     "receitas": {
@@ -22,27 +22,27 @@
       "registros": 32
     },
     "guias": {
-      "versao": "90908bf9f41c4829600086ca0baf2ecf",
+      "versao": "c7883b62a27acc0ce56664cffea805dd",
       "registros": 15
     },
     "criacao_modulos": {
-      "versao": "93f0bc297a161e6c54e34d7abf519e9d",
+      "versao": "e7d2a7c6b7d42fb01d6a18b0a2ec8306",
       "registros": 63
     },
     "imite_cartoes": {
-      "versao": "8ce93c032d2eb9b4a1fc2d2b6c05d327",
+      "versao": "ff6216dc3edf2c1340ab3215256fd247",
       "registros": 89
     },
     "principios": {
-      "versao": "09b473f742fe149099e18d1271fe44d9",
+      "versao": "1d58de15f2325c0688710ab2c5338681",
       "registros": 112
     },
     "faq": {
-      "versao": "92b40994f8d11e15a0ac19d7b18224d1",
-      "registros": 1
+      "versao": "4f53cda18c2baa0c0354bb5f9a3ecbe5",
+      "registros": 0
     },
     "cronologia": {
-      "versao": "3928f2470ab747229965200d70e5b434",
+      "versao": "1152c1d1da4b5eb0401e0ee4ecde60e5",
       "registros": 594
     },
     "categorias": {
