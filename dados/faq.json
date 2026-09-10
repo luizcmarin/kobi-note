@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": 13,
+    "titulo": "Por que vocês não comemoram aniversário?",
+    "categoria": "celebracoes",
+    "icone": "cake",
+    "ordem": 1,
+    "cenario": "<p>A colega está montando a lista do bolo do escritório e para no seu nome: <em>“É verdade que você não comemora aniversário? Mas por quê? Que mal tem?”</em> Ela está com a caneta na mão, esperando.</p>",
+    "impulso": "<p>“Porque os dois aniversários que aparecem na Bíblia terminaram em morte.” É um dado real, e chega como um golpe: ela acabou de ouvir que a festa do filho dela tem parentesco com uma decapitação.</p>",
+    "lentes": "[{\"id\":\"decapita\",\"rotulo\":\"Ir direto aos dois aniversários da Bíblia\",\"resposta\":\"Os dois relatos existem e são parte da razão, mas abrir por eles põe a festa da família dela ao lado de uma execução. O que ela vai lembrar não é o argumento — é o susto.\"},{\"id\":\"regra2\",\"rotulo\":\"Dizer que é uma regra da religião\",\"resposta\":\"Não é regra imposta: é decisão pessoal, tomada por quem entendeu os motivos. Chamar de regra entrega a ideia de que você não celebra porque não deixam, e a conversa acaba com pena de você.\"},{\"id\":\"origem\",\"rotulo\":\"Dizer que a decisão é sua, e por quê\",\"nota\":\"E contar o que a sua família faz no lugar disso.\",\"resposta\":\"É essa. Os primeiros cristãos não comemoravam aniversários, e a origem do costume está ligada a crenças que não são bíblicas. Mas o que faz a conversa continuar é a segunda parte: presente e festa existem na sua casa, só não presos a uma data.\"}]",
+    "correta": "origem",
+    "resposta": "<p>É uma decisão pessoal, e ela tem três razões. A primeira é histórica: os primeiros cristãos não comemoravam aniversários, e o costume, como chegou até nós, vem de crenças que não são bíblicas — a ideia de que o dia do nascimento decide a sorte de alguém.</p><p>A segunda está no próprio texto: as duas únicas festas de aniversário registradas na Bíblia são de homens que não adoravam a Jeová, e as duas terminaram na morte de alguém. Não é o argumento principal, mas diz bastante que a Bíblia nunca mencione a comemoração de modo favorável.</p><p>A terceira costuma surpreender: uma festa que celebra a própria pessoa é o contrário do que a Bíblia recomenda sobre modéstia — ela chega a dizer que o dia da morte é melhor que o do nascimento, porque nele já se sabe o que a pessoa fez da vida. Nada disso quer dizer que não haja presente, festa e alegria na nossa casa. Há, e sem precisar de data marcada.</p>",
+    "referencia": "Eclesiastes 7:1; Gênesis 40:20-22; Mateus 14:6-10; Mateus 7:11",
+    "link_jw": "https://www.jw.org/pt/testemunhas-de-jeova/perguntas-frequentes/aniversarios/",
+    "preparo": "O que você diria à colega que ficou com a caneta na mão — uma frase sobre o motivo e uma sobre o que a sua família faz no lugar?",
+    "exemplos": "[{\"nome\":\"Jesus\",\"nota\":\"pediu que se lembrasse a morte dele, e não o nascimento (Lucas 22:19)\"},{\"nome\":\"João Batista\",\"nota\":\"foi morto justamente numa festa de aniversário (Mateus 14:6-10)\"}]",
+    "publicar": 1,
+    "data_criacao": 1788908907946,
+    "data_atualizacao": 1789071847590
+  }
+]
