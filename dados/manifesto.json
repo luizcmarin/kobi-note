@@ -1,12 +1,12 @@
 {
-  "gerado_em": "2026-09-09T23:51:23.432Z",
+  "gerado_em": "2026-09-10T16:44:43.283Z",
   "modulos": {
     "perguntas": {
       "versao": "f1c30d63d05e045756f9c98881b4c1d3",
       "registros": 13
     },
     "poesias": {
-      "versao": "d472ae2a93ec186754b9e31faf4ac044",
+      "versao": "6b4e7dcaac5d7005a791a7ea9c63e9a0",
       "registros": 21
     },
     "receitas": {
@@ -18,7 +18,7 @@
       "registros": 6
     },
     "estoque_catalogo": {
-      "versao": "8a8b1d84eb8e94a87d87ed4fbe7f9fe0",
+      "versao": "05c1541a8be317811d77e022bbd803df",
       "registros": 32
     },
     "guias": {
@@ -30,11 +30,11 @@
       "registros": 63
     },
     "imite_cartoes": {
-      "versao": "ff6216dc3edf2c1340ab3215256fd247",
+      "versao": "e5d956cc3cf28cbdeaed1b54feb044f7",
       "registros": 89
     },
     "principios": {
-      "versao": "1d58de15f2325c0688710ab2c5338681",
+      "versao": "a4358b308289817367030f027faf1786",
       "registros": 112
     },
     "faq": {
@@ -46,7 +46,7 @@
       "registros": 594
     },
     "categorias": {
-      "versao": "b9188a56a396f74d89773386d3cc89aa",
+      "versao": "63235e12781fb6226226a447cd77ec49",
       "registros": 17
     },
     "anotacao_modelos": {
@@ -54,7 +54,7 @@
       "registros": 7
     },
     "calendario_tipos": {
-      "versao": "f2180e9e300a87b138896a15431a715a",
+      "versao": "44606de28d1dfdb881e9f332dbc8ba89",
       "registros": 6
     },
     "tutorial": {

@@ -20,8 +20,19 @@
       instalado não destoar da tela.
     -->
   <meta name="theme-color" content="#ffffff" />
+  <!--
+      Idioma antes da primeira pintura, pela mesma razão do tema: o `lang` do
+      <html> é o que os componentes do Kobi Kit leem ao nascer, e trocá-lo depois
+      de a casca desenhar faria a moldura piscar de um idioma para o outro. O
+      `pt-BR` do atributo acima é o padrão — este bloco só o substitui quando o
+      aparelho pediu outro. O app confirma a escolha em `i18n/idioma.ts`; aqui é
+      só o que não pode esperar o módulo carregar.
+    -->
   <script>
     (() => {
+      const idioma = localStorage.getItem('note_idioma');
+      if (idioma) document.documentElement.lang = idioma;
+
       const salvo = localStorage.getItem('note_tema');
       const escuro =
         salvo === 'escuro' ||
@@ -34,9 +45,11 @@
         .setAttribute('content', escuro ? '#0f1115' : '#ffffff');
     })();
   </script>
-  <script type="module" crossorigin src="./assets/index-nhXlEhbh.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/banco-DuSJp2UL.js">
-  <link rel="stylesheet" crossorigin href="./assets/index-BrpQp500.css">
+  <script type="module" crossorigin src="./assets/index-DkLYsJTt.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/plural-0_xhPFb3.js">
+  <link rel="modulepreload" crossorigin href="./assets/banco-DT6T_b91.js">
+  <link rel="modulepreload" crossorigin href="./assets/texto-DhKYsM3f.js">
+  <link rel="stylesheet" crossorigin href="./assets/index-DqLHvoJd.css">
 <link rel="manifest" href="./manifest.webmanifest"></head>
 
 <body>
