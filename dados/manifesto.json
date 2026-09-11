@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-09-11T16:07:48.843Z",
+  "gerado_em": "2026-09-11T22:44:39.654Z",
   "modulos": {
     "perguntas": {
       "versao": "f1c30d63d05e045756f9c98881b4c1d3",
       "registros": 13
     },
     "poesias": {
-      "versao": "37f31511857c4a7185073d8f804e1f2c",
-      "registros": 21
+      "versao": "7a73a98016cdbbade50165a1a74dd73b",
+      "registros": 20
     },
     "receitas": {
       "versao": "b53666f7ba7856612434a43caa0514b7",
