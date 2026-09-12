@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./qr-code-CmQD25Iq.js","./index-BGY_4f1A.js","./plural-0_xhPFb3.js","./banco-RAWaFDfp.js","./texto-DhKYsM3f.js","./index-_mrztH4A.css"])))=>i.map(i=>d[i]);
-import{at as e}from"./index-BGY_4f1A.js";var t;function n(){return t??=e(()=>import(`./qr-code-CmQD25Iq.js`),__vite__mapDeps([0,1,2,3,4,5]),import.meta.url),t}export{n as t};
