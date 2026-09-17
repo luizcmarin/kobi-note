@@ -1,0 +1,1 @@
+import{m as e,ut as t}from"./index-CWdQis_V.js";async function n(n,r){let i=`${n}\n\n${r}`;if(typeof navigator.share==`function`){try{await navigator.share({title:n,text:i})}catch{}return}try{await navigator.clipboard.writeText(i),e(t.leitura.copiado)}catch{e(t.leitura.semCopiar,`warning`)}}export{n as t};
