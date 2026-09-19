@@ -17,5 +17,24 @@
     "publicar": 1,
     "data_criacao": 1788908907946,
     "data_atualizacao": 1789071847590
+  },
+  {
+    "id": 14,
+    "titulo": "Você não vem nem no Natal?",
+    "categoria": "celebracoes",
+    "icone": "christmas-tree",
+    "ordem": 2,
+    "cenario": "<p>É dezembro, a família está combinando a ceia e alguém pergunta, já meio ressentido: <em>“Você não vem nem no Natal? Nem por causa da vovó?”</em></p>",
+    "impulso": "<p>“Natal é festa pagã.” Três palavras que resumem séculos de história e que, dentro daquela sala, soam como uma acusação contra todo mundo que está ali.</p>",
+    "lentes": "[{\"id\":\"pagao2\",\"rotulo\":\"Dizer que é festa pagã e listar as origens\",\"resposta\":\"A origem é real e é parte da razão. Mas uma lista de costumes pagãos, dita na mesa, é ouvida como “vocês são pagãos” — e ninguém muda de ideia depois de ser chamado assim.\"},{\"id\":\"data\",\"rotulo\":\"Provar que Jesus não nasceu em 25 de dezembro\",\"resposta\":\"É verdade: os pastores estavam nos campos com os rebanhos à noite, o que não acontece no inverno da Judeia. Mas a data não é o coração do assunto, e vencer esse ponto não explica por que você não vai à ceia.\"},{\"id\":\"familia2\",\"rotulo\":\"Explicar a decisão e separá-la do afeto pela família\",\"resposta\":\"É essa. A decisão é sua e tem motivo; o que não pode ir junto com ela é o afastamento. Dizer que você não participa da comemoração e, no mesmo fôlego, combinar de visitar a avó em outro dia mantém as duas coisas de pé.\"}]",
+    "correta": "familia2",
+    "resposta": "<p>Por causa da origem, e não por antipatia à data. Os primeiros cristãos não comemoravam o nascimento de Jesus; a comemoração em 25 de dezembro só aparece séculos depois, e o dia foi escolhido por causa de festas que já existiam antes do cristianismo. A Bíblia não diz quando Jesus nasceu — e o que ela descreve, pastores passando a noite ao relento com os rebanhos, não combina com o inverno da Judeia.</p><p>Há também o que Jesus pediu que fosse lembrado. Ele não mandou celebrar o seu nascimento: mandou lembrar a sua morte, e disse como. É isso que fazemos, uma vez por ano.</p><p>Nada disso é motivo para se afastar da família. Não julgamos quem comemora, ninguém é obrigado a nos acompanhar, e continuar visitando, telefonando e dando presentes fora da data é o que mostra que a decisão foi sobre a festa, e não sobre as pessoas.</p>",
+    "referencia": "Lucas 2:8; Lucas 22:19; João 4:24; Romanos 14:5, 10; Marcos 7:7",
+    "link_jw": "https://www.jw.org/pt/testemunhas-de-jeova/perguntas-frequentes/por-que-nao-comemoram-natal/",
+    "preparo": "Como você diria à sua família que não vai à ceia e, ao mesmo tempo, deixaria claro que quer estar com eles?",
+    "exemplos": "[{\"nome\":\"Jesus\",\"nota\":\"pediu que se lembrasse a morte dele, e disse exatamente como (Lucas 22:19)\"},{\"nome\":\"Sadraque, Mesaque e Abednego\",\"nota\":\"recusaram a cerimônia do rei sem desrespeitá-lo, e explicaram o motivo (Daniel 3:16-18)\"}]",
+    "publicar": 1,
+    "data_criacao": 1788908907946,
+    "data_atualizacao": 1789845327504
   }
 ]

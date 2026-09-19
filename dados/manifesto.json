@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-09-19T15:20:44.443Z",
+  "gerado_em": "2026-09-19T19:16:18.170Z",
   "modulos": {
     "perguntas": {
       "versao": "f1c30d63d05e045756f9c98881b4c1d3",
       "registros": 13
     },
     "poesias": {
-      "versao": "deeb108c70813f7f4903c549fef6fd4c",
-      "registros": 20
+      "versao": "bc4691bcbbd1db1dc5a88cfa63c5b1f0",
+      "registros": 23
     },
     "receitas": {
       "versao": "b53666f7ba7856612434a43caa0514b7",
@@ -38,8 +38,8 @@
       "registros": 112
     },
     "faq": {
-      "versao": "01bf49e02c043cb7f52b6ca679face0e",
-      "registros": 1
+      "versao": "b9bb3db616db68b69402e24be5c6438d",
+      "registros": 2
     },
     "cronologia": {
       "versao": "1152c1d1da4b5eb0401e0ee4ecde60e5",
