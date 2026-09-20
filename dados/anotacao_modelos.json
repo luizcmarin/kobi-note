@@ -7,7 +7,7 @@
     "ordem": 0,
     "publicar": 1,
     "data_criacao": 1782319061407,
-    "data_atualizacao": 1782582864990
+    "data_atualizacao": 1789931256865
   },
   {
     "id": 2,
@@ -17,27 +17,27 @@
     "ordem": 1,
     "publicar": 1,
     "data_criacao": 1782319061407,
-    "data_atualizacao": 1784145319913
+    "data_atualizacao": 1789931275029
   },
   {
     "id": 3,
     "chave": "DISCURSO",
     "rotulo": "Discurso Público",
-    "conteudo": "<h4>Tema do Discurso: </h4><p><strong>Orador: </strong> </p><p><strong>Objetivo: </strong> </p><p></p><p></p><h4>Pontos de Destaque: </h4><p></p><p></p><p></p>",
+    "conteudo": "<h4>Tema do Discurso: </h4><h4><strong>Orador:</strong></h4><p></p><p></p><h4>Pontos de Destaque: </h4><p></p><p></p><p></p>",
     "ordem": 2,
     "publicar": 1,
     "data_criacao": 1782319061407,
-    "data_atualizacao": 1787682044302
+    "data_atualizacao": 1789931249784
   },
   {
     "id": 4,
     "chave": "DESIGNACAO_DISCURSO",
     "rotulo": "Designação de Discurso",
-    "conteudo": "<h4>Tema:</h4><p><strong>Objetivo:</strong> </p><p></p><h4>Introdução: </h4><p></p><p></p><p></p><h4>Corpo: </h4><p></p><p></p><p></p><h4>Conclusão: </h4><p></p><p></p><p></p>",
+    "conteudo": "<h4>Tema:</h4><h4><strong>Objetivo:</strong></h4><p></p><h4>Introdução: </h4><p></p><p></p><p></p><h4>Corpo: </h4><p></p><p></p><p></p><h4>Conclusão: </h4><p></p><p></p><p></p>",
     "ordem": 3,
     "publicar": 1,
     "data_criacao": 1782319061407,
-    "data_atualizacao": 1784145416990
+    "data_atualizacao": 1789931296650
   },
   {
     "id": 5,
@@ -47,26 +47,26 @@
     "ordem": 4,
     "publicar": 1,
     "data_criacao": 1782319061407,
-    "data_atualizacao": 1784145462038
+    "data_atualizacao": 1789931305291
   },
   {
     "id": 6,
     "chave": "ASSEMBLEIA",
     "rotulo": "Assembleia",
-    "conteudo": "<h4>Programa: </h4><p></p><p></p><p></p><h4>Lições para a Vida: </h4><p></p><p></p><p></p>",
+    "conteudo": "<h4>Programa: </h4><p></p><p></p><p></p><h4>Lições para a minha vida: </h4><p></p><p></p><p></p>",
     "ordem": 5,
     "publicar": 1,
     "data_criacao": 1782319061407,
-    "data_atualizacao": 1784145488133
+    "data_atualizacao": 1789931324685
   },
   {
     "id": 7,
     "chave": "VISITA_CIRCUITO",
     "rotulo": "Visita do Circuito",
-    "conteudo": "<h4>Pontos da Visita: </h4><p></p><p></p><p></p><h4>Encorajamento: </h4><p></p><p></p><p></p>",
+    "conteudo": "<h4>Nome do Viajante:&nbsp;</h4><h4>Pontos da Visita: </h4><p></p><p></p><p></p><h4>Encorajamento: </h4><p></p><p></p><p></p>",
     "ordem": 6,
     "publicar": 1,
     "data_criacao": 1782319061407,
-    "data_atualizacao": 1784145515070
+    "data_atualizacao": 1789931348924
   }
 ]
