@@ -17,6 +17,16 @@
     "data_criacao": 1782003091240,
     "data_atualizacao": 1789843521710,
     "anterior_id": 8,
+    "proximo_id": 18
+  },
+  {
+    "id": 18,
+    "titulo": "A adversidade",
+    "conteudo": "<p class=\"paragrafo--epigrafe\">Tome cuidado para não se voltar para o que é mau,&nbsp;escolhendo isso em vez de aceitar a tribulação.</p><p class=\"paragrafo--epigrafe-subtitulo\">— Jó 36:21. </p>\n\n\n<p><br></p><p>A adversidade nos fere com sua tenaz pontiaguda,</p>\n<p>E a carne fraca sem vacilar a esquiva.</p>\n<p>No entanto, o adverso vem sua ventania,</p>\n<p>Pois suas faíscas ardentes nos há sabido dar</p>\n<p>Um fio de ferramenta certeira, que trabalha,</p>\n<p>Quando nos rói e pole, qual pedra de afiar.</p>\n<p>Nos vamos preparando porque a noite avança.</p>\n<p>A alva do milênio nos aguarda depois,</p>\n<p>Cheia de bênçãos, de quietude e prosperidade,</p>\n<p>Mas antes, há espinhos para pisar com os pés.</p>\n<p>Em uma noite histórica, no longínquo passado,</p>\n<p>Quando a Jacó o nome de Israel se lhe deu,</p>\n<p>Ele viu chegar o dia depois de ter lutado</p>\n<p>Com o anjo, sem trégua, até que amanheceu.</p>\n<p>Prevaleceu por séculos a aprovação ganha,</p>\n<p>Sua terra foi fecunda, sua descendência muita.</p>\n<p>Mas há algo no fundo dessa lição sagrada:</p>\n<p>As altas bênçãos se conseguem com luta.</p>",
+    "publicar": 1,
+    "data_criacao": 1782003091240,
+    "data_atualizacao": 1789935493947,
+    "anterior_id": 10,
     "proximo_id": 28
   },
   {
@@ -26,7 +36,7 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1789841232340,
-    "anterior_id": 10,
+    "anterior_id": 18,
     "proximo_id": 68
   },
   {
