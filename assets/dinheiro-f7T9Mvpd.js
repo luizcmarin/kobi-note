@@ -1,1 +1,0 @@
-import{t as e}from"./numero-B0JnuQJ5.js";function t(t){return`R$ ${e(Number(t??0)/100,2,2)}`}function n(e){return Math.round(e??0)/100}function r(e){return Math.round((e??0)*100)}export{n,t as r,r as t};
