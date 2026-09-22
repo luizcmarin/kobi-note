@@ -1,1 +1,0 @@
-import{dt as e,m as t}from"./index-DERuH_YI.js";async function n(n,r){let i=`${n}\n\n${r}`;if(typeof navigator.share==`function`){try{await navigator.share({title:n,text:i})}catch{}return}try{await navigator.clipboard.writeText(i),t(e.leitura.copiado)}catch{t(e.leitura.semCopiar,`warning`)}}export{n as t};
