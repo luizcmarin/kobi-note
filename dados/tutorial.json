@@ -4,11 +4,11 @@
     "modulo_id": "",
     "titulo": "Visão geral",
     "resumo": "O que é o Kobi Note e como ele guarda suas coisas",
-    "conteudo": "<p>O Kobi Note é um aplicativo <strong>do seu aparelho</strong>. Tudo o que você escreve — anotações, metas, finanças, relatórios — fica gravado localmente e não é enviado a servidor nenhum.</p><p>A tela inicial é o mapa do app: cada tile abre um módulo, e alguns tiles são <em>hubs</em>, que agrupam módulos parecidos. O botão de voltar do cabeçalho sempre sobe um nível.</p><p>O botão de sincronizar, na tela inicial, baixa o <strong>conteúdo curado</strong> (guias, poesias, receitas, perguntas do jogo). Ele nunca apaga o que é seu, e o app funciona sem rede: sincronizar só atualiza o acervo.</p><p>Em cada módulo, o botão “?” do cabeçalho abre exatamente o tópico daquele módulo aqui no tutorial.</p>",
+    "conteudo": "<p>O Kobi Note é um aplicativo <strong>do seu aparelho</strong>. Tudo o que você escreve — anotações, metas, finanças, relatórios — fica gravado localmente, cifrado, e não é enviado a servidor nenhum. Para levar seus dados a outro aparelho, use o <strong>backup</strong>, no Sobre.</p><p>A tela inicial é o mapa do app: cada tile abre um módulo direto, e os tiles são agrupados em seções (Estudo Pessoal, Esteja Preparado, Extras, Pessoal, O Aplicativo). Não há tela intermediária. O botão de voltar do cabeçalho sempre sobe um nível.</p><p>Logo abaixo da agenda de hoje vem a <strong>faixa de números</strong> do mês: leitura, horas, estudo e metas. O cartão de metas é um botão — ele mostra as atingidas sobre o total e abre as Metas.</p><p>O tile <strong>Sincronizar</strong>, na seção O Aplicativo, baixa o <strong>conteúdo curado</strong> (guias, poesias, receitas, perguntas do jogo). Ele nunca apaga o que é seu, e o app funciona sem rede: sincronizar só atualiza o acervo.</p><p>Os botões do alto de toda tela abrem, de qualquer lugar, o seu cartão de contato e a ficha de emergência, e trocam o idioma e o tema claro ou escuro.</p><p>A ajuda de cada módulo mora aqui no Tutorial: um tópico por módulo, na ordem da tela inicial.</p>",
     "ordem": 1,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790296126750
   },
   {
     "id": 2,
@@ -202,11 +202,11 @@
     "modulo_id": "tutorial",
     "titulo": "Tutorial",
     "resumo": "Este próprio guia",
-    "conteudo": "<p>Este módulo. A lista tem um tópico por módulo, e cada módulo tem um botão “?” que abre o tópico dele direto.</p><p>O conteúdo é curado: ele melhora a cada sincronização, sem precisar atualizar o app.</p>",
+    "conteudo": "<p>Este módulo. O índice abre com a visão geral e o Guia do Usuário, e traz depois um tópico por módulo, na ordem da tela inicial.</p><p>O conteúdo é curado: ele melhora a cada sincronização, sem precisar atualizar o app.</p>",
     "ordem": 19,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790296126750
   },
   {
     "id": 20,

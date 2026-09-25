@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-24T19:23:57.211Z",
+  "gerado_em": "2026-09-25T00:54:53.891Z",
   "modulos": {
     "perguntas": {
       "versao": "f1c30d63d05e045756f9c98881b4c1d3",
@@ -34,7 +34,7 @@
       "registros": 89
     },
     "principios": {
-      "versao": "a4358b308289817367030f027faf1786",
+      "versao": "008877b006040e4d027a74e7fc814559",
       "registros": 112
     },
     "faq": {
@@ -42,8 +42,8 @@
       "registros": 2
     },
     "cronologia": {
-      "versao": "1152c1d1da4b5eb0401e0ee4ecde60e5",
-      "registros": 594
+      "versao": "7d86a10736452dd29ad333d30bb349ce",
+      "registros": 630
     },
     "categorias": {
       "versao": "63235e12781fb6226226a447cd77ec49",
@@ -58,7 +58,7 @@
       "registros": 6
     },
     "tutorial": {
-      "versao": "2bbcca8d484261dd7916b968b1441ccc",
+      "versao": "a17b0c307b013c896eef019a1f710405",
       "registros": 22
     }
   }
