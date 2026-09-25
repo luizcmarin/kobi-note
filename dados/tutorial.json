@@ -4,11 +4,11 @@
     "modulo_id": "",
     "titulo": "Visão geral",
     "resumo": "O que é o Kobi Note e como ele guarda suas coisas",
-    "conteudo": "<p>O Kobi Note é um aplicativo <strong>do seu aparelho</strong>. Tudo o que você escreve — anotações, metas, finanças, relatórios — fica gravado localmente, cifrado, e não é enviado a servidor nenhum. Para levar seus dados a outro aparelho, use o <strong>backup</strong>, no Sobre.</p><p>A tela inicial é o mapa do app: cada tile abre um módulo direto, e os tiles são agrupados em seções (Estudo Pessoal, Esteja Preparado, Extras, Pessoal, O Aplicativo). Não há tela intermediária. O botão de voltar do cabeçalho sempre sobe um nível.</p><p>Logo abaixo da agenda de hoje vem a <strong>faixa de números</strong> do mês: leitura, horas, estudo e metas. O cartão de metas é um botão — ele mostra as atingidas sobre o total e abre as Metas.</p><p>O tile <strong>Sincronizar</strong>, na seção O Aplicativo, baixa o <strong>conteúdo curado</strong> (guias, poesias, receitas, perguntas do jogo). Ele nunca apaga o que é seu, e o app funciona sem rede: sincronizar só atualiza o acervo.</p><p>Os botões do alto de toda tela abrem, de qualquer lugar, o seu cartão de contato e a ficha de emergência, e trocam o idioma e o tema claro ou escuro.</p><p>A ajuda de cada módulo mora aqui no Tutorial: um tópico por módulo, na ordem da tela inicial.</p>",
+    "conteudo": "<p>O Kobi Note é um aplicativo <strong>do seu aparelho</strong>. Tudo o que você escreve — anotações, metas, finanças, relatórios — fica gravado localmente, cifrado, e não é enviado a servidor nenhum. Para levar seus dados a outro aparelho, use o <strong>backup</strong>, na tela Sobre.</p><p>A tela inicial é o mapa do app: cada botão abre um módulo direto, e os botões são agrupados em seções (Estudo Pessoal, Esteja Preparado, Extras, Pessoal, O Aplicativo). Não há tela intermediária. O botão de voltar do cabeçalho sempre sobe um nível.</p><p>Logo abaixo da agenda de hoje vem a <strong>faixa de números</strong> do mês: leitura, horas, estudo e metas. O cartão de metas é um botão — ele mostra as atingidas sobre o total e abre as Metas.</p><p>O botão&nbsp;<strong>Sincronizar</strong>, na seção O Aplicativo, baixa o <strong>conteúdo curado</strong> (guias, poesias, receitas, perguntas do jogo). Ele nunca apaga o que é seu, e o app funciona sem rede: sincronizar só atualiza o acervo.</p><p>Os botões do alto de toda tela abrem, de qualquer lugar, o seu cartão de contato e a ficha de emergência, e trocam o idioma (se disponível) e o tema claro ou escuro.</p><p>A ajuda de cada módulo mora aqui no Tutorial: um tópico por módulo, na ordem da tela inicial.</p>",
     "ordem": 1,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 1790296126750
+    "data_atualizacao": 1790358828143
   },
   {
     "id": 2,
@@ -24,24 +24,24 @@
   {
     "id": 3,
     "modulo_id": "guias",
-    "titulo": "Guias",
+    "titulo": "Guias Táticos",
     "resumo": "Ler os guias do acervo e escrever os seus",
-    "conteudo": "<p>Os guias são explicações prontas, que vêm no acervo curado. A lista mistura os do acervo com os seus; os seus aparecem com a marca <em>Minha</em>.</p><p>No guia aberto você pode ouvir em voz alta, apresentar com rolagem automática ou compartilhar o texto. Editar e excluir só valem para os seus.</p><p>Dica: toque em <strong>+</strong> para escrever um guia próprio — ele fica no aparelho e nunca é substituído por uma sincronização.</p>",
+    "conteudo": "<p>Os guias táticos são explicações prontas, que vêm no acervo curado. A lista mistura os do acervo com os seus; os seus aparecem com a marca <em>Minha</em>.</p><p>No guia aberto você pode ouvir em voz alta, apresentar com rolagem automática ou compartilhar o texto. Editar e excluir só valem para os seus.</p><p>Dica: toque em <strong>+</strong> para escrever um guia próprio — ele fica no aparelho e nunca é substituído por uma sincronização.</p>",
     "ordem": 3,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790359426621
   },
   {
     "id": 4,
     "modulo_id": "poesia",
-    "titulo": "Poesia",
+    "titulo": "A Verdade, em Poesia",
     "resumo": "Ler o acervo, favoritar e escrever",
     "conteudo": "<p>O acervo de poesias é curado; as suas entram pelo <strong>+</strong> e ficam misturadas na mesma lista, com a marca <em>Minha</em>.</p><p>Na leitura há navegação sequencial (anterior/próxima) pelo acervo, barra de progresso, leitura em voz alta e modo apresentação.</p><p>Dica: a <strong>estrela</strong> marca favoritos, e favoritos sobem para o topo da lista. O botão de informação, na lista, explica o propósito das obras.</p>",
     "ordem": 4,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790360026311
   },
   {
     "id": 5,
@@ -57,13 +57,13 @@
   {
     "id": 6,
     "modulo_id": "jogo",
-    "titulo": "Língua Pura",
+    "titulo": "Você se lembra?",
     "resumo": "Praticar com as perguntas do acervo",
     "conteudo": "<p>É um jogo de perguntas para fixar o que você estuda. As perguntas vêm do acervo curado e aumentam a cada sincronização.</p><p>Dica: erre sem medo — a explicação de cada resposta é a parte que ensina.</p>",
     "ordem": 6,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790359737927
   },
   {
     "id": 7,
@@ -90,13 +90,13 @@
   {
     "id": 9,
     "modulo_id": "cronologia",
-    "titulo": "Cronologia",
+    "titulo": "Cronologia Comparada",
     "resumo": "A linha do tempo dos períodos bíblicos",
-    "conteudo": "<p>A linha do tempo vai da criação aos nossos dias. Toque num período para posicionar a linha nele e ver os eventos daquele trecho.</p><p>Dica: use junto do Caderno de Estudo — datar o que você lê ajuda a fixar.</p>",
+    "conteudo": "<p>A linha do tempo vai da criação aos nossos dias. De um lado a cronologia bíblica, do outro os fatos da história. Cada evento tem o link da fonte de onde saiu. Os cards históricos vêm de acervos oficiais fora de jw.org (UNESCO, Louvre, ONU, arquivos, museus, etc.) e seguem a datação acadêmica convencional (se quiser entender como funciona a datação acadêmica convencional acesse o módulo <i>Entenda Melhor - Medição Rádio-Carbono</i>).</p><p>Toque num período para posicionar a linha nele e ver os eventos daquele trecho.</p><p>Dica: use junto do Caderno de Estudo — datar o que você lê ajuda a fixar.</p>",
     "ordem": 9,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790359258804
   },
   {
     "id": 10,
@@ -114,11 +114,11 @@
     "modulo_id": "prep",
     "titulo": "Esteja Preparado",
     "resumo": "Kits, estoque e documentos",
-    "conteudo": "<p>Reúne o preparo para emergências: listas de verificação (kits), estoque de alimentos com validade e um cofre de documentos.</p><p>O cofre guarda os documentos <strong>cifrados</strong> no próprio aparelho, com a sua senha. Sem a senha ninguém abre — nem o app.</p><p>Dica: comece pelo kit sugerido e marque o que já tem; o indicador de prontidão mostra o quanto falta.</p>",
+    "conteudo": "<p>Reúne o preparo para emergências: listas de verificação (kits), estoque de alimentos com validade, um cofre de documentos e guias táticos.</p><p>O cofre guarda os documentos <strong>cifrados</strong> no próprio aparelho, com a sua senha. Sem a senha ninguém abre — nem o app.</p><p>Dica: comece pelo kit sugerido e marque o que já tem; o indicador de prontidão mostra o quanto falta.</p>",
     "ordem": 11,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790359335817
   },
   {
     "id": 12,
@@ -147,22 +147,22 @@
     "modulo_id": "ministerio",
     "titulo": "Vida e Ministério",
     "resumo": "Relatório do mês e contadores",
-    "conteudo": "<p>Os contadores do mês e o relatório. Os contadores somam durante o dia, e o relatório fecha o mês com o total.</p><p>Dica: registre no fim de cada saída, não no fim do mês — é a diferença entre um número exato e um número lembrado.</p>",
+    "conteudo": "<p>O relatório do mês, o contador e os estudos bíblicos. Por dentro dele fica o \"Quero Fazer Mais\", que transforma uma meta de horas em compromisso semanal.</p><p>Dica: registre no fim de cada saída, não no fim do mês — é a diferença entre um número exato e um número lembrado.</p>",
     "ordem": 14,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790360285079
   },
   {
     "id": 15,
     "modulo_id": "estudo",
-    "titulo": "Modo Estudo",
+    "titulo": "Meu Estudo Pessoal",
     "resumo": "Sessões de estudo com tempo",
     "conteudo": "<p>Marca sessões de estudo com duração, para você ver quanto tempo dedicou e a quê.</p><p>Dica: uma sessão curta registrada vale mais que uma longa esquecida.</p>",
     "ordem": 15,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790359848306
   },
   {
     "id": 16,
@@ -202,22 +202,22 @@
     "modulo_id": "tutorial",
     "titulo": "Tutorial",
     "resumo": "Este próprio guia",
-    "conteudo": "<p>Este módulo. O índice abre com a visão geral e o Guia do Usuário, e traz depois um tópico por módulo, na ordem da tela inicial.</p><p>O conteúdo é curado: ele melhora a cada sincronização, sem precisar atualizar o app.</p>",
+    "conteudo": "<p>Este módulo. O índice abre com a visão geral e o Guia do Usuário, e traz depois um tópico por módulo.</p><p>O conteúdo é curado: ele melhora a cada sincronização, sem precisar atualizar o app.</p>",
     "ordem": 19,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 1790296126750
+    "data_atualizacao": 1790360134102
   },
   {
     "id": 20,
     "modulo_id": "imite",
     "titulo": "Imite a Sua Fé",
     "resumo": "Enxergar a boa intenção por trás do atrito",
-    "conteudo": "<p>Cada cartão traz um atrito comum da convivência e o julgamento apressado que ele provoca. Você escolhe entre três <strong>lentes</strong> qual explica melhor a intenção do outro.</p><p>Errar não custa nada: cada lente errada tem uma resposta própria, e é ali que está o ensino. Depois de acertar, aparecem o princípio bíblico, os textos e a galeria de quem mais fez aquilo na Bíblia.</p><p>Dica: a última parte de cada cartão é o <strong>Espelho Invertido</strong> — uma pergunta sobre você. O que você escreve ali vai para o Caderno de Estudo, e reler essas respostas meses depois vale mais do que o cartão em si.</p>",
+    "conteudo": "<p>Cada cartão traz um atrito comum da convivência e o julgamento apressado que ele provoca. Você escolhe entre três <strong>lentes</strong> qual explica melhor a intenção do outro.</p><p>Errar não custa nada: cada lente errada tem uma resposta própria, e é ali que está o ensino. Depois de acertar, aparecem o princípio bíblico, os textos e a galeria de quem mais fez aquilo na Bíblia.</p><p>Dica: a última parte de cada cartão é o <strong>Seu Reflexo no Espelho</strong>&nbsp;— uma pergunta sobre você. O que você escreve ali vai para o Caderno de Estudo, e reler essas respostas meses depois vale mais do que o cartão em si.</p>",
     "ordem": 20,
     "publicar": 1,
     "data_criacao": 1787410266613,
-    "data_atualizacao": 1787410266613
+    "data_atualizacao": 1790359540963
   },
   {
     "id": 21,
@@ -233,12 +233,12 @@
   {
     "id": 22,
     "modulo_id": "faq",
-    "titulo": "Perguntas Frequentes",
+    "titulo": "Respostas Frequentes",
     "resumo": "A resposta da organização às perguntas mais comuns",
     "conteudo": "<p>É a parte de <strong>consulta rápida</strong> do app: cada pergunta traz a resposta curta, a completa, os textos que a sustentam e o link do artigo no jw.org. Serve para quando alguém pergunta — na porta, no trabalho, na família — e você quer a resposta na ponta da língua.</p><p>A lista é filtrada por <strong>categoria</strong> (crenças, organização, pregação, vida familiar...) e pela busca, que varre a pergunta, a resposta curta e os textos citados. A estrela guarda a pergunta na faixa de favoritos.</p><p>Dica: cada pergunta traz <strong>pontos de apoio</strong> — como explicar aquilo com suas palavras. Marque a pergunta como revisada quando já se sentir pronto para explicá-la; a barra no alto da lista mostra o quanto você já cobriu.</p>",
     "ordem": 22,
     "publicar": 1,
     "data_criacao": 1788639493096,
-    "data_atualizacao": 1788639493096
+    "data_atualizacao": 1790359955773
   }
 ]
