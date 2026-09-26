@@ -1,1 +1,0 @@
-import{r as e}from"./leitura-CICKVXAI.js";function t(t,n=180){let r=e(t);return r.length>n?`${r.slice(0,n)}...`:r}export{t};

@@ -1,1 +1,0 @@
-import{n as e}from"./ref-BUclJ5VH.js";function t(e){if(!(e instanceof HTMLElement))return;let t=e;Promise.resolve(t.updateComplete).then(()=>e.focus())}var n=e(t);export{n as t};
