@@ -3,242 +3,242 @@
     "id": 1,
     "modulo_id": "",
     "titulo": "Visão geral",
-    "resumo": "O que é o Kobi Note e como ele guarda suas coisas",
-    "conteudo": "<p>O Kobi Note é um aplicativo <strong>do seu aparelho</strong>. Tudo o que você escreve — anotações, metas, finanças, relatórios — fica gravado localmente, cifrado, e não é enviado a servidor nenhum. Para levar seus dados a outro aparelho, use o <strong>backup</strong>, na tela Sobre.</p><p>A tela inicial é o mapa do app: cada botão abre um módulo direto, e os botões são agrupados em seções (Estudo Pessoal, Esteja Preparado, Extras, Pessoal, O Aplicativo). Não há tela intermediária. O botão de voltar do cabeçalho sempre sobe um nível.</p><p>Logo abaixo da agenda de hoje vem a <strong>faixa de números</strong> do mês: leitura, horas, estudo e metas. O cartão de metas é um botão — ele mostra as atingidas sobre o total e abre as Metas.</p><p>O botão&nbsp;<strong>Sincronizar</strong>, na seção O Aplicativo, baixa o <strong>conteúdo curado</strong> (guias, poesias, receitas, perguntas do jogo). Ele nunca apaga o que é seu, e o app funciona sem rede: sincronizar só atualiza o acervo.</p><p>Os botões do alto de toda tela abrem, de qualquer lugar, o seu cartão de contato e a ficha de emergência, e trocam o idioma (se disponível) e o tema claro ou escuro.</p><p>A ajuda de cada módulo mora aqui no Tutorial: um tópico por módulo, na ordem da tela inicial.</p>",
+    "resumo": "O que é o Kobi Note e como se orientar nele",
+    "conteudo": "<p>O Kobi Note é um aplicativo que mora <strong>no seu aparelho</strong>. Tudo o que você escreve (anotações, metas, finanças, relatórios, documentos) fica gravado ali mesmo, protegido por criptografia, e não é enviado a servidor nenhum. Não há conta, senha nem nuvem. Ele também funciona <strong>sem internet</strong>: depois da primeira abertura, dá para usar no ônibus, no campo ou em qualquer lugar sem sinal.</p><p><strong>Instalar.</strong> O app fica melhor instalado na tela inicial, como um aplicativo comum. No Android, abra o menu do Chrome e toque em \"Instalar app\" ou \"Adicionar à tela inicial\". No iPhone, toque em Compartilhar e depois em \"Adicionar à Tela de Início\". No computador, clique no ícone de instalar na barra de endereço.</p><p><strong>A tela inicial.</strong> É o mapa do app. No alto fica a data de hoje e a sua <strong>agenda do dia</strong>, com os compromissos do Calendário. Logo abaixo vem a <strong>faixa de números</strong>: cartões pequenos que só aparecem quando há algo a mostrar (o tempo de estudo do mês, as contas vencidas, as que vencem hoje e nos próximos 7 dias, os estudos bíblicos esfriando, os relatórios a entregar) e o cartão <strong>Minhas Metas</strong>, que está sempre lá. Tocar num cartão abre o módulo de onde aquele número vem.</p><p>Depois vêm os <strong>botões dos módulos</strong>, agrupados em seções: Estudo Pessoal, Esteja Preparado, Extras, Pessoal e O Aplicativo. Cada botão abre o módulo direto, e alguns mostram um resumo embaixo do nome, como \"2 eventos hoje\" ou \"35% da Bíblia\".</p><p><strong>Os botões do alto.</strong> Em qualquer tela, o cabeçalho tem:</p><ul><li><strong>a seta ←</strong>, que volta para a tela anterior;</li><li><strong>o QR</strong>, que abre o seu cartão de contato para alguém salvar o seu número;</li><li><strong>o coração</strong>, que abre a sua ficha de emergência (tipo sanguíneo, alergias, contato de emergência);</li><li><strong>o sol ou a lua</strong>, que troca entre o tema claro e o escuro.</li></ul><p>O cartão e a ficha saem do que você preenche no <strong>Perfil</strong>.</p><p><strong>O conteúdo do app.</strong> Poesias, perguntas do jogo, guias, receitas, princípios e este Tutorial vêm prontos e são atualizados de tempos em tempos. O app busca as novidades sozinho sempre que é aberto com internet, e o botão <strong>Sincronizar</strong>, na seção O Aplicativo, faz isso na hora. A sincronização nunca apaga o que é seu: ela só atualiza o conteúdo que vem pronto.</p><p><strong>O backup.</strong> Como tudo fica só no aparelho, trocar de celular, desinstalar o app ou limpar os dados do navegador apaga o que você escreveu. Por isso, de tempos em tempos, abra o <strong>Sobre</strong>, toque em <strong>Baixar backup</strong> e guarde o arquivo fora do aparelho (no e-mail, num pen drive, no computador). Para levar tudo a outro aparelho, abra o Sobre lá e use <strong>Restaurar</strong> com esse arquivo.</p><p><strong>Compartilhar o app.</strong> O botão <strong>Compartilhar</strong>, na seção O Aplicativo, mostra um QR para a outra pessoa apontar a câmera, e botões para mandar o convite pelo WhatsApp, pelo compartilhamento do aparelho ou copiando o texto.</p><p>Cada módulo tem o seu tópico aqui no Tutorial, e o <strong>Guia do Usuário</strong>, logo abaixo da Visão geral, resume o app inteiro numa leitura só.</p>",
     "ordem": 1,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 1790358828143
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 2,
     "modulo_id": "anotacoes",
     "titulo": "Anotações",
     "resumo": "Escrever, organizar em pastas e apresentar",
-    "conteudo": "<p>Serve para tudo que você escreve: reuniões, discursos, visitas, estudos. Toque em <strong>+</strong> e escolha um modelo — ele já entra com os títulos prontos.</p><p>A gravação é automática: o texto é salvo pouco depois de você parar de digitar, e o rodapé do editor mostra a hora do último salvamento. Sem título, nada é gravado.</p><p>Dicas: <strong>fixe</strong> a anotação que você abre toda semana; <strong>arquive</strong> em vez de excluir o que já passou; e use o modo <strong>apresentar</strong> para ler no palco — o texto rola sozinho e a velocidade é ajustável.</p>",
+    "conteudo": "<p>Um lugar para tudo o que você escreve: anotações de reunião, esboço de discurso, visitas, listas, ideias. Cada anotação tem um título e um texto com formatação (negrito, listas, títulos).</p><p><strong>Criar uma anotação.</strong> Toque em <strong>+</strong>, no alto da tela, e escolha um <strong>modelo</strong>. O modelo já traz os títulos prontos para aquele tipo de anotação, e você só preenche. Escreva o <strong>título</strong> primeiro: sem ele, nada é gravado.</p><p><strong>Não existe botão de salvar.</strong> O texto é gravado sozinho pouco depois de você parar de digitar, e a linha acima do texto mostra \"Salvo às...\" com a hora. Pode sair da tela quando quiser.</p><p><strong>Ir para a reunião.</strong> O ícone de calendário com o visto, ao lado do +, abre uma anotação nova já com o modelo da reunião do dia: de segunda a sexta, a reunião Vida e Ministério; no sábado e no domingo, o discurso público.</p><p><strong>Pastas.</strong> As pastas aparecem como botões acima da lista. Tocar numa pasta mostra só as anotações dela; <strong>Todas</strong> mostra tudo. O ícone de pasta com o + cria uma pasta nova. Com uma pasta escolhida, aparecem os botões para <strong>Renomear</strong> e <strong>Excluir</strong> a pasta; excluir a pasta não apaga as anotações, que passam para \"Sem pasta\". Dentro da anotação, os mesmos botões de pasta escolhem onde ela fica.</p><p><strong>Achar uma anotação.</strong> Use o campo de <strong>busca</strong>, que procura no título e no texto, ou a caixa de <strong>modelos</strong>, que mostra só as anotações de um tipo.</p><p><strong>Os botões da anotação aberta</strong>, no alto da tela:</p><ul><li><strong>o alfinete</strong> fixa a anotação no topo da lista, para as que você abre toda semana;</li><li><strong>a caixa</strong> arquiva: a anotação sai da lista e passa para <strong>Arquivadas</strong>. Para trazê-la de volta, abra Arquivadas, abra a anotação e toque de novo na caixa;</li><li><strong>a tela de projeção</strong> abre o <strong>modo apresentação</strong>: o texto em letra grande, rolando sozinho, bom para ler no palco. Os botões − e + mudam a velocidade, e ali também há pausa e leitura em voz alta;</li><li><strong>a lixeira</strong> exclui a anotação, depois de pedir confirmação. Excluir não tem volta.</li></ul><p>Dica: arquive em vez de excluir o que já passou. A lista fica limpa, e o esboço do ano passado continua lá quando você precisar.</p>",
     "ordem": 2,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 3,
     "modulo_id": "guias",
     "titulo": "Guias Táticos",
-    "resumo": "Ler os guias do acervo e escrever os seus",
-    "conteudo": "<p>Os guias táticos são explicações prontas, que vêm no acervo curado. A lista mistura os do acervo com os seus; os seus aparecem com a marca <em>Minha</em>.</p><p>No guia aberto você pode ouvir em voz alta, apresentar com rolagem automática ou compartilhar o texto. Editar e excluir só valem para os seus.</p><p>Dica: toque em <strong>+</strong> para escrever um guia próprio — ele fica no aparelho e nunca é substituído por uma sincronização.</p>",
+    "resumo": "Ler os guias prontos e escrever os seus",
+    "conteudo": "<p>Os guias são orientações práticas para situações de emergência e preparo: o que fazer, em que ordem, com o quê. Alguns já vêm com o app e são atualizados pela sincronização; os que você escreve aparecem na mesma lista com a marca <em>Minha</em>.</p><p><strong>Ler um guia.</strong> Toque no guia na lista. No alto da tela há três botões: <strong>apresentar</strong> (o texto em letra grande, rolando sozinho), <strong>ouvir</strong> (o aparelho lê o guia em voz alta; toque de novo para pausar) e <strong>compartilhar</strong> (manda o texto pelo WhatsApp ou outro aplicativo).</p><p><strong>Escrever o seu.</strong> Toque em <strong>+</strong>, dê um título e escreva. Nos guias que são seus aparecem também os botões de <strong>editar</strong> (o lápis) e de <strong>excluir</strong> (a lixeira). Os guias que vêm prontos não se editam nem se excluem.</p><p>Use a <strong>busca</strong>, no alto da lista, para achar um guia pelo título ou pelo texto.</p><p>Dica: o que você escreve fica no aparelho e nunca é trocado pela sincronização. Vale escrever o guia da sua família: onde se encontrar, quem busca as crianças, os telefones que ninguém sabe de cabeça.</p>",
     "ordem": 3,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 1790359426621
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 4,
     "modulo_id": "poesia",
     "titulo": "A Verdade, em Poesia",
-    "resumo": "Ler o acervo, favoritar e escrever",
-    "conteudo": "<p>O acervo de poesias é curado; as suas entram pelo <strong>+</strong> e ficam misturadas na mesma lista, com a marca <em>Minha</em>.</p><p>Na leitura há navegação sequencial (anterior/próxima) pelo acervo, barra de progresso, leitura em voz alta e modo apresentação.</p><p>Dica: a <strong>estrela</strong> marca favoritos, e favoritos sobem para o topo da lista. O botão de informação, na lista, explica o propósito das obras.</p>",
+    "resumo": "Ler, guardar as preferidas e escrever as suas",
+    "conteudo": "<p>Uma coletânea de poesias para ler e meditar. Elas vêm com o app e ganham novas a cada sincronização. As que você escreve entram na mesma lista, com a marca <em>Minha</em>. O botão de informação, no alto da lista, explica o propósito das obras.</p><p><strong>A lista.</strong> Cada cartão mostra o título e um trecho da poesia. A <strong>estrela</strong> do cartão marca a poesia como favorita, e as favoritas sobem para o topo. A <strong>busca</strong> procura pelo título e pelo texto.</p><p><strong>A leitura.</strong> Toque numa poesia para abri-la. Uma barra fina no alto mostra quanto já foi lido, e no fim os botões <strong>Anterior</strong> e <strong>Próxima</strong> levam à poesia vizinha sem voltar à lista. No alto da tela ficam a estrela, o modo <strong>apresentação</strong> (letra grande, rolando sozinho), a <strong>leitura em voz alta</strong> e o <strong>compartilhar</strong>.</p><p><strong>As notas.</strong> Algumas poesias têm números pequenos no meio do texto. Tocar no número leva à nota, no fim da poesia, e \"Voltar ao ponto da nota\" traz de volta ao verso.</p><p><strong>Escrever a sua.</strong> Toque em <strong>+</strong>, dê um título e escreva. Nas suas aparecem também o lápis, para editar, e a lixeira, para excluir.</p><p>Dica: se você tem uma meta de poesias lidas nas Minhas Metas, é lá que você marca cada leitura: essa meta é contada à mão.</p>",
     "ordem": 4,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 1790360026311
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 5,
     "modulo_id": "receitas",
     "titulo": "Receitas",
-    "resumo": "Buscar por categoria e guardar as suas",
-    "conteudo": "<p>A lista traz o acervo curado e as suas receitas. Os chips de emoji filtram por categoria — toque de novo no chip aceso para ver todas.</p><p>Ingredientes e modo de preparo são campos de <strong>linhas</strong>: um item por linha. É o formato que fica legível na leitura e na hora de ouvir em voz alta.</p><p>Dica: aqui você pode editar até as receitas do acervo — a sua versão fica no aparelho.</p>",
+    "resumo": "Achar por categoria e guardar as suas",
+    "conteudo": "<p>Receitas prontas, que vêm com o app, e as que você cadastrar, todas na mesma lista.</p><p><strong>Achar uma receita.</strong> Os botões com desenho, acima da lista, filtram por categoria; toque de novo no botão aceso para ver todas. A <strong>busca</strong> procura pelo nome. A <strong>estrela</strong> marca as favoritas, que aparecem contadas no botão do módulo, na tela inicial.</p><p><strong>A receita aberta</strong> tem os botões de estrela, <strong>apresentar</strong> (letra grande, bom para ler de longe na cozinha), <strong>ouvir</strong> em voz alta, <strong>compartilhar</strong>, <strong>editar</strong> e <strong>excluir</strong>.</p><p><strong>Cadastrar a sua.</strong> Toque em <strong>+</strong>. Escolha a categoria e preencha os <strong>ingredientes</strong> e o <strong>modo de preparo</strong> com <strong>um item por linha</strong>: é assim que a receita fica legível na tela e na leitura em voz alta.</p><p><strong>Atenção às receitas que vêm com o app.</strong> Elas também se editam e se excluem, mas a mudança pode ser desfeita quando a sincronização trouxer uma versão nova das receitas. Para guardar de vez uma receita do seu jeito, cadastre-a como sua pelo +.</p>",
     "ordem": 5,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 6,
     "modulo_id": "jogo",
     "titulo": "Você se lembra?",
-    "resumo": "Praticar com as perguntas do acervo",
-    "conteudo": "<p>É um jogo de perguntas para fixar o que você estuda. As perguntas vêm do acervo curado e aumentam a cada sincronização.</p><p>Dica: erre sem medo — a explicação de cada resposta é a parte que ensina.</p>",
+    "resumo": "Um jogo de perguntas para fixar o que você estuda",
+    "conteudo": "<p>Um jogo de perguntas de múltipla escolha sobre a Bíblia. Cada partida tem <strong>dez perguntas</strong> sorteadas, e a ordem das alternativas muda a cada vez.</p><p><strong>Antes de começar</strong>, escolha:</p><ul><li><strong>o modo</strong>: <strong>Estudo</strong>, sem pressa, ou <strong>Desafio</strong>, com um cronômetro em cada pergunta e XP a mais para quem responde rápido;</li><li><strong>a dificuldade</strong>: Todas, Fácil, Médio ou Difícil.</li></ul><p>Depois toque em <strong>Começar</strong>.</p><p><strong>Durante a partida</strong>, toque na alternativa que você acha certa. O app mostra na hora se acertou e, quando há, a <strong>explicação</strong> da resposta. Toque em <strong>Próxima</strong> para seguir. No alto aparecem as perguntas restantes, os acertos e os erros. No modo Desafio dá para <strong>pausar</strong> o cronômetro.</p><p><strong>O XP.</strong> Cada acerto rende pontos de experiência (XP). Pergunta difícil vale mais, e acertos seguidos multiplicam: 5 seguidos dobram o XP, 10 triplicam, 20 quadruplicam. Todo o XP que você já ganhou define o seu <strong>nível</strong>. O <strong>saldo</strong> de XP serve para comprar uma <strong>dica</strong>, que custa 15 XP e tira duas alternativas erradas da pergunta.</p><p><strong>O resultado.</strong> No fim aparecem os acertos, o XP ganho e o seu nível. <strong>Anotar no Caderno de Estudo</strong> guarda o resultado no Caderno, com espaço para escrever o que você aprendeu. <strong>Jogar de novo</strong> começa outra partida.</p><p>As perguntas já respondidas não se repetem. Quando você responder todas de uma dificuldade, <strong>Reiniciar</strong> libera as perguntas de novo, sem perder o XP. Novas perguntas chegam com a sincronização.</p><p>Dica: erre sem medo. A explicação de cada resposta é a parte que mais ensina.</p>",
     "ordem": 6,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 1790359737927
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 7,
     "modulo_id": "criacao",
     "titulo": "Teve um Projeto?",
-    "resumo": "Puzzles sobre o projeto na natureza",
-    "conteudo": "<p>Cada módulo apresenta um ser vivo e o que a engenharia aprendeu dele. Você mexe nos controles do gráfico e vê o efeito na hora.</p><p>Dica: a ilustração de cada módulo ensina o que o puzzle não mostra — a conta, o mecanismo, o contexto. Vale abrir.</p>",
+    "resumo": "Desafios sobre o projeto que se vê na criação",
+    "conteudo": "<p>Cada módulo apresenta algo da criação (um ser vivo, a Terra, o DNA, as órbitas) e mostra, com um desafio interativo, a engenharia e a matemática que há nele.</p><p><strong>A lista</strong> agrupa os módulos por assunto: toque num assunto para ver os módulos dele. O visto marca os que você já concluiu, e o chapéu de formatura marca os que ganharam o selo de <strong>Estudo Diligente</strong>.</p><p><strong>Como fazer um módulo:</strong></p><ul><li>leia o <strong>Conceito</strong>, a explicação do assunto, e a apresentação do <strong>Desafio</strong>. Toque na ilustração para ampliá-la, e use o link do jw.org para ler a fonte;</li><li>toque em <strong>Começar</strong> para abrir o desafio. Cada um tem a sua instrução na tela: equilibrar uma balança, achar a rota mais curta da abelha, lançar um planeta na velocidade certa... Quando achar que resolveu, toque em <strong>Verificar</strong>. Errou? A tela diz o que ajustar, e você tenta de novo;</li><li>resolvido o desafio, aparece a <strong>reflexão</strong> sobre o que ele mostrou;</li><li>por último, o <strong>Caderno do Investigador</strong>: escreva com as suas palavras o que aprendeu. O texto vai para o Caderno de Estudo e dá o selo de Estudo Diligente.</li></ul><p><strong>Outros módulos</strong>, no fim da tela, leva ao próximo sem voltar à lista.</p>",
     "ordem": 7,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 8,
     "modulo_id": "entenda",
     "titulo": "Entenda Melhor",
-    "resumo": "Assuntos explicados com gráficos",
-    "conteudo": "<p>Assuntos que rendem mais quando visualizados: escalas, medições, cronologias. Os controles ficam dentro do próprio gráfico, e os textos mudam conforme você mexe.</p><p>Dica: as referências ficam no fim de cada assunto — vale conferir a fonte.</p>",
+    "resumo": "Assuntos explicados com gráficos que você mexe",
+    "conteudo": "<p>Assuntos que ficam mais claros quando se veem: escalas, medições, cronologias, probabilidades. Cada assunto traz uma explicação e uma atividade com gráfico, em que você mexe nos controles e vê o resultado mudar na hora.</p><p><strong>Como usar</strong> (é o mesmo caminho do Teve um Projeto?):</p><ul><li>toque num assunto da lista e leia o <strong>Conceito</strong> e a apresentação do <strong>Desafio</strong>. A ilustração amplia com um toque, e o link do jw.org abre a fonte;</li><li>toque em <strong>Começar</strong> e siga a instrução da tela: arrastar, tocar, escolher uma opção. Quando a atividade pede uma resposta, toque em <strong>Verificar</strong>; se não for ainda, a tela diz o que ajustar;</li><li>no fim vem <strong>O que você acabou de entender</strong>, com o resumo, e um campo para escrever com as suas palavras. O texto vai para o Caderno de Estudo e dá o selo de <strong>Estudo Diligente</strong>.</li></ul><p>Na lista, o visto marca os assuntos que você já concluiu, e o chapéu de formatura, os que ganharam o selo.</p>",
     "ordem": 8,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 9,
     "modulo_id": "cronologia",
     "titulo": "Cronologia Comparada",
-    "resumo": "A linha do tempo dos períodos bíblicos",
-    "conteudo": "<p>A linha do tempo vai da criação aos nossos dias. De um lado a cronologia bíblica, do outro os fatos da história. Cada evento tem o link da fonte de onde saiu. Os cards históricos vêm de acervos oficiais fora de jw.org (UNESCO, Louvre, ONU, arquivos, museus, etc.) e seguem a datação acadêmica convencional (se quiser entender como funciona a datação acadêmica convencional acesse o módulo <i>Entenda Melhor - Medição Rádio-Carbono</i>).</p><p>Toque num período para posicionar a linha nele e ver os eventos daquele trecho.</p><p>Dica: use junto do Caderno de Estudo — datar o que você lê ajuda a fixar.</p>",
+    "resumo": "A história bíblica e a mundial lado a lado",
+    "conteudo": "<p>Uma linha do tempo que vai da criação aos nossos dias e põe lado a lado três trilhas: a <strong>Bíblica</strong>, a <strong>Mundial</strong> e a <strong>Histórica</strong>. Ela ajuda a ver o que acontecia no mundo na época de cada relato da Bíblia.</p><p><strong>Andar pela linha do tempo.</strong> Role a tela para baixo. A linha é dividida em <strong>eras</strong>, e o nome da era em que você está fica preso no alto enquanto você rola. Os botões pequenos da primeira faixa, também presos no alto, pulam direto para uma era.</p><p><strong>Filtrar.</strong> Os botões <strong>Bíblica</strong>, <strong>Mundial</strong> e <strong>Histórica</strong> ligam e desligam cada trilha. A <strong>busca</strong> procura um acontecimento pelo nome ou pelo texto. O botão do funil riscado limpa os filtros.</p><p><strong>Cada acontecimento</strong> mostra a data, a trilha, a explicação e o link <strong>Ver a fonte</strong>, que abre de onde a informação saiu. Os fatos bíblicos vêm do jw.org; os fatos da história mundial vêm de acervos oficiais (museus, arquivos, UNESCO) e seguem a datação usada pelos historiadores.</p><p>Dica: leu um relato na Bíblia? Procure a época dele aqui e veja o que o resto do mundo estava fazendo.</p>",
     "ordem": 9,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 1790359258804
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 10,
     "modulo_id": "caderno",
     "titulo": "Caderno de Estudo",
-    "resumo": "Perguntas e respostas do seu estudo",
-    "conteudo": "<p>Um caderno para as suas perguntas e o que você descobriu sobre cada uma. Diferente das Anotações, aqui o formato é pergunta e resposta.</p><p>Dica: registre a pergunta assim que ela aparecer, mesmo sem resposta. A lista de perguntas abertas é o seu roteiro de estudo.</p>",
+    "resumo": "Tudo o que você escreveu nos módulos de estudo",
+    "conteudo": "<p>O Caderno junta, num lugar só, o que você escreve nos módulos de estudo. Não é preciso copiar nada: quando você escreve no campo do fim de um módulo, o texto já vem para cá.</p><p><strong>O que chega ao Caderno:</strong></p><ul><li>o <strong>Reflexo no Espelho</strong> do Imite a Sua Fé;</li><li>as reflexões dos <strong>Princípios Bíblicos</strong>;</li><li>a sua resposta, <strong>Com as suas palavras</strong>, nas Respostas Frequentes;</li><li>o <strong>Caderno do Investigador</strong> do Teve um Projeto? e do Entenda Melhor;</li><li>a <strong>pérola</strong> do Meu Estudo Pessoal, quando você marca essa opção;</li><li>o resultado de uma partida do <strong>Você se lembra?</strong>, quando você escolhe anotá-lo.</li></ul><p>Cada anotação mostra de que módulo veio. Nos módulos, o link <strong>Ver no Caderno de Estudo</strong>, abaixo do campo, traz direto para cá.</p><p><strong>Achar uma anotação.</strong> Use a <strong>busca</strong> ou a caixa de <strong>origem</strong>, que mostra só o que veio de um módulo.</p><p><strong>Escrever uma anotação solta.</strong> Toque em <strong>+</strong>. O título e a referência (um texto bíblico, um assunto) são opcionais; só o campo <strong>O que você aprendeu</strong> é obrigatório.</p><p>Cada anotação tem os botões <strong>Editar</strong> e a lixeira, para excluir.</p><p>Dica: releia de tempos em tempos. O que você escreveu meses atrás mostra o quanto o estudo andou.</p>",
     "ordem": 10,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 11,
     "modulo_id": "prep",
     "titulo": "Esteja Preparado",
-    "resumo": "Kits, estoque e documentos",
-    "conteudo": "<p>Reúne o preparo para emergências: listas de verificação (kits), estoque de alimentos com validade, um cofre de documentos e guias táticos.</p><p>O cofre guarda os documentos <strong>cifrados</strong> no próprio aparelho, com a sua senha. Sem a senha ninguém abre — nem o app.</p><p>Dica: comece pelo kit sugerido e marque o que já tem; o indicador de prontidão mostra o quanto falta.</p>",
+    "resumo": "Checklists, estoque de alimentos e cofre de documentos",
+    "conteudo": "<p>O preparo da família para emergências, em três partes, cada uma com o seu botão na seção <strong>Esteja Preparado</strong> da tela inicial: os <strong>Checklists de Prontidão</strong>, o <strong>Estoque de alimentos</strong> e o <strong>Cofre de documentos</strong>. Os Guias Táticos ficam na mesma seção e têm o seu próprio tópico.</p><p><strong>O índice de prontidão</strong>, no alto da seção, vai de 0 a 100. Ele soma o quanto dos checklists você já marcou e quantos dias de comida o estoque garante, com 30 dias contando como o máximo. As duas partes contam, porque mochila pronta sem comida, ou comida sem nada organizado, não é estar preparado.</p><p><strong>Checklists de Prontidão.</strong> O app já traz checklists sugeridos, como a mochila de emergência. Toque no nome de um checklist para abri-lo e toque em cada item conforme você o separa; a barra mostra quanto já está pronto. Dentro do checklist aberto, o lápis edita e a lixeira exclui. Para criar o seu, toque em <strong>+</strong>: dê um nome, um emoji se quiser, e acrescente os itens com quantidade, observação e, quando houver, a validade.</p><p><strong>Estoque de alimentos.</strong> O estoque começa com uma lista sugerida, que você ajusta ao que tem em casa. Cada item guarda a quantidade, o peso, as calorias e a <strong>validade</strong>. O app avisa do que já venceu e do que vence nos próximos 7 dias. O lápis de cada item o edita, a lixeira o exclui, e o + acrescenta um item novo.</p><p><strong>A calculadora de autonomia</strong>, no estoque, diz quantos dias o que você tem alimenta a sua casa. Informe a faixa de idade, o nível de atividade e quantas pessoas são. Ela mostra os dias de autonomia, a água sugerida, o peso total e quantos dias dependem de fogo para cozinhar, e avisa quando faltam alimentos com fibras e vitaminas.</p><p><strong>Cofre de documentos.</strong> Guarda cópias de documentos (RG, CNH, certidões, receitas médicas) protegidas por criptografia e abertas com a <strong>biometria</strong> do aparelho, a mesma do desbloqueio da tela. Na primeira vez, toque em <strong>Criar o cofre</strong> e confirme com a digital ou o rosto. Depois, cada abertura pede a biometria de novo, e o cofre se tranca sozinho quando você sai da tela.</p><p>Dentro do cofre, <strong>Guardar um documento</strong> escolhe o arquivo e pede um nome. Toque num documento para vê-lo; de lá, <strong>Baixar</strong> salva uma cópia no aparelho. O lápis renomeia o documento, e a lixeira o exclui. <strong>Trancar</strong> fecha o cofre na hora.</p><p><strong>Atenção:</strong> o cofre não tem senha de reserva. Se o aparelho for trocado ou os dados do navegador forem apagados, a chave se perde e os documentos do cofre não abrem mais. Guarde os originais em outro lugar também.</p>",
     "ordem": 11,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 1790359335817
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 12,
     "modulo_id": "financeiro",
     "titulo": "Financeiro",
-    "resumo": "Entradas, saídas e recorrências",
-    "conteudo": "<p>Lançamentos de entrada e saída por categoria, com recorrências para o que repete todo mês.</p><p>Dica: crie as categorias que você realmente usa e apague as que não usa — relatório com categoria vazia não informa nada.</p>",
+    "resumo": "Receitas, despesas, contas a pagar e recorrências",
+    "conteudo": "<p>O controle do dinheiro da casa: o que entra (<strong>receitas</strong>), o que sai (<strong>despesas</strong>) e as contas que ainda vão vencer. O módulo tem quatro telas: o painel, as transações, as categorias e as recorrências.</p><p><strong>O painel</strong> é a primeira tela. No alto está o <strong>saldo realizado</strong>, que conta só o que já foi pago ou recebido, e ao lado o <strong>previsto</strong>, que conta também o que ainda está em aberto. O olho esconde e mostra os valores, para abrir o app perto de outras pessoas. Abaixo, escolha o <strong>mês</strong> e o <strong>ano</strong> para ver as receitas, as despesas, o que falta receber e o que falta pagar naquele mês, o gráfico por categoria e os limites de gasto. Os botões Transações, Categorias e Recorrências abrem as outras telas.</p><p><strong>Lançar uma conta.</strong> Abra <strong>Transações</strong>, toque em <strong>+</strong> e preencha a descrição, o valor, se é receita ou despesa, a categoria e o vencimento. Marque <strong>Pago</strong> se ela já foi paga.</p><p><strong>Pagar uma conta.</strong> Na lista de transações, toque no círculo ao lado da conta. O app pergunta se quer marcar como paga, mostrando o valor, para você conferir que tocou na linha certa. Tocou por engano numa conta já paga? Toque de novo no círculo para <strong>desfazer a baixa</strong>.</p><p><strong>A lista de transações</strong> tem quatro filtros:</p><ul><li><strong>Vencidas</strong>, onde a lista abre: as contas atrasadas, de qualquer mês;</li><li><strong>A vencer</strong>: as contas em aberto que ainda não venceram, de qualquer mês;</li><li><strong>Pagas</strong> e <strong>Todas</strong>: mostram o mês escolhido no seletor.</li></ul><p>Uma conta que vence hoje ainda não está atrasada: ela aparece em A vencer. A lista mostra vinte por vez, com botões de página embaixo.</p><p><strong>Categorias.</strong> O app já traz as mais comuns. Cada categoria tem nome, ícone, cor e um <strong>limite mensal</strong> opcional (zero quer dizer sem limite); o painel mostra quanto do limite já foi gasto. Excluir uma categoria não apaga as transações dela, que ficam sem categoria.</p><p><strong>Recorrências</strong> são as contas que se repetem: aluguel, luz, salário. Escolha a periodicidade (diária, semanal, mensal ou anual) e o dia. O dia 31 cai no último dia dos meses mais curtos. Sempre que você abre o Financeiro, o app lança sozinho as contas das recorrências que já chegaram à data. Uma recorrência nova começa na próxima data; ligue <strong>Lançar o vencimento deste período agora</strong> para lançar também a deste mês. <strong>Pausar</strong> suspende uma recorrência sem apagá-la, e excluí-la não apaga as contas que ela já lançou.</p><p>Dica: as contas vencidas e as que vencem nos próximos dias aparecem também na tela inicial, na faixa de números.</p>",
     "ordem": 12,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 13,
     "modulo_id": "metas",
-    "titulo": "Metas",
-    "resumo": "Objetivos com progresso",
-    "conteudo": "<p>Metas com prazo e progresso, acessadas de dentro de Vida e Ministério.</p><p>Dica: meta boa é a que caber num número — horas, capítulos, visitas. O progresso se calcula sozinho a partir dele.</p>",
+    "titulo": "Minhas Metas",
+    "resumo": "Objetivos com prazo e progresso",
+    "conteudo": "<p>Uma meta é um objetivo com número e prazo: \"30 horas de campo até dezembro\", \"gastar no máximo R$ 500 com mercado este mês\". O módulo mostra quanto falta para cada uma.</p><p><strong>Onde fica.</strong> As Metas não têm botão entre os módulos: abra pelo cartão <strong>Minhas Metas</strong>, na faixa de números da tela inicial.</p><p><strong>Criar uma meta.</strong> Toque em <strong>+</strong>, dê um título, escolha a <strong>categoria</strong> (o que vai ser contado), o <strong>alvo</strong>, o <strong>início</strong> e o <strong>prazo final</strong>. Só conta o que acontecer entre essas duas datas.</p><p><strong>Metas automáticas.</strong> Nestas categorias o progresso se calcula sozinho, a partir do que você já registra nos outros módulos, e a meta leva a marca <strong>Automática</strong>:</p><ul><li><strong>Financeiro</strong>: o saldo previsto, as despesas, ou as despesas de uma categoria que você escolhe;</li><li><strong>Ministério</strong>: as horas de campo dos relatórios, os estudos bíblicos e as revisitas;</li><li><strong>Estudo Pessoal</strong>: os minutos estudados, o número de sessões, ou só os minutos das sessões do tipo Leitura da Bíblia;</li><li><strong>Você se lembra?</strong>: as perguntas respondidas.</li></ul><p><strong>Metas manuais.</strong> Nas outras categorias, como <strong>Poesias lidas</strong>, é você quem conta: use os botões <strong>−</strong> e <strong>+</strong> da meta a cada avanço.</p><p><strong>Acompanhar.</strong> Os botões <strong>Ativas</strong>, <strong>Concluídas</strong> e <strong>Todas</strong> filtram a lista, e a busca acha uma meta pelo título. <strong>Concluir</strong> encerra uma meta, e <strong>Reabrir</strong> a traz de volta. O lápis edita a meta, e a lixeira a exclui.</p><p>Dica: o <strong>Quero Fazer Mais</strong>, dentro do Vida e Ministério, calcula quanto cada saída de campo precisa render e cria a meta de horas para você.</p>",
     "ordem": 13,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 14,
     "modulo_id": "ministerio",
     "titulo": "Vida e Ministério",
-    "resumo": "Relatório do mês e contadores",
-    "conteudo": "<p>O relatório do mês, o contador e os estudos bíblicos. Por dentro dele fica o \"Quero Fazer Mais\", que transforma uma meta de horas em compromisso semanal.</p><p>Dica: registre no fim de cada saída, não no fim do mês — é a diferença entre um número exato e um número lembrado.</p>",
+    "resumo": "Contador, relatório ao secretário e estudos",
+    "conteudo": "<p>O módulo tem três partes: o <strong>contador do mês</strong>, os <strong>relatórios</strong> e os <strong>estudos bíblicos</strong>. Ao lado deles fica o atalho <strong>Quero fazer mais</strong>, que transforma uma meta de horas em compromisso semanal.</p><p><strong>O contador</strong> soma o mês corrente em cinco linhas: tempo, estudos, revisitas, publicações e vídeos. O tempo anda de 15 em 15 minutos no − e no +, e o botão <strong>+1h</strong> soma uma hora inteira de uma vez. Cada toque já fica gravado. O botão de zerar, no alto do quadro, volta os cinco a zero depois de pedir confirmação.</p><p><strong>O relatório</strong> se faz quando o mês termina. O botão <strong>Gerar relatório do mês</strong> abre o formulário já preenchido pelo contador: as horas, os estudos e, quando houve, as revisitas, as publicações e os vídeos vão escritos nas <strong>Observações</strong>, uma linha por item. É ali que está o relatório inteiro, e você pode ler e corrigir antes de salvar. O tipo de publicador vem do último relatório; trocar o mês, o ano ou o tipo refaz o texto, enquanto você não o tiver editado à mão.</p><p><strong>As horas.</strong> Só os pioneiros e o Publicador Especial relatam horas; o publicador relata a participação e os estudos. As horas vão <strong>inteiras</strong>: 6h45 no contador viram 6 no relatório, e os 45 minutos passam para o contador do mês seguinte quando o relatório é enviado. O <strong>Publicador Especial</strong> é a exceção: relata o tempo como foi contado, com a fração, e nada passa adiante.</p><p><strong>O envio.</strong> Com o telefone do <strong>Secretário da Congregação</strong> preenchido no Perfil, o botão <strong>Enviar</strong> abre a conversa dele no WhatsApp com o relatório já escrito. Depois de mandar a mensagem, volte ao app e confirme: só então ele fica marcado como enviado. Sem o telefone, o relatório vai pelo compartilhamento do aparelho e só conta como enviado quando o compartilhamento é concluído; se o aparelho apenas copiar o texto, cole na conversa e marque como enviado você mesmo. O texto abre com o seu nome, telefone, e-mail, congregação e grupo, que também vêm do Perfil, e a tela avisa quando o nome está faltando.</p><p>Enviar o relatório não apaga o contador daquele mês: revisitas, publicações e vídeos ficam guardados, porque as Metas e a contagem do ano os usam.</p><p><strong>O lembrete.</strong> Durante o mês inteiro, o <strong>gato do lembrete</strong> cobra o relatório do mês anterior até ele ser enviado. O mês corrente nunca é cobrado, porque só se relata depois que ele acaba. O botão do lembrete leva direto ao que falta: ao envio, se o relatório já foi feito, ou ao formulário preenchido pelo contador daquele mês, se ainda não foi. Meses mais antigos sem relatório, ou com relatório nunca enviado, aparecem no aviso vermelho de <strong>relatórios em atraso</strong>. O mesmo gato aparece no cartão da tela inicial.</p><p><strong>O ano de serviço.</strong> A lista de relatórios é agrupada por ano de serviço, de setembro a agosto, com o resumo de cada ano no topo: meses relatados, enviados, meses com participação, horas e a média de estudos. No fim da tela, o gráfico do ano mostra estudos e horas mês a mês e a faixa da participação; mês sem relatório aparece como um vão, e não como zero. As setas trocam de ano. Logo abaixo, a <strong>contagem do ano</strong> soma tempo, revisitas, publicações e vídeos de todos os contadores. Ela é só estatística e não vai no relatório.</p><p><strong>Os estudos bíblicos.</strong> Cada estudo guarda nome, contato, endereço, publicação atual, dia e horário, e tem uma <strong>linha do tempo</strong>: depois de cada estudo, registre onde vocês pararam e como foi. O estudo sem registro há 15 dias ou mais fica marcado como <strong>esfriando</strong>, sobe para o topo da lista e entra num aviso no alto do módulo. O compartilhar de um estudo passa a outro publicador a publicação, onde pararam, o dia e o contato.</p><p><strong>Quero fazer mais.</strong> Escolha a modalidade (de publicador a pioneiro especial, incluindo as 15 horas do pioneiro auxiliar nos meses de arranjo especial), o alvo de horas, o período e os dias em que pretende sair, e ele mostra quanto cada saída, cada semana e cada mês pedem. <strong>Registrar como meta</strong> cria a meta em Minhas Metas, que acompanha sozinha as horas dos seus relatórios.</p><p>Dica: registre no fim de cada saída, não no fim do mês — é a diferença entre um número exato e um número lembrado. E preencha o Perfil antes do primeiro envio: o seu nome e o telefone do secretário são o que fazem o relatório chegar ao destino dizendo de quem é.</p>",
     "ordem": 14,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 1790360285079
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 15,
     "modulo_id": "estudo",
     "titulo": "Meu Estudo Pessoal",
-    "resumo": "Sessões de estudo com tempo",
-    "conteudo": "<p>Marca sessões de estudo com duração, para você ver quanto tempo dedicou e a quê.</p><p>Dica: uma sessão curta registrada vale mais que uma longa esquecida.</p>",
+    "resumo": "Estudar com hora marcada e guardar o que aprendeu",
+    "conteudo": "<p>Este módulo é um momento reservado para estudar. Você escolhe o que vai estudar, ora, estuda com um cronômetro contando o tempo e, no fim, escreve o que aprendeu: a <strong>pérola</strong>. Cada estudo fica guardado no histórico, e o tempo dedicado aparece também na tela inicial e nas Metas.</p><p><strong>Para começar.</strong> Escolha o <strong>tipo de estudo</strong>: Leitura da Bíblia, Estudo Pessoal, Preparação de Reunião ou Meditação. Se quiser, escreva o <strong>assunto</strong>, por exemplo \"Reunião de quinta\" ou o nome do livro que vai ler. Depois escolha o <strong>alvo de tempo</strong>, de 5 a 50 minutos: é o tempo que você pretende dedicar. Toque em <strong>Começar</strong>.</p><p><strong>A oração.</strong> Antes de o cronômetro começar, o app mostra um texto bíblico e convida você a orar. Quando estiver pronto, toque em <strong>Já orei — Quero começar</strong>. Se mudou de ideia, <strong>Cancelar</strong> volta ao começo sem gravar nada.</p><p><strong>O cronômetro.</strong> O círculo vai se enchendo conforme o tempo passa, e o relógio no meio mostra quanto já foi. Quando você chega ao alvo, o círculo fica verde e aparece um aviso, mas o cronômetro não para: pode continuar estudando enquanto o assunto render. <strong>Pausar</strong> congela o tempo, e <strong>Continuar</strong> retoma de onde parou.</p><p><strong>Pode sair do app.</strong> O cronômetro conta pelo relógio do aparelho, então ele continua certo mesmo que você abra outro aplicativo, bloqueie a tela ou o celular feche o Kobi Note para economizar memória. Quando você volta ao módulo, o estudo está do jeito que você deixou: o tempo, o assunto e a pérola que já tinha escrito. Ele só termina quando você salva ou descarta.</p><p><strong>Atenção à pausa.</strong> Se você sair sem pausar, o tempo continua correndo, como num cronômetro de mão. Vai almoçar ou atender alguém? Toque em <strong>Pausar</strong> antes de sair e em <strong>Continuar</strong> quando voltar.</p><p><strong>Encerrar.</strong> Terminou de estudar? Toque em <strong>Encerrar</strong>. O tempo para e abre a tela da pérola.</p><p><strong>A pérola.</strong> É o que você leva do estudo: uma ideia, um texto bíblico, uma aplicação para a sua vida. Escreva no campo <strong>Pérola</strong>. Logo abaixo há duas caixas de marcar, e você pode marcar as duas, uma só ou nenhuma:</p><ul><li><strong>Virar anotação, na pasta Pérolas</strong>: cria uma anotação com a pérola no módulo Anotações, dentro de uma pasta chamada Pérolas, que o app cria sozinho na primeira vez;</li><li><strong>Guardar no Caderno de Estudo</strong>: coloca a pérola no Caderno, junto de tudo o que você escreveu nos outros módulos de estudo.</li></ul><p>As caixas só ficam disponíveis depois que a pérola tem algum texto. Marcar uma caixa ainda não grava nada: quem grava é o botão <strong>Salvar sessão</strong>.</p><p><strong>Salvar ou descartar.</strong> <strong>Salvar sessão</strong> guarda o estudo no histórico, com o tipo, o assunto, o tempo e a pérola, faz o que estiver marcado nas caixas e mostra o aviso \"Sessão salva\". Se algo der errado, o app avisa e deixa tudo na tela: é só tocar em Salvar de novo, sem risco de gravar em dobro. <strong>Descartar</strong> apaga o estudo em andamento sem gravar nada, depois de pedir confirmação. Ele aparece durante o cronômetro e na tela da pérola; use quando o estudo não aconteceu de verdade.</p><p><strong>O histórico.</strong> O ícone de relógio no alto da tela do módulo abre o histórico: o total de sessões e de horas estudadas e um cartão por sessão, da mais recente para a mais antiga, com o tipo, a data, o tempo e a pérola. Uma pérola que ainda não virou anotação tem o botão <strong>Virar anotação</strong> ali mesmo. A lixeira exclui a sessão, depois de pedir confirmação.</p><p>Dica: uma sessão curta registrada vale mais que uma longa esquecida. E escreva a pérola enquanto o assunto está fresco: é ela que você vai reler daqui a um mês.</p>",
     "ordem": 15,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 1790359848306
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 16,
     "modulo_id": "leitura",
     "titulo": "Leitura da Bíblia",
-    "resumo": "Acompanhar a leitura por livro",
-    "conteudo": "<p>Acompanha a leitura livro por livro, marcando o que já foi lido.</p><p>Dica: o progresso é por capítulo — marcar assim que terminar mantém o histórico honesto.</p>",
+    "resumo": "Marcar a leitura capítulo por capítulo",
+    "conteudo": "<p>Acompanha a sua leitura da Bíblia inteira: os 66 livros e os 1.189 capítulos. No alto fica o <strong>progresso geral</strong>, com quantos capítulos e quantos livros você já leu. A porcentagem aparece também no botão do módulo, na tela inicial.</p><p><strong>Marcar o que leu.</strong> Toque no nome de um livro para abri-lo: aparecem os números dos capítulos. Toque em cada capítulo que você leu, e ele fica marcado; toque de novo para desmarcar. <strong>Livro inteiro</strong> marca todos os capítulos do livro de uma vez, e <strong>Limpar</strong> desmarca todos. O livro completo ganha um visto.</p><p><strong>As quatro visões</strong>, nos botões do alto, mostram os mesmos livros em ordens diferentes. O que você marca numa aparece em todas:</p><ul><li><strong>Canônica</strong>: a ordem da Bíblia, de Gênesis a Apocalipse;</li><li><strong>Cronológica</strong>: pela época em que cada livro foi escrito;</li><li><strong>Escritor</strong>: os livros agrupados por quem os escreveu;</li><li><strong>Celebração</strong>: o roteiro de leitura dos acontecimentos da última semana de Jesus na Terra, para a época da Celebração da morte de Cristo. Aqui você marca cada dia do roteiro, e não capítulos.</li></ul><p>O app lembra a última visão que você usou.</p><p>Dica: marque o capítulo assim que terminar de ler. É o que mantém o progresso fiel ao que você leu de verdade.</p>",
     "ordem": 16,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 17,
     "modulo_id": "calendario",
     "titulo": "Calendário",
-    "resumo": "Eventos por tipo",
-    "conteudo": "<p>Eventos do mês, coloridos por tipo (reunião, assembleia, saída de campo, pessoal).</p><p>Dica: os tipos padrão já vêm criados; você pode criar os seus e reaproveitar em cada evento.</p>",
+    "resumo": "Compromissos e eventos, em cinco vistas",
+    "conteudo": "<p>A agenda dos seus compromissos: reuniões, consultas, estudos, lembretes. Os eventos de hoje aparecem também no alto da tela inicial e, com o app instalado, como um número no ícone do Kobi Note.</p><p><strong>As vistas.</strong> Os botões <strong>Dia</strong>, <strong>Semana</strong>, <strong>Mês</strong>, <strong>Ano</strong> e <strong>Agenda</strong> trocam a forma de ver. A Agenda é uma lista, boa para ler os próximos compromissos. As setas ‹ e › andam para o período anterior e o seguinte, <strong>Hoje</strong> volta ao dia de hoje, e as caixas de mês e ano pulam direto para uma data. Na vista de ano, tocar no nome do mês abre o mês, e tocar num dia abre o dia.</p><p><strong>Criar um evento.</strong> Toque em <strong>+</strong>, no alto, ou toque num dia vazio (ou num horário vazio, nas vistas de dia e semana) para criar o evento já naquela data e hora. Preencha o <strong>título</strong>, o <strong>tipo</strong>, a data e a hora de início e de fim e, se quiser, uma descrição. Ligue <strong>Dia inteiro</strong> para o que não tem hora marcada.</p><p><strong>Mudar ou apagar.</strong> Toque no evento para abri-lo, mude o que precisar e salve, ou use <strong>Excluir</strong>. Nas vistas de dia e semana, dá para <strong>arrastar</strong> o evento para outro horário (ou outro dia, na semana) e puxar a borda de baixo para mudar a duração. No celular, segure o dedo sobre o evento antes de arrastar.</p><p><strong>Os tipos.</strong> Cada evento tem um tipo, e cada tipo tem cor e ícone próprios, para você reconhecer o compromisso de longe. O app já traz alguns (Reunião, Compromisso, Pessoal, Lembrete...). O botão de etiquetas, no alto, abre a lista de tipos para criar, mudar ou excluir. Um tipo que já tem eventos não pode ser excluído.</p><p>Dica: quando hoje está na tela, as vistas de dia e de semana já abrem na hora atual, marcada por uma linha.</p>",
     "ordem": 17,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 18,
     "modulo_id": "perfil",
     "titulo": "Perfil / ICE",
-    "resumo": "Seus dados e o cartão de emergência",
-    "conteudo": "<p>Guarda os seus dados, incluindo as informações de emergência (ICE) e a recusa de sangue.</p><p>Dica: preencha os contatos de emergência mesmo que pareça improvável precisar — é a tela que outra pessoa vai abrir no seu lugar.</p>",
+    "resumo": "Seus dados, o cartão de contato e a ficha de emergência",
+    "conteudo": "<p>O Perfil guarda os seus dados pessoais e de saúde. Ele alimenta três coisas: o seu <strong>cartão de contato</strong>, a <strong>ficha de emergência</strong> (ICE, do inglês \"em caso de emergência\") e a identificação do <strong>relatório de campo</strong>, no Vida e Ministério. Os dados ficam só no aparelho.</p><p><strong>Não há botão de salvar.</strong> Cada campo é gravado sozinho um segundo depois de você parar de digitar.</p><p><strong>As seções do formulário:</strong></p><ul><li><strong>Cartão de visita</strong>: nome completo, telefone, e-mail, um link pessoal e uma observação;</li><li><strong>Congregação</strong> e <strong>Secretário da Congregação</strong>: a sua congregação, o grupo de campo e o nome e o telefone do secretário, para onde o relatório de campo é enviado;</li><li><strong>Saúde</strong>: tipo sanguíneo, se é doador de órgãos, alergias, remédios em uso e observações médicas, e a <strong>gestação</strong>, quando for o caso;</li><li><strong>Diretrizes de sangue (DPA)</strong>: a recusa de transfusão, as frações que você aceita por consciência e a data em que o cartão DPA físico foi atualizado e assinado;</li><li><strong>Contato de emergência</strong>, a <strong>CoLiH</strong> e a <strong>identificação complementar</strong> (cartão SUS, CPF, hospital de referência).</li></ul><p>Um telefone ou e-mail que parece incompleto ganha um aviso, mas é gravado assim mesmo. Uma data que não existe ou um CPF que não confere não são gravados até você corrigir.</p><p><strong>O cartão de contato</strong> abre pelo botão do <strong>QR</strong>, no alto de qualquer tela. A outra pessoa aponta a câmera para o QR e salva o seu contato. Há também os botões de <strong>WhatsApp</strong> e de <strong>Compartilhar</strong>. O cartão só aparece com o nome e o telefone preenchidos.</p><p><strong>A ficha de emergência</strong> abre pelo botão do <strong>coração</strong>, também no alto de qualquer tela. Ela mostra, em letras grandes, o que uma equipe de socorro precisa saber, e o telefone do contato de emergência vira um botão de ligar. Com a recusa de transfusão marcada, ela mostra o aviso <strong>NÃO APLIQUE SANGUE</strong>.</p><p><strong>O aviso do DPA.</strong> Um ano depois da data de assinatura do cartão DPA, a tela inicial passa a avisar que ele venceu. O aviso só some quando você atualiza a data no Perfil.</p><p>Dica: preencha o contato de emergência mesmo que pareça improvável precisar. É a tela que outra pessoa vai abrir no seu lugar.</p>",
     "ordem": 18,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 0
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 19,
     "modulo_id": "tutorial",
     "titulo": "Tutorial",
-    "resumo": "Este próprio guia",
-    "conteudo": "<p>Este módulo. O índice abre com a visão geral e o Guia do Usuário, e traz depois um tópico por módulo.</p><p>O conteúdo é curado: ele melhora a cada sincronização, sem precisar atualizar o app.</p>",
+    "resumo": "Como usar cada parte do Kobi Note",
+    "conteudo": "<p>Este módulo. Ele explica, em linguagem simples, como usar cada parte do Kobi Note.</p><p>O índice abre com a <strong>Visão geral</strong>, que apresenta o app e a tela inicial, e o <strong>Guia do Usuário</strong>, que resume o app inteiro numa leitura só. Depois vem um tópico para cada módulo, em ordem alfabética.</p><p>Os textos do Tutorial são atualizados junto com o conteúdo do app, sempre que ele é aberto com internet ou quando você toca em <strong>Sincronizar</strong>, na tela inicial.</p>",
     "ordem": 19,
     "publicar": 1,
     "data_criacao": 0,
-    "data_atualizacao": 1790360134102
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 20,
     "modulo_id": "imite",
     "titulo": "Imite a Sua Fé",
     "resumo": "Enxergar a boa intenção por trás do atrito",
-    "conteudo": "<p>Cada cartão traz um atrito comum da convivência e o julgamento apressado que ele provoca. Você escolhe entre três <strong>lentes</strong> qual explica melhor a intenção do outro.</p><p>Errar não custa nada: cada lente errada tem uma resposta própria, e é ali que está o ensino. Depois de acertar, aparecem o princípio bíblico, os textos e a galeria de quem mais fez aquilo na Bíblia.</p><p>Dica: a última parte de cada cartão é o <strong>Seu Reflexo no Espelho</strong>&nbsp;— uma pergunta sobre você. O que você escreve ali vai para o Caderno de Estudo, e reler essas respostas meses depois vale mais do que o cartão em si.</p>",
+    "conteudo": "<p>Um treino para a convivência. Cada cartão traz um <strong>atrito</strong> comum (em casa, na congregação, no trabalho) e o julgamento apressado que ele costuma provocar. A pergunta do cartão é: e se a intenção da outra pessoa fosse boa?</p><p><strong>A lista.</strong> Os cartões ficam agrupados por tema: toque num tema para ver os cartões dele. A barra do alto mostra quantos você já fez, e os feitos ganham um visto.</p><p><strong>Como fazer um cartão:</strong></p><ul><li>leia <strong>O atrito</strong> e <strong>O que passa pela cabeça</strong>;</li><li>toque em <strong>Escolher a lente</strong>. Aparecem três <strong>lentes</strong>, três jeitos de explicar a intenção do outro. Escolha a que parece certa e toque em <strong>Confirmar a lente</strong>;</li><li>errou? Não custa nada: cada lente errada tem a sua explicação, e é ali que está o ensino. Olhe de novo e escolha outra;</li><li>acertando, aparecem a lente da boa intenção, o princípio bíblico, os textos, quem mais agiu assim na Bíblia e o link para ler a fonte no jw.org;</li><li>no fim vem o <strong>Seu Reflexo no Espelho</strong>, uma pergunta sobre você. Responda com sinceridade: o texto vai para o Caderno de Estudo e dá o selo <strong>Espelho Escrito</strong> ao cartão.</li></ul><p><strong>Outros cartões</strong>, no fim, leva ao próximo sem voltar à lista.</p><p>Dica: reler as suas respostas do Espelho meses depois, no Caderno, vale mais do que o cartão em si.</p>",
     "ordem": 20,
     "publicar": 1,
     "data_criacao": 1787410266613,
-    "data_atualizacao": 1790359540963
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 21,
     "modulo_id": "principios",
     "titulo": "Princípios Bíblicos",
     "resumo": "O que a Bíblia diz sobre as decisões do dia a dia",
-    "conteudo": "<p>É a parte de <strong>consulta</strong> do app: cada princípio traz a frase que o resume, os textos que o sustentam, por que ele existe e como ele se parece num dia comum. Não há exercício, não há acerto e não há erro — quem abre este módulo já sabe o que veio procurar.</p><p>A lista é filtrada por <strong>área da vida</strong> (família, trabalho, dinheiro, o que sai da boca…) e pela busca, que varre o título, a frase e os textos citados. A estrela guarda o princípio na faixa de favoritos, no alto da lista.</p><p>Dica: o fim de cada princípio traz perguntas de reflexão. O que você escreve ali vai para o Caderno de Estudo, junto com o que você escreveu no “Imite a Sua Fé” — é o mesmo caderno.</p>",
+    "conteudo": "<p>A parte de <strong>consulta</strong> do app. Cada princípio traz a frase que o resume, os textos bíblicos que o sustentam, <strong>por que isso existe</strong> e <strong>como isso se parece num dia comum</strong>. Não há exercício nem acerto: quem abre este módulo já sabe o que veio procurar.</p><p><strong>Achar um princípio.</strong> Os princípios ficam agrupados por <strong>área da vida</strong> (família, trabalho, dinheiro, o que se fala...): toque numa área para ver os princípios dela. A <strong>busca</strong> procura pelo assunto, pela frase e pelos textos citados. A <strong>estrela</strong> guarda o princípio em <strong>Seus favoritos</strong>, a primeira área da lista.</p><p><strong>O que o app lembra.</strong> O princípio que você abriu ganha a marca de lido, e a área em que você leu todos ganha um visto. A barra do alto mostra quanto do acervo você já leu, e o princípio sobre o qual você escreveu ganha um selo próprio.</p><p><strong>Para refletir.</strong> O fim de cada princípio traz perguntas e um campo para a sua resposta. O que você escreve ali vai para o Caderno de Estudo. O link de cada texto abre a Bíblia on-line, e <strong>Outros princípios</strong> leva ao próximo.</p>",
     "ordem": 21,
     "publicar": 1,
     "data_criacao": 1787773195494,
-    "data_atualizacao": 1787773195494
+    "data_atualizacao": 1790452045844
   },
   {
     "id": 22,
     "modulo_id": "faq",
     "titulo": "Respostas Frequentes",
-    "resumo": "A resposta da organização às perguntas mais comuns",
-    "conteudo": "<p>É a parte de <strong>consulta rápida</strong> do app: cada pergunta traz a resposta curta, a completa, os textos que a sustentam e o link do artigo no jw.org. Serve para quando alguém pergunta — na porta, no trabalho, na família — e você quer a resposta na ponta da língua.</p><p>A lista é filtrada por <strong>categoria</strong> (crenças, organização, pregação, vida familiar...) e pela busca, que varre a pergunta, a resposta curta e os textos citados. A estrela guarda a pergunta na faixa de favoritos.</p><p>Dica: cada pergunta traz <strong>pontos de apoio</strong> — como explicar aquilo com suas palavras. Marque a pergunta como revisada quando já se sentir pronto para explicá-la; a barra no alto da lista mostra o quanto você já cobriu.</p>",
+    "resumo": "Treine a responder o que perguntam a você",
+    "conteudo": "<p>Não é uma lista de respostas prontas: é <strong>treino</strong>. Cada pergunta é das que aparecem de verdade, na porta, no trabalho ou na mesa de domingo, e o módulo ensina a responder de um jeito que abre a conversa em vez de encerrá-la.</p><p><strong>A lista.</strong> As perguntas ficam agrupadas por <strong>categoria</strong> (crenças, organização, pregação, vida familiar...): toque numa categoria para ver as perguntas dela. A <strong>busca</strong> procura pela pergunta e pelos textos bíblicos. A <strong>estrela</strong> guarda a pergunta em <strong>Seus favoritos</strong>, e a barra do alto mostra quantas você já fez.</p><p><strong>Como fazer uma pergunta:</strong></p><ul><li>leia <strong>Onde a pergunta aparece</strong> e <strong>O que vem primeiro à cabeça</strong>, a resposta de impulso, que geralmente encerra a conversa;</li><li>toque em <strong>Escolher a lente</strong>. As lentes são os ângulos por onde dá para responder. Escolha a que responde de verdade o que foi perguntado e toque em <strong>Confirmar a lente</strong>;</li><li>errou? Não custa nada: cada lente que não serve explica por quê. Tente de novo;</li><li>acertando, aparecem <strong>A resposta pela Bíblia</strong>, os textos que a sustentam, quem respondeu assim na Bíblia e o link para ler o assunto no jw.org;</li><li>no fim, <strong>Com as suas palavras</strong>: escreva como você responderia. O texto vai para o Caderno de Estudo e dá o selo da pergunta.</li></ul><p><strong>Outras perguntas</strong>, no fim, leva à próxima sem voltar à lista.</p><p>Dica: responder com as suas palavras é o que faz a resposta sair natural na hora em que alguém pergunta de verdade.</p>",
     "ordem": 22,
     "publicar": 1,
     "data_criacao": 1788639493096,
-    "data_atualizacao": 1790359955773
+    "data_atualizacao": 1790452045844
   }
 ]

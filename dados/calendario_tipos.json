@@ -5,7 +5,6 @@
     "cor_chave": "primary",
     "icone": "grupo",
     "ordem": 0,
-    "marca_especial": 0,
     "publicar": 1
   },
   {
@@ -14,7 +13,6 @@
     "cor_chave": "secondary",
     "icone": "evento",
     "ordem": 1,
-    "marca_especial": 0,
     "publicar": 1
   },
   {
@@ -23,7 +21,6 @@
     "cor_chave": "tertiary",
     "icone": "relogio",
     "ordem": 2,
-    "marca_especial": 0,
     "publicar": 1
   },
   {
@@ -32,7 +29,6 @@
     "cor_chave": "positive",
     "icone": "estrela",
     "ordem": 3,
-    "marca_especial": 1,
     "publicar": 1
   },
   {
@@ -41,7 +37,6 @@
     "cor_chave": "aviso",
     "icone": "pessoa",
     "ordem": 4,
-    "marca_especial": 0,
     "publicar": 1
   },
   {
@@ -50,7 +45,6 @@
     "cor_chave": "perigo",
     "icone": "notificacao",
     "ordem": 5,
-    "marca_especial": 0,
     "publicar": 1
   }
 ]

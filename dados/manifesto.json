@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-26T15:34:42.720Z",
+  "gerado_em": "2026-09-26T19:55:44.463Z",
   "modulos": {
     "perguntas": {
       "versao": "f1c30d63d05e045756f9c98881b4c1d3",
@@ -54,11 +54,11 @@
       "registros": 7
     },
     "calendario_tipos": {
-      "versao": "44606de28d1dfdb881e9f332dbc8ba89",
+      "versao": "4ab8f9fb1e61b65c8dfb2433c2279508",
       "registros": 6
     },
     "tutorial": {
-      "versao": "386a9b5bd4ff00a1ebe7a5a080ba5725",
+      "versao": "334b7f16ba78d3741abab5dc78317fd6",
       "registros": 22
     }
   }
