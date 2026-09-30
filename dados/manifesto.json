@@ -1,9 +1,17 @@
 {
-  "gerado_em": "2026-09-26T21:13:25.234Z",
+  "gerado_em": "2026-09-30T23:51:13.644Z",
   "modulos": {
     "perguntas": {
       "versao": "f1c30d63d05e045756f9c98881b4c1d3",
       "registros": 13
+    },
+    "conexoes_grupos": {
+      "versao": "d421bda70984b97a24c16c8a50c8c0b2",
+      "registros": 6
+    },
+    "personagens": {
+      "versao": "4838d2d3730f8416afcff8468ee90450",
+      "registros": 2
     },
     "poesias": {
       "versao": "600a7ea28041b6cad80bf857dc48699a",
@@ -58,8 +66,8 @@
       "registros": 6
     },
     "tutorial": {
-      "versao": "334b7f16ba78d3741abab5dc78317fd6",
-      "registros": 22
+      "versao": "5ba0d749d7783cf0e89b560762e63788",
+      "registros": 26
     }
   }
 }

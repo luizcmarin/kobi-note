@@ -1,0 +1,1 @@
+function e(e){let t=[...e];for(let e=t.length-1;e>0;e--){let n=Math.floor(Math.random()*(e+1)),r=t[e];t[e]=t[n],t[n]=r}return t}function t(t,n=0){return e(t.map((e,t)=>({texto:e,original:n+t})))}export{e as n,t};

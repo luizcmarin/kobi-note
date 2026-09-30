@@ -15,7 +15,17 @@
     <script>
     (() => {
       const idioma = localStorage.getItem('note_idioma');
-      if (idioma) document.documentElement.lang = idioma;
+      if (idioma) {
+        // A direção sai do `Intl`, como em `direcaoDe()` de `i18n/idioma.ts`.
+        try {
+          const local = new Intl.Locale(idioma);
+          const info = local.getTextInfo ? local.getTextInfo() : local.textInfo;
+          if (info && info.direction === 'rtl') document.documentElement.dir = 'rtl';
+        } catch {
+          // Tag que o Intl recusa: a tela fica da esquerda para a direita.
+        }
+        document.documentElement.lang = idioma;
+      }
 
       const salvo = localStorage.getItem('note_tema');
       const escuro =
@@ -27,10 +37,37 @@
       document
         .querySelector('meta[name="theme-color"]')
         .setAttribute('content', escuro ? '#0f1115' : '#ffffff');
+
+      // As preferências de acessibilidade, pela mesma razão do tema: texto que
+      // nasce pequeno e cresce depois, ou animação que roda antes de a escolha
+      // chegar, é o que quem pediu não pode receber. A regra do nome da classe
+      // é a de `classesDeAcessibilidade`, no Kit — e este bloco não conhece
+      // chave nenhuma, só a regra.
+      try {
+        const a11y = JSON.parse(localStorage.getItem('note_acessibilidade') || 'null');
+        if (a11y) {
+          for (const [chave, valor] of Object.entries(a11y)) {
+            if (valor === true) raiz.add(`kk-a11y-${chave}`);
+            else if (typeof valor === 'number' && valor !== 100) raiz.add(`kk-a11y-${chave}-${valor}`);
+          }
+        }
+      } catch (_) {}
+
+      // O Safari anterior ao 17.4 não conhece `@scope`, e descarta calado as
+      // cinquenta seções de módulo do estilo.css. A reserva é gerada no build
+      // (`reservaDeScope`, em scripts/vite/plugins.ts), num arquivo que só este
+      // navegador baixa, e as regras dela só casam sob a marca.
+      if (typeof CSSScopeRule === 'undefined') {
+        raiz.add('sem-scope');
+        const folha = document.createElement('link');
+        folha.rel = 'stylesheet';
+        folha.href = './reserva-scope.css';
+        document.head.append(folha);
+      }
     })();
   </script>
-  <script type="module" crossorigin src="./assets/index-BNLfwB87.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-DWkrbBmV.css">
+  <script type="module" crossorigin src="./assets/index-DQ-iAe1X.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-B7_X01Xo.css">
 <link rel="manifest" href="./manifest.webmanifest"></head>
 
 <body>

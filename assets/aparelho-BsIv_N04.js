@@ -1,0 +1,1 @@
+function e(e){try{return JSON.parse(localStorage.getItem(e)??`null`)}catch{return null}}function t(e,t){try{localStorage.setItem(e,JSON.stringify(t))}catch{}}function n(t,n){let r=e(t);return typeof r==`object`&&r&&!Array.isArray(r)?{...n,...r}:n}function r(e,t,n){return{...e,[String(t)]:n(e[String(t)])}}export{n as i,t as n,e as r,r as t};

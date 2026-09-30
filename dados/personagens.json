@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "numero": 1,
+    "nome": "Josué",
+    "resumo": "<p>Josué era filho de Num e foi ajudante de Moisés. (Êxo 33:11) Quando Moisés morreu, Jeová escolheu Josué para liderar o povo de Israel. (Deu 34:9; Jos 1:1, 2)</p><p>Com coragem, Josué levou o povo de Deus para a Terra Prometida. Ele confiou nas promessas de Jeová, obedeceu às suas orientações e serviu a ele com fidelidade.</p>",
+    "perguntas": "[{\"enunciado\":\"No sétimo dia, quantas vezes os israelitas marcharam em volta de Jericó?\",\"alternativas\":[\"Sete vezes\",\"Uma vez\",\"Seis vezes\"],\"correta\":0,\"referencia\":\"Josué 6:3, 4, 15\"},{\"enunciado\":\"Complete o que Josué disse: “Quanto a mim e aos da minha casa, serviremos...”\",\"alternativas\":[\"aos deuses dos amorreus\",\"a Jeová\",\"aos deuses dos nossos antepassados\"],\"correta\":1,\"referencia\":\"Josué 24:15\"},{\"enunciado\":\"Que nome Josué tinha antes de Moisés o chamar de Josué?\",\"alternativas\":[\"Num\",\"Efraim\",\"Oseias\"],\"correta\":2,\"referencia\":\"Números 13:8, 16\"}]",
+    "periodo": "exodo_juizes",
+    "obra_fonte": "Despertai! de janeiro de 2011 — “Colecione e Aprenda”",
+    "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/102011017",
+    "publicar": 1,
+    "data_criacao": 1790541963451,
+    "data_atualizacao": 1790554298674
+  },
+  {
+    "id": 2,
+    "numero": 2,
+    "nome": "Daniel",
+    "resumo": "<p>Daniel era da tribo de Judá. (Dan 1:6) Ainda jovem, foi levado de Jerusalém para Babilônia pelo rei Nabucodonosor. (Dan 1:1, 3, 4)</p><p>Em Babilônia, Daniel continuou fiel a Jeová. Ele orava ao seu Deus três vezes por dia, mesmo quando isso foi proibido. (Dan 6:10) Jeová o usou como profeta e para escrever o livro bíblico que leva o seu nome.</p>",
+    "perguntas": "[{\"enunciado\":\"Que nome o oficial da corte de Babilônia deu a Daniel?\",\"alternativas\":[\"Sadraque\",\"Beltessazar\",\"Abednego\"],\"correta\":1,\"referencia\":\"Daniel 1:7\"},{\"enunciado\":\"Por que Daniel foi lançado na cova dos leões?\",\"alternativas\":[\"Porque não quis comer as iguarias do rei\",\"Porque era da tribo de Judá\",\"Porque continuou orando ao seu Deus\"],\"correta\":2,\"referencia\":\"Daniel 6:10, 16\"},{\"enunciado\":\"Quem era o rei quando Daniel foi lançado na cova dos leões?\",\"alternativas\":[\"Dario\",\"Nabucodonosor\",\"Belsazar\"],\"correta\":0,\"referencia\":\"Daniel 6:9, 16\"}]",
+    "periodo": "exilio",
+    "obra_fonte": "Despertai! de fevereiro de 2011 — “Colecione e Aprenda”",
+    "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/102011054",
+    "publicar": 1,
+    "data_criacao": 1790541963451,
+    "data_atualizacao": 1790554300202
+  }
+]

@@ -1,0 +1,1 @@
+import{n as e,r as t}from"./aparelho-BsIv_N04.js";function n(e,t){return(e===`local`?`l`:`c`)+String(t??``)}function r(e){let n=t(e);return new Set(Array.isArray(n)?n.map(String):[])}function i(t,n){e(t,[...n])}function a(e,t,n){let r=new Set(t);return r.delete(n)||r.add(n),i(e,r),r}export{a as alternarFavorito,n as chaveFavorito,r as lerFavoritos};

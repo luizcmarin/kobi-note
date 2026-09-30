@@ -1,0 +1,1 @@
+import{t as e}from"./html-C5yDSNPC.js";function t(t,n=180){let r=e(t);return r.length>n?`${r.slice(0,n)}...`:r}function n(e){let t=document.querySelector(`kk-editor`);t!==null&&(t.value=e)}export{t as n,n as t};

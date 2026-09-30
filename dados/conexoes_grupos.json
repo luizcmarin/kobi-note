@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "rotulo": "Filhos de Jacó com Leia",
+    "itens": "[\"Rubem\",\"Simeão\",\"Levi\",\"Judá\",\"Issacar\",\"Zebulão\"]",
+    "nivel": 1,
+    "referencia": "Gênesis 35:23",
+    "link_fonte": "https://wol.jw.org/pt/wol/b/r5/lp-t/nwtsty/1/35",
+    "publicar": 1,
+    "data_criacao": 1790540481671,
+    "data_atualizacao": 1790705670188
+  },
+  {
+    "id": 2,
+    "rotulo": "Esposas e servas que deram filhos a Jacó",
+    "itens": "[\"Leia\",\"Raquel\",\"Bila\",\"Zilpa\"]",
+    "nivel": 1,
+    "referencia": "Gênesis 35:23-26",
+    "link_fonte": "https://wol.jw.org/pt/wol/b/r5/lp-t/nwtsty/1/35",
+    "publicar": 1,
+    "data_criacao": 1790540481671,
+    "data_atualizacao": 1790705663158
+  },
+  {
+    "id": 3,
+    "rotulo": "Apóstolos de Jesus",
+    "itens": "[\"André\",\"Filipe\",\"Bartolomeu\",\"Tomé\",\"Mateus\",\"Tadeu\"]",
+    "nivel": 1,
+    "referencia": "Mateus 10:2-4",
+    "link_fonte": "https://wol.jw.org/pt/wol/b/r5/lp-t/nwtsty/40/10",
+    "publicar": 1,
+    "data_criacao": 1790540481671,
+    "data_atualizacao": 1790554291057
+  },
+  {
+    "id": 6,
+    "rotulo": "Exemplos de fé em Hebreus 11",
+    "itens": "[\"Abel\",\"Enoque\",\"Noé\",\"Abraão\",\"Sara\",\"Moisés\"]",
+    "nivel": 1,
+    "referencia": "Hebreus 11:4-23",
+    "link_fonte": "https://wol.jw.org/pt/wol/b/r5/lp-t/nwtsty/58/11",
+    "publicar": 1,
+    "data_criacao": 1790540481671,
+    "data_atualizacao": 1790705668288
+  },
+  {
+    "id": 7,
+    "rotulo": "A armadura de Deus",
+    "itens": "[\"cinturão\",\"couraça\",\"escudo\",\"capacete\",\"espada\"]",
+    "nivel": 1,
+    "referencia": "Efésios 6:14-17",
+    "link_fonte": "https://wol.jw.org/pt/wol/b/r5/lp-t/nwtsty/49/6",
+    "publicar": 1,
+    "data_criacao": 1790540481671,
+    "data_atualizacao": 1790554289278
+  },
+  {
+    "id": 8,
+    "rotulo": "Instrumentos para louvar a Jeová",
+    "itens": "[\"buzina\",\"harpa\",\"pandeiro\",\"flauta\",\"címbalos\"]",
+    "nivel": 1,
+    "referencia": "Salmo 150:3-5",
+    "link_fonte": "https://wol.jw.org/pt/wol/b/r5/lp-t/nwtsty/19/150",
+    "publicar": 1,
+    "data_criacao": 1790540481671,
+    "data_atualizacao": 1790705671870
+  }
+]
