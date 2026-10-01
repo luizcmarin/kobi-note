@@ -1,1 +1,0 @@
-import{a as e}from"./banco-TmbtJ63a.js";import{R as t}from"./index-DQ-iAe1X.js";var n=class{tabela;achados=null;emVoo=``;constructor(e){this.tabela=e}buscar(n){this.emVoo=n,e(this.tabela,n).then(e=>{this.emVoo===n&&(this.achados=e===null?null:new Set(e),t())}).catch(e=>{console.error(`${this.tabela}: a busca falhou.`,e)})}limpar(){this.achados=null,this.emVoo=``}};export{n as t};
