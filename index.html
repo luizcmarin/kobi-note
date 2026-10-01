@@ -57,15 +57,30 @@
         if (mostrada || app === null || (!forcada && app.firstElementChild !== null)) return;
         mostrada = true;
 
+        /*
+         * O piso é o iOS 15.4 (o `<dialog>` e o `Object.hasOwn` chegam ali, e
+         * nenhum build os rebaixa). Abaixo dele, "tente de novo" é conselho
+         * errado: a frase diz que é a versão, e como sair dela.
+         */
+        const ios = /\bOS (\d+)_(\d+)/.exec(navigator.userAgent);
+        const antigo =
+          /iPhone|iPad|iPod/.test(navigator.userAgent) &&
+          ios !== null &&
+          Number(ios[1]) * 100 + Number(ios[2]) < 1504;
+        const explicacao = antigo
+          ? `<p>Este aparelho usa o iOS ${ios[1]}.${ios[2]}, e o Kobi Note precisa do iOS 15.4 ou mais
+          novo. Atualize em Ajustes, Geral, Atualização de Software, e abra o app de novo.</p>`
+          : `<p>Alguma coisa impediu o aplicativo de começar. O que está salvo continua no aparelho:
+          nada foi perdido.</p>
+          <p>Tente de novo. Se esta tela voltar, mande uma captura dela a quem cuida do app: o
+          quadro abaixo diz o que aconteceu.</p>`;
+
         const caixa = document.createElement('div');
         caixa.className = 'aviso abertura-falhou';
         caixa.setAttribute('role', 'alert');
         caixa.innerHTML = `
           <h2>O Kobi Note não abriu</h2>
-          <p>Alguma coisa impediu o aplicativo de começar. O que está salvo continua no aparelho:
-          nada foi perdido.</p>
-          <p>Tente de novo. Se esta tela voltar, mande uma captura dela a quem cuida do app: o
-          quadro abaixo diz o que aconteceu.</p>
+          ${explicacao}
           <pre class="detalhe"></pre>
           <div class="abertura-falhou__acoes">
             <button type="button" data-acao="recarregar">Tentar de novo</button>
@@ -184,8 +199,8 @@
       }
     })();
   </script>
-  <script type="module" crossorigin src="./assets/index-DOFaeRHJ.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-CNwd76jA.css">
+  <script type="module" crossorigin src="./assets/index-DYev-n2R.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-cfohjjAF.css">
 <link rel="manifest" href="./manifest.webmanifest"></head>
 
 <body>

@@ -77,6 +77,16 @@
     "data_criacao": 1782003091240,
     "data_atualizacao": 1789772735750,
     "anterior_id": 112,
+    "proximo_id": 144
+  },
+  {
+    "id": 144,
+    "titulo": "O Livro",
+    "conteudo": "<p class=\"paragrafo--epigrafe\">“... Hilquias, o sacerdote, achou o livro da Lei de Jeová dada por meio de Moisés.&nbsp;... Safã levou o livro ao rei&nbsp;e lhe disse: ...&nbsp;“Hilquias, o sacerdote,&nbsp;me deu um livro.”&nbsp;E Safã começou a lê-lo perante o rei.&nbsp;Assim que o rei ouviu&nbsp;as palavras da Lei, rasgou a sua roupa.”</p><p class=\"paragrafo--epigrafe-subtitulo\">— 2 Crônicas 34:14-19.</p>\n\n\n\n\n<p><br></p><p>Quando você começa a ler um livro, coisas estranhas acontecem: o livro, sem você perceber, começa a colecionar lembranças... Depois, basta abri-lo, e você já está de novo no lugar onde parou.</p>\n<p>Tudo volta já nas primeiras palavras: as imagens, os cheiros, o tom da voz de quem falava, as pessoas que o circundavam, o sorvete que você tomou enquanto lia, os lucros que recebeu quando terminou de ler e os débitos pendentes do que deveria ter sido feito...</p>\n<p>Acredite, os livros são como papel pega-moscas. Não existe nada melhor para grudar lembranças do que páginas impressas.</p><p><br></p>\n\n<p>DÊ VIDA ÀS ESCRITURAS!</p>\n<p></p><ul><li>Transforme o relato numa reportagem. Aborde o assunto a partir de diferentes perspectivas por incluir “entrevistas” com os principais personagens e testemunhas oculares.</li><li>Escolha um relato cujo personagem tomou uma decisão errada e imagine um fim diferente. Por exemplo, analise quando Pedro negou a Jesus. (Mar 14:66-72) Como Pedro poderia ter lidado melhor com a pressão?</li><li>Faça uso das gravações de vídeo ou de áudio de dramas bíblicos.</li></ul><div><br></div><p></p>\n\n\n<p class=\"poesia--escritura\">Sugestão: Largue o celular e tenha uma Bíblia só para estudo pessoal. Faça anotações nela. Marque versículos que têm significado especial para você. Você valoriza um livro tanto quanto escreve nele.... e fale a outros o que você aprendeu!</p>",
+    "publicar": 1,
+    "data_criacao": 1782003091240,
+    "data_atualizacao": 1790895291435,
+    "anterior_id": 120,
     "proximo_id": 149
   },
   {
@@ -86,7 +96,7 @@
     "publicar": 1,
     "data_criacao": 1782003091240,
     "data_atualizacao": 1789825934742,
-    "anterior_id": 120,
+    "anterior_id": 144,
     "proximo_id": 157
   },
   {
