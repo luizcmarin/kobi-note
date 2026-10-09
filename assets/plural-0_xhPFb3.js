@@ -1,1 +1,0 @@
-var e=`pt-BR`;function t(t){e=t}function n(t,n){return t===0?n.zero??n.other:n[new Intl.PluralRules(e).select(t)]??n.other}export{n,t};

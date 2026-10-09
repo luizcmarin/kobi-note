@@ -1,0 +1,1165 @@
+<!doctype html>
+<!--
+    A página de instalação do Kobi Note: https://note.luizcmarin.com.br/instalar.html
+
+    É o endereço para mandar a quem ainda não tem o app (o convite do app leva
+    a ela). Fica em `public/`, sai no build ao lado do `index.html` e entra no
+    precache (o `globPatterns` leva todo `.html`): com o service worker no
+    aparelho, a navegação até aqui é respondida pelo cache, e não pelo fallback
+    do app.
+
+    O desenho é um folheto de passos (08/10/2026): um cartão com "Abrir" (o
+    endereço não aparece), e um bloco por aparelho, com passos numerados — o
+    do aparelho de quem lê vem primeiro, marcado. A letra é a do sistema: a
+    página não chama servidor de fonte nenhum (o app diz "sem rastreadores").
+
+    Ela não usa nada do pacote — nem o Kit, nem o dicionário —, para abrir
+    inteira mesmo onde o app não abre (o navegador antigo que a pessoa vai
+    trocar).
+
+    Os dez idiomas do app, num seletor no alto: o português está no HTML (é o
+    que abre sem script), e os outros nove num dicionário no script do fim. A
+    escolha se grava em `note_idioma`, a chave do app na mesma origem — o app
+    instalado daqui já abre no idioma escolhido. O convite do app manda o
+    idioma de quem convidou no hash (`instalar.html#en`).
+
+    O `<link rel="manifest">` é o do app: com ele o Chrome oferece a instalação
+    daqui mesmo (o `beforeinstallprompt`), e o botão "Instalar agora" aparece.
+    Quem instala ganha o `start_url` do manifest, que é o app, e não esta
+    página. Com o app já instalado, aparecem o "Criar o atalho" e o
+    "Desinstalar", que levam aos passos de cada aparelho (página nenhuma cria
+    o atalho de um app nem o desinstala). O registro do service worker é o
+    mesmo do app (mesmo arquivo, mesmo escopo): o app instalado daqui já abre
+    sem internet.
+  -->
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Instalar o Kobi Note</title>
+  <meta name="description"
+    content="Como instalar o Kobi Note no Android, no iPhone e no computador. Gratuito, sem conta e sem internet depois da primeira abertura." />
+  <link rel="icon" href="./icons/kobi-note-sem-efeitos.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icons/kobi-note-apple-touch-icon.png" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <meta name="theme-color" content="#0d6efd" />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --fundo: #f3f6fc;
+      --superficie: #ffffff;
+      --tinta: #14213a;
+      --tinta-suave: #4a5772;
+      --marca: #0d6efd;
+      --marca-forte: #0a58ca;
+      --marca-fundo: #e3edff;
+      --sobre-marca: #ffffff;
+      --destaque: #ffc53d;
+      --borda: #d4ddef;
+      --alerta-fundo: #fff4cc;
+      --alerta-borda: #e0b400;
+      --letra: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fundo: #0f1522;
+        --superficie: #182132;
+        --tinta: #edf2fc;
+        --tinta-suave: #aebad3;
+        --marca: #6ea8fe;
+        --marca-forte: #9ec5fe;
+        --marca-fundo: #1c2a45;
+        --sobre-marca: #0f1522;
+        --borda: #2c3a55;
+        --alerta-fundo: #3a3013;
+        --alerta-borda: #c99f12;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--fundo);
+      color: var(--tinta);
+      font: 1.15rem/1.55 var(--letra);
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .folheto {
+      max-width: 36rem;
+      margin: 0 auto;
+      padding: max(1.5rem, env(safe-area-inset-top)) 18px max(3rem, env(safe-area-inset-bottom));
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .barra {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: -12px;
+    }
+
+    .idioma {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--tinta-suave);
+    }
+
+    .idioma select {
+      font: inherit;
+      font-size: 0.95rem;
+      color: var(--tinta);
+      background: var(--superficie);
+      border: 1px solid var(--borda);
+      border-radius: 10px;
+      min-height: 2.5rem;
+      padding: 0.25rem 0.5rem;
+    }
+
+    .capa {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .capa img {
+      width: 72px;
+      height: 72px;
+      flex: none;
+      border-radius: 16px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1.1;
+      text-wrap: balance;
+    }
+
+    .capa p {
+      margin: 4px 0 0;
+      color: var(--tinta-suave);
+      font-size: 1.05rem;
+    }
+
+    .intro {
+      margin: 0;
+    }
+
+    .endereco {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 18px;
+      border-radius: 14px;
+      background: var(--marca-fundo);
+      border: 2px solid var(--marca);
+    }
+
+    .endereco__acoes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .botao {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 20px;
+      border-radius: 10px;
+      border: 2px solid var(--marca);
+      background: var(--superficie);
+      color: var(--marca-forte);
+      font: 600 1.05rem var(--letra);
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .botao--cheio {
+      background: var(--marca);
+      border-color: var(--marca);
+      color: var(--sobre-marca);
+    }
+
+    .botao:focus-visible,
+    .idioma select:focus-visible,
+    a:focus-visible {
+      outline: 3px solid var(--destaque);
+      outline-offset: 3px;
+    }
+
+    .estado {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--tinta-suave);
+      min-height: 1.4em;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 1.45rem;
+      font-weight: 800;
+      line-height: 1.2;
+      text-wrap: balance;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2::before {
+      content: '';
+      width: 6px;
+      height: 1.2em;
+      border-radius: 3px;
+      background: var(--destaque);
+      flex: none;
+    }
+
+    .seu {
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.1rem 0.6rem;
+      border-radius: 999px;
+      background: var(--marca);
+      color: var(--sobre-marca);
+    }
+
+    .nota {
+      margin: 0;
+      color: var(--tinta-suave);
+    }
+
+    ol.passos {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      counter-reset: passo;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    ol.passos li {
+      counter-increment: passo;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 14px;
+      border-radius: 12px;
+      background: var(--superficie);
+      border: 1px solid var(--borda);
+    }
+
+    ol.passos li::before {
+      content: counter(passo);
+      flex: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.2rem;
+      height: 2.2rem;
+      border-radius: 50%;
+      background: var(--marca);
+      color: var(--sobre-marca);
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
+    }
+
+    ol.passos li>span {
+      min-width: 0;
+      padding-top: 0.2rem;
+    }
+
+    .alerta {
+      margin: 0;
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: var(--alerta-fundo);
+      border-inline-start: 6px solid var(--alerta-borda);
+    }
+
+    ul.lista {
+      margin: 0;
+      padding-inline-start: 1.2em;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    a {
+      color: var(--marca-forte);
+    }
+
+    .rodape {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--tinta-suave);
+      border-top: 1px solid var(--borda);
+      padding-top: 16px;
+    }
+
+    strong {
+      font-weight: 800;
+    }
+
+    .visualmente-oculto {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .botao {
+        transition: background-color 120ms ease, color 120ms ease;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="folheto">
+    <div class="barra">
+      <label class="idioma">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="9" />
+          <path d="M3.6 9h16.8M3.6 15h16.8M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18" />
+        </svg>
+        <span class="visualmente-oculto" data-t="idioma">Idioma</span>
+        <select id="idioma">
+          <option value="pt-BR">Português (Brasil)</option>
+          <option value="en">English</option>
+          <option value="es-ES">Español (España)</option>
+          <option value="pl">Polski</option>
+          <option value="uk">Українська</option>
+          <option value="ja">日本語</option>
+          <option value="zh-CN">中文（简体）</option>
+          <option value="ko">한국어</option>
+          <option value="ar">العربية</option>
+          <option value="ht">Kreyòl ayisyen</option>
+        </select>
+      </label>
+    </div>
+
+    <header class="capa">
+      <img src="./icons/kobi-note-192.png" alt="" width="72" height="72" />
+      <div>
+        <h1 data-t="h1">Instale o Kobi Note</h1>
+        <p data-t="sub">Passo a passo para o celular e o computador</p>
+      </div>
+    </header>
+
+    <p class="intro" data-t="lema">
+      Estudo pessoal, criatividade, finanças e preparo, num aplicativo que mora no seu aparelho.
+      Gratuito, sem conta e sem nuvem — e funciona sem internet depois da primeira abertura.
+    </p>
+
+    <div class="endereco">
+      <div class="endereco__acoes">
+        <button type="button" class="botao botao--cheio" id="instalar" data-t="instalar" hidden>
+          Instalar agora
+        </button>
+        <a class="botao botao--cheio" id="abrir" href="./" data-t="abrir">Abrir o Kobi Note</a>
+        <button type="button" class="botao" id="atalho" data-t="atalho" hidden>Criar o atalho</button>
+        <button type="button" class="botao" id="desinstalar" data-t="desinstalar" hidden>Desinstalar</button>
+      </div>
+      <p class="estado" id="estado" role="status"></p>
+    </div>
+
+    <section id="android" aria-labelledby="titulo-android">
+      <h2 id="titulo-android">
+        <span data-t="android">Celular ou tablet Android</span>
+        <span class="seu" data-t="seu" hidden>o seu</span>
+      </h2>
+      <ol class="passos">
+        <li>
+          <span data-t="and2">
+            Toque em <strong>Instalar agora</strong>, no alto da página. Se o botão não aparecer, abra
+            o menu do Chrome (os <strong>três pontinhos</strong>, no canto de cima) e toque em
+            <strong>Instalar app</strong> ou <strong>Adicionar à tela inicial</strong>.
+          </span>
+        </li>
+        <li>
+          <span data-t="and3">
+            Confirme em <strong>Instalar</strong>. O ícone azul do Kobi Note aparece na tela inicial.
+          </span>
+        </li>
+        <li><span data-t="sempre">Abra o app sempre por esse ícone.</span></li>
+      </ol>
+    </section>
+
+    <section id="ios" aria-labelledby="titulo-ios">
+      <h2 id="titulo-ios">
+        <span data-t="ios">iPhone ou iPad</span>
+        <span class="seu" data-t="seu" hidden>o seu</span>
+      </h2>
+      <p class="nota" data-t="iosReq">Precisa do iOS ou iPadOS 15.4 ou mais novo.</p>
+      <ol class="passos">
+        <li>
+          <span data-t="ios2">
+            Toque em <strong>Compartilhar</strong>, o quadrado com a seta para cima (no iPhone fica na
+            barra de baixo; no iPad, no alto).
+          </span>
+        </li>
+        <li><span data-t="ios3">Role a lista e toque em <strong>Adicionar à Tela de Início</strong>.</span></li>
+        <li>
+          <span data-t="ios4">
+            Toque em <strong>Adicionar</strong>. O ícone do Kobi Note aparece na Tela de Início.
+          </span>
+        </li>
+        <li><span data-t="sempre">Abra o app sempre por esse ícone.</span></li>
+      </ol>
+      <p class="alerta" data-t="iosNota">
+        <strong>Instale, não use só pelo Safari.</strong> Aberto só no navegador, o iPhone pode
+        apagar o que você guardou depois de sete dias sem uso. Instalado, isso não acontece.
+      </p>
+    </section>
+
+    <section id="computador" aria-labelledby="titulo-computador">
+      <h2 id="titulo-computador">
+        <span data-t="computador">Computador</span>
+        <span class="seu" data-t="seu" hidden>o seu</span>
+      </h2>
+      <ol class="passos">
+        <li>
+          <span data-t="pc2">
+            Clique em <strong>Instalar agora</strong>, no alto da página, ou no ícone de instalar que
+            aparece no fim da barra de endereço.
+          </span>
+        </li>
+        <li>
+          <span data-t="pc3">
+            Confirme em <strong>Instalar</strong>. O Kobi Note abre na própria janela e ganha um
+            atalho, como qualquer programa.
+          </span>
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="titulo-primeira">
+      <h2 id="titulo-primeira"><span data-t="primeira">Na primeira abertura</span></h2>
+      <ul class="lista">
+        <li data-t="pri1">
+          Uma apresentação curta mostra o caminho. Toque em <strong>Começar a usar</strong> no fim,
+          ou em <strong>Pular</strong>.
+        </li>
+        <li data-t="pri2">
+          O <strong>cofre</strong> (em Esteja Preparado) é a única parte que usa a biometria. Ela é
+          pedida na primeira vez que você abre o cofre, e é a mesma da tela de bloqueio do aparelho.
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="titulo-depois">
+      <h2 id="titulo-depois"><span data-t="depois">Depois de instalar</span></h2>
+      <ul class="lista">
+        <li data-t="dep1">
+          O app abre no idioma escolhido aqui em cima, e ele se troca a qualquer hora em
+          <strong>Perfil</strong>. Na primeira abertura, uma apresentação curta mostra o caminho; o
+          <strong>Tutorial</strong>, dentro do app, explica cada módulo.
+        </li>
+        <li data-t="dep2">
+          Tudo o que você escreve fica <strong>só no seu aparelho</strong>, cifrado. Nada vai para
+          servidor nenhum.
+        </li>
+        <li data-t="dep3">
+          Quando sair uma versão nova, o próprio app avisa. É só tocar no aviso para atualizar.
+        </li>
+      </ul>
+      <p class="alerta" data-t="backup">
+        <strong>Faça backup de tempos em tempos.</strong> Trocar de aparelho, desinstalar o app ou
+        limpar os dados do navegador apaga o que está nele. No app, abra <strong>Sobre</strong>, toque
+        em <strong>Baixar backup</strong> e guarde o arquivo fora do aparelho. No aparelho novo, o
+        mesmo Sobre tem o <strong>Restaurar</strong>.
+      </p>
+    </section>
+
+    <section id="criar-atalho" aria-labelledby="titulo-atalho">
+      <h2 id="titulo-atalho" tabindex="-1"><span data-t="atTitulo">Para criar o atalho</span></h2>
+      <ul class="lista">
+        <li data-t="atAnd">
+          <strong>Android:</strong> abra a lista de apps do aparelho (deslize a tela inicial para cima),
+          toque e segure o Kobi Note e arraste-o para a tela inicial, ou toque em
+          <strong>Adicionar à tela inicial</strong>.
+        </li>
+        <li data-t="atIos">
+          <strong>iPhone ou iPad:</strong> o ícone é o próprio app. Se ele não está em nenhuma página da
+          Tela de Início, o app não está instalado: siga os passos do iPhone, acima.
+        </li>
+        <li data-t="atPc">
+          <strong>Computador:</strong> abra o Kobi Note e, com ele aberto, clique com o botão direito no
+          ícone dele na barra de tarefas e em <strong>Fixar na barra de tarefas</strong> (no Mac, no
+          Dock: <strong>Opções</strong> › <strong>Manter no Dock</strong>).
+        </li>
+      </ul>
+    </section>
+
+    <section id="desinstalacao" aria-labelledby="titulo-desinstalacao">
+      <h2 id="titulo-desinstalacao" tabindex="-1"><span data-t="desTitulo">Para desinstalar</span></h2>
+      <p class="alerta" data-t="desBackup">
+        <strong>Antes, faça um backup</strong>, como explicado acima: desinstalar pode apagar tudo o
+        que o app guarda neste aparelho.
+      </p>
+      <ul class="lista">
+        <li data-t="desAnd">
+          <strong>Android:</strong> toque e segure o ícone do Kobi Note e toque em
+          <strong>Desinstalar</strong>.
+        </li>
+        <li data-t="desIos">
+          <strong>iPhone ou iPad:</strong> toque e segure o ícone do Kobi Note, toque em
+          <strong>Remover App</strong> e confirme.
+        </li>
+        <li data-t="desPc">
+          <strong>Computador:</strong> abra o Kobi Note, clique nos <strong>três pontinhos</strong> no
+          alto da janela dele e em <strong>Desinstalar</strong>.
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="titulo-problemas">
+      <h2 id="titulo-problemas"><span data-t="problemas">Se não der certo</span></h2>
+      <ul class="lista">
+        <li data-t="prob1">
+          <strong>Não aparece a opção de instalar:</strong> confira se está no Chrome (Android e
+          computador) ou no Safari (iPhone), fora da aba anônima ou privada. Se o app já estiver
+          instalado, a opção some — procure o ícone na tela inicial ou na lista de apps.
+        </li>
+        <li data-t="prob2">
+          <strong>A tela fica em branco:</strong> atualize o navegador e o sistema do aparelho e abra
+          de novo.
+        </li>
+      </ul>
+    </section>
+
+    <p class="rodape" data-t="rodape">Kobi Note · gratuito · <a href="./">abrir o app</a></p>
+  </main>
+
+  <script>
+    (() => {
+      /*
+       * Os nove idiomas além do português, que é o do HTML (lido de volta do
+       * DOM na abertura, e não repetido aqui). Os nomes de botão do app são os
+       * dos dicionários de `src/i18n/`; os do Chrome e do Safari, os que cada
+       * sistema mostra naquela língua. O crioulo haitiano não tem Chrome nem
+       * iPhone em crioulo: lá os rótulos vão em francês, que é o que o aparelho
+       * de quem o lê costuma mostrar.
+       */
+      const T = {
+        en: {
+          titulo: "Install Kobi Note",
+          idioma: "Language",
+          h1: "Install Kobi Note",
+          sub: "Step by step for phone and computer",
+          lema: "Personal study, creativity, finances and preparedness, in an app that lives on your device. Free, no account and no cloud — and it works offline after the first launch.",
+          instalar: "Install now",
+          abrir: "Open Kobi Note",
+          android: "Android phone or tablet",
+          ios: "iPhone or iPad",
+          computador: "Computer",
+          seu: "yours",
+          and2: "Tap <strong>Install now</strong> at the top of the page. If the button does not show, open the Chrome menu (the <strong>three dots</strong> in the top corner) and tap <strong>Install app</strong> or <strong>Add to Home screen</strong>.",
+          and3: "Confirm with <strong>Install</strong>. The blue Kobi Note icon appears on your home screen.",
+          sempre: "Always open the app from that icon.",
+          ios2: "Tap <strong>Share</strong>, the square with the arrow pointing up (on iPhone it is in the bottom bar; on iPad, at the top).",
+          ios3: "Scroll the list and tap <strong>Add to Home Screen</strong>.",
+          ios4: "Tap <strong>Add</strong>. The Kobi Note icon appears on your Home Screen.",
+          iosNota: "<strong>Install it — don't just use it in Safari.</strong> When it is only opened in the browser, the iPhone may erase what you saved after seven days without use. Once installed, that does not happen.",
+          iosReq: "Requires iOS or iPadOS 15.4 or later.",
+          pc2: "Click <strong>Install now</strong> at the top of the page, or the install icon at the end of the address bar.",
+          pc3: "Confirm with <strong>Install</strong>. Kobi Note opens in its own window and gets a shortcut, like any other program.",
+          primeira: "On the first launch",
+          pri1: "A short tour shows the way. Tap <strong>Start using it</strong> at the end, or <strong>Skip</strong>.",
+          pri2: "The <strong>vault</strong> (in Be Prepared) is the only part that uses biometrics. It is asked the first time you open the vault, and it is the same as your device's screen lock.",
+          depois: "After installing",
+          dep1: "The app opens in the language chosen at the top of this page, and you can change it at any time in <strong>Profile</strong>. On the first launch, a short tour shows the way; the <strong>Tutorial</strong>, inside the app, explains each module.",
+          dep2: "Everything you write stays <strong>only on your device</strong>, encrypted. Nothing goes to any server.",
+          dep3: "When a new version comes out, the app itself lets you know. Just tap the notice to update.",
+          backup: "<strong>Make a backup from time to time.</strong> Changing devices, uninstalling the app or clearing the browser data erases what is in it. In the app, open <strong>About</strong>, tap <strong>Download backup</strong> and keep the file off the device. On the new device, the same About screen has <strong>Restore</strong>.",
+          atalho: "Create the shortcut",
+          atTitulo: "To create the shortcut",
+          atAnd: "<strong>Android:</strong> open the device's app list (swipe up on the home screen), touch and hold Kobi Note and drag it to the home screen, or tap <strong>Add to Home screen</strong>.",
+          atIos: "<strong>iPhone or iPad:</strong> the icon is the app itself. If it is not on any page of the Home Screen, the app is not installed: follow the iPhone steps above.",
+          atPc: "<strong>Computer:</strong> open Kobi Note and, while it is open, right-click its icon on the taskbar and choose <strong>Pin to taskbar</strong> (on a Mac, in the Dock: <strong>Options</strong> › <strong>Keep in Dock</strong>).",
+          desinstalar: "Uninstall",
+          desTitulo: "To uninstall",
+          desAnd: "<strong>Android:</strong> touch and hold the Kobi Note icon and tap <strong>Uninstall</strong>.",
+          desIos: "<strong>iPhone or iPad:</strong> touch and hold the Kobi Note icon, tap <strong>Remove App</strong> and confirm.",
+          desPc: "<strong>Computer:</strong> open Kobi Note, click the <strong>three dots</strong> at the top of its window, then <strong>Uninstall</strong>.",
+          desBackup: "<strong>Make a backup first</strong>, as explained above: uninstalling may erase everything the app keeps on this device.",
+          problemas: "If something goes wrong",
+          prob1: "<strong>The install option does not show:</strong> make sure you are in Chrome (Android and computer) or Safari (iPhone), outside incognito or private browsing. If the app is already installed, the option disappears — look for the icon on your home screen or in the app list.",
+          prob2: "<strong>The screen stays blank:</strong> update the browser and the device's system, then open it again.",
+          rodape: "Kobi Note · free · <a href='./'>open the app</a>",
+          jaInstalado: "Kobi Note is already installed on this device.",
+          instalou: "Done: Kobi Note is installed. Open it from its icon.",
+        },
+        "es-ES": {
+          titulo: "Instalar Kobi Note",
+          idioma: "Idioma",
+          h1: "Instala Kobi Note",
+          sub: "Paso a paso para el móvil y el ordenador",
+          lema: "Estudio personal, creatividad, finanzas y preparación, en una aplicación que vive en tu dispositivo. Gratis, sin cuenta y sin nube — y funciona sin internet después de la primera apertura.",
+          instalar: "Instalar ahora",
+          abrir: "Abrir Kobi Note",
+          android: "Móvil o tableta Android",
+          ios: "iPhone o iPad",
+          computador: "Ordenador",
+          seu: "el tuyo",
+          and2: "Toca <strong>Instalar ahora</strong>, arriba de la página. Si el botón no aparece, abre el menú de Chrome (los <strong>tres puntos</strong>, en la esquina de arriba) y toca <strong>Instalar aplicación</strong> o <strong>Añadir a pantalla de inicio</strong>.",
+          and3: "Confirma en <strong>Instalar</strong>. El icono azul de Kobi Note aparece en la pantalla de inicio.",
+          sempre: "Abre siempre la aplicación desde ese icono.",
+          ios2: "Toca <strong>Compartir</strong>, el cuadrado con la flecha hacia arriba (en el iPhone está en la barra de abajo; en el iPad, arriba).",
+          ios3: "Desplaza la lista y toca <strong>Añadir a la pantalla de inicio</strong>.",
+          ios4: "Toca <strong>Añadir</strong>. El icono de Kobi Note aparece en la pantalla de inicio.",
+          iosNota: "<strong>Instálala, no la uses solo en Safari.</strong> Si solo se abre en el navegador, el iPhone puede borrar lo que guardaste tras siete días sin uso. Instalada, eso no ocurre.",
+          iosReq: "Necesita iOS o iPadOS 15.4 o posterior.",
+          pc2: "Haz clic en <strong>Instalar ahora</strong>, arriba de la página, o en el icono de instalar que aparece al final de la barra de direcciones.",
+          pc3: "Confirma en <strong>Instalar</strong>. Kobi Note se abre en su propia ventana y gana un acceso directo, como cualquier programa.",
+          primeira: "En la primera apertura",
+          pri1: "Una presentación corta muestra el camino. Toca <strong>Empezar a usarla</strong> al final, o <strong>Saltar</strong>.",
+          pri2: "La <strong>caja fuerte</strong> (en Prepárate) es la única parte que usa la biometría. Se pide la primera vez que abres la caja fuerte, y es la misma del bloqueo de pantalla del dispositivo.",
+          depois: "Después de instalar",
+          dep1: "La aplicación se abre en el idioma elegido arriba, y puedes cambiarlo cuando quieras en <strong>Perfil</strong>. En la primera apertura, una presentación corta muestra el camino; el <strong>Tutorial</strong>, dentro de la aplicación, explica cada módulo.",
+          dep2: "Todo lo que escribes se queda <strong>solo en tu dispositivo</strong>, cifrado. Nada va a ningún servidor.",
+          dep3: "Cuando salga una versión nueva, la propia aplicación te avisa. Basta con tocar el aviso para actualizar.",
+          backup: "<strong>Haz una copia de vez en cuando.</strong> Cambiar de dispositivo, desinstalar la aplicación o borrar los datos del navegador elimina lo que hay en ella. En la aplicación, abre <strong>Acerca de</strong>, toca <strong>Descargar copia</strong> y guarda el archivo fuera del dispositivo. En el dispositivo nuevo, el mismo Acerca de tiene <strong>Restaurar</strong>.",
+          atalho: "Crear el acceso directo",
+          atTitulo: "Para crear el acceso directo",
+          atAnd: "<strong>Android:</strong> abre la lista de aplicaciones del dispositivo (desliza hacia arriba en la pantalla de inicio), mantén pulsado Kobi Note y arrástralo a la pantalla de inicio, o toca <strong>Añadir a pantalla de inicio</strong>.",
+          atIos: "<strong>iPhone o iPad:</strong> el icono es la propia aplicación. Si no está en ninguna página de la pantalla de inicio, la aplicación no está instalada: sigue los pasos del iPhone, más arriba.",
+          atPc: "<strong>Ordenador:</strong> abre Kobi Note y, con la aplicación abierta, haz clic con el botón derecho en su icono de la barra de tareas y elige <strong>Anclar a la barra de tareas</strong> (en el Mac, en el Dock: <strong>Opciones</strong> › <strong>Mantener en el Dock</strong>).",
+          desinstalar: "Desinstalar",
+          desTitulo: "Para desinstalar",
+          desAnd: "<strong>Android:</strong> mantén pulsado el icono de Kobi Note y toca <strong>Desinstalar</strong>.",
+          desIos: "<strong>iPhone o iPad:</strong> mantén pulsado el icono de Kobi Note, toca <strong>Eliminar app</strong> y confirma.",
+          desPc: "<strong>Ordenador:</strong> abre Kobi Note, haz clic en los <strong>tres puntos</strong> de la parte de arriba de su ventana y en <strong>Desinstalar</strong>.",
+          desBackup: "<strong>Antes, haz una copia</strong>, como se explica más arriba: desinstalar puede borrar todo lo que la aplicación guarda en este dispositivo.",
+          problemas: "Si algo sale mal",
+          prob1: "<strong>No aparece la opción de instalar:</strong> comprueba que estás en Chrome (Android y ordenador) o en Safari (iPhone), fuera de la navegación de incógnito o privada. Si la aplicación ya está instalada, la opción desaparece — busca el icono en la pantalla de inicio o en la lista de aplicaciones.",
+          prob2: "<strong>La pantalla se queda en blanco:</strong> actualiza el navegador y el sistema del dispositivo y vuelve a abrirla.",
+          rodape: "Kobi Note · gratis · <a href='./'>abrir la aplicación</a>",
+          jaInstalado: "Kobi Note ya está instalado en este dispositivo.",
+          instalou: "Listo: Kobi Note se ha instalado. Ábrelo desde su icono.",
+        },
+        pl: {
+          titulo: "Zainstaluj Kobi Note",
+          idioma: "Język",
+          h1: "Zainstaluj Kobi Note",
+          sub: "Krok po kroku na telefon i komputer",
+          lema: "Osobiste studium, twórczość, finanse i przygotowanie — w aplikacji, która mieszka na twoim urządzeniu. Za darmo, bez konta i bez chmury, a po pierwszym uruchomieniu działa bez internetu.",
+          instalar: "Zainstaluj teraz",
+          abrir: "Otwórz Kobi Note",
+          android: "Telefon lub tablet z Androidem",
+          ios: "iPhone lub iPad",
+          computador: "Komputer",
+          seu: "twoje",
+          and2: "Dotknij <strong>Zainstaluj teraz</strong> u góry strony. Jeśli przycisk się nie pojawi, otwórz menu Chrome (<strong>trzy kropki</strong> w górnym rogu) i dotknij <strong>Zainstaluj aplikację</strong> lub <strong>Dodaj do ekranu głównego</strong>.",
+          and3: "Potwierdź przyciskiem <strong>Zainstaluj</strong>. Niebieska ikona Kobi Note pojawi się na ekranie głównym.",
+          sempre: "Zawsze otwieraj aplikację z tej ikony.",
+          ios2: "Dotknij <strong>Udostępnij</strong> — kwadratu ze strzałką w górę (na iPhonie jest na dolnym pasku, na iPadzie u góry).",
+          ios3: "Przewiń listę i dotknij <strong>Do ekranu początkowego</strong>.",
+          ios4: "Dotknij <strong>Dodaj</strong>. Ikona Kobi Note pojawi się na ekranie początkowym.",
+          iosNota: "<strong>Zainstaluj ją, nie używaj tylko w Safari.</strong> Otwierana wyłącznie w przeglądarce może stracić zapisane dane: iPhone usuwa je po siedmiu dniach nieużywania. Po instalacji tak się nie dzieje.",
+          iosReq: "Wymaga iOS lub iPadOS 15.4 albo nowszego.",
+          pc2: "Kliknij <strong>Zainstaluj teraz</strong> u góry strony albo ikonę instalacji na końcu paska adresu.",
+          pc3: "Potwierdź przyciskiem <strong>Zainstaluj</strong>. Kobi Note otworzy się we własnym oknie i dostanie skrót, jak każdy program.",
+          primeira: "Przy pierwszym uruchomieniu",
+          pri1: "Krótka prezentacja pokaże drogę. Na końcu dotknij <strong>Zaczynamy</strong> albo <strong>Pomiń</strong>.",
+          pri2: "<strong>Sejf</strong> (w module Bądź gotowy) to jedyna część, która używa biometrii. Pojawia się przy pierwszym otwarciu sejfu i jest taka sama jak blokada ekranu urządzenia.",
+          depois: "Po instalacji",
+          dep1: "Aplikacja otworzy się w języku wybranym u góry tej strony; zmienisz go w każdej chwili w <strong>Profilu</strong>. Przy pierwszym uruchomieniu krótka prezentacja pokaże drogę, a <strong>Samouczek</strong> w aplikacji objaśni każdy moduł.",
+          dep2: "Wszystko, co piszesz, zostaje <strong>tylko na twoim urządzeniu</strong>, zaszyfrowane. Nic nie trafia na żaden serwer.",
+          dep3: "Gdy wyjdzie nowa wersja, aplikacja sama o tym powie. Wystarczy dotknąć powiadomienia, aby ją zaktualizować.",
+          backup: "<strong>Rób co jakiś czas kopię.</strong> Zmiana urządzenia, odinstalowanie aplikacji lub wyczyszczenie danych przeglądarki usuwa to, co w niej jest. W aplikacji otwórz <strong>O aplikacji</strong>, dotknij <strong>Pobierz kopię</strong> i przechowuj plik poza urządzeniem. Na nowym urządzeniu ten sam ekran ma <strong>Przywróć</strong>.",
+          atalho: "Utwórz skrót",
+          atTitulo: "Jak utworzyć skrót",
+          atAnd: "<strong>Android:</strong> otwórz listę aplikacji (przesuń palcem w górę na ekranie głównym), dotknij i przytrzymaj Kobi Note i przeciągnij na ekran główny albo dotknij <strong>Dodaj do ekranu głównego</strong>.",
+          atIos: "<strong>iPhone lub iPad:</strong> ikona to sama aplikacja. Jeśli nie ma jej na żadnej stronie ekranu początkowego, aplikacja nie jest zainstalowana: wykonaj kroki dla iPhone'a podane wyżej.",
+          atPc: "<strong>Komputer:</strong> otwórz Kobi Note i, gdy jest otwarty, kliknij prawym przyciskiem jego ikonę na pasku zadań, a potem <strong>Przypnij do paska zadań</strong> (na Macu, w Docku: <strong>Opcje</strong> › <strong>Zachowaj w Docku</strong>).",
+          desinstalar: "Odinstaluj",
+          desTitulo: "Jak odinstalować",
+          desAnd: "<strong>Android:</strong> dotknij i przytrzymaj ikonę Kobi Note, a potem dotknij <strong>Odinstaluj</strong>.",
+          desIos: "<strong>iPhone lub iPad:</strong> dotknij i przytrzymaj ikonę Kobi Note, dotknij <strong>Usuń aplikację</strong> i potwierdź.",
+          desPc: "<strong>Komputer:</strong> otwórz Kobi Note, kliknij <strong>trzy kropki</strong> u góry jego okna, a potem <strong>Odinstaluj</strong>.",
+          desBackup: "<strong>Najpierw zrób kopię</strong>, jak opisano wyżej: odinstalowanie może usunąć wszystko, co aplikacja przechowuje na tym urządzeniu.",
+          problemas: "Jeśli coś nie działa",
+          prob1: "<strong>Nie widać opcji instalacji:</strong> sprawdź, czy używasz Chrome (Android i komputer) albo Safari (iPhone) i nie jesteś w trybie incognito ani prywatnym. Jeśli aplikacja jest już zainstalowana, opcja znika — poszukaj ikony na ekranie głównym lub na liście aplikacji.",
+          prob2: "<strong>Ekran pozostaje pusty:</strong> zaktualizuj przeglądarkę i system urządzenia, a potem otwórz ją ponownie.",
+          rodape: "Kobi Note · za darmo · <a href='./'>otwórz aplikację</a>",
+          jaInstalado: "Kobi Note jest już zainstalowany na tym urządzeniu.",
+          instalou: "Gotowe: Kobi Note został zainstalowany. Otwórz go z jego ikony.",
+        },
+        uk: {
+          titulo: "Встановити Kobi Note",
+          idioma: "Мова",
+          h1: "Встановіть Kobi Note",
+          sub: "Покрокова інструкція для телефона й комп'ютера",
+          lema: "Особисте вивчення, творчість, фінанси й підготовка — у застосунку, що живе на вашому пристрої. Безкоштовно, без облікового запису й без хмари, і після першого запуску працює без інтернету.",
+          instalar: "Встановити зараз",
+          abrir: "Відкрити Kobi Note",
+          android: "Телефон або планшет Android",
+          ios: "iPhone або iPad",
+          computador: "Комп'ютер",
+          seu: "ваш",
+          and2: "Торкніться <strong>Встановити зараз</strong> угорі сторінки. Якщо кнопки немає, відкрийте меню Chrome (<strong>три крапки</strong> у верхньому куті) і торкніться <strong>Установити додаток</strong> або <strong>Додати на головний екран</strong>.",
+          and3: "Підтвердьте кнопкою <strong>Установити</strong>. Синій значок Kobi Note з'явиться на головному екрані.",
+          sempre: "Завжди відкривайте застосунок через цей значок.",
+          ios2: "Торкніться <strong>Поширити</strong> — квадрата зі стрілкою вгору (на iPhone він на нижній панелі, на iPad — угорі).",
+          ios3: "Прогорніть список і торкніться <strong>На Початковий екран</strong>.",
+          ios4: "Торкніться <strong>Додати</strong>. Значок Kobi Note з'явиться на Початковому екрані.",
+          iosNota: "<strong>Встановіть, а не користуйтеся лише в Safari.</strong> Якщо відкривати тільки в браузері, iPhone може стерти збережене після семи днів без використання. Після встановлення цього не стається.",
+          iosReq: "Потрібна iOS або iPadOS 15.4 чи новіша.",
+          pc2: "Натисніть <strong>Встановити зараз</strong> угорі сторінки або значок встановлення в кінці адресного рядка.",
+          pc3: "Підтвердьте кнопкою <strong>Установити</strong>. Kobi Note відкриється у власному вікні й отримає ярлик, як будь-яка програма.",
+          primeira: "Під час першого запуску",
+          pri1: "Коротка презентація покаже шлях. Наприкінці торкніться <strong>Почати</strong> або <strong>Пропустити</strong>.",
+          pri2: "<strong>Сейф</strong> (у розділі «Будь готовий») — єдина частина, що використовує біометрію. Її буде запитано, коли ви вперше відкриєте сейф, і вона та сама, що й блокування екрана пристрою.",
+          depois: "Після встановлення",
+          dep1: "Застосунок відкриється мовою, вибраною вгорі цієї сторінки; змінити її можна будь-коли в <strong>Профілі</strong>. Під час першого запуску коротка презентація покаже шлях, а <strong>Посібник</strong> у застосунку пояснить кожен модуль.",
+          dep2: "Усе, що ви пишете, залишається <strong>лише на вашому пристрої</strong>, у зашифрованому вигляді. Ніщо не надходить на жоден сервер.",
+          dep3: "Коли вийде нова версія, застосунок сам повідомить. Досить торкнутися сповіщення, щоб оновити.",
+          backup: "<strong>Час від часу робіть резервну копію.</strong> Зміна пристрою, видалення застосунку чи очищення даних браузера стирає те, що в ньому є. У застосунку відкрийте <strong>Про застосунок</strong>, торкніться <strong>Завантажити копію</strong> і зберігайте файл поза пристроєм. На новому пристрої той самий екран має <strong>Відновити</strong>.",
+          atalho: "Створити ярлик",
+          atTitulo: "Як створити ярлик",
+          atAnd: "<strong>Android:</strong> відкрийте список застосунків (проведіть угору на головному екрані), торкніться й утримуйте Kobi Note і перетягніть його на головний екран або торкніться <strong>Додати на головний екран</strong>.",
+          atIos: "<strong>iPhone або iPad:</strong> значок — це і є застосунок. Якщо його немає на жодній сторінці Початкового екрана, застосунок не встановлено: виконайте кроки для iPhone вище.",
+          atPc: "<strong>Комп'ютер:</strong> відкрийте Kobi Note і, поки він відкритий, клацніть правою кнопкою його значок на панелі завдань і виберіть <strong>Закріпити на панелі завдань</strong> (на Mac, у Dock: <strong>Параметри</strong> › <strong>Залишити в Dock</strong>).",
+          desinstalar: "Видалити",
+          desTitulo: "Як видалити",
+          desAnd: "<strong>Android:</strong> торкніться й утримуйте значок Kobi Note і торкніться <strong>Видалити</strong>.",
+          desIos: "<strong>iPhone або iPad:</strong> торкніться й утримуйте значок Kobi Note, торкніться <strong>Вилучити програму</strong> й підтвердьте.",
+          desPc: "<strong>Комп'ютер:</strong> відкрийте Kobi Note, клацніть <strong>три крапки</strong> вгорі його вікна, а потім <strong>Видалити</strong>.",
+          desBackup: "<strong>Спершу зробіть резервну копію</strong>, як описано вище: видалення може стерти все, що застосунок зберігає на цьому пристрої.",
+          problemas: "Якщо щось не так",
+          prob1: "<strong>Немає варіанта встановлення:</strong> перевірте, що ви в Chrome (Android і комп'ютер) або Safari (iPhone) і не в режимі анонімного чи приватного перегляду. Якщо застосунок уже встановлено, варіант зникає — пошукайте значок на головному екрані або в списку застосунків.",
+          prob2: "<strong>Екран залишається порожнім:</strong> оновіть браузер і систему пристрою та відкрийте знову.",
+          rodape: "Kobi Note · безкоштовно · <a href='./'>відкрити застосунок</a>",
+          jaInstalado: "Kobi Note уже встановлено на цьому пристрої.",
+          instalou: "Готово: Kobi Note встановлено. Відкривайте його через значок.",
+        },
+        ja: {
+          titulo: "Kobi Note をインストール",
+          idioma: "言語",
+          h1: "Kobi Note をインストール",
+          sub: "スマートフォンとパソコンでの手順",
+          lema: "個人研究、創作、家計、備え。すべてをあなたの端末の中に置くアプリです。無料で、アカウントもクラウドも不要。最初に開いた後はインターネットなしで使えます。",
+          instalar: "今すぐインストール",
+          abrir: "Kobi Note を開く",
+          android: "Android のスマートフォン・タブレット",
+          ios: "iPhone・iPad",
+          computador: "パソコン",
+          seu: "お使いの端末",
+          and2: "ページ上部の<strong>今すぐインストール</strong>をタップします。ボタンが出ない場合は、Chrome のメニュー（右上の<strong>縦の三点</strong>）を開き、<strong>アプリをインストール</strong>または<strong>ホーム画面に追加</strong>をタップします。",
+          and3: "<strong>インストール</strong>で確定します。ホーム画面に青い Kobi Note のアイコンが現れます。",
+          sempre: "アプリは必ずこのアイコンから開いてください。",
+          ios2: "<strong>共有</strong>ボタン（上向き矢印の付いた四角）をタップします。iPhone では下のバー、iPad では上にあります。",
+          ios3: "一覧をスクロールして<strong>ホーム画面に追加</strong>をタップします。",
+          ios4: "<strong>追加</strong>をタップします。ホーム画面に Kobi Note のアイコンが現れます。",
+          iosNota: "<strong>Safari で開くだけでなく、インストールしてください。</strong>ブラウザで開くだけだと、7 日間使わなかった場合に iPhone が保存内容を消すことがあります。インストールすれば、そうはなりません。",
+          iosReq: "iOS / iPadOS 15.4 以降が必要です。",
+          pc2: "ページ上部の<strong>今すぐインストール</strong>か、アドレスバーの右端に出るインストールのアイコンをクリックします。",
+          pc3: "<strong>インストール</strong>で確定します。Kobi Note が専用のウィンドウで開き、ほかのプログラムと同じようにショートカットができます。",
+          primeira: "最初に開いたとき",
+          pri1: "短い紹介が道案内をします。最後に<strong>使い始める</strong>を、または<strong>スキップ</strong>をタップしてください。",
+          pri2: "<strong>金庫</strong>（「備えよう」の中）だけが生体認証を使います。金庫を初めて開くときに求められ、端末の画面ロックと同じものです。",
+          depois: "インストールの後で",
+          dep1: "アプリはこのページの上で選んだ言語で開きます。言語はいつでも<strong>プロフィール</strong>で変えられます。最初に開くと短い紹介が道案内をし、アプリ内の<strong>使い方</strong>が各モジュールを説明します。",
+          dep2: "書いたものはすべて暗号化され、<strong>あなたの端末の中だけ</strong>に残ります。どのサーバーにも送られません。",
+          dep3: "新しいバージョンが出ると、アプリが知らせます。お知らせをタップすれば更新されます。",
+          backup: "<strong>ときどきバックアップを取ってください。</strong>端末の買い替え、アプリの削除、ブラウザのデータ消去で、中身は消えます。アプリで<strong>このアプリについて</strong>を開き、<strong>バックアップをダウンロード</strong>をタップして、ファイルを端末の外に保管してください。新しい端末では、同じ画面の<strong>復元</strong>を使います。",
+          atalho: "ショートカットを作成",
+          atTitulo: "ショートカットを作成するには",
+          atAnd: "<strong>Android：</strong>端末のアプリ一覧を開き（ホーム画面を上にスワイプ）、Kobi Note を長押ししてホーム画面にドラッグするか、<strong>ホーム画面に追加</strong>をタップします。",
+          atIos: "<strong>iPhone・iPad：</strong>アイコンがアプリそのものです。ホーム画面のどのページにもなければ、アプリはインストールされていません。上の iPhone の手順に従ってください。",
+          atPc: "<strong>パソコン：</strong>Kobi Note を開き、開いたまま、タスクバーのアイコンを右クリックして<strong>タスクバーにピン留めする</strong>を選びます（Mac では Dock で<strong>オプション</strong> › <strong>Dockに残す</strong>）。",
+          desinstalar: "アンインストール",
+          desTitulo: "アンインストールするには",
+          desAnd: "<strong>Android：</strong>Kobi Note のアイコンを長押しして、<strong>アンインストール</strong>をタップします。",
+          desIos: "<strong>iPhone・iPad：</strong>Kobi Note のアイコンを長押しして<strong>Appを削除</strong>をタップし、確認します。",
+          desPc: "<strong>パソコン：</strong>Kobi Note を開き、ウインドウ上部の<strong>縦の三点</strong>をクリックして、<strong>アンインストール</strong>をクリックします。",
+          desBackup: "<strong>先にバックアップを取ってください</strong>（方法は上のとおり）。アンインストールすると、この端末でアプリが保存しているものがすべて消えることがあります。",
+          problemas: "うまくいかないときは",
+          prob1: "<strong>インストールの項目が出ない：</strong>Chrome（Android とパソコン）または Safari（iPhone）で、シークレットやプライベートのタブ以外で開いているか確かめてください。すでにインストール済みなら項目は出ません。ホーム画面やアプリ一覧でアイコンを探してください。",
+          prob2: "<strong>画面が真っ白のまま：</strong>ブラウザと端末のシステムを更新してから、もう一度開いてください。",
+          rodape: "Kobi Note · 無料 · <a href='./'>アプリを開く</a>",
+          jaInstalado: "Kobi Note はこの端末にインストール済みです。",
+          instalou: "完了：Kobi Note がインストールされました。アイコンから開いてください。",
+        },
+        "zh-CN": {
+          titulo: "安装 Kobi Note",
+          idioma: "语言",
+          h1: "安装 Kobi Note",
+          sub: "手机和电脑的安装步骤",
+          lema: "个人学习、创作、财务与准备，都在一个存放于你设备上的应用里。免费，无需账号，没有云端——首次打开后无需联网也能使用。",
+          instalar: "立即安装",
+          abrir: "打开 Kobi Note",
+          android: "Android 手机或平板",
+          ios: "iPhone 或 iPad",
+          computador: "电脑",
+          seu: "你的设备",
+          and2: "点按页面顶部的<strong>立即安装</strong>。如果没有出现按钮，打开 Chrome 菜单（右上角的<strong>三个点</strong>），点按<strong>安装应用</strong>或<strong>添加到主屏幕</strong>。",
+          and3: "点按<strong>安装</strong>确认。蓝色的 Kobi Note 图标会出现在主屏幕上。",
+          sempre: "以后请始终从这个图标打开应用。",
+          ios2: "点按<strong>共享</strong>，即带向上箭头的方框（iPhone 在底部栏，iPad 在顶部）。",
+          ios3: "滚动列表，点按<strong>添加到主屏幕</strong>。",
+          ios4: "点按<strong>添加</strong>。Kobi Note 图标会出现在主屏幕上。",
+          iosNota: "<strong>请安装，不要只在 Safari 里使用。</strong>如果只在浏览器中打开，连续七天不用时 iPhone 可能会删除你保存的内容。安装后就不会这样。",
+          iosReq: "需要 iOS 或 iPadOS 15.4 或更高版本。",
+          pc2: "点击页面顶部的<strong>立即安装</strong>，或地址栏末端出现的安装图标。",
+          pc3: "点击<strong>安装</strong>确认。Kobi Note 会在独立窗口中打开，并像其他程序一样有快捷方式。",
+          primeira: "首次打开时",
+          pri1: "简短的介绍会带你上路。在最后点按<strong>开始使用</strong>，或点按<strong>跳过</strong>。",
+          pri2: "<strong>保险箱</strong>（在“做好准备”中）是唯一使用生物识别的部分。第一次打开保险箱时才会要求，和设备的锁屏是同一个。",
+          depois: "安装之后",
+          dep1: "应用会以本页顶部选择的语言打开，之后随时可以在<strong>个人资料</strong>中更改。首次打开时会有简短的介绍带路；应用里的<strong>使用教程</strong>会讲解每个模块。",
+          dep2: "你写的一切都经过加密，<strong>只保存在你的设备上</strong>，不会发送到任何服务器。",
+          dep3: "有新版本时，应用会自己提醒你。点按提示即可更新。",
+          backup: "<strong>请不时备份。</strong>更换设备、卸载应用或清除浏览器数据都会删除其中的内容。在应用中打开<strong>关于</strong>，点按<strong>下载备份</strong>，把文件保存在设备之外。在新设备上，同一个页面有<strong>恢复</strong>。",
+          atalho: "创建快捷方式",
+          atTitulo: "如何创建快捷方式",
+          atAnd: "<strong>Android：</strong>打开设备的应用列表（在主屏幕上向上滑动），按住 Kobi Note，把它拖到主屏幕，或点按<strong>添加到主屏幕</strong>。",
+          atIos: "<strong>iPhone 或 iPad：</strong>图标就是应用本身。如果主屏幕的每一页上都没有它，说明应用没有安装：请按照上面 iPhone 的步骤操作。",
+          atPc: "<strong>电脑：</strong>打开 Kobi Note，在它打开时，右键点击任务栏上的图标，选择<strong>固定到任务栏</strong>（在 Mac 上，在程序坞中选择<strong>选项</strong> › <strong>在程序坞中保留</strong>）。",
+          desinstalar: "卸载",
+          desTitulo: "如何卸载",
+          desAnd: "<strong>Android：</strong>按住 Kobi Note 的图标，点按<strong>卸载</strong>。",
+          desIos: "<strong>iPhone 或 iPad：</strong>按住 Kobi Note 的图标，点按<strong>移除 App</strong>，然后确认。",
+          desPc: "<strong>电脑：</strong>打开 Kobi Note，点击它窗口顶部的<strong>三个点</strong>，再点击<strong>卸载</strong>。",
+          desBackup: "<strong>请先备份</strong>（方法见上文）：卸载可能会删除应用在这台设备上保存的所有内容。",
+          problemas: "如果遇到问题",
+          prob1: "<strong>没有安装选项：</strong>请确认你使用的是 Chrome（Android 和电脑）或 Safari（iPhone），而且不在无痕或隐私浏览模式下。如果应用已经安装，选项就会消失——请在主屏幕或应用列表中找它的图标。",
+          prob2: "<strong>屏幕一直空白：</strong>请更新浏览器和设备系统，然后重新打开。",
+          rodape: "Kobi Note · 免费 · <a href='./'>打开应用</a>",
+          jaInstalado: "此设备上已安装 Kobi Note。",
+          instalou: "完成：Kobi Note 已安装。请从它的图标打开。",
+        },
+        ko: {
+          titulo: "Kobi Note 설치",
+          idioma: "언어",
+          h1: "Kobi Note 설치하기",
+          sub: "휴대전화와 컴퓨터에서 설치하는 방법",
+          lema: "개인 연구, 창작, 재정, 준비를 기기 안에 머무는 앱 하나로. 무료이고 계정도 클라우드도 없으며, 처음 연 뒤에는 인터넷 없이도 작동합니다.",
+          instalar: "지금 설치",
+          abrir: "Kobi Note 열기",
+          android: "Android 휴대전화 또는 태블릿",
+          ios: "iPhone 또는 iPad",
+          computador: "컴퓨터",
+          seu: "내 기기",
+          and2: "페이지 위쪽의 <strong>지금 설치</strong>를 누릅니다. 버튼이 보이지 않으면 Chrome 메뉴(위쪽 모서리의 <strong>점 세 개</strong>)를 열고 <strong>앱 설치</strong> 또는 <strong>홈 화면에 추가</strong>를 누릅니다.",
+          and3: "<strong>설치</strong>를 눌러 확인합니다. 홈 화면에 파란색 Kobi Note 아이콘이 나타납니다.",
+          sempre: "앱은 언제나 이 아이콘으로 여세요.",
+          ios2: "<strong>공유</strong>(위쪽 화살표가 있는 네모)를 누릅니다. iPhone은 아래쪽 막대, iPad는 위쪽에 있습니다.",
+          ios3: "목록을 내려 <strong>홈 화면에 추가</strong>를 누릅니다.",
+          ios4: "<strong>추가</strong>를 누릅니다. 홈 화면에 Kobi Note 아이콘이 나타납니다.",
+          iosNota: "<strong>Safari에서만 쓰지 말고 설치하세요.</strong> 브라우저에서만 열면, 7일 동안 사용하지 않았을 때 iPhone이 저장한 내용을 지울 수 있습니다. 설치하면 그런 일이 없습니다.",
+          iosReq: "iOS 또는 iPadOS 15.4 이상이 필요합니다.",
+          pc2: "페이지 위쪽의 <strong>지금 설치</strong>나, 주소 표시줄 끝에 나타나는 설치 아이콘을 클릭합니다.",
+          pc3: "<strong>설치</strong>를 눌러 확인합니다. Kobi Note가 자체 창에서 열리고, 다른 프로그램처럼 바로가기가 생깁니다.",
+          primeira: "처음 열 때",
+          pri1: "짧은 소개가 길을 안내합니다. 마지막에 <strong>사용 시작하기</strong>나 <strong>건너뛰기</strong>를 누르세요.",
+          pri2: "<strong>금고</strong>(대비하십시오 안)만 생체 인증을 사용합니다. 금고를 처음 열 때 요청되며, 기기의 화면 잠금과 같은 것입니다.",
+          depois: "설치한 뒤에는",
+          dep1: "앱은 이 페이지 위에서 고른 언어로 열리며, 언어는 언제든 <strong>프로필</strong>에서 바꿀 수 있습니다. 처음 열면 짧은 소개가 길을 안내하고, 앱 안의 <strong>사용 안내</strong>가 각 모듈을 설명합니다.",
+          dep2: "작성한 모든 내용은 암호화되어 <strong>내 기기에만</strong> 남습니다. 어떤 서버로도 가지 않습니다.",
+          dep3: "새 버전이 나오면 앱이 직접 알려 줍니다. 알림을 누르면 업데이트됩니다.",
+          backup: "<strong>가끔 백업하세요.</strong> 기기를 바꾸거나 앱을 삭제하거나 브라우저 데이터를 지우면 그 안의 내용이 사라집니다. 앱에서 <strong>정보</strong>를 열고 <strong>백업 내려받기</strong>를 누른 뒤, 파일을 기기 밖에 보관하세요. 새 기기에서는 같은 화면의 <strong>복원</strong>을 씁니다.",
+          atalho: "바로가기 만들기",
+          atTitulo: "바로가기를 만드는 방법",
+          atAnd: "<strong>Android:</strong> 기기의 앱 목록을 열고(홈 화면에서 위로 스와이프) Kobi Note를 길게 누른 다음 홈 화면으로 끌어 놓거나 <strong>홈 화면에 추가</strong>를 누릅니다.",
+          atIos: "<strong>iPhone 또는 iPad:</strong> 아이콘이 곧 앱입니다. 홈 화면의 어느 페이지에도 없다면 앱이 설치되지 않은 것입니다. 위의 iPhone 단계를 따르세요.",
+          atPc: "<strong>컴퓨터:</strong> Kobi Note를 열고, 열려 있는 동안 작업 표시줄의 아이콘을 마우스 오른쪽 버튼으로 클릭한 다음 <strong>작업 표시줄에 고정</strong>을 선택합니다(Mac에서는 Dock에서 <strong>옵션</strong> › <strong>Dock에 유지</strong>).",
+          desinstalar: "제거",
+          desTitulo: "제거하는 방법",
+          desAnd: "<strong>Android:</strong> Kobi Note 아이콘을 길게 누른 다음 <strong>제거</strong> 또는 <strong>설치 삭제</strong>를 누릅니다.",
+          desIos: "<strong>iPhone 또는 iPad:</strong> Kobi Note 아이콘을 길게 누르고 <strong>앱 제거</strong>를 누른 다음 확인합니다.",
+          desPc: "<strong>컴퓨터:</strong> Kobi Note를 열고 창 위쪽의 <strong>점 세 개</strong>를 클릭한 다음 <strong>제거</strong>를 클릭합니다.",
+          desBackup: "<strong>먼저 백업하세요</strong>(방법은 위의 설명 참고). 제거하면 이 기기에서 앱이 보관한 모든 것이 지워질 수 있습니다.",
+          problemas: "잘 안 될 때",
+          prob1: "<strong>설치 항목이 보이지 않을 때:</strong> Chrome(Android, 컴퓨터) 또는 Safari(iPhone)를 쓰고 있는지, 시크릿·개인 정보 보호 모드가 아닌지 확인하세요. 이미 설치되어 있으면 항목이 사라집니다. 홈 화면이나 앱 목록에서 아이콘을 찾아보세요.",
+          prob2: "<strong>화면이 하얗게만 보일 때:</strong> 브라우저와 기기 시스템을 업데이트한 뒤 다시 여세요.",
+          rodape: "Kobi Note · 무료 · <a href='./'>앱 열기</a>",
+          jaInstalado: "이 기기에는 Kobi Note가 이미 설치되어 있습니다.",
+          instalou: "완료: Kobi Note가 설치되었습니다. 아이콘으로 여세요.",
+        },
+        ar: {
+          titulo: "تثبيت Kobi Note",
+          idioma: "اللغة",
+          h1: "ثبّت Kobi Note",
+          sub: "خطوة بخطوة للهاتف والحاسوب",
+          lema: "الدرس الشخصي والإبداع والمالية والاستعداد، في تطبيق يعيش على جهازك. مجاني، بلا حساب وبلا سحابة — ويعمل دون إنترنت بعد الفتح الأول.",
+          instalar: "ثبّت الآن",
+          abrir: "افتح Kobi Note",
+          android: "هاتف أو جهاز لوحي بنظام Android",
+          ios: "iPhone أو iPad",
+          computador: "الحاسوب",
+          seu: "جهازك",
+          and2: "المس <strong>ثبّت الآن</strong> في أعلى الصفحة. إن لم يظهر الزر، افتح قائمة Chrome (<strong>النقاط الثلاث</strong> في الزاوية العليا) والمس <strong>تثبيت التطبيق</strong> أو <strong>إضافة إلى الشاشة الرئيسية</strong>.",
+          and3: "أكّد بلمس <strong>تثبيت</strong>. تظهر أيقونة Kobi Note الزرقاء على الشاشة الرئيسية.",
+          sempre: "افتح التطبيق دائمًا من هذه الأيقونة.",
+          ios2: "المس <strong>مشاركة</strong>، أي المربع الذي يخرج منه سهم إلى الأعلى (في iPhone يكون في الشريط السفلي، وفي iPad في الأعلى).",
+          ios3: "مرّر القائمة والمس <strong>إضافة إلى الشاشة الرئيسية</strong>.",
+          ios4: "المس <strong>إضافة</strong>. تظهر أيقونة Kobi Note على الشاشة الرئيسية.",
+          iosNota: "<strong>ثبّته، ولا تكتفِ باستخدامه في Safari.</strong> إذا فُتح في المتصفح فقط، فقد يمحو iPhone ما حفظته بعد سبعة أيام دون استخدام. بعد التثبيت لا يحدث ذلك.",
+          iosReq: "يتطلب iOS أو iPadOS 15.4 أو أحدث.",
+          pc2: "انقر <strong>ثبّت الآن</strong> في أعلى الصفحة، أو أيقونة التثبيت التي تظهر في طرف شريط العنوان.",
+          pc3: "أكّد بالنقر على <strong>تثبيت</strong>. يفتح Kobi Note في نافذته الخاصة ويحصل على اختصار مثل أي برنامج.",
+          primeira: "في الفتح الأول",
+          pri1: "يرشدك عرض قصير. في النهاية المس <strong>ابدأ الاستخدام</strong> أو <strong>تخطٍّ</strong>.",
+          pri2: "<strong>الخزنة</strong> (في «كن مستعدًّا») هي الجزء الوحيد الذي يستخدم المصادقة البيومترية. تُطلب أول مرة تفتح فيها الخزنة، وهي نفسها قفل شاشة الجهاز.",
+          depois: "بعد التثبيت",
+          dep1: "يفتح التطبيق باللغة المختارة في أعلى هذه الصفحة، ويمكنك تغييرها متى شئت من <strong>الملف الشخصي</strong>. في الفتح الأول يرشدك عرض قصير، و<strong>دليل الاستخدام</strong> داخل التطبيق يشرح كل وحدة.",
+          dep2: "كل ما تكتبه يبقى <strong>على جهازك وحده</strong>، مشفّرًا. لا يذهب شيء إلى أي خادم.",
+          dep3: "عند صدور إصدار جديد ينبّهك التطبيق بنفسه. يكفي أن تلمس التنبيه للتحديث.",
+          backup: "<strong>اصنع نسخة احتياطية من حين لآخر.</strong> تغيير الجهاز أو حذف التطبيق أو مسح بيانات المتصفح يمحو ما فيه. في التطبيق افتح <strong>حول التطبيق</strong>، والمس <strong>تنزيل النسخة الاحتياطية</strong>، واحفظ الملف خارج الجهاز. وعلى الجهاز الجديد تجد في الشاشة نفسها <strong>استعادة</strong>.",
+          atalho: "إنشاء الاختصار",
+          atTitulo: "لإنشاء الاختصار",
+          atAnd: "<strong>Android:</strong> افتح قائمة التطبيقات في الجهاز (اسحب لأعلى على الشاشة الرئيسية)، والمس Kobi Note مطوّلًا واسحبه إلى الشاشة الرئيسية، أو المس <strong>إضافة إلى الشاشة الرئيسية</strong>.",
+          atIos: "<strong>iPhone أو iPad:</strong> الأيقونة هي التطبيق نفسه. إن لم تكن في أي صفحة من الشاشة الرئيسية، فالتطبيق غير مثبّت: اتبع خطوات iPhone أعلاه.",
+          atPc: "<strong>الحاسوب:</strong> افتح Kobi Note، وبينما هو مفتوح انقر بزر الفأرة الأيمن على أيقونته في شريط المهام واختر <strong>تثبيت على شريط المهام</strong> (في Mac، في Dock: <strong>خيارات</strong> › <strong>الإبقاء في Dock</strong>).",
+          desinstalar: "إلغاء التثبيت",
+          desTitulo: "لإلغاء التثبيت",
+          desAnd: "<strong>Android:</strong> المس أيقونة Kobi Note مطوّلًا، ثم المس <strong>إلغاء التثبيت</strong>.",
+          desIos: "<strong>iPhone أو iPad:</strong> المس أيقونة Kobi Note مطوّلًا، ثم المس <strong>إزالة التطبيق</strong> وأكّد.",
+          desPc: "<strong>الحاسوب:</strong> افتح Kobi Note، وانقر <strong>النقاط الثلاث</strong> في أعلى نافذته، ثم <strong>إلغاء التثبيت</strong>.",
+          desBackup: "<strong>اصنع نسخة احتياطية أولًا</strong>، كما شُرح أعلاه: قد يمحو إلغاء التثبيت كل ما يحفظه التطبيق على هذا الجهاز.",
+          problemas: "إذا لم ينجح الأمر",
+          prob1: "<strong>لا يظهر خيار التثبيت:</strong> تأكد أنك في Chrome (Android والحاسوب) أو Safari (iPhone)، وخارج وضع التصفح المتخفي أو الخاص. إذا كان التطبيق مثبّتًا من قبل فإن الخيار يختفي — ابحث عن الأيقونة في الشاشة الرئيسية أو في قائمة التطبيقات.",
+          prob2: "<strong>تبقى الشاشة بيضاء:</strong> حدّث المتصفح ونظام الجهاز، ثم افتحه من جديد.",
+          rodape: "Kobi Note · مجاني · <a href='./'>افتح التطبيق</a>",
+          jaInstalado: "Kobi Note مثبّت بالفعل على هذا الجهاز.",
+          instalou: "تم: ثُبّت Kobi Note. افتحه من أيقونته.",
+        },
+        ht: {
+          titulo: "Enstale Kobi Note",
+          idioma: "Lang",
+          h1: "Enstale Kobi Note",
+          sub: "Etap pa etap pou telefòn ak òdinatè",
+          lema: "Etid pèsonèl, kreyativite, finans ak preparasyon, nan yon aplikasyon ki rete sou aparèy ou. Gratis, san kont e san nwaj — epi li mache san entènèt apre premye fwa ou louvri l.",
+          instalar: "Enstale kounye a",
+          abrir: "Louvri Kobi Note",
+          android: "Telefòn oswa tablèt Android",
+          ios: "iPhone oswa iPad",
+          computador: "Òdinatè",
+          seu: "pa w la",
+          and2: "Touche <strong>Enstale kounye a</strong>, anlè paj la. Si bouton an pa parèt, louvri meni Chrome nan (<strong>twa ti pwen</strong> yo, nan kwen anlè a) epi touche <strong>Installer l'application</strong> oswa <strong>Ajouter à l'écran d'accueil</strong>.",
+          and3: "Konfime ak <strong>Installer</strong>. Ikòn ble Kobi Note la parèt sou ekran prensipal la.",
+          sempre: "Toujou louvri aplikasyon an pa ikòn sa a.",
+          ios2: "Touche <strong>Partager</strong>, kare ki gen flèch ki monte a (sou iPhone li nan ba anba a; sou iPad, anlè).",
+          ios3: "Desann lis la epi touche <strong>Sur l'écran d'accueil</strong>.",
+          ios4: "Touche <strong>Ajouter</strong>. Ikòn Kobi Note la parèt sou ekran prensipal la.",
+          iosNota: "<strong>Enstale l, pa sèvi avè l sèlman nan Safari.</strong> Si ou louvri l sèlman nan navigatè a, iPhone ka efase sa ou te sere apre sèt jou san itilize l. Lè l enstale, sa pa rive.",
+          iosReq: "Li bezwen iOS oswa iPadOS 15.4 oswa pi nouvo.",
+          pc2: "Klike sou <strong>Enstale kounye a</strong>, anlè paj la, oswa sou ikòn enstalasyon ki parèt nan bout ba adrès la.",
+          pc3: "Konfime ak <strong>Installer</strong>. Kobi Note louvri nan pwòp fenèt li epi li jwenn yon rakousi, tankou nenpòt pwogram.",
+          primeira: "Premye fwa ou louvri l",
+          pri1: "Yon ti prezantasyon montre w chemen an. Nan fen an, touche <strong>Kòmanse sèvi avè l</strong>, oswa <strong>Sote</strong>.",
+          pri2: "<strong>Kòf</strong> la (nan Pare w) se sèl pati ki sèvi ak byometri. Li mande l premye fwa ou louvri kòf la, epi se menm bagay ak fèmen ekran aparèy la.",
+          depois: "Apre ou fin enstale",
+          dep1: "Aplikasyon an louvri nan lang ou chwazi anlè paj sa a, epi ou ka chanje l nenpòt ki lè nan <strong>Pwofil</strong>. Premye fwa ou louvri l, yon ti prezantasyon montre w chemen an; <strong>Gid itilizasyon</strong> an, anndan aplikasyon an, esplike chak modil.",
+          dep2: "Tout sa ou ekri rete <strong>sèlman sou aparèy ou</strong>, chifre. Anyen pa ale sou okenn sèvè.",
+          dep3: "Lè yon nouvo vèsyon soti, aplikasyon an li menm avèti w. Ou jis touche avi a pou mete l ajou.",
+          backup: "<strong>Fè yon kopi sekirite de tanzantan.</strong> Chanje aparèy, dezenstale aplikasyon an oswa efase done navigatè a efase sa ki ladan l. Nan aplikasyon an, louvri <strong>Konsènan</strong>, touche <strong>Telechaje kopi sekirite a</strong> epi sere fichye a andeyò aparèy la. Sou nouvo aparèy la, menm ekran Konsènan an gen <strong>Restore</strong>.",
+          atalho: "Kreye rakousi a",
+          atTitulo: "Pou kreye rakousi a",
+          atAnd: "<strong>Android:</strong> louvri lis aplikasyon aparèy la (glise dwèt ou monte sou ekran prensipal la), kenbe dwèt ou sou Kobi Note epi trennen l sou ekran prensipal la, oswa touche <strong>Ajouter à l'écran d'accueil</strong>.",
+          atIos: "<strong>iPhone oswa iPad:</strong> ikòn nan se aplikasyon an li menm. Si li pa sou okenn paj nan ekran prensipal la, aplikasyon an pa enstale: swiv etap iPhone yo pi wo a.",
+          atPc: "<strong>Òdinatè:</strong> louvri Kobi Note epi, pandan li louvri, klike ak bouton dwat sourit la sou ikòn li nan ba travay la epi chwazi <strong>Épingler à la barre des tâches</strong> (sou Mac, nan Dock la: <strong>Options</strong> › <strong>Garder dans le Dock</strong>).",
+          desinstalar: "Dezenstale",
+          desTitulo: "Pou dezenstale",
+          desAnd: "<strong>Android:</strong> kenbe dwèt ou sou ikòn Kobi Note la epi touche <strong>Désinstaller</strong>.",
+          desIos: "<strong>iPhone oswa iPad:</strong> kenbe dwèt ou sou ikòn Kobi Note la, touche <strong>Supprimer l'app</strong> epi konfime.",
+          desPc: "<strong>Òdinatè:</strong> louvri Kobi Note, klike sou <strong>twa ti pwen</strong> yo anlè fenèt li a, epi sou <strong>Désinstaller</strong>.",
+          desBackup: "<strong>Fè yon kopi sekirite anvan</strong>, jan sa eksplike pi wo a: dezenstale ka efase tout sa aplikasyon an kenbe sou aparèy sa a.",
+          problemas: "Si sa pa mache",
+          prob1: "<strong>Opsyon pou enstale a pa parèt:</strong> verifye ou nan Chrome (Android ak òdinatè) oswa nan Safari (iPhone), deyò mòd prive a. Si aplikasyon an deja enstale, opsyon an disparèt — chèche ikòn nan sou ekran prensipal la oswa nan lis aplikasyon yo.",
+          prob2: "<strong>Ekran an rete blan:</strong> mete navigatè a ak sistèm aparèy la ajou, epi louvri l ankò.",
+          rodape: "Kobi Note · gratis · <a href='./'>louvri aplikasyon an</a>",
+          jaInstalado: "Kobi Note deja enstale sou aparèy sa a.",
+          instalou: "Fini: Kobi Note enstale. Louvri l pa ikòn li.",
+        },
+      };
+
+      // O português é o do HTML: lido de volta do DOM antes de qualquer troca.
+      const marcados = [...document.querySelectorAll('[data-t]')];
+      const pt = {
+        titulo: document.title,
+        jaInstalado: "O Kobi Note já está instalado neste aparelho.",
+        instalou: "Pronto: o Kobi Note foi instalado. Abra pelo ícone dele.",
+      };
+      for (const el of marcados) pt[el.dataset.t] ??= el.innerHTML.trim();
+      T['pt-BR'] = pt;
+
+      // A mesma chave do app (`src/i18n/idioma.ts`): o app abre no que se escolheu aqui.
+      const CHAVE = 'note_idioma';
+      const ler = () => {
+        try {
+          return localStorage.getItem(CHAVE);
+        } catch {
+          return null;
+        }
+      };
+      const gravar = (tag) => {
+        try {
+          localStorage.setItem(CHAVE, tag);
+        } catch {
+          // Modo privativo: a página troca, e o app pergunta de novo ao navegador.
+        }
+      };
+
+      // A tag do jeito que o app a escreve, casando pelo idioma (`pt-PT` lê o `pt-BR`).
+      const casar = (pedido) => {
+        if (!pedido) return null;
+        if (T[pedido]) return pedido;
+        const base = pedido.toLowerCase().split('-')[0];
+        return Object.keys(T).find((tag) => tag.toLowerCase().split('-')[0] === base) ?? null;
+      };
+
+      let idiomaDaPagina = 'pt-BR';
+      const textoDe = (chave) => T[idiomaDaPagina][chave] ?? pt[chave];
+
+      const seletor = document.getElementById('idioma');
+      const estado = document.getElementById('estado');
+
+      const aplicar = (tag) => {
+        idiomaDaPagina = tag;
+        document.documentElement.lang = tag;
+        document.documentElement.dir = tag === 'ar' ? 'rtl' : 'ltr';
+        document.title = textoDe('titulo');
+        for (const el of marcados) el.innerHTML = textoDe(el.dataset.t);
+        seletor.value = tag;
+        if (estado.dataset.t) estado.textContent = textoDe(estado.dataset.t);
+      };
+
+      /*
+       * Quem manda: o link (o convite do app leva o idioma de quem convidou no
+       * hash, `instalar.html#en` — hash, e não `?`, porque o precache casa o
+       * endereço sem busca), depois o que o aparelho já escolheu no app, depois
+       * o navegador. Do link, a escolha só se grava num aparelho que ainda não
+       * tinha uma: o convite em português não troca o app de quem já o usa em
+       * inglês.
+       */
+      const doLink = casar(decodeURIComponent(location.hash.slice(1)));
+      const salvo = casar(ler());
+      if (doLink && !salvo) gravar(doLink);
+      aplicar(doLink ?? salvo ?? casar(navigator.language) ?? 'pt-BR');
+
+      seletor.addEventListener('change', () => {
+        aplicar(seletor.value);
+        gravar(seletor.value);
+        history.replaceState(null, '', `#${seletor.value}`);
+      });
+
+      const avisar = (chave) => {
+        estado.dataset.t = chave;
+        estado.textContent = textoDe(chave);
+      };
+
+      const ua = navigator.userAgent;
+      // O iPad com iPadOS 13+ se apresenta como Mac: o toque é o que o entrega.
+      const ios = /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+      const aparelho = ios ? 'ios' : /Android/.test(ua) ? 'android' : 'computador';
+
+      // O bloco do aparelho de quem lê vem primeiro, marcado; os outros seguem abaixo.
+      const doAparelho = document.getElementById(aparelho);
+      doAparelho.querySelector('.seu').hidden = false;
+      doAparelho.parentElement.insertBefore(doAparelho, document.getElementById('android'));
+
+      const botao = document.getElementById('instalar');
+      const abrir = document.getElementById('abrir');
+      let pedido = null;
+
+      const instalado = () =>
+        window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+
+      /*
+       * Nenhuma página cria o atalho de um app nem o desinstala: o "Criar o
+       * atalho" e o "Desinstalar" levam aos passos do aparelho. Eles só
+       * aparecem com o app instalado — esta página aberta na janela do app
+       * ou, na aba do Chrome, pelo `getInstalledRelatedApps` (o
+       * `related_applications` do manifest aponta para ele mesmo). O Safari
+       * não conta: os passos ficam na página para quem os procurar.
+       */
+      const atalho = document.getElementById('atalho');
+      const desinstalar = document.getElementById('desinstalar');
+      const jaInstalado = async () => {
+        if (instalado()) return true;
+        if (!('getInstalledRelatedApps' in navigator)) return false;
+        try {
+          return (await navigator.getInstalledRelatedApps()).length > 0;
+        } catch {
+          return false;
+        }
+      };
+      jaInstalado().then((sim) => {
+        if (!sim) return;
+        atalho.hidden = false;
+        desinstalar.hidden = false;
+        avisar('jaInstalado');
+      });
+
+      // O botão rola até a seção dele, e o foco vai ao título (o leitor de tela o anuncia).
+      const levarA = (secao, titulo) => {
+        const suave = window.matchMedia('(prefers-reduced-motion: no-preference)').matches;
+        document.getElementById(secao).scrollIntoView({ behavior: suave ? 'smooth' : 'auto' });
+        document.getElementById(titulo).focus({ preventScroll: true });
+      };
+      atalho.addEventListener('click', () => levarA('criar-atalho', 'titulo-atalho'));
+      desinstalar.addEventListener('click', () => levarA('desinstalacao', 'titulo-desinstalacao'));
+
+      // Com a instalação na mão, ela é o botão cheio, e o "Abrir" passa a vazado.
+      window.addEventListener('beforeinstallprompt', (evento) => {
+        evento.preventDefault();
+        pedido = evento;
+        botao.hidden = false;
+        abrir.classList.remove('botao--cheio');
+      });
+
+      botao.addEventListener('click', async () => {
+        if (pedido === null) return;
+        const atual = pedido;
+        pedido = null;
+        botao.hidden = true;
+        abrir.classList.add('botao--cheio');
+        await atual.prompt();
+      });
+
+      window.addEventListener('appinstalled', () => {
+        botao.hidden = true;
+        abrir.classList.add('botao--cheio');
+        atalho.hidden = false;
+        desinstalar.hidden = false;
+        avisar('instalou');
+      });
+
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(() => { });
+      }
+    })();
+  </script>
+</body>
+
+</html>

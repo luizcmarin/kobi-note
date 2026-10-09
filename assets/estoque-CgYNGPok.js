@@ -1,0 +1,1 @@
+export{i as calcularAutonomia,o as carregarEstoque,l as lerPerfil}from"./estoque-8y3sBxQS.js";

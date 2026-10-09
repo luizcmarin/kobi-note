@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-01T23:54:36.385Z",
+  "gerado_em": "2026-10-09T20:39:54.534Z",
   "modulos": {
     "perguntas": {
       "versao": "258362bdebbdeedf0d6e7969a0b82a0c",
@@ -10,12 +10,16 @@
       "registros": 39
     },
     "personagens": {
-      "versao": "fe5c3d796b6a8fcd3bf4cff5310223b6",
-      "registros": 24
+      "versao": "13e4b8764e3a7da1de1577bda069b860",
+      "registros": 26
+    },
+    "nome_divino": {
+      "versao": "9b72d4236b5435bc9f36b65eabcfb4a9",
+      "registros": 203
     },
     "poesias": {
-      "versao": "ccbc762bbc5d82707d489f5917df58da",
-      "registros": 25
+      "versao": "bd0fefda61165097a9d34b45cfad4e34",
+      "registros": 38
     },
     "receitas": {
       "versao": "b53666f7ba7856612434a43caa0514b7",
@@ -49,6 +53,14 @@
       "versao": "2898ad222a471efd5ee0380b41170016",
       "registros": 63
     },
+    "relatorio_mundial": {
+      "versao": "c2b8dafae880e7cfb7ac37393a7dc367",
+      "registros": 9
+    },
+    "relatorio_mundial_paises": {
+      "versao": "6a45e60ec5f2fb2c9e4f11f7183bbb2b",
+      "registros": 1868
+    },
     "cronologia": {
       "versao": "7d86a10736452dd29ad333d30bb349ce",
       "registros": 630
@@ -66,8 +78,8 @@
       "registros": 6
     },
     "tutorial": {
-      "versao": "5ba0d749d7783cf0e89b560762e63788",
-      "registros": 26
+      "versao": "3f2bf51836fa21a71c98ff6c4e6e1c5a",
+      "registros": 29
     }
   }
 }

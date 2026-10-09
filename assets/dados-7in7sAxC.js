@@ -1,0 +1,1 @@
+export{u as calcularProntidao,_ as tomDaProntidao}from"./dados-CMbokwWF.js";

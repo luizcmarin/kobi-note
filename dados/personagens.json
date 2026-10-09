@@ -310,5 +310,31 @@
     "publicar": 1,
     "data_criacao": 1790541963451,
     "data_atualizacao": 1790893708727
+  },
+  {
+    "id": 25,
+    "numero": 25,
+    "nome": "Maria",
+    "resumo": "<p>Maria foi a mãe de Jesus. O anjo Gabriel disse a ela: “Você achou favor diante de Deus.” (Luc 1:30) Embora fosse pobre, ela ia com a família a Jerusalém todos os anos para a Páscoa. (Luc 2:24, 41)</p><p>Maria se tornou discípula de Jesus, e mais tarde os outros filhos dela fizeram o mesmo. (Atos 1:14)</p>",
+    "perguntas": "[{\"enunciado\":\"Em que cidade Maria morava quando o anjo Gabriel a visitou?\",\"alternativas\":[\"Belém\",\"Nazaré\",\"Jerusalém\"],\"correta\":1,\"referencia\":\"Lucas 1:26, 27\"},{\"enunciado\":\"O que Maria e José ofereceram quando apresentaram Jesus a Jeová em Jerusalém?\",\"alternativas\":[\"Um cordeiro de um ano\",\"Um cabrito sem defeito\",\"Um par de rolas ou dois pombos novos\"],\"correta\":2,\"referencia\":\"Lucas 2:22-24\"},{\"enunciado\":\"Complete: “Maria, porém, começou a guardar todas essas declarações, tirando conclusões...”\",\"alternativas\":[\"no coração\",\"em oração\",\"com José\"],\"correta\":0,\"referencia\":\"Lucas 2:19\"}]",
+    "periodo": "jesus",
+    "obra_fonte": "Cartões Bíblicos (jw.org) — “Maria”",
+    "link_fonte": "https://www.jw.org/pt/ensinos-biblicos/criancas/cartoes-biblicos/maria/",
+    "publicar": 1,
+    "data_criacao": 1791289933452,
+    "data_atualizacao": 1791328936742
+  },
+  {
+    "id": 41,
+    "numero": 41,
+    "nome": "Saul",
+    "resumo": "<p>Saul foi o primeiro rei de Israel. No começo ele era humilde, mas depois passou a agir com presunção, e Jeová o rejeitou como rei. (1Sa 9:21; 15:22, 23)</p><p>Saul ficou com ciúme de Davi e o perseguiu para matá-lo, mas Jeová protegeu Davi. Saul morreu numa batalha contra os filisteus. (1Sa 18:8, 9; 31:1-4)</p>",
+    "perguntas": "[{\"enunciado\":\"Que filho de Saul se tornou o grande amigo de Davi?\",\"alternativas\":[\"Abner\",\"Jonatã\",\"Mefibosete\"],\"correta\":1,\"referencia\":\"1 Samuel 18:1\"},{\"enunciado\":\"Complete o que Samuel disse a Saul: “Obedecer é melhor do que...”\",\"alternativas\":[\"um sacrifício\",\"a força\",\"o ouro\"],\"correta\":0,\"referencia\":\"1 Samuel 15:22\"},{\"enunciado\":\"Como Davi descreveu Saul e Jonatã depois que eles morreram?\",\"alternativas\":[\"Mais altos do que todo o povo\",\"Mais sábios do que os anciãos\",\"Mais velozes do que as águias e mais fortes do que os leões\"],\"correta\":2,\"referencia\":\"2 Samuel 1:23\"}]",
+    "periodo": "reis",
+    "obra_fonte": "Cartões Bíblicos (jw.org) — “Rei Saul”",
+    "link_fonte": "https://www.jw.org/pt/ensinos-biblicos/criancas/cartoes-biblicos/rei-saul/",
+    "publicar": 1,
+    "data_criacao": 1791289933452,
+    "data_atualizacao": 1791328956070
   }
 ]

@@ -1,0 +1,1 @@
+export{r as lerFavoritos}from"./favoritos-DSssFOrF.js";

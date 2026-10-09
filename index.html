@@ -105,13 +105,24 @@
          * nenhum dos dois é tocado aqui. É a saída de um service worker que
          * ficou servindo um pacote quebrado, onde o recarregar comum volta
          * sempre para a mesma tela.
+         *
+         * Só o do Note: a origem pode ser compartilhada (luizcmarin.github.io), e o
+         * filtro é o do `@kobi/kit/utilities/aparelho.js` — o service worker pelo
+         * escopo da página, o cache pelo prefixo do app ou pelo escopo no fim.
          */
         caixa.querySelector('[data-acao="limpar"]').addEventListener('click', async () => {
           try {
+            const escopo = new URL('./', location.href).href;
             const registros = (await navigator.serviceWorker?.getRegistrations?.()) ?? [];
-            await Promise.all(registros.map((registro) => registro.unregister()));
+            await Promise.all(
+              registros
+                .filter((registro) => registro.scope === escopo)
+                .map((registro) => registro.unregister()),
+            );
+            const doApp = (nome) =>
+              nome.startsWith('note_') || nome.startsWith('note-') || nome.endsWith(`-${escopo}`);
             const nomes = (await globalThis.caches?.keys()) ?? [];
-            await Promise.all(nomes.map((nome) => caches.delete(nome)));
+            await Promise.all(nomes.filter(doApp).map((nome) => caches.delete(nome)));
           } finally {
             location.reload();
           }
@@ -149,11 +160,17 @@
     (() => {
       const idioma = localStorage.getItem('note_idioma');
       if (idioma) {
-        // A direção sai do `Intl`, como em `direcaoDe()` de `i18n/idioma.ts`.
+        // A direção sai do `Intl`, como em `direcaoDe()` de `@kobi/idiomas`.
         try {
           const local = new Intl.Locale(idioma);
           const info = local.getTextInfo ? local.getTextInfo() : local.textInfo;
-          if (info && info.direction === 'rtl') document.documentElement.dir = 'rtl';
+          // Sem os dois (Firefox), a escrita do idioma: a lista é a de `direcaoDe()`.
+          const rtl = info
+            ? info.direction === 'rtl'
+            : ['Adlm', 'Arab', 'Hebr', 'Mand', 'Nkoo', 'Rohg', 'Samr', 'Syrc', 'Thaa'].includes(
+                local.maximize().script,
+              );
+          if (rtl) document.documentElement.dir = 'rtl';
         } catch {
           // Tag que o Intl recusa: a tela fica da esquerda para a direita.
         }
@@ -187,7 +204,7 @@
       } catch (_) {}
 
       // O Safari anterior ao 17.4 não conhece `@scope`, e descarta calado as
-      // cinquenta seções de módulo do estilo.css. A reserva é gerada no build
+      // seções de módulo (as do estilo.css e as do estilo.css de cada módulo). A reserva é gerada no build
       // (`reservaDeScope`, em scripts/vite/plugins.ts), num arquivo que só este
       // navegador baixa, e as regras dela só casam sob a marca.
       if (typeof CSSScopeRule === 'undefined') {
@@ -199,8 +216,8 @@
       }
     })();
   </script>
-  <script type="module" crossorigin src="./assets/index-DYev-n2R.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-cfohjjAF.css">
+  <script type="module" crossorigin src="./assets/index-DI1RkrLP.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DLpn1BS3.css">
 <link rel="manifest" href="./manifest.webmanifest"></head>
 
 <body>

@@ -1,21 +1,48 @@
-MIT License
+Kobi Note — Licença
 
-Copyright (c) 2026 Luiz Marin
+Copyright (c) 2026 Luiz Marin. Todos os direitos reservados.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+O aplicativo Kobi Note — incluindo seu código-fonte, design, identidade visual,
+logotipos, textos originais e demais recursos autorais — é software
+proprietário, de titularidade exclusiva de Luiz Marin.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Uso permitido
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+   É concedida ao usuário final uma licença pessoal, intransferível e não
+   comercial para instalar e utilizar o aplicativo, nos termos dos Termos de
+   Uso. Nenhuma licença de código aberto é concedida.
+
+2. Restrições
+
+   Salvo autorização expressa e por escrito do titular, é vedado:
+
+   - copiar, reproduzir ou redistribuir o aplicativo ou partes dele;
+   - vender, sublicenciar, alugar ou comercializar o aplicativo;
+   - modificar, adaptar ou criar obras derivadas;
+   - remover ou alterar avisos de direitos autorais e de titularidade.
+
+3. Conteúdo do usuário
+
+   Os dados e o conteúdo que você cria no aplicativo (anotações, metas,
+   registros e afins) permanecem de sua propriedade exclusiva e não são
+   abrangidos por esta licença.
+
+4. Materiais de terceiros
+
+   Bibliotecas de código aberto e conteúdos referenciados de terceiros possuem
+   seus próprios direitos e licenças, que esta não altera nem restringe. Os
+   conteúdos referenciados estão descritos no aplicativo, em Sobre › Direitos
+   de Terceiros; os avisos de copyright e os textos das licenças das
+   bibliotecas, das fontes e dos ícones incluídos no aplicativo estão em
+   AVISOS-DE-TERCEIROS.md, neste repositório.
+
+5. Isenção de garantias
+
+   O aplicativo é fornecido "no estado em que se encontra", sem garantias de
+   qualquer natureza. O titular não se responsabiliza por danos decorrentes do
+   uso, conforme os Termos de Uso.
+
+6. Contato
+
+   Para solicitar autorizações ou esclarecer dúvidas sobre esta licença,
+   utilize o contato indicado na tela "Sobre" do aplicativo.

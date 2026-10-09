@@ -3,7 +3,10 @@
 O Kobi Note é um aplicativo web instalável para anotações, estudo, criatividade,
 finanças e preparo pessoal.
 
-Acesse a versão publicada em <https://luizcmarin.github.io/kobi-note/>.
+Acesse a versão publicada em <https://note.luizcmarin.com.br/>.
+
+Para instalar no Android, no iPhone ou no computador, siga o passo a passo em
+<https://note.luizcmarin.com.br/instalar.html>.
 
 ## Características
 
@@ -30,8 +33,11 @@ Leia [SECURITY.md](SECURITY.md) para comunicar problemas de segurança.
 
 ## Licença
 
-O código e os arquivos deste repositório são distribuídos sob a [licença MIT](LICENSE),
-salvo quando uma dependência ou um arquivo indicar outra licença.
+O Kobi Note é software proprietário: o uso é pessoal, intransferível e não comercial, e copiar,
+redistribuir ou modificar o aplicativo depende de autorização por escrito do titular. Os termos
+estão em [LICENSE](LICENSE). As bibliotecas, as fontes e os ícones de terceiros incluídos no
+aplicativo continuam sob as próprias licenças, e os avisos deles estão em
+[AVISOS-DE-TERCEIROS.md](AVISOS-DE-TERCEIROS.md).
 
 ## Origem da publicação
 

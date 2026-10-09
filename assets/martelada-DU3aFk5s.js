@@ -1,0 +1,1 @@
+export{t as default}from"./martelada-vevrO_sI.js";
