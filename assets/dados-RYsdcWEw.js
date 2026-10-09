@@ -1,0 +1,1 @@
+export{u as listarSessoes,_ as totalDeMinutos}from"./dados-BV5Lwoje.js";
