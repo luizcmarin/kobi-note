@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-15T11:18:14.933Z",
+  "gerado_em": "2026-10-15T22:09:45.887Z",
   "modulos": {
     "perguntas": {
       "versao": "258362bdebbdeedf0d6e7969a0b82a0c",
@@ -14,7 +14,7 @@
       "registros": 74
     },
     "nome_divino": {
-      "versao": "5866e2c3f917d8332398f974a33c0686",
+      "versao": "20b2503ea67b306063d0d80ef4152026",
       "registros": 203
     },
     "trilhas": {
@@ -22,16 +22,16 @@
       "registros": 282
     },
     "vidas": {
-      "versao": "4f53cda18c2baa0c0354bb5f9a3ecbe5",
-      "registros": 0
+      "versao": "13cfc8df08d9f681ff7bc9b610cb27a0",
+      "registros": 118
     },
     "lugares": {
-      "versao": "4f53cda18c2baa0c0354bb5f9a3ecbe5",
-      "registros": 0
+      "versao": "c6f6b2d091c408564a97de7a3326a4c7",
+      "registros": 56
     },
     "vidas_lugares": {
-      "versao": "4f53cda18c2baa0c0354bb5f9a3ecbe5",
-      "registros": 0
+      "versao": "0175fc7994de8e8cd41edd917b3d9035",
+      "registros": 138
     },
     "poesias": {
       "versao": "ff78a4f35f6302b7985a63285add18b2",
@@ -94,7 +94,7 @@
       "registros": 6
     },
     "tutorial": {
-      "versao": "4f8bb4f4b2c3a505ab32b623138da4c8",
+      "versao": "7f3d5939875b628fad0cd826aad5a783",
       "registros": 30
     }
   }
