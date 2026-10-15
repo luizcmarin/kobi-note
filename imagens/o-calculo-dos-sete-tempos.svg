@@ -14,13 +14,13 @@
      id="tit">O cálculo dos sete tempos — de Daniel 4 a outubro de 1914</title>
   <desc
      id="desc">A conta inteira numa página. O sonho: uma árvore enorme (o governo de Deus,
-        exercido pelos reis em Jerusalém) é derrubada em outubro de 607 AEC, quando a Babilônia
+        exercido pelos reis em Jerusalém) é derrubada em outubro de 607 a.C., quando a Babilônia
         destrói Jerusalém; o toco fica cintado por &quot;sete tempos&quot; e depois torna a crescer. A cadeia
         da conta: Apocalipse 12:6 mede um período em 1.260 dias e o 12:14 chama o mesmo período de
         3 tempos e meio, logo um tempo é 1.260 ÷ 3,5 = 360 dias; sete tempos são 7 × 360 = 2.520
         dias; pela regra &quot;um dia por um ano&quot; (Números 14:34; Ezequiel 4:6) são 2.520 anos. A
-        armadilha: não existe ano zero — 1 AEC encosta em 1 EC —, então de outubro de 607 AEC a
-        outubro de 1 AEC são 606 anos e daí a outubro de 1914 são 1.914: 606 + 1.914 = 2.520. A
+        armadilha: não existe ano zero — 1 a.C. encosta em 1 d.C. —, então de outubro de 607 a.C. a
+        outubro de 1 a.C. são 606 anos e daí a outubro de 1914 são 1.914: 606 + 1.914 = 2.520. A
         soma direta 607 + 1.914 daria 2.521 porque conta um ano que nunca existiu.</desc>
   <defs
      id="defs3">
@@ -217,7 +217,7 @@
          class="not"
          y="40"
          font-weight="400"
-         id="text13">out. 607 AEC</text>
+         id="text13">out. 607 a.C.</text>
     </g>
     <path
        d="m 224,202 h 28"
@@ -496,7 +496,7 @@
          x="186"
          y="40"
          font-weight="400"
-         id="text35">out. 607 AEC → out. 1914 EC</text>
+         id="text35">out. 607 a.C. → out. 1914 d.C.</text>
     </g>
   </g>
   <!-- ══ Painel 3: a armadilha do ano zero ══════════════════════════════ -->
@@ -520,12 +520,12 @@
        class="rotp"
        x="24"
        y="62"
-       id="text37">O calendário não tem ano zero: de 1 AEC passa-se</text>
+       id="text37">O calendário não tem ano zero: de 1 a.C. passa-se</text>
     <text
        class="rotp"
        x="24"
        y="80"
-       id="text38">DIRETO para 1 EC. Nada falta no tempo — falta um número.</text>
+       id="text38">DIRETO para 1 d.C. Nada falta no tempo — falta um número.</text>
     <!-- o fantasma -->
     <g
        transform="translate(210,124)"
@@ -594,7 +594,7 @@
            x="43"
            y="28"
            fill="#ffffff"
-           id="text41">2 AEC</text>
+           id="text41">2 a.C.</text>
       </g>
       <g
          id="g42">
@@ -611,7 +611,7 @@
            x="131"
            y="28"
            fill="#ffffff"
-           id="text42">1 AEC</text>
+           id="text42">1 a.C.</text>
       </g>
       <g
          id="g43">
@@ -628,7 +628,7 @@
            x="219"
            y="28"
            fill="#ffffff"
-           id="text43">1 EC</text>
+           id="text43">1 d.C.</text>
       </g>
       <g
          id="g44">
@@ -645,7 +645,7 @@
            x="307"
            y="28"
            fill="#ffffff"
-           id="text44">2 EC</text>
+           id="text44">2 d.C.</text>
       </g>
       <rect
          x="172"
@@ -660,7 +660,7 @@
          x="176"
          y="66"
          fill="#b07d10"
-         id="text45">1 AEC encosta em 1 EC</text>
+         id="text45">1 a.C. encosta em 1 d.C.</text>
     </g>
     <!-- as duas contas -->
     <g
@@ -715,7 +715,7 @@
          font-size="12"
          class="rotp"
          fill="#5a8a72"
-         id="text49">✓ 607 AEC → 1 AEC são 606 anos</text>
+         id="text49">✓ 607 a.C. → 1 a.C. são 606 anos</text>
     </g>
   </g>
   <!-- ══ Rodapé: três cartões ═══════════════════════════════════════════ -->
@@ -760,7 +760,7 @@
          x="24"
          y="150"
          font-size="14"
-         id="text54">em 600 AEC — e as nações continuaram governando.</text>
+         id="text54">em 600 a.C. — e as nações continuaram governando.</text>
       <text
          class="rotp"
          x="24"
@@ -799,7 +799,7 @@
          x="24"
          y="76"
          font-size="14"
-         id="text58">Início: outubro de 607 AEC — Jerusalém cai e o</text>
+         id="text58">Início: outubro de 607 a.C. — Jerusalém cai e o</text>
       <text
          class="rotp"
          x="24"
@@ -812,14 +812,14 @@
          font-size="15px"
          font-weight="700"
          fill="#5f6788"
-         id="text60">606 anos (out. 607 AEC → out. 1 AEC)</text>
+         id="text60">606 anos (out. 607 a.C. → out. 1 a.C.)</text>
       <text
          x="24"
          y="158"
          font-size="15px"
          font-weight="700"
          fill="#5f6788"
-         id="text61">+ 1.914 anos (out. 1 AEC → out. 1914 EC)</text>
+         id="text61">+ 1.914 anos (out. 1 a.C. → out. 1914 d.C.)</text>
       <line
          x1="24"
          y1="168.12668"

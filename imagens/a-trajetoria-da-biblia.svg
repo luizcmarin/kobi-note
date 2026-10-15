@@ -36,13 +36,13 @@
      id="tit">A trajetória da Bíblia — o texto, e o nome divino através das eras</title>
   <desc
      id="desc">Uma linha do tempo de vinte e cinco séculos, com duas faixas. Em cima, o
-        percurso do texto: a Septuaginta grega no Egito a partir do século 3 AEC, os Rolos do Mar
+        percurso do texto: a Septuaginta grega no Egito a partir do século 3 a.C., os Rolos do Mar
         Morto, as primeiras versões em armênio, copta, etíope, georgiano, latim e siríaco, a Vulgata
-        de Jerônimo por volta de 405 EC, o Códice de Leningrado de 1008, o Novo Testamento inglês de
+        de Jerônimo por volta de 405 d.C., o Códice de Leningrado de 1008, o Novo Testamento inglês de
         Tyndale em 1526, a Bíblia em português de Almeida concluída em 1751 e a Tradução do Novo
         Mundo, de 1950 a hoje, em 344 idiomas inteira ou em parte. Embaixo, o nome divino: presente
         no texto hebraico quase 7.000 vezes e também nas cópias gregas da Septuaginta, como o P.
-        Fouad Inv. 266 do século 1 AEC; retirado a partir do século 4, quando o Códice Vaticano e o
+        Fouad Inv. 266 do século 1 a.C.; retirado a partir do século 4, quando o Códice Vaticano e o
         Códice Sinaítico já não o trazem e o Alexandrino o substitui pela forma abreviada de
         Kýrios, Senhor; e de volta em parte a partir de 1530, quando o Pentateuco de Tyndale traz
         Iehouah, a primeira ocorrência do nome pessoal de Deus numa Bíblia em inglês. O eixo é
@@ -206,7 +206,7 @@
     <text
        x="150"
        y="284"
-       id="text19">280 AEC</text>
+       id="text19">280 a.C.</text>
     <text
        x="150"
        y="264"
@@ -216,7 +216,7 @@
     <text
        x="330"
        y="234"
-       id="text21">98 EC</text>
+       id="text21">98 d.C.</text>
     <text
        x="330"
        y="214"
@@ -226,7 +226,7 @@
     <text
        x="470"
        y="314"
-       id="text23">150 EC</text>
+       id="text23">150 d.C.</text>
     <text
        x="470"
        y="294"
@@ -236,7 +236,7 @@
     <text
        x="620"
        y="244"
-       id="text25">405 EC</text>
+       id="text25">405 d.C.</text>
     <text
        x="620"
        y="224"
@@ -354,11 +354,11 @@
     <text
        x="80"
        y="452"
-       id="text42">900 AEC</text>
+       id="text42">900 a.C.</text>
     <text
        x="290"
        y="452"
-       id="text43">1 EC</text>
+       id="text43">1 d.C.</text>
     <text
        x="500"
        y="452"

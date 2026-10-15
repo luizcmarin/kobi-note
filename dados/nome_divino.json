@@ -440,14 +440,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "As cópias do tempo de Jesus",
-    "texto": "<p>Nas cópias das Escrituras Hebraicas usadas nos dias de Jesus e de seus apóstolos, o Tetragrama ocorria em todo o texto. Agora que foram descobertas perto de Qumran cópias datadas do primeiro século EC, não há motivo para dúvida nenhuma.</p>",
+    "texto": "<p>Nas cópias das Escrituras Hebraicas usadas nos dias de Jesus e de seus apóstolos, o Tetragrama ocorria em todo o texto. Agora que foram descobertas perto de Qumran cópias datadas do primeiro século d.C., não há motivo para dúvida nenhuma.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Tradução do Novo Mundo, apêndice A5",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001061205",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 157,
@@ -455,14 +455,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "A Septuaginta",
-    "texto": "<p>Em meados do século 20, fragmentos bem antigos da Septuaginta grega que existia nos dias de Jesus foram trazidos à atenção dos eruditos. Neles, o nome pessoal de Deus aparece escrito em caracteres hebraicos. Mas no quarto século EC os principais manuscritos da Septuaginta, como o Códice Vaticano e o Códice Sinaítico, já não continham o nome de Gênesis a Malaquias.</p>",
+    "texto": "<p>Em meados do século 20, fragmentos bem antigos da Septuaginta grega que existia nos dias de Jesus foram trazidos à atenção dos eruditos. Neles, o nome pessoal de Deus aparece escrito em caracteres hebraicos. Mas no quarto século d.C. os principais manuscritos da Septuaginta, como o Códice Vaticano e o Códice Sinaítico, já não continham o nome de Gênesis a Malaquias.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Tradução do Novo Mundo, apêndice A5",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001061205",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 158,
@@ -515,14 +515,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "A Tosefta",
-    "texto": "<p>A Tosefta, uma coleção escrita de leis orais finalizada por volta de 300 EC, diz sobre os escritos cristãos que eram queimados no sábado: “Os livros dos evangelistas e os livros dos minim [pelo visto os cristãos judeus], eles [os opositores] não salvam do fogo. Mas são queimados no lugar onde estão, eles e suas referências ao Nome Divino.”</p>",
+    "texto": "<p>A Tosefta, uma coleção escrita de leis orais finalizada por volta de 300 d.C., diz sobre os escritos cristãos que eram queimados no sábado: “Os livros dos evangelistas e os livros dos minim [pelo visto os cristãos judeus], eles [os opositores] não salvam do fogo. Mas são queimados no lugar onde estão, eles e suas referências ao Nome Divino.”</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Tradução do Novo Mundo, apêndice A5",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001061205",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 162,
@@ -589,7 +589,7 @@
     "capitulo": "dossie",
     "tipo": "pergunta",
     "ordem": 35,
-    "titulo": "Que coleção escrita de leis orais, finalizada por volta de 300 EC, fala dos escritos cristãos com o Nome Divino?",
+    "titulo": "Que coleção escrita de leis orais, finalizada por volta de 300 d.C., fala dos escritos cristãos com o Nome Divino?",
     "texto": "",
     "dados": "{\"alternativas\":[\"A Tosefta\",\"A Septuaginta\",\"A Vulgata\"],\"correta\":0}",
     "referencia": "Tradução do Novo Mundo, apêndice A5",
@@ -597,7 +597,7 @@
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001061205",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 32,
@@ -830,14 +830,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "A terceira letra",
-    "texto": "<p>O vau vem em terceiro. Em português, ele é representado pela consoante W (às vezes, pelo V). No quarto século EC, Jerônimo, o tradutor da Vulgata latina, escreveu numa carta os nomes das quatro letras: “Iode, Hê, Vau, Hê”.</p>",
+    "texto": "<p>O vau vem em terceiro. Em português, ele é representado pela consoante W (às vezes, pelo V). No quarto século d.C., Jerônimo, o tradutor da Vulgata latina, escreveu numa carta os nomes das quatro letras: “Iode, Hê, Vau, Hê”.</p>",
     "dados": "{\"letra\":\"ו\",\"nome\":\"Vau\",\"consoante\":\"W\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “Jeová”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200002391",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 13,
@@ -1160,14 +1160,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "A Pedra Moabita",
-    "texto": "<p>A Pedra Moabita, do nono século AEC, fornece evidência de que até mesmo nações pagãs perto de Israel conheciam o nome Jeová. O Tetragrama aparece na 18.ª linha.</p>",
-    "dados": "{\"desenho\":\"pedra-moabita\",\"quando\":\"Século 9 AEC\"}",
+    "texto": "<p>A Pedra Moabita, do nono século a.C., fornece evidência de que até mesmo nações pagãs perto de Israel conheciam o nome Jeová. O Tetragrama aparece na 18.ª linha.</p>",
+    "dados": "{\"desenho\":\"pedra-moabita\",\"quando\":\"Século 9 a.C.\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “O Nome Divino”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200000757",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 96,
@@ -1175,14 +1175,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "A inscrição da caverna",
-    "texto": "<p>Em 1961 foi descoberta uma caverna sepulcral a cerca de 35 km ao sudoeste de Jerusalém. Uma inscrição na sua parede, talvez do oitavo século AEC, declarava: “Jeová é o Deus de toda a terra.”</p>",
-    "dados": "{\"desenho\":\"caverna\",\"quando\":\"Talvez século 8 AEC\"}",
+    "texto": "<p>Em 1961 foi descoberta uma caverna sepulcral a cerca de 35 km ao sudoeste de Jerusalém. Uma inscrição na sua parede, talvez do oitavo século a.C., declarava: “Jeová é o Deus de toda a terra.”</p>",
+    "dados": "{\"desenho\":\"caverna\",\"quando\":\"Talvez século 8 a.C.\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “O Nome Divino”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200000757",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 97,
@@ -1190,14 +1190,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "A carta de Laquis II",
-    "texto": "<p>Na carta de Laquis II, que se crê datar do sétimo século AEC, o nome Jeová, conforme representado pelo Tetragrama, é usado duas vezes.</p>",
-    "dados": "{\"desenho\":\"carta-laquis\",\"quando\":\"Século 7 AEC\"}",
+    "texto": "<p>Na carta de Laquis II, que se crê datar do sétimo século a.C., o nome Jeová, conforme representado pelo Tetragrama, é usado duas vezes.</p>",
+    "dados": "{\"desenho\":\"carta-laquis\",\"quando\":\"Século 7 a.C.\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “O Nome Divino”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200000757",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 98,
@@ -1205,14 +1205,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "A carta de Arade",
-    "texto": "<p>Neste fragmento de cerâmica, de Arade, em Judá, escreveu-se uma carta, evidentemente no sétimo século AEC. Ela começa: “Ao meu senhor Eliasibe: Que Jeová peça a tua paz”, e termina: “Ele mora na casa de Jeová.”</p>",
-    "dados": "{\"desenho\":\"ostraco-arade\",\"quando\":\"Século 7 AEC\"}",
+    "texto": "<p>Neste fragmento de cerâmica, de Arade, em Judá, escreveu-se uma carta, evidentemente no sétimo século a.C. Ela começa: “Ao meu senhor Eliasibe: Que Jeová peça a tua paz”, e termina: “Ele mora na casa de Jeová.”</p>",
+    "dados": "{\"desenho\":\"ostraco-arade\",\"quando\":\"Século 7 a.C.\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “O Nome Divino”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200000757",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 99,
@@ -1220,14 +1220,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "A peça de prata",
-    "texto": "<p>Peça de prata em que consta o nome divino. Foi encontrada em Jerusalém e data evidentemente do sétimo ou do sexto século AEC.</p>",
-    "dados": "{\"desenho\":\"peca-de-prata\",\"quando\":\"Século 7 ou 6 AEC\"}",
+    "texto": "<p>Peça de prata em que consta o nome divino. Foi encontrada em Jerusalém e data evidentemente do sétimo ou do sexto século a.C.</p>",
+    "dados": "{\"desenho\":\"peca-de-prata\",\"quando\":\"Século 7 ou 6 a.C.\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “Jeová”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200002391",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 100,
@@ -1235,14 +1235,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "O papiro Fouad 266",
-    "texto": "<p>Fragmentos de papiro da Septuaginta grega, do primeiro século AEC, com partes de Deuteronômio. Dentro do texto grego, o nome pessoal de Deus aparece como Tetragrama, escrito em caracteres hebraicos. Jesus e seus discípulos tinham o texto hebraico das Escrituras e a Septuaginta grega, e ambos continham o nome divino.</p>",
-    "dados": "{\"desenho\":\"papiro-fouad\",\"quando\":\"Século 1 AEC\"}",
+    "texto": "<p>Fragmentos de papiro da Septuaginta grega, do primeiro século a.C., com partes de Deuteronômio. Dentro do texto grego, o nome pessoal de Deus aparece como Tetragrama, escrito em caracteres hebraicos. Jesus e seus discípulos tinham o texto hebraico das Escrituras e a Septuaginta grega, e ambos continham o nome divino.</p>",
+    "dados": "{\"desenho\":\"papiro-fouad\",\"quando\":\"Século 1 a.C.\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “O Nome Divino”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200000757",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 101,
@@ -1250,14 +1250,14 @@
     "tipo": "item",
     "ordem": 7,
     "titulo": "Os Salmos num Rolo do Mar Morto",
-    "texto": "<p>Trechos dos Salmos num Rolo do Mar Morto, datado da primeira metade do primeiro século EC. O texto tem o estilo das letras hebraicas usadas após o exílio babilônico, mas o Tetragrama ocorre várias vezes nas letras hebraicas antigas.</p>",
-    "dados": "{\"desenho\":\"rolo-qumran\",\"quando\":\"Século 1 EC\"}",
+    "texto": "<p>Trechos dos Salmos num Rolo do Mar Morto, datado da primeira metade do primeiro século d.C. O texto tem o estilo das letras hebraicas usadas após o exílio babilônico, mas o Tetragrama ocorre várias vezes nas letras hebraicas antigas.</p>",
+    "dados": "{\"desenho\":\"rolo-qumran\",\"quando\":\"Século 1 d.C.\"}",
     "referencia": "",
     "obra_fonte": "Tradução do Novo Mundo, apêndice A4",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001061204",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 102,
@@ -2211,13 +2211,13 @@
     "ordem": 0,
     "titulo": "O nome através dos séculos",
     "texto": "<p>De uma pedra do nono século antes da Era Comum até as Bíblias de hoje, o nome de Deus deixou marcas na história. Ponha cada marco no seu lugar na linha.</p>",
-    "dados": "{\"resumo\":\"Do século 9 AEC até hoje\",\"fecho\":\"<p>“Esse é o meu nome para sempre, e é assim que serei lembrado de geração em geração.” — Êxodo 3:15</p>\"}",
+    "dados": "{\"resumo\":\"Do século 9 a.C. até hoje\",\"fecho\":\"<p>“Esse é o meu nome para sempre, e é assim que serei lembrado de geração em geração.” — Êxodo 3:15</p>\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “Jeová”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200002391",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 131,
@@ -2226,13 +2226,13 @@
     "ordem": 1,
     "titulo": "Uma pedra de Moabe",
     "texto": "<p>Até nações pagãs perto de Israel conheciam o nome Jeová.</p>",
-    "dados": "{\"ano\":-850,\"quando\":\"Século 9 AEC\"}",
+    "dados": "{\"ano\":-850,\"quando\":\"Século 9 a.C.\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “O Nome Divino”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200000757",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 132,
@@ -2241,13 +2241,13 @@
     "ordem": 2,
     "titulo": "A inscrição da caverna sepulcral",
     "texto": "<p>Na parede: “Jeová é o Deus de toda a terra.”</p>",
-    "dados": "{\"ano\":-750,\"quando\":\"Talvez século 8 AEC\"}",
+    "dados": "{\"ano\":-750,\"quando\":\"Talvez século 8 a.C.\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “O Nome Divino”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200000757",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 133,
@@ -2256,13 +2256,13 @@
     "ordem": 3,
     "titulo": "As Cartas de Laquis",
     "texto": "<p>O nome era usado na correspondência comum.</p>",
-    "dados": "{\"ano\":-610,\"quando\":\"Fim do século 7 AEC\"}",
+    "dados": "{\"ano\":-610,\"quando\":\"Fim do século 7 a.C.\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “Jeová”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200002391",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 134,
@@ -2271,13 +2271,13 @@
     "ordem": 4,
     "titulo": "Um papiro da Septuaginta",
     "texto": "<p>A Septuaginta grega trazia o nome em caracteres hebraicos.</p>",
-    "dados": "{\"ano\":-50,\"quando\":\"Século 1 AEC\"}",
+    "dados": "{\"ano\":-50,\"quando\":\"Século 1 a.C.\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “O Nome Divino”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200000757",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 135,
@@ -2286,13 +2286,13 @@
     "ordem": 5,
     "titulo": "Os Salmos de Qumran",
     "texto": "<p>O Tetragrama aparece várias vezes, nas letras hebraicas antigas.</p>",
-    "dados": "{\"ano\":30,\"quando\":\"Primeira metade do século 1 EC\"}",
+    "dados": "{\"ano\":30,\"quando\":\"Primeira metade do século 1 d.C.\"}",
     "referencia": "",
     "obra_fonte": "Tradução do Novo Mundo, apêndice A4",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001061204",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 136,
@@ -2301,13 +2301,13 @@
     "ordem": 6,
     "titulo": "A Hexapla de Orígenes",
     "texto": "<p>As versões gregas da Hexapla ainda representavam o nome divino.</p>",
-    "dados": "{\"ano\":245,\"quando\":\"Por volta de 245 EC\"}",
+    "dados": "{\"ano\":245,\"quando\":\"Por volta de 245 d.C.\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “Jeová”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200002391",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 137,
@@ -2316,13 +2316,13 @@
     "ordem": 7,
     "titulo": "Os códices Vaticano e Sinaítico",
     "texto": "<p>Os principais manuscritos da Septuaginta já não traziam o nome de Gênesis a Malaquias.</p>",
-    "dados": "{\"ano\":350,\"quando\":\"Século 4 EC\"}",
+    "dados": "{\"ano\":350,\"quando\":\"Século 4 d.C.\"}",
     "referencia": "",
     "obra_fonte": "Tradução do Novo Mundo, apêndice A5",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001061205",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 138,
@@ -2406,13 +2406,13 @@
     "ordem": 29,
     "titulo": "De que século é a Pedra Moabita, que traz o Tetragrama?",
     "texto": "",
-    "dados": "{\"alternativas\":[\"Do século 9 AEC\",\"Do século 1 EC\",\"Do século 15 EC\"],\"correta\":0}",
+    "dados": "{\"alternativas\":[\"Do século 9 a.C.\",\"Do século 1 d.C.\",\"Do século 15 d.C.\"],\"correta\":0}",
     "referencia": "Estudo Perspicaz das Escrituras, “O Nome Divino”",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “O Nome Divino”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200000757",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 144,
@@ -2630,14 +2630,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "Surge uma ideia supersticiosa",
-    "texto": "<p>Em determinado período, surgiu entre os judeus a ideia de que era errado até mesmo pronunciar o nome divino. Não se sabe exatamente em que ela se baseou. Mas não há base genuína para atribuir essa superstição a uma época anterior ao primeiro e ao segundo séculos EC.</p>",
+    "texto": "<p>Em determinado período, surgiu entre os judeus a ideia de que era errado até mesmo pronunciar o nome divino. Não se sabe exatamente em que ela se baseou. Mas não há base genuína para atribuir essa superstição a uma época anterior ao primeiro e ao segundo séculos d.C.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “Jeová”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200002391",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 108,
@@ -2675,14 +2675,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "“Senhor” nas cópias gregas",
-    "texto": "<p>As cópias mais completas da Septuaginta, dos séculos 4 e 5 EC, substituem o Tetragrama pelas palavras gregas Ký·rios (Senhor) ou The·ós (Deus). Mas cópias mais antigas, como o papiro Fouad 266, do primeiro século AEC, provam que a Septuaginta continha o nome divino.</p>",
+    "texto": "<p>As cópias mais completas da Septuaginta, dos séculos 4 e 5 d.C., substituem o Tetragrama pelas palavras gregas Ký·rios (Senhor) ou The·ós (Deus). Mas cópias mais antigas, como o papiro Fouad 266, do primeiro século a.C., provam que a Septuaginta continha o nome divino.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “Jeová”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200002391",
     "publicar": 1,
     "data_criacao": 1791559348119,
-    "data_atualizacao": 1791559348119
+    "data_atualizacao": 1792061123653
   },
   {
     "id": 111,

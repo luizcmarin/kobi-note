@@ -1,0 +1,1 @@
+export{r as telaSobre}from"./tela-BIzc7HGI.js";

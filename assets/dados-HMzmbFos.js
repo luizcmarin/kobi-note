@@ -1,0 +1,1 @@
+export{d as lerLidos,b as percentualGeral}from"./dados-VQes4AVJ.js";

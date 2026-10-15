@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T21:52:55.384Z",
+  "gerado_em": "2026-10-15T11:18:14.933Z",
   "modulos": {
     "perguntas": {
       "versao": "258362bdebbdeedf0d6e7969a0b82a0c",
@@ -10,16 +10,32 @@
       "registros": 39
     },
     "personagens": {
-      "versao": "13e4b8764e3a7da1de1577bda069b860",
-      "registros": 26
+      "versao": "51bbbb6794ea06afaf2b11093f0bc0ef",
+      "registros": 74
     },
     "nome_divino": {
-      "versao": "9b72d4236b5435bc9f36b65eabcfb4a9",
+      "versao": "5866e2c3f917d8332398f974a33c0686",
       "registros": 203
     },
+    "trilhas": {
+      "versao": "cacd4c1f12b83848ca497986ac53300e",
+      "registros": 282
+    },
+    "vidas": {
+      "versao": "4f53cda18c2baa0c0354bb5f9a3ecbe5",
+      "registros": 0
+    },
+    "lugares": {
+      "versao": "4f53cda18c2baa0c0354bb5f9a3ecbe5",
+      "registros": 0
+    },
+    "vidas_lugares": {
+      "versao": "4f53cda18c2baa0c0354bb5f9a3ecbe5",
+      "registros": 0
+    },
     "poesias": {
-      "versao": "bd0fefda61165097a9d34b45cfad4e34",
-      "registros": 38
+      "versao": "ff78a4f35f6302b7985a63285add18b2",
+      "registros": 41
     },
     "receitas": {
       "versao": "b53666f7ba7856612434a43caa0514b7",
@@ -38,7 +54,7 @@
       "registros": 15
     },
     "criacao_modulos": {
-      "versao": "e7d2a7c6b7d42fb01d6a18b0a2ec8306",
+      "versao": "048099008b8bf881b34d3d195902c25a",
       "registros": 63
     },
     "imite_cartoes": {
@@ -62,8 +78,8 @@
       "registros": 1868
     },
     "cronologia": {
-      "versao": "7d86a10736452dd29ad333d30bb349ce",
-      "registros": 630
+      "versao": "c8adac82b48bdefea1ec20a2d010a3c8",
+      "registros": 645
     },
     "categorias": {
       "versao": "63235e12781fb6226226a447cd77ec49",
@@ -78,8 +94,8 @@
       "registros": 6
     },
     "tutorial": {
-      "versao": "3f2bf51836fa21a71c98ff6c4e6e1c5a",
-      "registros": 29
+      "versao": "4f8bb4f4b2c3a505ab32b623138da4c8",
+      "registros": 30
     }
   }
 }
