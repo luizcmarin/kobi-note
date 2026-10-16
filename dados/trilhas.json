@@ -6,14 +6,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Com quem ele falou?",
-    "texto": "<p>Jesus era bondoso com todos; ele não tratava uns melhor do que outros. Além disso, ele sempre tinha uma palavra de encorajamento e estava disposto a ajudar. Leia cada trecho e diga com quem Jesus estava falando.</p>",
-    "dados": "{\"resumo\":\"As palavras de Jesus\",\"fecho\":\"<p>Suas palavras deram consolo e esperança para todos os de coração sincero.</p>\"}",
+    "texto": "<p>Jesus tratava todo mundo com a mesma bondade, sem favorecer ninguém, e tinha sempre uma palavra que animava e uma mão pronta para ajudar. Leia cada trecho e diga com quem ele conversava.</p>",
+    "dados": "{\"resumo\":\"As palavras de Jesus\",\"fecho\":\"<p>Quem tinha o coração sincero saía dessas conversas consolado e com esperança.</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 86,
@@ -198,14 +198,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Em memória de mim",
-    "texto": "<p>Na noite antes de morrer, Jesus disse a seus seguidores como mostrar gratidão pelo seu sacrifício. Ele disse para eles se reunirem para uma ocasião especial, que a Bíblia chama de “Ceia do Senhor”, também conhecida como a Celebração da morte de Cristo.</p>",
-    "dados": "{\"resumo\":\"A Ceia do Senhor\",\"fecho\":\"<p>Quando você vai à Celebração, você mostra a sua gratidão pelo grande amor que Jeová e Jesus têm por nós.</p>\"}",
+    "texto": "<p>Na última noite antes de morrer, Jesus ensinou aos discípulos um jeito de mostrar que davam valor ao sacrifício dele: reunir-se numa ocasião especial. A Bíblia a chama de “Ceia do Senhor”, e hoje ela também é conhecida como a Celebração da morte de Cristo.</p>",
+    "dados": "{\"resumo\":\"A Ceia do Senhor\",\"fecho\":\"<p>Estar presente na Celebração é uma forma de agradecer o amor imenso que Jeová e Jesus mostraram por nós.</p>\"}",
     "referencia": "1 Coríntios 11:20",
     "obra_fonte": "Seja Feliz para Sempre!, lição 28",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021228",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 147,
@@ -262,14 +262,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "O que eles representam",
-    "texto": "<p>Na Celebração, o pão representa o corpo humano perfeito de Jesus que ele deu por nós. O vinho representa seu sangue.</p>",
+    "texto": "<p>O pão usado na Celebração simboliza o corpo humano perfeito que Jesus entregou em nosso favor, e o vinho simboliza o sangue dele.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 28",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021228",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 151,
@@ -278,14 +278,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "Todos os anos",
-    "texto": "<p>Jesus queria que seus discípulos realizassem a Ceia do Senhor todos os anos no dia da morte dele. Por isso, as Testemunhas de Jeová se reúnem todos os anos para relembrar a morte de Jesus da forma como ele orientou.</p><p>“Pois, sempre que vocês comerem esse pão e beberem esse cálice, estarão proclamando a morte do Senhor, até que ele venha.”</p>",
+    "texto": "<p>A Ceia do Senhor é uma vez por ano, na data da morte de Jesus. É por isso que as Testemunhas de Jeová se reúnem anualmente nesse dia, do jeito que ele ensinou.</p><p>“Pois, sempre que vocês comerem esse pão e beberem esse cálice, estarão proclamando a morte do Senhor, até que ele venha.”</p>",
     "dados": "{}",
     "referencia": "1 Coríntios 11:26",
     "obra_fonte": "Seja Feliz para Sempre!, lição 28",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021228",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 152,
@@ -342,14 +342,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Onde aconteceu?",
-    "texto": "<p>Jesus pregou na Galileia, na Judeia, em Samaria e ao leste do Jordão. Diga onde aconteceu cada fato, segundo o apêndice A7 da Tradução do Novo Mundo.</p>",
-    "dados": "{\"resumo\":\"Os lugares do ministério\",\"fecho\":\"<p>Jesus caminhou centenas de quilômetros por estradas de terra com um objetivo: pregar as boas novas ao máximo de pessoas possível. (Luc 8:1)</p>\"}",
+    "texto": "<p>O ministério de Jesus passou pela Galileia, pela Judeia, por Samaria e pela região a leste do Jordão. Com a ajuda do apêndice A7 da Tradução do Novo Mundo, diga onde aconteceu cada fato.</p>",
+    "dados": "{\"resumo\":\"Os lugares do ministério\",\"fecho\":\"<p>Jesus percorreu a pé centenas de quilômetros de estradas de terra, tudo para levar as boas novas ao maior número de pessoas que pudesse. (Luc 8:1)</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 16",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021216",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 56,
@@ -550,14 +550,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Na Terra e do céu",
-    "texto": "<p>As coisas que Jesus fez quando esteve na Terra são um exemplo das coisas que ele vai fazer como Rei do Reino de Deus. Ligue o que ele fez ao que ele vai fazer.</p>",
+    "texto": "<p>O que Jesus fez na Terra é uma amostra do que ele fará como Rei do Reino de Deus. Ligue cada coisa que ele fez à que ele ainda vai fazer.</p>",
     "dados": "{\"resumo\":\"O que ele fez e o que vai fazer\",\"fecho\":\"<p>“Tu abres a mão<br>E satisfazes o desejo de todos os seres vivos.” — Salmo 145:16</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 33",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021233",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 68,
@@ -662,14 +662,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "Jesus",
-    "texto": "<p>O nome grego Iesoús corresponde ao nome hebraico Jesua (ou, na forma mais plena, Jeosué), que significa “Jeová É Salvação”.</p>",
+    "texto": "<p>Iesoús, a forma grega do nome, corresponde ao hebraico Jesua — Jeosué, na forma completa —, e quer dizer “Jeová É Salvação”.</p>",
     "dados": "{\"par\":\"Jeová É Salvação\"}",
     "referencia": "",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “Jesus Cristo”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200002451",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 19,
@@ -710,14 +710,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "Miguel",
-    "texto": "<p>A evidência bíblica indica que o nome Miguel se aplicava ao Filho de Deus antes de ele deixar o céu para se tornar Jesus Cristo, e também depois do seu retorno. O próprio nome Miguel, fazendo a pergunta “Quem É Semelhante a Deus?”, indica que Jeová Deus é sem igual.</p>",
+    "texto": "<p>Pelo que a Bíblia mostra, Miguel é o nome do Filho de Deus antes de ele vir à Terra como Jesus Cristo e também depois de voltar ao céu. O nome é uma pergunta — “Quem É Semelhante a Deus?” —, e a resposta é que ninguém se compara a Jeová.</p>",
     "dados": "{\"par\":\"Quem É Semelhante a Deus?\"}",
     "referencia": "Judas 9",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “Miguel”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200003035",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 22,
@@ -726,14 +726,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "Arcanjo",
-    "texto": "<p>Miguel é o único mencionado como “o arcanjo”, que significa “anjo principal” ou “anjo mais importante”. O termo ocorre na Bíblia apenas no singular.</p>",
+    "texto": "<p>“Arcanjo” quer dizer “anjo principal”, e a Bíblia usa a palavra sempre no singular: o único chamado assim é Miguel.</p>",
     "dados": "{\"par\":\"Anjo principal\"}",
     "referencia": "1 Tessalonicenses 4:16",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “Miguel”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200003035",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 23,
@@ -742,14 +742,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "A Palavra",
-    "texto": "<p>Jesus é um leal porta-voz de Deus, ou seja, ele transmite as mensagens e as instruções de Jeová. Por isso, a Bíblia chama Jesus de “a Palavra”.</p>",
+    "texto": "<p>Jesus fala em nome de Deus: é por meio dele que Jeová transmite as suas mensagens e instruções. Por isso a Bíblia o chama de “a Palavra”.</p>",
     "dados": "{\"par\":\"O porta-voz de Deus\"}",
     "referencia": "João 1:14",
     "obra_fonte": "Seja Feliz para Sempre!, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021215",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 24,
@@ -774,14 +774,14 @@
     "tipo": "item",
     "ordem": 8,
     "titulo": "O Filho do Homem",
-    "texto": "<p>A expressão hebraica significa, em essência, “filho da humanidade, humano, filho terreno”. Nos relatos dos Evangelhos, ela é encontrada quase 80 vezes, aplicando-se em cada caso a Jesus Cristo, sendo usada por ele com referência a si mesmo.</p>",
+    "texto": "<p>No hebraico, a expressão quer dizer basicamente “filho da humanidade”: alguém humano, nascido na terra. Os Evangelhos a usam quase 80 vezes, sempre para Jesus — era assim que ele mesmo costumava se chamar.</p>",
     "dados": "{\"par\":\"Filho da humanidade, humano\"}",
     "referencia": "Mateus 8:20",
     "obra_fonte": "Estudo Perspicaz das Escrituras, “Filho do Homem”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1200004183",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 26,
@@ -854,14 +854,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Já aconteceu ou vai acontecer?",
-    "texto": "<p>O Reino de Deus é um governo criado por Jeová. O Rei é Jesus Cristo, e ele governa lá do céu. Algumas das coisas que a Bíblia diz sobre ele já aconteceram; outras ainda vão acontecer. Mande cada frase para o seu lado.</p>",
+    "texto": "<p>Jeová criou um governo, o Reino de Deus, e pôs Jesus Cristo como Rei, governando do céu. Parte do que a Bíblia diz sobre esse Rei já se cumpriu, e parte ainda vai se cumprir. Mande cada frase para o seu lado.</p>",
     "dados": "{\"resumo\":\"O Rei do Reino de Deus\",\"lados\":[\"Já aconteceu\",\"Ainda vai acontecer\"],\"fecho\":\"<p>“...o Deus do céu estabelecerá um reino que jamais será destruído.” — Daniel 2:44</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 31",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021231",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 128,
@@ -870,14 +870,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "Jesus começou a governar como Rei no céu",
-    "texto": "<p>O Reino de Deus começou a governar no céu no ano de 1914. Foi aí que começaram os últimos dias do governo humano.</p>",
+    "texto": "<p>Em 1914, o Reino de Deus passou a governar no céu, e com isso começaram os últimos dias dos governos humanos.</p>",
     "dados": "{\"lado\":0}",
     "referencia": "Daniel 4:16, 17; Lucas 21:24",
     "obra_fonte": "Seja Feliz para Sempre!, lição 32",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021232",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 129,
@@ -885,15 +885,15 @@
     "capitulo": "o-reino",
     "tipo": "item",
     "ordem": 2,
-    "titulo": "Satanás foi lançado para baixo, à terra",
-    "texto": "<p>Pouco depois de Jesus se tornar Rei do Reino de Deus, ele entrou em guerra com Satanás e os demônios lá no céu. Satanás perdeu a guerra.</p>",
+    "titulo": "Satanás é expulso do céu e lançado à terra",
+    "texto": "<p>Logo depois de assumir como Rei, Jesus lutou no céu contra Satanás e os demônios, e Satanás foi derrotado.</p>",
     "dados": "{\"lado\":0}",
     "referencia": "Apocalipse 12:9, 10, 12",
     "obra_fonte": "Seja Feliz para Sempre!, lição 32",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021232",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175389886
   },
   {
     "id": 130,
@@ -902,14 +902,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "Jesus deu a sua vida como resgate",
-    "texto": "<p>O preço que Jesus pagou foi a sua vida humana perfeita.</p>",
+    "texto": "<p>Para pagar o resgate, Jesus deu a sua vida humana perfeita.</p>",
     "dados": "{\"lado\":0}",
     "referencia": "Mateus 20:28",
     "obra_fonte": "Seja Feliz para Sempre!, lição 27",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021227",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 131,
@@ -918,14 +918,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "Jesus foi ressuscitado e voltou para o céu",
-    "texto": "<p>Depois que Jesus morreu, ele foi ressuscitado como um anjo e voltou para o céu.</p>",
+    "texto": "<p>Jesus morreu, mas foi ressuscitado como anjo e voltou para junto do Pai, no céu.</p>",
     "dados": "{\"lado\":0}",
     "referencia": "Filipenses 2:9",
     "obra_fonte": "Seja Feliz para Sempre!, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021215",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 132,
@@ -934,14 +934,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "Jesus vai destruir as pessoas más e os governos humanos",
-    "texto": "<p>Jesus, o Rei do Reino de Deus, vai destruir as pessoas más e os governos humanos na guerra do Armagedom.</p>",
+    "texto": "<p>Na guerra do Armagedom, Jesus, como Rei do Reino de Deus, vai eliminar os maus e pôr fim aos governos humanos.</p>",
     "dados": "{\"lado\":1}",
     "referencia": "Apocalipse 16:14, 16",
     "obra_fonte": "Seja Feliz para Sempre!, lição 33",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021233",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 133,
@@ -950,14 +950,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Jesus vai governar por mil anos",
-    "texto": "<p>Depois que os maus forem destruídos, Jesus vai governar por mil anos. Durante esse tempo, ele e os 144 mil que governarão com ele vão ajudar as pessoas na Terra a se tornarem perfeitas.</p>",
+    "texto": "<p>Com os maus fora do caminho, Jesus vai reinar por mil anos. Nesse período, ele e os 144 mil que governam com ele vão ajudar os que vivem na Terra a chegar à perfeição.</p>",
     "dados": "{\"lado\":1}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 33",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021233",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 134,
@@ -966,14 +966,14 @@
     "tipo": "item",
     "ordem": 7,
     "titulo": "A Terra inteira vai ser um lindo paraíso",
-    "texto": "<p>No final dos mil anos, a Terra inteira vai ser um lindo paraíso, e todas as pessoas serão felizes porque vão estar obedecendo às leis de Deus.</p>",
+    "texto": "<p>Quando os mil anos terminarem, a Terra toda será um paraíso, e todos viverão felizes, obedecendo às leis de Deus.</p>",
     "dados": "{\"lado\":1}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 33",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021233",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 135,
@@ -982,14 +982,14 @@
     "tipo": "item",
     "ordem": 8,
     "titulo": "Jesus vai devolver o governo ao seu Pai",
-    "texto": "<p>Jesus então vai devolver o governo para o seu Pai, Jeová. O nome de Jeová vai ser “santificado” como nunca foi antes.</p>",
+    "texto": "<p>Depois disso, Jesus vai entregar o governo de volta a Jeová, o seu Pai, e o nome de Jeová será “santificado” como nunca antes.</p>",
     "dados": "{\"lado\":1}",
     "referencia": "Mateus 6:9, 10",
     "obra_fonte": "Seja Feliz para Sempre!, lição 33",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021233",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 136,
@@ -998,14 +998,14 @@
     "tipo": "item",
     "ordem": 9,
     "titulo": "Jesus vai ressuscitar pessoas e acabar com a morte",
-    "texto": "<p>Quando esteve na Terra, Jesus trouxe de volta pessoas que morreram. Lá do céu, ele vai fazer isso na Terra inteira.</p>",
+    "texto": "<p>Na Terra, Jesus devolveu a vida a pessoas que tinham morrido. Do céu, ele vai fazer o mesmo no mundo inteiro.</p>",
     "dados": "{\"lado\":1}",
     "referencia": "Lucas 8:49-55; Apocalipse 21:3, 4",
     "obra_fonte": "Seja Feliz para Sempre!, lição 33",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021233",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 137,
@@ -1093,15 +1093,15 @@
     "capitulo": "passos",
     "tipo": "item",
     "ordem": 2,
-    "titulo": "Aos 12 anos, faz perguntas aos instrutores no templo",
-    "texto": "<p>Em Jerusalém, na Páscoa.</p>",
+    "titulo": "Aos 12 anos, conversa com os instrutores no templo e lhes faz perguntas",
+    "texto": "<p>Na Páscoa, em Jerusalém.</p>",
     "dados": "{\"posicao\":12,\"quando\":\"12 d.C.\"}",
     "referencia": "Lucas 2:41-50",
     "obra_fonte": "Tradução do Novo Mundo, apêndice A7",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070207",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175389886
   },
   {
     "id": 43,
@@ -1110,14 +1110,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "É batizado e ungido",
-    "texto": "<p>No rio Jordão. Jeová o reconhece como seu Filho e lhe dá sua aprovação.</p>",
+    "texto": "<p>No rio Jordão. Jeová declara que Jesus é o seu Filho e que o aprova.</p>",
     "dados": "{\"posicao\":29.1,\"quando\":\"29 d.C.\"}",
     "referencia": "Mateus 3:13-17; Marcos 1:9-11; Lucas 3:21-38",
     "obra_fonte": "Tradução do Novo Mundo, apêndice A7",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070208",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 44,
@@ -1158,14 +1158,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Alimenta 5 mil homens",
-    "texto": "<p>Perto da Páscoa. Os apóstolos voltam da pregação.</p>",
+    "texto": "<p>Os apóstolos tinham acabado de voltar da pregação, e a Páscoa estava perto.</p>",
     "dados": "{\"posicao\":32.03,\"quando\":\"32 d.C., perto da Páscoa\"}",
     "referencia": "Mateus 14:13-21; Marcos 6:30-44; Lucas 9:10-17; João 6:1-13",
     "obra_fonte": "Tradução do Novo Mundo, apêndice A7",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070210",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 47,
@@ -1190,14 +1190,14 @@
     "tipo": "item",
     "ordem": 8,
     "titulo": "Entra em Jerusalém montado num jumento",
-    "texto": "<p>Seis dias antes, ele tinha chegado a Betânia.</p>",
+    "texto": "<p>Na véspera, ele tinha chegado a Betânia, seis dias antes da Páscoa.</p>",
     "dados": "{\"posicao\":33.0409,\"quando\":\"33 d.C., 9 de nisã\"}",
     "referencia": "Mateus 21:1-11; Marcos 11:1-11; Lucas 19:29-44; João 12:12-19",
     "obra_fonte": "Tradução do Novo Mundo, apêndice A7",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070213",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 49,
@@ -1238,14 +1238,14 @@
     "tipo": "item",
     "ordem": 11,
     "titulo": "Sobe aos céus",
-    "texto": "<p>Do monte das Oliveiras, perto de Betânia, 40 dias depois de sua ressurreição.</p>",
+    "texto": "<p>Quarenta dias depois de ressuscitar, a partir do monte das Oliveiras, perto de Betânia.</p>",
     "dados": "{\"posicao\":33.0525,\"quando\":\"33 d.C., 25 de íiar\"}",
     "referencia": "Lucas 24:50-53; Atos 1:9-12",
     "obra_fonte": "Tradução do Novo Mundo, apêndice A7",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070214",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 52,
@@ -1302,14 +1302,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "O primeiro de toda a criação",
-    "texto": "<p>Jesus é uma das pessoas mais conhecidas da História. Mesmo assim, em geral as pessoas sabem pouco sobre ele e muitas têm ideias diferentes sobre quem Jesus realmente é. Mas o que a Bíblia diz sobre ele? Vire as páginas.</p>",
+    "texto": "<p>Pouca gente na História é tão conhecida quanto Jesus, e mesmo assim pouca gente sabe de fato quem ele é — as opiniões variam muito. O que a Bíblia ensina sobre ele? Vire as páginas.</p>",
     "dados": "{\"resumo\":\"Antes de vir à Terra\",\"fecho\":\"<p>“Isto significa vida eterna: que conheçam a ti, o único Deus verdadeiro, e àquele que tu enviaste, Jesus Cristo.” — João 17:3</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021215",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 7,
@@ -1318,14 +1318,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "Antes de tudo",
-    "texto": "<p>Jesus é um anjo poderoso que vive no céu. Antes de criar qualquer outra coisa, Jeová criou Jesus. Por isso ele é chamado de “o primogênito [ou o primeiro] de toda a criação”. (Col 1:15)</p>",
+    "texto": "<p>Jesus foi a primeira criação de Jeová, feito antes de tudo o mais, e vive no céu como um anjo poderoso. É por isso que a Bíblia o chama de “o primogênito de toda a criação”. (Col 1:15)</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021215",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 8,
@@ -1334,14 +1334,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "O Filho unigênito",
-    "texto": "<p>A Bíblia também diz que Jesus é o “Filho unigênito” de Deus. Isso significa que Jesus foi o único criado diretamente por Jeová. (João 3:16)</p>",
+    "texto": "<p>A Bíblia chama Jesus também de “Filho unigênito” de Deus, porque ele foi o único que Jeová criou sozinho, diretamente. (João 3:16)</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021215",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 9,
@@ -1350,14 +1350,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "Ao lado do Pai",
-    "texto": "<p>Jesus trabalhou lado a lado com seu Pai, Jeová. Ele ajudou Jeová a criar todas as outras coisas. O amor entre Jesus e Jeová é bem forte.</p><p>“Eu estava ao seu lado como trabalhador perito.<br>Eu era a sua maior alegria dia após dia,<br>Alegrava-me diante dele todo o tempo.”</p>",
+    "texto": "<p>Jesus trabalhou junto com Jeová na criação de todas as outras coisas, e os dois têm um amor muito forte um pelo outro.</p><p>“Eu estava ao seu lado como trabalhador perito.<br>Eu era a sua maior alegria dia após dia,<br>Alegrava-me diante dele todo o tempo.”</p>",
     "dados": "{}",
     "referencia": "Provérbios 8:30",
     "obra_fonte": "Seja Feliz para Sempre!, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021215",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 10,
@@ -1366,14 +1366,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "A Palavra",
-    "texto": "<p>Jesus é um leal porta-voz de Deus, ou seja, ele transmite as mensagens e as instruções de Jeová. Por isso, a Bíblia chama Jesus de “a Palavra”.</p><p>“De modo que a Palavra se tornou carne e residiu entre nós, e nós vimos a sua glória, uma glória como a de um filho unigênito de um pai; ele estava cheio de favor divino e de verdade.”</p>",
+    "texto": "<p>Jeová passa as suas mensagens e instruções por meio de Jesus, um porta-voz sempre leal. É por isso que a Bíblia chama Jesus de “a Palavra”.</p><p>“De modo que a Palavra se tornou carne e residiu entre nós, e nós vimos a sua glória, uma glória como a de um filho unigênito de um pai; ele estava cheio de favor divino e de verdade.”</p>",
     "dados": "{}",
     "referencia": "João 1:14",
     "obra_fonte": "Seja Feliz para Sempre!, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021215",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 11,
@@ -1382,14 +1382,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "Por que ele veio à Terra",
-    "texto": "<p>Uns 2 mil anos atrás, Jeová fez um milagre: Ele usou o seu espírito santo para transferir a vida de Jesus lá do céu para o útero de uma mulher chamada Maria. Dessa forma, Jesus nasceu como humano. Jeová enviou Jesus à Terra para ser o prometido Messias, ou Cristo, e salvar a humanidade.</p>",
+    "texto": "<p>Cerca de 2 mil anos atrás, num milagre, Jeová passou a vida de Jesus do céu para o ventre de Maria por meio do espírito santo. Assim Jesus nasceu como humano. Ele foi enviado à Terra para ser o Messias, ou Cristo, prometido, e para salvar a humanidade.</p>",
     "dados": "{}",
     "referencia": "Lucas 1:34, 35",
     "obra_fonte": "Seja Feliz para Sempre!, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021215",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 12,
@@ -1398,14 +1398,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Onde ele está agora",
-    "texto": "<p>Depois que Jesus morreu, ele foi ressuscitado como um anjo e voltou para o céu. Lá, “Deus o enalteceu a uma posição superior”. (Fil 2:9) Agora, Jesus é um anjo muito poderoso. Só Jeová tem mais poder do que Jesus.</p>",
+    "texto": "<p>Depois de morrer, Jesus foi ressuscitado como anjo e voltou ao céu, onde “Deus o enalteceu a uma posição superior”. (Fil 2:9) Hoje ele é um anjo de enorme poder — acima dele, só Jeová.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021215",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 13,
@@ -1414,14 +1414,14 @@
     "tipo": "item",
     "ordem": 7,
     "titulo": "Não é o Deus Todo-Poderoso",
-    "texto": "<p>A Bíblia ensina que Jesus é um anjo poderoso no céu. Mesmo assim, ele obedece a seu Deus e Pai, Jeová. O próprio Jesus disse: “o Pai é maior do que eu.”</p>",
+    "texto": "<p>Mesmo sendo um anjo poderoso, Jesus obedece a Jeová, o seu Deus e Pai. Ele mesmo reconheceu: “o Pai é maior do que eu.”</p>",
     "dados": "{}",
     "referencia": "João 14:28",
     "obra_fonte": "Seja Feliz para Sempre!, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021215",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 14,
@@ -1478,14 +1478,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Profecias que se cumpriram",
-    "texto": "<p>A Bíblia traz muitas profecias que ajudaram as pessoas a saber quem era o Messias, ou seja, aquele que Deus escolheu para salvar a humanidade. Leia cada profecia e responda como ela se cumpriu.</p>",
-    "dados": "{\"resumo\":\"O Messias predito\",\"fecho\":\"<p>Jesus cumpriu todas as profecias sobre o Messias. Isso ajudou as pessoas a saber que Jesus era “o Cristo, o Filho do Deus vivente”. — Mateus 16:16</p>\"}",
+    "texto": "<p>Muito antes de Jesus nascer, a Bíblia já trazia profecias que permitiriam reconhecer o Messias, o escolhido de Deus para salvar a humanidade. Leia cada uma e responda como ela se cumpriu.</p>",
+    "dados": "{\"resumo\":\"O Messias predito\",\"fecho\":\"<p>Jesus cumpriu cada profecia sobre o Messias, e isso deixava claro que ele era “o Cristo, o Filho do Deus vivente”. — Mateus 16:16</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021215",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 31,
@@ -1638,14 +1638,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Que tipo de pessoa ele é",
-    "texto": "<p>Quando aprendemos as coisas que Jesus disse e fez na Terra, descobrimos suas qualidades. Isso nos aproxima mais dele e do Pai dele, Jeová. Abra cada pasta.</p>",
-    "dados": "{\"resumo\":\"As qualidades de Jesus\",\"fecho\":\"<p>Jesus ama a Jeová e as pessoas. Já que Jesus é como seu Pai, quanto mais você conhecer a Jesus, mais você vai conhecer a Jeová.</p>\"}",
+    "texto": "<p>Conhecer o que Jesus disse e fez na Terra é conhecer as qualidades dele — e isso nos deixa mais perto dele e de Jeová, o Pai dele. Abra cada pasta.</p>",
+    "dados": "{\"resumo\":\"As qualidades de Jesus\",\"fecho\":\"<p>Jesus ama a Jeová e ama as pessoas. Como ele é igual ao Pai, cada coisa que você aprende sobre Jesus mostra também como Jeová é.</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 97,
@@ -1654,14 +1654,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "Como o Pai",
-    "texto": "<p>Jesus viveu lado a lado com o seu amoroso Pai por bilhões de anos lá no céu e aprendeu muito com ele. Por isso, Jesus pensa, sente e age como Jeová. Na verdade, Jesus imita as qualidades do seu Pai tão bem que disse: “Quem me vê, vê também o Pai.”</p>",
+    "texto": "<p>Durante bilhões de anos no céu, Jesus conviveu com o seu Pai amoroso e absorveu o jeito dele. O modo de pensar, de sentir e de agir de Jesus é o mesmo de Jeová — tanto que ele pôde dizer: “Quem me vê, vê também o Pai.”</p>",
     "dados": "{}",
     "referencia": "João 14:9",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 98,
@@ -1670,14 +1670,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "Ama o Pai",
-    "texto": "<p>Quando esteve na Terra, Jesus mostrou que amava muito a seu Pai por obedecer a ele em tudo, mesmo quando fazer isso era difícil. Além disso, Jesus amava falar sobre o seu Pai e ajudar outros a ser amigos de Deus.</p>",
+    "texto": "<p>Jesus mostrou que amava o Pai do jeito mais claro: obedecendo a ele sempre, até nas horas difíceis. Falar de Jeová e aproximar as pessoas dele era um prazer para Jesus.</p>",
     "dados": "{}",
     "referencia": "João 14:23, 31",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 99,
@@ -1686,14 +1686,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "Ama as pessoas",
-    "texto": "<p>Jesus era bondoso com todos; ele não tratava uns melhor do que outros. Os milagres que ele fez mostraram não apenas o seu poder, mas também que ele tinha pena das pessoas.</p><p>“Em vista disso, ele teve pena; e estendeu a mão, tocou no homem e lhe disse: “Eu quero! Seja purificado.””</p>",
+    "texto": "<p>Jesus tratava todos com a mesma bondade. Os milagres dele mostravam o poder que ele tinha, mas mostravam também a compaixão que sentia pelas pessoas.</p><p>“Em vista disso, ele teve pena; e estendeu a mão, tocou no homem e lhe disse: “Eu quero! Seja purificado.””</p>",
     "dados": "{}",
     "referencia": "Marcos 1:40-42",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 100,
@@ -1702,14 +1702,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "Pensa primeiro nos outros",
-    "texto": "<p>Jesus se preocupava mais com as pessoas do que com ele mesmo. Ele usava seu tempo e energia para ajudar as pessoas até quando estava cansado.</p><p>“Pois bem, ao desembarcar, ele viu uma grande multidão e teve pena deles, porque eram como ovelhas sem pastor. E começou a lhes ensinar muitas coisas.”</p>",
+    "texto": "<p>Jesus punha as necessidades dos outros acima das suas. Mesmo cansado, dedicava tempo e energia a ajudar as pessoas.</p><p>“Pois bem, ao desembarcar, ele viu uma grande multidão e teve pena deles, porque eram como ovelhas sem pastor. E começou a lhes ensinar muitas coisas.”</p>",
     "dados": "{}",
     "referencia": "Marcos 6:30-44",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 101,
@@ -1718,14 +1718,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "Generoso",
-    "texto": "<p>Jesus não tinha muitas coisas, mas ele dividia o que tinha com outros. Ele nos diz para fazer o mesmo: “Há mais felicidade em dar do que em receber.”</p>",
+    "texto": "<p>Jesus tinha poucos bens, mas repartia o que tinha, e nos ensinou a fazer o mesmo: “Há mais felicidade em dar do que em receber.”</p>",
     "dados": "{}",
     "referencia": "Atos 20:35",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 102,
@@ -1734,14 +1734,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Deu a vida",
-    "texto": "<p>Jesus estava disposto a sofrer e morrer porque ama as pessoas. Mas ele ama especialmente aqueles que obedecem aos seus ensinos.</p><p>“Ninguém tem maior amor do que aquele que dá a sua vida pelos seus amigos.”</p>",
+    "texto": "<p>O amor de Jesus pelas pessoas era tão grande que ele aceitou sofrer e morrer por elas — e ele tem um amor especial pelos que seguem o que ensinou.</p><p>“Ninguém tem maior amor do que aquele que dá a sua vida pelos seus amigos.”</p>",
     "dados": "{}",
     "referencia": "João 15:13, 14",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 103,
@@ -1750,14 +1750,14 @@
     "tipo": "item",
     "ordem": 7,
     "titulo": "Em nome dele",
-    "texto": "<p>A Bíblia nos ensina a orar a Jeová em nome de Jesus. Quando fazemos isso, mostramos que damos valor ao que Jesus fez por nós para sermos amigos de Jeová.</p>",
+    "texto": "<p>A Bíblia ensina que as nossas orações a Jeová devem ser feitas em nome de Jesus. Orando assim, mostramos que valorizamos o que Jesus fez para que pudéssemos ser amigos de Jeová.</p>",
     "dados": "{}",
     "referencia": "João 16:23, 24",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 104,
@@ -1781,7 +1781,7 @@
     "capitulo": "qualidades",
     "tipo": "pergunta",
     "ordem": 51,
-    "titulo": "Por que Jesus pensa, sente e age como Jeová?",
+    "titulo": "Por que o jeito de pensar, sentir e agir de Jesus é igual ao de Jeová?",
     "texto": "",
     "dados": "{\"alternativas\":[\"Porque viveu lado a lado com o Pai por bilhões de anos\",\"Porque aprendeu tudo na sinagoga\",\"Porque é o próprio Pai\"],\"correta\":0}",
     "referencia": "João 5:19",
@@ -1789,7 +1789,7 @@
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175389886
   },
   {
     "id": 1,
@@ -1814,14 +1814,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Por que Jesus morreu?",
-    "texto": "<p>Nós pecamos, sofremos e morremos porque Adão e Eva desobedeceram a Deus. Mas nem tudo está perdido. Jeová enviou seu Filho, Jesus Cristo, para nos livrar do pecado e da morte. Abra cada pasta.</p>",
-    "dados": "{\"resumo\":\"O resgate\",\"fecho\":\"<p>Por causa da morte de Jesus, Jeová pode perdoar nossos pecados. A morte de Jesus também nos dá a oportunidade de viver para sempre.</p>\"}",
+    "texto": "<p>Foi a desobediência de Adão e Eva que trouxe o pecado, o sofrimento e a morte para todos nós. Mas a história não acaba aí: Jeová enviou Jesus Cristo, o seu Filho, para nos libertar do pecado e da morte. Abra cada pasta.</p>",
+    "dados": "{\"resumo\":\"O resgate\",\"fecho\":\"<p>A morte de Jesus torna possível o perdão dos nossos pecados e abre o caminho para a vida eterna.</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 27",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021227",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 119,
@@ -1830,14 +1830,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "O que é um resgate",
-    "texto": "<p>A Bíblia ensina que com a morte dele, Jesus pagou um resgate. Resgate é o preço que se paga para libertar alguém. O preço que Jesus pagou foi a sua vida humana perfeita.</p>",
+    "texto": "<p>Resgate é o preço pago para libertar alguém. A Bíblia ensina que, ao morrer, Jesus pagou esse preço — e o que ele deu foi a sua vida humana perfeita.</p>",
     "dados": "{}",
     "referencia": "Mateus 20:28",
     "obra_fonte": "Seja Feliz para Sempre!, lição 27",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021227",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 120,
@@ -1846,14 +1846,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "Um homem e outro homem",
-    "texto": "<p>Adão era um homem perfeito, mas por causa da desobediência dele, todos os humanos pecam e morrem. Jesus era um homem perfeito e, por causa da obediência dele, todos os humanos podem ter uma vida perfeita e viver para sempre.</p>",
+    "texto": "<p>Adão era perfeito, e a desobediência dele fez todos os humanos pecarem e morrerem. Jesus também era perfeito, e a obediência dele abriu para todos a chance de uma vida perfeita, para sempre.</p>",
     "dados": "{}",
     "referencia": "Romanos 5:12",
     "obra_fonte": "Seja Feliz para Sempre!, lição 27",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021227",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 121,
@@ -1862,14 +1862,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "Um resgate correspondente",
-    "texto": "<p>Jesus abriu mão do seu direito de viver para sempre na Terra. Assim, ele abriu caminho para que nós recuperássemos tudo o que Adão e Eva tinham perdido.</p><p>“Pois há um só Deus e um só mediador entre Deus e os homens: um homem, Cristo Jesus, que se entregou como resgate correspondente por todos.”</p>",
+    "texto": "<p>Ao abrir mão do direito de viver para sempre na Terra, Jesus nos deu a chance de reaver o que Adão e Eva perderam.</p><p>“Pois há um só Deus e um só mediador entre Deus e os homens: um homem, Cristo Jesus, que se entregou como resgate correspondente por todos.”</p>",
     "dados": "{}",
     "referencia": "1 Timóteo 2:5, 6",
     "obra_fonte": "Seja Feliz para Sempre!, lição 27",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021227",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 122,
@@ -1878,14 +1878,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "O perdão, hoje",
-    "texto": "<p>Por causa do que Jesus fez por nós, podemos ter o perdão de pecados. Para isso, precisamos nos arrepender de verdade, pedir perdão a Jeová em nome de Jesus e fazer o máximo para não repetir os mesmos erros.</p><p>“Pois Cristo morreu de uma vez para sempre pelos pecados, um justo pelos injustos, a fim de conduzir vocês a Deus.”</p>",
+    "texto": "<p>Graças ao que Jesus fez, os nossos pecados podem ser perdoados. Para isso, é preciso um arrependimento sincero, um pedido de perdão a Jeová em nome de Jesus e o esforço para não cair no mesmo erro.</p><p>“Pois Cristo morreu de uma vez para sempre pelos pecados, um justo pelos injustos, a fim de conduzir vocês a Deus.”</p>",
     "dados": "{}",
     "referencia": "1 João 2:1; 1 Pedro 3:18",
     "obra_fonte": "Seja Feliz para Sempre!, lição 27",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021227",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 123,
@@ -1894,14 +1894,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "A vida, no futuro",
-    "texto": "<p>Por causa do sacrifício de Jesus, Jeová vai acabar com todas as coisas ruins que acontecem por culpa da desobediência de Adão. Isso significa que, se tivermos fé no sacrifício de Jesus, teremos a oportunidade de viver para sempre num paraíso na Terra!</p><p>“Eles construirão casas e morarão nelas;<br>Plantarão vinhedos e comerão os seus frutos.”</p>",
+    "texto": "<p>Com base no sacrifício de Jesus, Jeová vai desfazer todos os males que vieram da desobediência de Adão. Quem tem fé nesse sacrifício terá a chance de viver para sempre num paraíso aqui na Terra!</p><p>“Eles construirão casas e morarão nelas;<br>Plantarão vinhedos e comerão os seus frutos.”</p>",
     "dados": "{}",
     "referencia": "João 3:16; Isaías 65:21-23",
     "obra_fonte": "Seja Feliz para Sempre!, lição 27",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021227",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 124,
@@ -1910,14 +1910,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Um presente para você",
-    "texto": "<p>Para os amigos de Jeová, o resgate é um presente muito especial. Veja como o apóstolo Paulo o via:</p><p>“...a vida que agora vivo na carne, eu vivo pela fé no Filho de Deus, que me amou e se entregou por mim.”</p>",
+    "texto": "<p>Os amigos de Jeová veem o resgate como um presente muito pessoal. Repare como o apóstolo Paulo falava dele:</p><p>“...a vida que agora vivo na carne, eu vivo pela fé no Filho de Deus, que me amou e se entregou por mim.”</p>",
     "dados": "{}",
     "referencia": "Gálatas 2:20",
     "obra_fonte": "Seja Feliz para Sempre!, lição 27",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021227",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 125,
@@ -1990,14 +1990,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Seguir os passos dele",
-    "texto": "<p>Jesus sempre obedeceu a Jeová. Ele fez isso durante toda a sua vida, mesmo quando enfrentou oposição. Ele provou que é possível os humanos servirem a Deus apesar de dificuldades. Medite em cada pergunta, sem pressa.</p>",
+    "texto": "<p>Jesus obedeceu a Jeová a vida inteira, até diante de oposição, e provou que um ser humano consegue servir a Deus mesmo com dificuldades. Medite em cada pergunta, sem pressa.</p>",
     "dados": "{\"resumo\":\"Perguntas para meditar\",\"fecho\":\"<p>“E ele morreu por todos para que os que vivem não vivessem mais para si mesmos, mas para aquele que morreu por eles e foi levantado.” — 2 Coríntios 5:15</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 16",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021216",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 141,
@@ -2005,15 +2005,15 @@
     "capitulo": "seguir-os-passos",
     "tipo": "item",
     "ordem": 1,
-    "titulo": "Como posso imitar o amor de Jesus por Jeová?",
-    "texto": "<p>Jesus amava seu Pai e sempre falava com ele em oração. Certa vez, “ele foi para o monte a fim de orar, e passou a noite inteira orando a Deus”.</p>",
+    "titulo": "Como o meu amor por Jeová pode se parecer com o de Jesus?",
+    "texto": "<p>O amor de Jesus por Jeová aparecia nas orações dele, que eram frequentes. Certa vez, “ele foi para o monte a fim de orar, e passou a noite inteira orando a Deus”.</p>",
     "dados": "{}",
     "referencia": "Lucas 6:12; João 15:10",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175389886
   },
   {
     "id": 142,
@@ -2021,15 +2021,15 @@
     "capitulo": "seguir-os-passos",
     "tipo": "item",
     "ordem": 2,
-    "titulo": "Como posso imitar o amor de Jesus pelas pessoas?",
-    "texto": "<p>Jesus se preocupava mais com as pessoas do que com ele mesmo. Ele usava seu tempo e energia para ajudar as pessoas até quando estava cansado.</p>",
+    "titulo": "O que eu faço pelos outros, como Jesus fazia?",
+    "texto": "<p>Mesmo cansado, Jesus dava tempo e energia para ajudar os outros — as necessidades deles vinham antes das suas.</p>",
     "dados": "{}",
     "referencia": "Marcos 6:30-44",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175389886
   },
   {
     "id": 143,
@@ -2037,15 +2037,15 @@
     "capitulo": "seguir-os-passos",
     "tipo": "item",
     "ordem": 3,
-    "titulo": "De que maneiras posso seguir de perto os passos de Jesus?",
-    "texto": "<p>Jesus amava a Palavra de Deus, pregava as boas novas e ajudava as pessoas.</p>",
+    "titulo": "Em que pontos posso andar mais perto das pegadas de Jesus?",
+    "texto": "<p>Jesus dava valor à Palavra de Deus, falava das boas novas a todos e estava sempre pronto a ajudar.</p>",
     "dados": "{}",
     "referencia": "1 Pedro 2:21",
     "obra_fonte": "Seja Feliz para Sempre!, lição 28",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021228",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175389886
   },
   {
     "id": 144,
@@ -2053,15 +2053,15 @@
     "capitulo": "seguir-os-passos",
     "tipo": "item",
     "ordem": 4,
-    "titulo": "Como mostro gratidão pelo que Jeová e Jesus fizeram por mim?",
-    "texto": "<p>Exercer fé em Jesus significa mais do que apenas ter fé nele. Também precisamos mostrar nossa fé pelas decisões que tomamos e pelas coisas que fazemos.</p>",
+    "titulo": "O que mostra, na minha vida, que sou grato a Jeová e a Jesus?",
+    "texto": "<p>A fé em Jesus não fica só no que se sente: ela aparece nas decisões que tomamos e no que fazemos.</p>",
     "dados": "{}",
     "referencia": "Tiago 2:17",
     "obra_fonte": "Seja Feliz para Sempre!, lição 28",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021228",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175389886
   },
   {
     "id": 145,
@@ -2070,14 +2070,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "Que qualidade de Jesus vou imitar esta semana?",
-    "texto": "<p>Quanto mais você aprender sobre as qualidades de Jesus, mais vai aprender sobre Jeová.</p>",
+    "texto": "<p>Cada qualidade de Jesus que você conhece mostra também um pouco de como Jeová é.</p>",
     "dados": "{}",
     "referencia": "João 14:9",
     "obra_fonte": "Seja Feliz para Sempre!, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021217",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 73,
@@ -2086,14 +2086,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "O Sermão do Monte",
-    "texto": "<p>Além de pregar as boas novas sobre o Reino de Deus, Jesus deu conselhos muito bons. Veja alguns exemplos do que ele disse no seu famoso Sermão do Monte, e complete cada versículo.</p>",
-    "dados": "{\"resumo\":\"Conselhos que ajudam hoje\",\"fecho\":\"<p>Jesus pregou sobre o Reino de Deus, fez milagres e obedeceu a Jeová em tudo.</p>\"}",
+    "texto": "<p>Jesus não só pregou as boas novas do Reino de Deus: ele também deu conselhos excelentes para a vida. Veja alguns do famoso Sermão do Monte e complete cada versículo.</p>",
+    "dados": "{\"resumo\":\"Conselhos que ajudam hoje\",\"fecho\":\"<p>Jesus anunciou o Reino de Deus, realizou milagres e foi obediente a Jeová em todas as coisas.</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 16",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021216",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 74,
@@ -2278,14 +2278,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "A última semana",
-    "texto": "<p>O apêndice B12 da Tradução do Novo Mundo acompanha, dia a dia, a última semana de Jesus na Terra, de 8 a 16 de nisã. Os dias judaicos começam e terminam ao pôr do sol.</p>",
+    "texto": "<p>O apêndice B12 da Tradução do Novo Mundo traz um roteiro, dia por dia, dos últimos dias de Jesus aqui, de 8 a 16 de nisã. Lembre-se: para os judeus, o dia começava e terminava ao pôr do sol.</p>",
     "dados": "{\"resumo\":\"De 8 a 16 de nisã\",\"fecho\":\"<p>“...o Filho do Homem veio, não para ser servido, mas para servir e dar a sua vida como resgate em troca de muitos.” — Mateus 20:28</p>\"}",
     "referencia": "",
     "obra_fonte": "Tradução do Novo Mundo, apêndice B12",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070232",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 107,
@@ -2294,14 +2294,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "8 de nisã (sábado)",
-    "texto": "<ul><li>Chega a Betânia seis dias antes da Páscoa.</li></ul>",
+    "texto": "<ul><li>Chega a Betânia quando faltam seis dias para a Páscoa.</li></ul>",
     "dados": "{}",
     "referencia": "João 11:55–12:1",
     "obra_fonte": "Tradução do Novo Mundo, apêndice B12",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070232",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 108,
@@ -2310,14 +2310,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "9 de nisã",
-    "texto": "<ul><li>Come com Simão, o leproso.</li><li>Maria derrama nardo sobre Jesus.</li><li>Judeus vão ver Jesus e Lázaro.</li><li>Entrada triunfal em Jerusalém.</li><li>Ensina no templo.</li></ul>",
+    "texto": "<ul><li>Janta na casa de Simão, o leproso.</li><li>Maria unge Jesus com nardo.</li><li>Muitos judeus vêm ver Jesus e Lázaro.</li><li>Entra em Jerusalém de forma triunfal.</li><li>Ensina no templo.</li></ul>",
     "dados": "{}",
     "referencia": "Mateus 21:1-11, 14-17; 26:6-13; João 12:2-19",
     "obra_fonte": "Tradução do Novo Mundo, apêndice B12",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070232",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 109,
@@ -2326,14 +2326,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "10 de nisã",
-    "texto": "<ul><li>Passa a noite em Betânia.</li><li>Vai cedo a Jerusalém.</li><li>Purifica o templo.</li><li>Jeová fala desde o céu.</li></ul>",
+    "texto": "<ul><li>Dorme em Betânia.</li><li>Parte bem cedo para Jerusalém.</li><li>Purifica o templo.</li><li>A voz de Jeová responde do céu.</li></ul>",
     "dados": "{}",
     "referencia": "Mateus 21:12, 13, 18, 19; Lucas 19:45-48; João 12:20-50",
     "obra_fonte": "Tradução do Novo Mundo, apêndice B12",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070232",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 110,
@@ -2342,14 +2342,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "11 de nisã",
-    "texto": "<ul><li>Ensina no templo usando ilustrações.</li><li>Condena os fariseus.</li><li>Vê contribuição da viúva.</li><li>No monte das Oliveiras, profetiza a queda de Jerusalém e dá sinal de sua futura presença.</li></ul>",
+    "texto": "<ul><li>Usa ilustrações para ensinar no templo.</li><li>Denuncia os fariseus.</li><li>Repara na doação da viúva.</li><li>No monte das Oliveiras, prediz a destruição de Jerusalém e dá o sinal da sua presença futura.</li></ul>",
     "dados": "{}",
     "referencia": "Mateus 21:19–25:46; Marcos 11:20–13:37; Lucas 20:1–21:38",
     "obra_fonte": "Tradução do Novo Mundo, apêndice B12",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070232",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 111,
@@ -2358,14 +2358,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "12 de nisã",
-    "texto": "<ul><li>Dia tranquilo com os discípulos.</li><li>Judas combina a traição.</li></ul>",
+    "texto": "<ul><li>Passa o dia em sossego com os discípulos.</li><li>Judas acerta a traição.</li></ul>",
     "dados": "{}",
     "referencia": "Mateus 26:1-5, 14-16; Lucas 22:1-6",
     "obra_fonte": "Tradução do Novo Mundo, apêndice B12",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070233",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 112,
@@ -2374,14 +2374,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "13 de nisã",
-    "texto": "<ul><li>Pedro e João preparam a Páscoa.</li><li>Jesus e os outros apóstolos chegam no final da tarde.</li></ul>",
+    "texto": "<ul><li>Pedro e João fazem os preparativos da Páscoa.</li><li>Ao fim da tarde, Jesus chega com os outros apóstolos.</li></ul>",
     "dados": "{}",
     "referencia": "Mateus 26:17-19; Lucas 22:7-13",
     "obra_fonte": "Tradução do Novo Mundo, apêndice B12",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070233",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 113,
@@ -2390,14 +2390,14 @@
     "tipo": "item",
     "ordem": 7,
     "titulo": "14 de nisã",
-    "texto": "<ul><li>Celebra a Páscoa com os apóstolos.</li><li>Lava os pés dos apóstolos.</li><li>Dispensa Judas.</li><li>Estabelece a Ceia do Senhor.</li><li>É traído e preso no jardim de Getsêmani.</li><li>Apóstolos fogem.</li><li>Julgado pelo Sinédrio na casa de Caifás.</li><li>Pedro nega Jesus.</li><li>Perante o Sinédrio pela segunda vez.</li><li>Levado a Pilatos, depois a Herodes e de novo a Pilatos.</li><li>Sentenciado à morte e executado em Gólgota.</li><li>Morre por volta das 3 h da tarde.</li><li>O corpo é tirado da estaca e sepultado.</li></ul>",
+    "texto": "<ul><li>Come a Páscoa com os apóstolos.</li><li>Lava os pés deles.</li><li>Manda Judas embora.</li><li>Institui a Ceia do Senhor.</li><li>No jardim de Getsêmani, é traído e preso.</li><li>Os apóstolos fogem.</li><li>O Sinédrio o julga na casa de Caifás.</li><li>Pedro o nega.</li><li>Comparece outra vez diante do Sinédrio.</li><li>É levado a Pilatos, a Herodes e de volta a Pilatos.</li><li>É condenado à morte e executado no Gólgota.</li><li>Morre por volta das três da tarde.</li><li>O corpo é descido da estaca e sepultado.</li></ul>",
     "dados": "{}",
     "referencia": "Mateus 26:20–27:61; Lucas 22:14–23:56; João 13:1–19:42",
     "obra_fonte": "Tradução do Novo Mundo, apêndice B12",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070233",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 114,
@@ -2406,14 +2406,14 @@
     "tipo": "item",
     "ordem": 8,
     "titulo": "15 de nisã (sábado)",
-    "texto": "<ul><li>Pilatos autoriza colocar soldados de guarda no túmulo de Jesus.</li></ul>",
+    "texto": "<ul><li>Pilatos permite que soldados vigiem o túmulo.</li></ul>",
     "dados": "{}",
     "referencia": "Mateus 27:62-66",
     "obra_fonte": "Tradução do Novo Mundo, apêndice B12",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1001070233",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 115,
@@ -2470,14 +2470,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "O meu lugar no povo de Jeová",
-    "texto": "<p>Ao redor do mundo, milhões de pessoas servem a Jeová em milhares de congregações. Essas pessoas dão muito valor às instruções que recebem e querem apoiar a congregação. Medite em cada pergunta, sem pressa.</p>",
-    "dados": "{\"resumo\":\"Perguntas para meditar\",\"fecho\":\"<p>Jeová dá muito valor aos nossos esforços de apoiar a congregação com o nosso tempo, energia e bens materiais.</p>\"}",
+    "texto": "<p>No mundo inteiro, milhões de pessoas adoram a Jeová em milhares de congregações. Elas valorizam a orientação que recebem e desejam contribuir com a congregação. Medite em cada pergunta, sem pressa.</p>",
+    "dados": "{\"resumo\":\"Perguntas para meditar\",\"fecho\":\"<p>Todo esforço para apoiar a congregação — com tempo, energia ou recursos — tem grande valor para Jeová.</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 55",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021255",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 276,
@@ -2486,14 +2486,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "Como posso usar meu tempo e minha energia para apoiar a congregação?",
-    "texto": "<p>Será que você pode levar os idosos ou os que precisam de ajuda para as reuniões? Ou talvez você possa ajudá-los com outras coisas, como fazer compras ou a limpeza da casa.</p>",
+    "texto": "<p>Que tal oferecer carona para as reuniões a quem é idoso ou precisa de ajuda? Ou dar uma mão em outras tarefas, como as compras e a limpeza da casa?</p>",
     "dados": "{}",
     "referencia": "Tiago 1:27",
     "obra_fonte": "Seja Feliz para Sempre!, lição 55",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021255",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 277,
@@ -2502,14 +2502,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "Como posso honrar a Jeová com as minhas coisas valiosas?",
-    "texto": "<p>Muitos decidem “pôr algo à parte”, ou seja, separar toda semana ou todo mês um valor para fazer donativos.</p>",
+    "texto": "<p>Muitos seguem o conselho de “pôr algo à parte”: reservam um valor por semana ou por mês para os donativos.</p>",
     "dados": "{}",
     "referencia": "Provérbios 3:9; 1 Coríntios 16:2",
     "obra_fonte": "Seja Feliz para Sempre!, lição 55",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021255",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 278,
@@ -2518,14 +2518,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "O que posso fazer para manter a união?",
-    "texto": "<p>Não se concentre nos defeitos dos outros, mas nas qualidades. Em vez de ter amizade apenas com os que gostam das mesmas coisas que você, tente conhecer irmãos diferentes.</p>",
+    "texto": "<p>Olhe para as qualidades dos irmãos, e não para os defeitos. E não fique só com quem tem os mesmos gostos que você: procure conhecer irmãos diferentes.</p>",
     "dados": "{}",
     "referencia": "1 Pedro 1:22",
     "obra_fonte": "Seja Feliz para Sempre!, lição 56",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021256",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 279,
@@ -2534,14 +2534,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "Que ancião ou servo ministerial posso conhecer melhor?",
-    "texto": "<p>Toda vez que for ao Salão do Reino, procure conhecer melhor um ancião ou servo ministerial até conhecer todos eles e suas famílias.</p>",
+    "texto": "<p>A cada ida ao Salão do Reino, puxe conversa com um ancião ou servo ministerial diferente. Aos poucos, você vai conhecer todos — e as famílias deles também.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 16",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012157",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 280,
@@ -2550,14 +2550,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "Como posso ajudar a cuidar do Salão do Reino?",
-    "texto": "<p>Depois de toda reunião, irmãos e irmãs fazem com prazer uma limpeza rápida para arrumar o Salão do Reino.</p>",
+    "texto": "<p>Ao fim de cada reunião, irmãos e irmãs se juntam de boa vontade para uma limpeza rápida do Salão do Reino.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 26",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012167",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 281,
@@ -2566,14 +2566,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Por quem eu oro?",
-    "texto": "<p>Tenha o costume de orar pedindo para Jeová abençoar o trabalho do Corpo Governante, como diz 2 Tessalonicenses 3:1.</p>",
+    "texto": "<p>Inclua nas suas orações um pedido para que Jeová abençoe o trabalho do Corpo Governante, como incentiva 2 Tessalonicenses 3:1.</p>",
     "dados": "{}",
     "referencia": "2 Tessalonicenses 3:1",
     "obra_fonte": "Seja Feliz para Sempre!, lição 54",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021254",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 179,
@@ -2582,14 +2582,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Uma questão em Jerusalém",
-    "texto": "<p>No primeiro século, um pequeno grupo formado pelos ‘apóstolos e anciãos em Jerusalém’ serviu como corpo governante para tomar decisões importantes em nome de toda a congregação de cristãos ungidos. (Atos 15:2) Abra cada pasta e veja como eles resolveram uma questão.</p>",
-    "dados": "{\"resumo\":\"O corpo governante do primeiro século\",\"fecho\":\"<p>Eles chegavam a decisões unânimes por se sujeitarem às Escrituras e à influência do espírito de Deus. (Atos 15:25) Esse padrão é seguido até hoje.</p>\"}",
+    "texto": "<p>No primeiro século, os apóstolos e os anciãos de Jerusalém formavam um pequeno grupo que servia de corpo governante: eram eles que decidiam as questões importantes para toda a congregação dos cristãos ungidos. (Atos 15:2) Abra cada pasta e veja como resolveram uma delas.</p>",
+    "dados": "{\"resumo\":\"O corpo governante do primeiro século\",\"fecho\":\"<p>As decisões saíam unânimes porque eles se deixavam guiar pelas Escrituras e pelo espírito de Deus. (Atos 15:25) Até hoje é assim.</p>\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 20",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012161",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 180,
@@ -2726,14 +2726,14 @@
     "tipo": "item",
     "ordem": 9,
     "titulo": "E hoje",
-    "texto": "<p>Assim como no primeiro século, instruções baseadas na Bíblia são fornecidas tanto por meio de cartas como por meio de superintendentes viajantes e outras pessoas. Isso contribui para que o povo de Deus seja unido na maneira de pensar e agir.</p>",
+    "texto": "<p>Ainda hoje, a orientação baseada na Bíblia chega às congregações por cartas, pelos superintendentes viajantes e por outros irmãos — e isso mantém o povo de Deus unido no modo de pensar e de agir.</p>",
     "dados": "{}",
     "referencia": "Atos 16:4, 5",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 20",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012161",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 189,
@@ -2774,14 +2774,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Betel e as filiais",
-    "texto": "<p>Betel é um nome hebraico que significa “casa de Deus”. (Gên 28:17, 19) Esse nome é apropriado para descrever as instalações das Testemunhas de Jeová no mundo todo que são usadas para organizar e apoiar a obra de pregação.</p>",
-    "dados": "{\"resumo\":\"A casa de Deus\",\"fecho\":\"<p>O principal objetivo de cada Betel é tornar a verdade bíblica disponível ao maior número possível de pessoas.</p>\"}",
+    "texto": "<p>Betel vem do hebraico e quer dizer “casa de Deus”. (Gên 28:17, 19) É o nome das instalações das Testemunhas de Jeová pelo mundo que organizam e apoiam a pregação.</p>",
+    "dados": "{\"resumo\":\"A casa de Deus\",\"fecho\":\"<p>Todo Betel existe, antes de tudo, para levar a verdade da Bíblia ao maior número de pessoas que puder.</p>\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 21",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012162",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 234,
@@ -2790,14 +2790,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "A sede mundial",
-    "texto": "<p>O Corpo Governante fica na sede mundial no Estado de Nova York, EUA, e dali supervisiona as atividades de filiais em vários outros países.</p>",
+    "texto": "<p>Da sede mundial, no Estado de Nova York, EUA, o Corpo Governante supervisiona o trabalho das filiais em muitos países.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 21",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012162",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 235,
@@ -2806,14 +2806,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "Uma família",
-    "texto": "<p>Os que servem nesses lugares são como uma família: moram e trabalham juntos, tomam refeições juntos e estudam a Bíblia juntos. Por isso, são conhecidos como membros da “família de Betel”.</p>",
+    "texto": "<p>Quem serve em Betel vive como uma família: divide a casa, o trabalho, a mesa e o estudo da Bíblia. Daí o nome “família de Betel”.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 21",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012162",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 236,
@@ -2822,14 +2822,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "Ninguém é assalariado",
-    "texto": "<p>Nenhum deles é assalariado, mas todos recebem acomodação, alimento e uma ajuda financeira para despesas pessoais. Cada membro é designado para um setor: escritórios, cozinha, refeitório, gráfica, encadernação, arrumação, lavanderia, manutenção e outras áreas.</p>",
+    "texto": "<p>Ninguém ali recebe salário. Todos têm moradia, comida e uma pequena ajuda para os gastos pessoais, e cada um trabalha num setor — escritório, cozinha, refeitório, gráfica, encadernação, limpeza, lavanderia, manutenção e muitos outros.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 21",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012162",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 237,
@@ -2838,14 +2838,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "A Comissão de Filial",
-    "texto": "<p>O Corpo Governante confia a supervisão de cada filial a uma Comissão de Filial composta de três ou mais anciãos bem qualificados. Essa comissão informa o Corpo Governante sobre o progresso da obra em cada país debaixo de sua jurisdição e sobre quaisquer problemas que talvez surjam.</p>",
+    "texto": "<p>Cada filial fica sob os cuidados de uma Comissão de Filial, formada por pelo menos três anciãos bem qualificados e nomeada pelo Corpo Governante. É ela que mantém o Corpo Governante a par de como vai a obra nos países que atende e dos problemas que surgirem.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 22",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012163",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 238,
@@ -2854,14 +2854,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "O apoio às congregações",
-    "texto": "<p>Irmãos responsáveis da filial aprovam a formação de novas congregações. Eles organizam assembleias e congressos, coordenam a construção de Salões do Reino e cuidam do envio de publicações para as congregações.</p>",
+    "texto": "<p>Os irmãos responsáveis na filial aprovam novas congregações, organizam as assembleias e os congressos, coordenam a construção de Salões do Reino e providenciam o envio de publicações às congregações.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 22",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012163",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 239,
@@ -2870,14 +2870,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Escrever e traduzir",
-    "texto": "<p>O texto original é preparado em inglês. Depois de editado e aprovado, o texto é enviado eletronicamente para equipes de tradução em todo o mundo, que traduzem, verificam e revisam o texto.</p>",
+    "texto": "<p>Os textos são escritos primeiro em inglês. Depois de revisados e aprovados, seguem por meio eletrônico para equipes de tradutores no mundo todo, que os traduzem, conferem e revisam.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 23",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012164",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 240,
@@ -2886,14 +2886,14 @@
     "tipo": "item",
     "ordem": 7,
     "titulo": "Os Salões do Reino",
-    "texto": "<p>Conforme o nome Salão do Reino sugere, o principal assunto bíblico considerado nesse lugar é o Reino de Deus. Os salões são construídos por voluntários não assalariados de todas as formações.</p>",
+    "texto": "<p>Como o próprio nome indica, o Reino de Deus é o assunto principal no Salão do Reino. Os salões são construídos por voluntários, sem salário, que vêm das mais diversas profissões.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 25",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012166",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 241,
@@ -2982,14 +2982,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Então e agora",
-    "texto": "<p>A obra de pregação de hoje é realizada “por se seguir o modelo que Jesus deixou quando esteve na Terra”, como faziam os primeiros cristãos. Ligue o que eles faziam então ao que se faz agora.</p>",
-    "dados": "{\"resumo\":\"O modelo dos primeiros cristãos\",\"fecho\":\"<p>Nossa obra de pregação hoje é bem organizada. Isso possibilita que cumpramos a ordem dada por Jesus de ‘pregar e dar testemunho cabal’. (Atos 10:42)</p>\"}",
+    "texto": "<p>A pregação hoje segue o mesmo modelo que Jesus deixou e que os primeiros cristãos seguiram. Ligue o que eles faziam então ao que se faz agora.</p>",
+    "dados": "{\"resumo\":\"O modelo dos primeiros cristãos\",\"fecho\":\"<p>A pregação hoje é bem organizada, e isso nos ajuda a obedecer à ordem de Jesus de ‘pregar e dar testemunho cabal’. (Atos 10:42)</p>\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 12",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012153",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 192,
@@ -2998,14 +2998,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "Os apóstolos e os anciãos em Jerusalém",
-    "texto": "<p>No passado, os apóstolos e anciãos em Jerusalém davam orientações às congregações naquela época. Da mesma forma, hoje o Corpo Governante dá orientação às congregações no mundo inteiro.</p>",
+    "texto": "<p>Naquela época, as orientações para as congregações vinham dos apóstolos e anciãos em Jerusalém. Hoje, é o Corpo Governante que orienta as congregações do mundo todo.</p>",
     "dados": "{\"par\":\"O Corpo Governante\"}",
     "referencia": "Atos 15:2",
     "obra_fonte": "Seja Feliz para Sempre!, lição 20",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021220",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 193,
@@ -3014,14 +3014,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "Paulo e Barnabé visitavam as congregações",
-    "texto": "<p>Barnabé e o apóstolo Paulo serviam como superintendentes viajantes e visitavam congregações no primeiro século. Esse é o desejo de nossos superintendentes viajantes hoje.</p>",
+    "texto": "<p>No primeiro século, Barnabé e o apóstolo Paulo serviam como superintendentes viajantes, visitando as congregações. Os superintendentes viajantes de hoje seguem o mesmo exemplo.</p>",
     "dados": "{\"par\":\"Os superintendentes de circuito\"}",
     "referencia": "Atos 15:36",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012158",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 194,
@@ -3030,14 +3030,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "Os cristãos de Antioquia ajudaram os da Judeia",
-    "texto": "<p>Quando uma grande fome atingiu a Judeia no primeiro século, os cristãos em Antioquia enviaram ajuda financeira para seus irmãos. De modo similar, quando ficamos sabendo que nossos irmãos em alguma parte do mundo estão enfrentando dificuldades, enviamos donativos por meio de nossa congregação.</p>",
+    "texto": "<p>Quando uma grande fome atingiu a Judeia, os cristãos de Antioquia mandaram ajuda para os irmãos de lá. Hoje também, ao saber que irmãos em algum lugar estão passando por dificuldades, mandamos donativos por meio da congregação.</p>",
     "dados": "{\"par\":\"A ajuda aos irmãos atingidos por catástrofes\"}",
     "referencia": "Atos 11:27-30",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 18",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012159",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 195,
@@ -3046,14 +3046,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "Superintendentes e servos ministeriais",
-    "texto": "<p>A Bíblia fala de dois grupos de homens cristãos que cuidam de responsabilidades na congregação: “superintendentes e servos ministeriais”. Em geral, há vários desses irmãos em cada congregação.</p>",
+    "texto": "<p>Na congregação, há dois grupos de homens com responsabilidades, que a Bíblia chama de “superintendentes e servos ministeriais”. Cada congregação costuma ter vários deles.</p>",
     "dados": "{\"par\":\"Os anciãos e os servos ministeriais\"}",
     "referencia": "Filipenses 1:1",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 16",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012157",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 196,
@@ -3062,14 +3062,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "Receberam territórios específicos para pregar",
-    "texto": "<p>Esses evangelizadores do primeiro século receberam territórios específicos para pregar. De modo similar, nossa obra de pregação hoje é bem organizada, e cada congregação recebe uma área específica para cobrir.</p>",
+    "texto": "<p>Os evangelizadores do primeiro século tinham territórios definidos para pregar. Hoje a pregação também é organizada: cada congregação cuida de uma área própria.</p>",
     "dados": "{\"par\":\"Cada congregação recebe a sua área\"}",
     "referencia": "Mateus 10:5, 6; 2 Coríntios 10:13",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 12",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012153",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 197,
@@ -3078,14 +3078,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Reuniam-se para adorar e encorajar uns aos outros",
-    "texto": "<p>No primeiro século, os cristãos estavam organizados em congregações e realizavam reuniões para adorar a Deus, estudar as Escrituras e encorajar uns aos outros. Nós seguimos esse exemplo e sentimos a mesma alegria.</p>",
+    "texto": "<p>Os primeiros cristãos formavam congregações e se reuniam para adorar, estudar juntos as Escrituras e animar uns aos outros. Fazemos igual hoje — e com a mesma alegria.</p>",
     "dados": "{\"par\":\"As reuniões no Salão do Reino\"}",
     "referencia": "Hebreus 10:24, 25",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 5",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012146",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 198,
@@ -3094,14 +3094,14 @@
     "tipo": "item",
     "ordem": 7,
     "titulo": "Israel tinha três grandes eventos por ano",
-    "texto": "<p>Assim como os servos de Deus no passado — que haviam sido instruídos a realizar três grandes eventos por ano —, nós aguardamos nossas assembleias e congressos com grande expectativa.</p>",
+    "texto": "<p>No passado, os servos de Deus tinham instruções para se reunir em três grandes festividades por ano. Do mesmo modo, esperamos com ansiedade as nossas assembleias e congressos.</p>",
     "dados": "{\"par\":\"Duas assembleias de circuito e um congresso regional\"}",
     "referencia": "Deuteronômio 16:16",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 11",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012152",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 199,
@@ -3174,14 +3174,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Jeová é organizado",
-    "texto": "<p>Jeová é um Deus organizado. (1Co 14:33, 40) Então, faz sentido que o povo dele também seja assim. Mas como a congregação está organizada? Vire as páginas.</p>",
+    "texto": "<p>Jeová é um Deus de ordem (1Co 14:33, 40), e é natural que o povo dele também seja organizado. Mas como funciona a congregação? Vire as páginas.</p>",
     "dados": "{\"resumo\":\"A parte terrestre da organização\",\"fecho\":\"<p>“Naquele tempo, mudarei a língua dos povos para uma língua pura,<br>Para que todos eles possam invocar o nome de Jeová,<br>A fim de servi-lo ombro a ombro.” — Sofonias 3:9</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 20",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021220",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 161,
@@ -3190,14 +3190,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "Decência e ordem",
-    "texto": "<p>“Mas que todas as coisas ocorram com decência e ordem.”</p><p>Jeová é um Deus organizado. Então, faz sentido que o povo dele também seja assim.</p>",
+    "texto": "<p>“Mas que todas as coisas ocorram com decência e ordem.”</p><p>Um Deus de ordem tem um povo organizado.</p>",
     "dados": "{}",
     "referencia": "1 Coríntios 14:33, 40",
     "obra_fonte": "Seja Feliz para Sempre!, lição 20",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021220",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 162,
@@ -3206,14 +3206,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "Sempre houve quem orientasse",
-    "texto": "<p>Jeová sempre usou um homem ou um grupo de homens para dar orientação ao seu povo. (Mal 2:7; Heb 1:1) Depois da morte de Jesus, os apóstolos e os anciãos em Jerusalém faziam isso. (Atos 15:2) O mesmo acontece hoje.</p>",
+    "texto": "<p>Ao longo da história, Jeová sempre guiou o seu povo por meio de um homem ou de um grupo de homens. (Mal 2:7; Heb 1:1) Depois da morte de Jesus, essa tarefa ficou com os apóstolos e os anciãos em Jerusalém (Atos 15:2), e hoje continua assim.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 54",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021254",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 163,
@@ -3222,14 +3222,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "Cristo é o cabeça",
-    "texto": "<p>“Cristo é cabeça da congregação.” (Efé 5:23) Lá do céu, Jesus cuida das atividades do povo de Jeová no mundo todo.</p>",
+    "texto": "<p>“Cristo é cabeça da congregação.” (Efé 5:23) Do céu, Jesus dirige as atividades do povo de Jeová no mundo inteiro.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 20",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021220",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 164,
@@ -3238,14 +3238,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "Um povo para o seu nome",
-    "texto": "<p>A Bíblia diz que nosso Criador deseja ‘nos instruir sobre os seus caminhos’ para que possamos ‘andar nas suas veredas’. Ele organizou “um povo para o Seu nome” a fim de divulgar sua vontade em toda a Terra.</p><p>“Simeão relatou em detalhes como Deus, pela primeira vez, voltou sua atenção para as nações, a fim de tirar delas um povo para o Seu nome.”</p>",
+    "texto": "<p>A Bíblia mostra que o Criador quer nos ensinar os seus caminhos, para que andemos neles. Para divulgar a vontade dele no mundo inteiro, ele formou “um povo para o Seu nome”.</p><p>“Simeão relatou em detalhes como Deus, pela primeira vez, voltou sua atenção para as nações, a fim de tirar delas um povo para o Seu nome.”</p>",
     "dados": "{}",
     "referencia": "Isaías 2:2, 3; Atos 15:14",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, “Qual é a vontade de Deus?”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012141",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 165,
@@ -3254,14 +3254,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "A parte terrestre",
-    "texto": "<p>Jesus deu ao “escravo fiel e prudente” a grande responsabilidade de administrar a obra feita pela parte terrestre da organização de Jeová: cuidar de seus bens materiais, supervisionar a obra de pregação e nos ensinar por meio de nossas congregações.</p>",
+    "texto": "<p>Jesus confiou ao “escravo fiel e prudente” uma grande tarefa: dirigir o trabalho da parte terrestre da organização de Jeová — cuidar dos bens dela, supervisionar a pregação e dar ensino ao povo nas congregações.</p>",
     "dados": "{}",
     "referencia": "Mateus 24:45-47",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 19",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012160",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 166,
@@ -3270,14 +3270,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Unidos na adoração",
-    "texto": "<p>Deus quer que o adoremos de modo unido. Em vez de separar as pessoas, a adoração pura de Jeová as une em verdadeiro amor.</p>",
+    "texto": "<p>Deus quer que o adoremos unidos. A adoração pura não divide as pessoas: ela as junta num amor verdadeiro.</p>",
     "dados": "{}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, “Qual é a vontade de Deus?”",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012141",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 167,
@@ -3334,14 +3334,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Quem faz o quê?",
-    "texto": "<p>Jesus é o líder da congregação, e os anciãos seguem as orientações dele. Ligue cada designação ao que ela faz.</p>",
-    "dados": "{\"resumo\":\"As designações\",\"fecho\":\"<p>Todos na congregação ‘louvam o nome de Jeová’ por participar nas reuniões e pregar as boas novas de acordo com suas circunstâncias. (Sal 148:12, 13)</p>\"}",
+    "texto": "<p>O líder da congregação é Jesus, e os anciãos seguem a direção dele. Ligue cada designação ao que ela faz.</p>",
+    "dados": "{\"resumo\":\"As designações\",\"fecho\":\"<p>Cada um na congregação ‘louva o nome de Jeová’ indo às reuniões e pregando as boas novas conforme as suas circunstâncias. (Sal 148:12, 13)</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 20",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021220",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 223,
@@ -3350,14 +3350,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "O Corpo Governante",
-    "texto": "<p>O Corpo Governante cuida da preparação do alimento espiritual, dá impulso à obra de pregação do Reino e supervisiona a designação de irmãos para posições de responsabilidade.</p>",
+    "texto": "<p>Três tarefas cabem ao Corpo Governante: preparar o alimento espiritual, dar força à pregação do Reino e supervisionar quem é designado para responsabilidades.</p>",
     "dados": "{\"par\":\"Prepara o alimento espiritual e dá impulso à pregação\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 20",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012161",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 224,
@@ -3366,14 +3366,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "A Comissão de Filial",
-    "texto": "<p>O Corpo Governante confia a supervisão de cada filial a uma Comissão de Filial composta de três ou mais anciãos bem qualificados. Essa comissão informa o Corpo Governante sobre o progresso da obra em cada país debaixo de sua jurisdição.</p>",
+    "texto": "<p>Formada por três ou mais anciãos experientes, a Comissão de Filial supervisiona uma filial e relata ao Corpo Governante o andamento da obra nos países sob os seus cuidados.</p>",
     "dados": "{\"par\":\"Supervisiona uma filial e informa o Corpo Governante\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 22",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012163",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 225,
@@ -3382,14 +3382,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "O superintendente de circuito",
-    "texto": "<p>Cada superintendente de circuito visita cerca de 20 congregações, passando uma semana em cada uma delas duas vezes por ano.</p>",
+    "texto": "<p>O superintendente de circuito atende umas 20 congregações e passa uma semana com cada uma delas, duas vezes por ano.</p>",
     "dados": "{\"par\":\"Visita cerca de 20 congregações\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 17",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012158",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 226,
@@ -3398,14 +3398,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "Os anciãos",
-    "texto": "<p>Os anciãos guiam e ajudam a proteger a congregação em sentido espiritual. Toda semana, eles tomam a dianteira nas reuniões congregacionais para fortalecer nossa fé.</p>",
+    "texto": "<p>Os anciãos cuidam da congregação e a protegem em sentido espiritual. Toda semana, eles dirigem as reuniões, que fortalecem a nossa fé.</p>",
     "dados": "{\"par\":\"Cuidam da congregação, ensinam e protegem\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012156",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 227,
@@ -3414,14 +3414,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "Os servos ministeriais",
-    "texto": "<p>Eles cuidam das tarefas físicas e organizacionais importantes que precisam ser feitas na congregação. Isso permite que os anciãos se concentrem em responsabilidades de ensino e pastoreio.</p>",
+    "texto": "<p>Os servos ministeriais cuidam de muitas tarefas práticas e de organização na congregação. Assim, os anciãos ficam mais livres para ensinar e pastorear.</p>",
     "dados": "{\"par\":\"Cuidam das tarefas práticas e ajudam os anciãos\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 16",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012157",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 228,
@@ -3430,14 +3430,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "O pioneiro",
-    "texto": "<p>Todas as Testemunhas de Jeová são publicadores das boas novas. No entanto, algumas organizaram a vida a fim de servir como pioneiros. Um pioneiro é um evangelizador de tempo integral.</p>",
+    "texto": "<p>Toda Testemunha de Jeová é publicadora das boas novas. Mas algumas ajustam a vida para servir como pioneiras, ou seja, evangelizadoras de tempo integral.</p>",
     "dados": "{\"par\":\"Evangelizador de tempo integral\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 13",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012154",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 229,
@@ -3446,14 +3446,14 @@
     "tipo": "item",
     "ordem": 7,
     "titulo": "A família de Betel",
-    "texto": "<p>Os que servem nesses lugares são como uma família: moram e trabalham juntos, tomam refeições juntos e estudam a Bíblia juntos.</p>",
+    "texto": "<p>Em Betel, os voluntários vivem como uma grande família, dividindo a casa, o trabalho, a mesa e o estudo da Bíblia.</p>",
     "dados": "{\"par\":\"Mora e trabalha junta para apoiar a pregação\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 21",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012162",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 230,
@@ -3462,14 +3462,14 @@
     "tipo": "item",
     "ordem": 8,
     "titulo": "As Comissões de Ajuda Humanitária",
-    "texto": "<p>Comissões de Ajuda Humanitária supervisionam o fornecimento de alimentos, água potável, roupas, abrigo e assistência médica.</p>",
+    "texto": "<p>As Comissões de Ajuda Humanitária cuidam para que cheguem comida, água potável, roupas, abrigo e atendimento médico a quem precisa.</p>",
     "dados": "{\"par\":\"Socorrem os irmãos depois de uma catástrofe\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 18",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012159",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 231,
@@ -3510,14 +3510,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "A verdade redescoberta",
-    "texto": "<p>A Bíblia predisse que depois da morte de Cristo surgiriam, dentre os primeiros cristãos, falsos instrutores que corromperiam a verdade bíblica. (Atos 20:29, 30) Com o tempo, foi exatamente isso que aconteceu. Mas Jeová predisse que, durante ‘o tempo do fim, o verdadeiro conhecimento se tornaria abundante’. Ponha cada marco no seu lugar.</p>",
+    "texto": "<p>A Bíblia avisou que, depois da morte de Cristo, sairiam do meio dos próprios cristãos falsos instrutores que deturpariam a verdade (Atos 20:29, 30) — e foi o que aconteceu. Mas Jeová também predisse que, no tempo do fim, o conhecimento verdadeiro se tornaria abundante. Ponha cada marco no seu lugar.</p>",
     "dados": "{\"resumo\":\"De 1870 a 1950\",\"fecho\":\"<p>“Muitos farão uma busca, e o conhecimento verdadeiro se tornará abundante.” — Daniel 12:4</p>\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 3",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012144",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 214,
@@ -3526,14 +3526,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "Um pequeno grupo começa a pesquisar os verdadeiros ensinamentos da Bíblia",
-    "texto": "<p>Um pequeno grupo de pessoas que procuravam a verdade percebeu que muitas doutrinas das igrejas não eram bíblicas. Assim, elas começaram uma pesquisa para descobrir os verdadeiros ensinamentos da Bíblia, e Jeová as abençoou.</p>",
+    "texto": "<p>Um pequeno grupo de pessoas sinceras notou que muitas doutrinas das igrejas não vinham da Bíblia. Começaram então a pesquisar o que ela realmente ensina, e Jeová abençoou o esforço.</p>",
     "dados": "{\"posicao\":1870,\"quando\":\"1870\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 3",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012144",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 215,
@@ -3542,14 +3542,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "Começa a ser publicada A Sentinela",
-    "texto": "<p>Os Estudantes da Bíblia já haviam discernido que era o tempo de divulgar a verdade o máximo possível. Por isso, começaram a publicar a revista A Sentinela Anunciando o Reino de Jeová, que publicamos até hoje.</p>",
+    "texto": "<p>Os Estudantes da Bíblia perceberam que era hora de espalhar a verdade o máximo possível. Começaram então a publicar a revista que circula até hoje como A Sentinela Anunciando o Reino de Jeová.</p>",
     "dados": "{\"posicao\":1879,\"quando\":\"1879\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 3",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012144",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 216,
@@ -3558,14 +3558,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "O Reino de Deus começa a governar no céu",
-    "texto": "<p>Foi aí que começaram os últimos dias do governo humano. Os “sete tempos” de Daniel terminaram nesse ano.</p>",
+    "texto": "<p>Com isso começaram os últimos dias dos governos humanos. Nesse ano terminaram os “sete tempos” da profecia de Daniel.</p>",
     "dados": "{\"posicao\":1914,\"quando\":\"1914\"}",
     "referencia": "Daniel 4:16, 17; Lucas 21:24",
     "obra_fonte": "Seja Feliz para Sempre!, lição 32",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021232",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 217,
@@ -3574,14 +3574,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "Os Estudantes da Bíblia passam a se chamar Testemunhas de Jeová",
-    "texto": "<p>Jeová chama as pessoas que adoram a ele de suas testemunhas porque elas contam a verdade sobre ele. Temos muito orgulho desse nome.</p>",
+    "texto": "<p>Os adoradores de Jeová são chamados de testemunhas dele porque contam a verdade sobre ele — e é com orgulho que levamos esse nome.</p>",
     "dados": "{\"posicao\":1931,\"quando\":\"1931\"}",
     "referencia": "Isaías 43:10",
     "obra_fonte": "Seja Feliz para Sempre!, lição 19",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021219",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 218,
@@ -3589,15 +3589,15 @@
     "capitulo": "redescoberta",
     "tipo": "item",
     "ordem": 5,
-    "titulo": "É inaugurada a Escola Bíblica de Gileade da Torre de Vigia",
-    "texto": "<p>Em hebraico, “Gileade” significa “Montão de Testemunho”. Desde sua inauguração, os formados dessa escola foram enviados como missionários para dar testemunho “até os confins da terra”.</p>",
+    "titulo": "Abre a Escola Bíblica de Gileade da Torre de Vigia",
+    "texto": "<p>“Gileade” é uma palavra hebraica que significa “Montão de Testemunho”. Desde a abertura da escola, os formados vão como missionários dar testemunho “até os confins da terra”.</p>",
     "dados": "{\"posicao\":1943,\"quando\":\"1943\"}",
     "referencia": "Atos 13:47",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 14",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012155",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175389886
   },
   {
     "id": 219,
@@ -3606,14 +3606,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Começam a ser publicadas partes da Tradução do Novo Mundo",
-    "texto": "<p>Percebemos a necessidade de uma nova tradução que ajudasse mais as pessoas a obter o “conhecimento exato da verdade”. Por isso, começamos a publicar partes de nossa Bíblia, a Tradução do Novo Mundo, que usa linguagem moderna.</p>",
+    "texto": "<p>Era preciso uma tradução nova, que ajudasse mais as pessoas a ter o “conhecimento exato da verdade”. Por isso começamos a publicar, em partes, a Tradução do Novo Mundo, em linguagem moderna.</p>",
     "dados": "{\"posicao\":1950,\"quando\":\"1950\"}",
     "referencia": "1 Timóteo 2:3, 4",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 4",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012145",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 220,
@@ -3654,14 +3654,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "As nossas reuniões",
-    "texto": "<p>Quando os primeiros cristãos se reuniam, eles cantavam, oravam, liam e consideravam as Escrituras sem qualquer tipo de ritual. (Col 3:16) Você vai encontrar algo bem parecido em nossas reuniões.</p>",
-    "dados": "{\"resumo\":\"O que acontece nelas\",\"fecho\":\"<p>Você está convidado a assistir à nossa próxima reunião e ver por si mesmo. Você será muito bem-vindo!</p>\"}",
+    "texto": "<p>Nas reuniões dos primeiros cristãos havia cânticos, orações, leitura e estudo das Escrituras, e nenhum ritual. (Col 3:16) Nas nossas reuniões você vai ver algo muito parecido.</p>",
+    "dados": "{\"resumo\":\"O que acontece nelas\",\"fecho\":\"<p>Venha à nossa próxima reunião e veja com os próprios olhos. Você será muito bem-vindo!</p>\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 7",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012148",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 244,
@@ -3830,14 +3830,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "É assim ou não é?",
-    "texto": "<p>Nossa organização publica e distribui todo ano centenas de milhões de Bíblias e outras publicações sem cobrar por elas. Você talvez se pergunte: ‘Como tudo isso é financiado?’ Diga se cada frase é assim ou não é.</p>",
+    "texto": "<p>Todo ano saem da nossa organização centenas de milhões de Bíblias e outras publicações, todas de graça. Você pode estar se perguntando: ‘Quem paga por tudo isso?’ Diga se cada frase é assim ou não é.</p>",
     "dados": "{\"resumo\":\"Como a obra é sustentada\",\"lados\":[\"É assim\",\"Não é assim\"],\"fecho\":\"<p>“Faça cada um conforme resolveu no coração, não a contragosto nem por obrigação, pois Deus ama quem dá com alegria.” — 2 Coríntios 9:7</p>\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 24",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012165",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 255,
@@ -3846,14 +3846,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "As Testemunhas de Jeová cobram dízimo",
-    "texto": "<p>Não cobramos por nossos serviços, não solicitamos dízimos nem fazemos coletas.</p>",
+    "texto": "<p>Não cobramos por nenhum serviço, não pedimos dízimo e não fazemos coletas.</p>",
     "dados": "{\"lado\":1}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 24",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012165",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 256,
@@ -3862,14 +3862,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "Nas reuniões, passa-se a sacola da coleta",
-    "texto": "<p>Não se cobra nada em nenhuma reunião e nunca se faz coleta.</p>",
+    "texto": "<p>Nenhuma reunião tem cobrança, e coleta nunca é feita.</p>",
     "dados": "{\"lado\":1}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 5",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012146",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 257,
@@ -3878,14 +3878,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "A obra é mantida por donativos",
-    "texto": "<p>Muitas pessoas valorizam nossa obra educativa bíblica e fazem donativos para apoiá-la. Nos Salões do Reino e em nossas assembleias e congressos, todos podem fazer contribuições nas caixas de donativos.</p>",
+    "texto": "<p>Muita gente valoriza o nosso trabalho de ensino da Bíblia e faz donativos para apoiá-lo. Nos Salões do Reino, nas assembleias e nos congressos há caixas de donativos para quem quiser contribuir.</p>",
     "dados": "{\"lado\":0}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 24",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012165",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 258,
@@ -3894,14 +3894,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "Também se pode fazer donativos pelo site jw.org",
-    "texto": "<p>Também é possível fazer donativos pelo nosso site, jw.org.</p>",
+    "texto": "<p>O site jw.org também aceita donativos.</p>",
     "dados": "{\"lado\":0}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 24",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012165",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 259,
@@ -3910,14 +3910,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "A maior parte dos donativos vem de pessoas simples",
-    "texto": "<p>Em sua maioria, os valores recebidos vêm de pessoas simples, assim como a viúva pobre que Jesus elogiou por ter depositado duas pequenas moedas nos cofres do templo.</p>",
+    "texto": "<p>Lembra da viúva pobre que deu duas pequenas moedas no templo e foi elogiada por Jesus? A maior parte dos donativos vem de gente simples assim.</p>",
     "dados": "{\"lado\":0}",
     "referencia": "Lucas 21:1-4",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 24",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012165",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 260,
@@ -3926,14 +3926,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Os anciãos recebem salário",
-    "texto": "<p>Nossa organização não possui um clero assalariado. Os anciãos pastoreiam o rebanho “não por obrigação, mas de boa vontade perante Deus; não por amor ao ganho desonesto, mas com entusiasmo”.</p>",
+    "texto": "<p>Não temos clero pago. Os anciãos cuidam do rebanho “não por obrigação, mas de boa vontade perante Deus; não por amor ao ganho desonesto, mas com entusiasmo”.</p>",
     "dados": "{\"lado\":1}",
     "referencia": "1 Pedro 5:2",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 15",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012156",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 261,
@@ -3942,14 +3942,14 @@
     "tipo": "item",
     "ordem": 7,
     "titulo": "Quem serve em Betel recebe salário",
-    "texto": "<p>Nenhum deles é assalariado, mas todos recebem acomodação, alimento e uma ajuda financeira para despesas pessoais.</p>",
+    "texto": "<p>Os voluntários de Betel não são assalariados: recebem moradia, refeições e uma pequena ajuda para os gastos pessoais.</p>",
     "dados": "{\"lado\":1}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 21",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012162",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 262,
@@ -3958,14 +3958,14 @@
     "tipo": "item",
     "ordem": 8,
     "titulo": "Os Salões do Reino são construídos por voluntários",
-    "texto": "<p>São construídos por voluntários não assalariados de todas as formações.</p>",
+    "texto": "<p>Os construtores são voluntários sem salário, das mais diversas profissões.</p>",
     "dados": "{\"lado\":0}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 25",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012166",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 263,
@@ -3974,14 +3974,14 @@
     "tipo": "item",
     "ordem": 9,
     "titulo": "A ajuda humanitária chega também a quem não é Testemunha",
-    "texto": "<p>Embora ajudemos os “que fazem parte da nossa família na fé”, também prestamos assistência a outras pessoas quando possível, não importa sua religião.</p>",
+    "texto": "<p>Ajudamos os “que fazem parte da nossa família na fé”, mas, quando possível, socorremos também outras pessoas, seja qual for a religião delas.</p>",
     "dados": "{\"lado\":0}",
     "referencia": "Gálatas 6:10",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 18",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012159",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 264,
@@ -4022,14 +4022,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Um povo para o seu nome",
-    "texto": "<p>Muitos acham que Testemunhas de Jeová é o nome de uma religião nova. No entanto, mais de 2.700 anos atrás, os servos do único Deus verdadeiro foram chamados de suas “testemunhas”. (Isa 43:10-12)</p>",
+    "texto": "<p>Muita gente imagina que o nome Testemunhas de Jeová surgiu com uma religião recente. Mas há mais de 2.700 anos quem adorava o único Deus verdadeiro já era chamado de “testemunhas” dele. (Isa 43:10-12)</p>",
     "dados": "{\"resumo\":\"O nome Testemunhas de Jeová\",\"fecho\":\"<p>“Vocês são as minhas testemunhas”, diz Jeová. — Isaías 43:10</p>\"}",
     "referencia": "",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 2",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012143",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 170,
@@ -4101,7 +4101,7 @@
     "capitulo": "testemunhas",
     "tipo": "item",
     "ordem": 5,
-    "titulo": "Por que as Testemunhas de Jeová chamam umas às outras de irmão e irmã?",
+    "titulo": "Por que as Testemunhas de Jeová se tratam por irmão e irmã?",
     "texto": "",
     "dados": "{\"alternativas\":[\"Porque são unidas como uma família mundial\",\"Porque são todas parentes\",\"Porque é um costume antigo da igreja\"],\"correta\":0}",
     "referencia": "1 Pedro 2:17",
@@ -4109,7 +4109,7 @@
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021219",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175389886
   },
   {
     "id": 175,
@@ -4182,14 +4182,14 @@
     "tipo": "abertura",
     "ordem": 0,
     "titulo": "Uma família mundial",
-    "texto": "<p>Quando estamos com os irmãos, nos sentimos como o rei Davi: “Como é bom, como é agradável irmãos viverem juntos em união!” (Sal 133:1) Mas essa união não é por acaso. Cada um precisa fazer a sua parte.</p>",
-    "dados": "{\"resumo\":\"A união do povo de Jeová\",\"fecho\":\"<p>Você pode ajudar a manter a união na congregação sendo perdoador e mostrando amor por todos os irmãos.</p>\"}",
+    "texto": "<p>Ao lado dos irmãos, a gente sente o mesmo que o rei Davi: “Como é bom, como é agradável irmãos viverem juntos em união!” (Sal 133:1) Mas essa união não acontece sozinha: cada um tem a sua parte.</p>",
+    "dados": "{\"resumo\":\"A união do povo de Jeová\",\"fecho\":\"<p>Perdoar e mostrar amor a todos os irmãos é a sua contribuição para a união da congregação.</p>\"}",
     "referencia": "",
     "obra_fonte": "Seja Feliz para Sempre!, lição 56",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021256",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 267,
@@ -4198,14 +4198,14 @@
     "tipo": "item",
     "ordem": 1,
     "titulo": "Em casa em qualquer país",
-    "texto": "<p>Se você assistir a uma reunião em outro país, vai ver que mesmo não entendendo o idioma você vai se sentir em casa. Por quê? Porque estudamos a Bíblia usando as mesmas publicações no mundo todo. E nós nos esforçamos para mostrar amor uns pelos outros.</p>",
+    "texto": "<p>Numa reunião em outro país, mesmo sem entender o idioma, você se sente em casa. Por quê? Porque o mundo inteiro estuda a Bíblia com as mesmas publicações, e todos se esforçam para mostrar amor uns aos outros.</p>",
     "dados": "{}",
     "referencia": "Sofonias 3:9",
     "obra_fonte": "Seja Feliz para Sempre!, lição 56",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021256",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 268,
@@ -4214,14 +4214,14 @@
     "tipo": "item",
     "ordem": 2,
     "titulo": "Uma fraternidade internacional",
-    "texto": "<p>Temos certeza de que “Deus não é parcial”, e por isso nossa fraternidade é realmente internacional, livre de barreiras raciais e políticas, unida pelas mesmas crenças.</p><p>Em vista disso, Pedro começou a falar; ele disse: “Agora eu entendo claramente que Deus não é parcial, mas, em toda nação, ele aceita aquele que o teme e faz o que é direito.”</p>",
+    "texto": "<p>Temos certeza de que “Deus não é parcial”. Por isso, a nossa fraternidade é internacional de fato: sem barreiras de raça ou de política, unida pelas mesmas crenças.</p><p>Em vista disso, Pedro começou a falar; ele disse: “Agora eu entendo claramente que Deus não é parcial, mas, em toda nação, ele aceita aquele que o teme e faz o que é direito.”</p>",
     "dados": "{}",
     "referencia": "Atos 10:34, 35",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 1",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012142",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 269,
@@ -4230,14 +4230,14 @@
     "tipo": "item",
     "ordem": 3,
     "titulo": "Pensar uns nos outros",
-    "texto": "<p>Falando do relacionamento entre os membros da congregação, Paulo disse que devemos ‘pensar uns nos outros’. Essa expressão significa “pensar cuidadosamente”, isto é, tentar conhecer bem nossos irmãos. Ela é um incentivo para nos preocuparmos com os outros.</p>",
+    "texto": "<p>Paulo disse que os membros da congregação devem ‘pensar uns nos outros’ — no sentido de pensar com cuidado, procurando conhecer bem os irmãos. É um convite a nos interessarmos pelos outros.</p>",
     "dados": "{}",
     "referencia": "Hebreus 10:24",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 6",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012147",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 270,
@@ -4246,14 +4246,14 @@
     "tipo": "item",
     "ordem": 4,
     "titulo": "Quando a catástrofe vem",
-    "texto": "<p>Depois de uma catástrofe, as Testemunhas de Jeová organizam imediatamente ajuda para trazer alívio a seus irmãos que foram atingidos. Esses esforços são uma prova do profundo amor que sentimos uns pelos outros.</p>",
+    "texto": "<p>Quando acontece uma catástrofe, as Testemunhas de Jeová logo organizam socorro para os irmãos atingidos. É uma prova do amor profundo que temos uns pelos outros.</p>",
     "dados": "{}",
     "referencia": "João 13:34, 35",
     "obra_fonte": "Quem Está Fazendo a Vontade de Jeová Hoje?, lição 18",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102012159",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 271,
@@ -4262,14 +4262,14 @@
     "tipo": "item",
     "ordem": 5,
     "titulo": "Perdoar de coração",
-    "texto": "<p>Nós somos unidos, mas também somos imperfeitos. Às vezes, vamos magoar uns aos outros. Por isso, a Bíblia nos diz para ‘continuar a perdoar uns aos outros’.</p><p>“Continuem a suportar uns aos outros e a perdoar uns aos outros liberalmente, mesmo que alguém tenha razão para queixa contra outro. Assim como Jeová os perdoou liberalmente, vocês devem fazer o mesmo.”</p>",
+    "texto": "<p>Somos unidos, mas imperfeitos, e às vezes um magoa o outro. A Bíblia aconselha, então, ‘continuar a perdoar uns aos outros’.</p><p>“Continuem a suportar uns aos outros e a perdoar uns aos outros liberalmente, mesmo que alguém tenha razão para queixa contra outro. Assim como Jeová os perdoou liberalmente, vocês devem fazer o mesmo.”</p>",
     "dados": "{}",
     "referencia": "Colossenses 3:13",
     "obra_fonte": "Seja Feliz para Sempre!, lição 56",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021256",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 272,
@@ -4278,14 +4278,14 @@
     "tipo": "item",
     "ordem": 6,
     "titulo": "Por meio disto",
-    "texto": "<p>“Eu lhes dou um novo mandamento: Amem uns aos outros; assim como eu amei vocês, amem também uns aos outros. Por meio disto todos saberão que vocês são meus discípulos: se tiverem amor entre si.”</p><p>Os cristãos verdadeiros fazem mais do que só falar sobre o amor. Eles mostram por palavras e ações que realmente amam uns aos outros.</p>",
+    "texto": "<p>“Eu lhes dou um novo mandamento: Amem uns aos outros; assim como eu amei vocês, amem também uns aos outros. Por meio disto todos saberão que vocês são meus discípulos: se tiverem amor entre si.”</p><p>Os verdadeiros cristãos não ficam só nas palavras sobre o amor: mostram, no que dizem e no que fazem, que amam uns aos outros.</p>",
     "dados": "{}",
     "referencia": "João 13:34, 35",
     "obra_fonte": "Seja Feliz para Sempre!, lição 18",
     "link_fonte": "https://wol.jw.org/pt/wol/d/r5/lp-t/1102021218",
     "publicar": 1,
     "data_criacao": 1791917497272,
-    "data_atualizacao": 1791917497272
+    "data_atualizacao": 1792175354280
   },
   {
     "id": 273,
