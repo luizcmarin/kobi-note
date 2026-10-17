@@ -1,1 +1,0 @@
-export{n as CHAVE_FAVORITOS}from"./dados-B5epW2ue.js";

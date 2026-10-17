@@ -1,1 +1,0 @@
-export{r as carregar,i as contasPorPrazo}from"./dados-BtTIp1Ly.js";

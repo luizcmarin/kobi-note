@@ -1,1 +1,0 @@
-export{u as listarSessoes,_ as totalDeMinutos}from"./dados-Xtn6Dy79.js";
