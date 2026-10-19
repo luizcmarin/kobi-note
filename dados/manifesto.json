@@ -1,17 +1,17 @@
 {
-  "gerado_em": "2026-10-17T19:46:42.909Z",
+  "gerado_em": "2026-10-19T20:12:41.867Z",
   "modulos": {
     "perguntas": {
-      "versao": "840feb805e2f529cf262a06e82672345",
-      "registros": 1273
+      "versao": "79d5075a1fdbc76ac400ca7d84efcf55",
+      "registros": 1337
     },
     "conexoes_grupos": {
       "versao": "04cf4e0484718cc908ba8f9b1c03b048",
       "registros": 39
     },
     "personagens": {
-      "versao": "51bbbb6794ea06afaf2b11093f0bc0ef",
-      "registros": 74
+      "versao": "6d6b4463f9eed9e7c296af2b5cf27d28",
+      "registros": 110
     },
     "nome_divino": {
       "versao": "ab4a1be18ae5d934490c78b1af731d6f",
@@ -34,8 +34,8 @@
       "registros": 138
     },
     "poesias": {
-      "versao": "ff78a4f35f6302b7985a63285add18b2",
-      "registros": 41
+      "versao": "f2181613307f733a7e4b1d90dc8ff2bf",
+      "registros": 42
     },
     "receitas": {
       "versao": "b53666f7ba7856612434a43caa0514b7",
