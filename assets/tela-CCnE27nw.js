@@ -1,1 +1,0 @@
-export{r as telaSobre}from"./tela-D5CmTTPi.js";

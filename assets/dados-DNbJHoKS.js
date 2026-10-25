@@ -1,1 +1,0 @@
-export{o as carregarPerfil,l as dpaVencidoEm}from"./dados-BqMqlUCH.js";

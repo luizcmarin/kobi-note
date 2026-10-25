@@ -1,0 +1,1 @@
+export{o as carregarPerfil,l as dpaVencidoEm}from"./dados-D9CHnHYn.js";

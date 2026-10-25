@@ -1,0 +1,1 @@
+export{n as CHAVE_FAVORITOS}from"./dados-Dv-Opn1X.js";

@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-19T20:12:41.867Z",
+  "gerado_em": "2026-10-25T01:30:07.009Z",
   "modulos": {
     "perguntas": {
       "versao": "79d5075a1fdbc76ac400ca7d84efcf55",
@@ -10,8 +10,8 @@
       "registros": 39
     },
     "personagens": {
-      "versao": "6d6b4463f9eed9e7c296af2b5cf27d28",
-      "registros": 110
+      "versao": "9a06967b3b2e86fab008dd9d237b4011",
+      "registros": 122
     },
     "nome_divino": {
       "versao": "ab4a1be18ae5d934490c78b1af731d6f",
@@ -22,7 +22,7 @@
       "registros": 282
     },
     "vidas": {
-      "versao": "13cfc8df08d9f681ff7bc9b610cb27a0",
+      "versao": "1ca25bf5138f3a761372f95041ef210c",
       "registros": 118
     },
     "lugares": {
@@ -34,8 +34,8 @@
       "registros": 138
     },
     "poesias": {
-      "versao": "f2181613307f733a7e4b1d90dc8ff2bf",
-      "registros": 42
+      "versao": "a50772723b54610fac177b7b265594a9",
+      "registros": 261
     },
     "receitas": {
       "versao": "b53666f7ba7856612434a43caa0514b7",
@@ -66,8 +66,12 @@
       "registros": 112
     },
     "faq": {
-      "versao": "2898ad222a471efd5ee0380b41170016",
+      "versao": "9abe300bcc182b06c5fa8fd60e839fd5",
       "registros": 63
+    },
+    "jeova_entende": {
+      "versao": "5c59d9438cd46b2bd32c321e5a448425",
+      "registros": 36
     },
     "relatorio_mundial": {
       "versao": "c2b8dafae880e7cfb7ac37393a7dc367",
@@ -94,8 +98,8 @@
       "registros": 6
     },
     "tutorial": {
-      "versao": "7f3d5939875b628fad0cd826aad5a783",
-      "registros": 30
+      "versao": "d16cdf68715fa66c15127d65f543e5aa",
+      "registros": 31
     }
   }
 }
